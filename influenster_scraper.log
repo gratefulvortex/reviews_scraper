@@ -1,0 +1,243 @@
+2025-04-20 19:12:36,333 - INFO - 🚀 Starting Influenster Review Scraper...
+2025-04-20 19:12:36,333 - INFO - 🔗 Product URL: https://www.influenster.com/reviews/aveeno-daily-moisturizing-body-lotion-for-dry-skin/reviews
+2025-04-20 19:12:37,384 - INFO - 🌐 Loading product page: https://www.influenster.com/reviews/aveeno-daily-moisturizing-body-lotion-for-dry-skin/reviews
+2025-04-20 19:12:40,375 - WARNING - 🔐 Login required. Please login manually in the browser window.
+2025-04-20 19:12:40,384 - INFO - ✅ Login successful, saving session...
+2025-04-20 19:12:48,101 - INFO - ⏳ Waiting for reviews to load...
+2025-04-20 19:13:28,165 - INFO - ✅ Found reviews using xpath: //div[contains(@class, 'review')]
+2025-04-20 19:13:28,198 - INFO - 📖 Processing page 1
+2025-04-20 19:13:52,660 - INFO - 🔎 Found 55 reviews using xpath: //div[contains(@class, 'review')]
+2025-04-20 19:13:52,785 - WARNING - ⚠️ Review review_-8015770758014553227_1 missing fields: ['date', 'text', 'author']
+2025-04-20 19:13:52,932 - WARNING - ⚠️ Review review_-5087500072639190889_1 missing fields: ['rating', 'date', 'text', 'author']
+2025-04-20 19:13:53,048 - WARNING - ⚠️ Review review_0_1 missing fields: ['rating', 'date', 'text', 'author']
+2025-04-20 19:13:53,177 - WARNING - ⚠️ Review review_-7843190117639236357_1 missing fields: ['rating', 'date', 'text', 'author']
+2025-04-20 19:13:53,326 - WARNING - ⚠️ Review review_-2682564229949945914_1 missing fields: ['rating', 'date', 'text', 'author']
+2025-04-20 19:13:53,526 - WARNING - ⚠️ Review review_-1879529008047398384_1 missing fields: ['rating', 'date', 'text', 'author']
+2025-04-20 19:13:53,681 - WARNING - ⚠️ Review review_-3824673557536394573_1 missing fields: ['rating', 'date', 'text', 'author']
+2025-04-20 19:13:53,836 - WARNING - ⚠️ Review review_8645634062005545174_1 missing fields: ['rating', 'date', 'text', 'author']
+2025-04-20 19:13:53,976 - WARNING - ⚠️ Review review_2139666733965412436_1 missing fields: ['rating', 'date', 'text', 'author']
+2025-04-20 19:13:54,134 - WARNING - ⚠️ Review review_1099362644515470609_1 missing fields: ['rating', 'date', 'text', 'author']
+2025-04-20 19:13:54,337 - WARNING - ⚠️ Review review_-7022681716796488505_1 missing fields: ['rating', 'date', 'text', 'author']
+2025-04-20 19:13:54,480 - WARNING - ⚠️ Review review_8335348804765649786_1 missing fields: ['rating', 'date', 'text', 'author']
+2025-04-20 19:13:54,554 - INFO - ✅ Incremental save: 12 reviews to influenster_reviews_20250420_191328.csv
+2025-04-20 19:13:54,575 - INFO - ➡️ Found load more/next page button
+2025-04-20 19:13:54,576 - INFO - ➡️ Clicking load more/next page...
+2025-04-20 19:14:22,615 - ERROR - ❌ Pagination error: ElementHandle.click: Target page, context or browser has been closed
+Call log:
+  - attempting click action
+  -     - waiting for element to be visible, enabled and stable
+  -     - element is visible, enabled and stable
+  -     - scrolling into view if needed
+  -     - done scrolling
+  -     - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -   - retrying click action
+  -     - waiting for element to be visible, enabled and stable
+  -     - element is visible, enabled and stable
+  -     - scrolling into view if needed
+  -     - done scrolling
+  -     - <div class="ot-sdk-row">…</div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -   - retrying click action
+  -     - waiting 20ms
+  -     2 × waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -     - retrying click action
+  -       - waiting 100ms
+  -     3 × waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -     - retrying click action
+  -       - waiting 500ms
+  -       - waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <div class="ot-sdk-row">…</div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -     - retrying click action
+  -       - waiting 500ms
+  -       - waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -     - retrying click action
+  -       - waiting 500ms
+  -       - waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -     - retrying click action
+  -       - waiting 500ms
+  -     - waiting for element to be visible, enabled and stable
+
+2025-04-20 19:14:22,619 - INFO - 📖 Processing page 1
+2025-04-20 19:14:22,631 - ERROR - ❌ Critical error: Page.evaluate: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "c:\Users\windows\Downloads\review\core.py", line 125, in scrape_influenster_reviews
+    page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+  File "C:\Python312\Lib\site-packages\playwright\sync_api\_generated.py", line 8532, in evaluate
+    self._sync(
+  File "C:\Python312\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\playwright\_impl\_page.py", line 468, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\playwright\_impl\_frame.py", line 278, in evaluate
+    await self._channel.send(
+  File "C:\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.evaluate: Target page, context or browser has been closed
+2025-04-20 19:14:22,640 - ERROR - ⚠️ Could not save error artifacts
+2025-04-20 19:14:22,646 - INFO - 🧹 Browser closed
+2025-04-24 22:35:25,650 - INFO - Attempting login...
+2025-04-24 22:35:38,146 - ERROR - Login failed: ElementHandle.click: Target page, context or browser has been closed
+Call log:
+  - attempting click action
+  -     2 × waiting for element to be visible, enabled and stable
+  -       - element is not enabled
+  -     - retrying click action
+  -     - waiting 20ms
+  -     2 × waiting for element to be visible, enabled and stable
+  -       - element is not enabled
+  -     - retrying click action
+  -       - waiting 100ms
+  -     5 × waiting for element to be visible, enabled and stable
+  -       - element is not enabled
+  -     - retrying click action
+  -       - waiting 500ms
+
+2025-04-24 22:35:38,154 - ERROR - Critical error: Page.screenshot: Target page, context or browser has been closed
+2025-04-24 22:35:38,158 - ERROR - Could not take screenshot
+2025-04-24 22:53:17,767 - INFO - Starting scrape...
+2025-04-24 22:53:18,776 - INFO - Navigating to review page...
+2025-04-24 22:53:51,545 - INFO - No cookie button found
+2025-04-24 22:53:51,550 - ERROR - Critical error: Page.query_selector_all: Target page, context or browser has been closed
+2025-04-24 22:53:51,816 - INFO - Browser closed
+2025-04-24 22:53:59,367 - INFO - Starting scrape...
+2025-04-24 22:54:00,478 - INFO - Navigating to review page...
+2025-04-24 22:54:30,757 - INFO - No cookie button found
+2025-04-24 22:54:30,761 - ERROR - Critical error: Page.query_selector_all: Target page, context or browser has been closed
+2025-04-24 22:54:30,766 - INFO - Browser closed
+2025-04-24 22:54:38,672 - INFO - Starting scrape...
+2025-04-24 22:54:39,608 - INFO - Navigating to review page...
+2025-04-24 22:55:15,446 - INFO - No cookie button found
+2025-04-24 22:55:15,556 - INFO - Found 53 reviews using selector: div[class*='review']
+2025-04-24 22:55:17,242 - INFO - Batch 1: Found 30 new reviews (Total: 30)
+2025-04-24 22:55:17,243 - INFO - Incremental save: 30 new reviews to aveeno_reviews_20250424_225438.csv
+2025-04-24 22:55:17,250 - INFO - No new reviews detected, attempt 1/3
+2025-04-24 22:55:17,250 - INFO - Scrolling to bottom...
+2025-04-24 22:55:21,461 - INFO - Found Load More button with selector: button:has-text('Load More')
+2025-04-24 22:55:21,461 - INFO - Clicking Load More...
+2025-04-24 22:55:34,211 - ERROR - Critical error: ElementHandle.hover: Target page, context or browser has been closed
+Call log:
+  - attempting hover action
+  -     - waiting for element to be visible and stable
+  -     - element is visible and stable
+  -     - scrolling into view if needed
+  -     - done scrolling
+  -     - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -   - retrying hover action
+  -     - waiting for element to be visible and stable
+  -     - element is visible and stable
+  -     - scrolling into view if needed
+  -     - done scrolling
+  -     - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -   - retrying hover action
+  -     - waiting 20ms
+  -     2 × waiting for element to be visible and stable
+  -       - element is visible and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -     - retrying hover action
+  -       - waiting 100ms
+  -     3 × waiting for element to be visible and stable
+  -       - element is visible and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -     - retrying hover action
+  -       - waiting 500ms
+  -       - waiting for element to be visible and stable
+  -       - element is visible and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -     - retrying hover action
+  -       - waiting 500ms
+  -       - waiting for element to be visible and stable
+  -       - element is visible and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -     - retrying hover action
+  -       - waiting 500ms
+  -       - waiting for element to be visible and stable
+  -       - element is visible and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -     - retrying hover action
+  -       - waiting 500ms
+  -     - waiting for element to be visible and stable
+  -     - element is visible and stable
+  -     - scrolling into view if needed
+  -     - done scrolling
+  -     - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -   - retrying hover action
+  -     - waiting 500ms
+  -     - waiting for element to be visible and stable
+  -     - element is visible and stable
+  -     - scrolling into view if needed
+  -     - done scrolling
+  -     - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -   - retrying hover action
+  -     - waiting 500ms
+
+2025-04-24 22:55:34,581 - INFO - Browser closed
+2025-04-24 22:57:27,292 - INFO - Starting scrape...
+2025-04-24 22:57:28,450 - INFO - Attempting login...
+2025-04-24 22:57:36,670 - ERROR - Login failed: ElementHandle.type: Target page, context or browser has been closed
+Call log:
+  - elementHandle.type("your_password")
+
+2025-04-24 22:57:36,674 - ERROR - Critical error: Page.screenshot: Target page, context or browser has been closed
+2025-04-24 22:57:36,972 - INFO - Browser closed
+2025-04-24 22:57:46,419 - INFO - Starting scrape...
+2025-04-24 22:57:47,453 - INFO - Attempting login...
+2025-04-24 22:58:04,017 - ERROR - Login failed: ElementHandle.click: Target page, context or browser has been closed
+Call log:
+  - attempting click action
+  -     2 × waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -     - retrying click action
+  -     - waiting 20ms
+  -     2 × waiting for element to be visible, enabled and stable
+  -       - element is visible, enabled and stable
+  -       - scrolling into view if needed
+  -       - done scrolling
+  -       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -     - retrying click action
+  -       - waiting 100ms
+  -     17 × waiting for element to be visible, enabled and stable
+  -        - element is visible, enabled and stable
+  -        - scrolling into view if needed
+  -        - done scrolling
+  -        - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  -      - retrying click action
+  -        - waiting 500ms
+
+2025-04-24 22:58:04,025 - ERROR - Critical error: Page.screenshot: Target page, context or browser has been closed
+2025-04-24 22:58:04,303 - INFO - Browser closed
