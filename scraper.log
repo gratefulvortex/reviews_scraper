@@ -4146,3 +4146,27 @@ Call log:
 2025-05-04 18:35:48,569 - WARNING - Skipping review 49 due to error: ElementHandle.inner_text: Target page, context or browser has been closed
 2025-05-04 18:35:48,577 - WARNING - Error loading more: Page.query_selector: Target page, context or browser has been closed
 2025-05-04 18:35:49,031 - INFO - Saved 40 reviews to C:\Users\windows\Downloads\review\scraped_reviews\aveeno_reviews_20250504_183549.csv
+2025-05-09 21:57:34,828 - INFO - Loading product page: https://www.amazon.in/product-reviews/B07L1SP25K/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews  
+2025-05-09 21:57:36,344 - INFO - Please login manually in the browser window
+2025-05-09 21:57:42,700 - INFO - Success: Login successful, saving session...
+2025-05-09 21:57:47,260 - INFO - Waiting for reviews to load...
+2025-05-09 21:58:26,914 - INFO - Success: Found reviews using xpath: //div[contains(@id, 'customer_review-')]
+2025-05-09 21:58:26,966 - INFO - Total reviews reported: N/A
+2025-05-09 21:58:26,968 - INFO - Loading reviews for filter: All (https://www.amazon.in/product-reviews/B07L1SP25K/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews  &pageNumber=1)
+2025-05-09 21:58:32,130 - INFO - Processing page 1 for filter All
+2025-05-09 21:58:51,322 - INFO - Found 10 reviews using xpath: //div[contains(@id, 'customer_review-')]
+2025-05-09 21:58:51,499 - INFO - Collected review: ... (Rating: 5.0 out of 5 stars)
+2025-05-09 21:58:51,641 - INFO - Collected review: ... (Rating: 4.0 out of 5 stars)
+2025-05-09 21:58:51,791 - INFO - Collected review: ... (Rating: 5.0 out of 5 stars)
+2025-05-09 21:58:51,934 - INFO - Collected review: ... (Rating: 3.0 out of 5 stars)
+2025-05-09 21:58:52,101 - INFO - Collected review: ... (Rating: 5.0 out of 5 stars)
+2025-05-09 21:58:52,245 - INFO - Collected review: ... (Rating: 4.0 out of 5 stars)
+2025-05-09 21:58:52,385 - INFO - Collected review: ... (Rating: 5.0 out of 5 stars)
+2025-05-09 21:58:52,523 - INFO - Collected review: ... (Rating: 5.0 out of 5 stars)
+2025-05-09 21:58:52,665 - INFO - Collected review: ... (Rating: 4.0 out of 5 stars)
+2025-05-09 21:58:52,805 - INFO - Collected review: ... (Rating: 5.0 out of 5 stars)
+2025-05-09 21:58:52,807 - INFO - Incremental save: 10 new reviews, total 10 reviews to amazon_reviews_20250509_215729.csv
+2025-05-09 21:58:52,860 - INFO - Found next page button with selector: li.a-last a
+2025-05-09 21:58:52,861 - INFO - Navigating to next page...
+2025-05-09 21:58:59,909 - INFO - Loading reviews for filter: All (https://www.amazon.in/product-reviews/B07L1SP25K/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews  &pageNumber=2)
+2025-05-09 21:59:04,261 - INFO - Processing page 2 for filter All
