@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #1a237e;
+            color: white;
+        }
+        .logout-btn {
+            background-color: #ff1744;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h2>Welcome, {{ user }}</h2>
+        <a href="{{ url_for('logout') }}" class="logout-btn">Logout</a>
+    </div>
+    <h3>Your Dashboard Content Here</h3>
+</body>
+</html>
