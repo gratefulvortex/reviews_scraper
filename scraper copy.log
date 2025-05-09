@@ -1,0 +1,30 @@
+2025-05-09 19:16:13,583 - INFO - Starting review scraping...
+2025-05-09 19:16:22,720 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-09 19:16:30,337 - INFO - Accepted cookies
+2025-05-09 19:16:31,358 - INFO - Waiting for reviews to load...
+2025-05-09 19:16:31,386 - INFO - Review elements found
+2025-05-09 19:16:34,738 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-09 19:16:35,086 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-09 19:16:35,438 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-09 19:16:35,786 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-09 19:16:36,149 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-09 19:16:36,503 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-09 19:16:36,867 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-09 19:16:37,237 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-09 19:16:37,618 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-09 19:16:37,955 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-09 19:16:38,019 - INFO - Added 10 reviews (Total: 10)
+2025-05-09 19:16:38,203 - INFO - Clicked 'Load More'
+2025-05-09 19:16:46,604 - INFO - Extracted exact date for review 10: 2024-10-14
+2025-05-09 19:16:46,952 - INFO - Extracted exact date for review 11: 2024-10-07
+2025-05-09 19:16:47,319 - INFO - Extracted exact date for review 12: 2024-10-05
+2025-05-09 19:16:47,679 - INFO - Extracted exact date for review 13: 2024-09-23
+2025-05-09 19:16:48,038 - INFO - Extracted exact date for review 14: 2024-09-12
+2025-05-09 19:16:48,393 - INFO - Extracted exact date for review 15: 2024-09-06
+2025-05-09 19:16:48,765 - INFO - Extracted exact date for review 16: 2024-09-04
+2025-05-09 19:16:49,114 - INFO - Extracted exact date for review 17: 2024-08-22
+2025-05-09 19:16:49,436 - WARNING - Skipping review 18 due to error: ElementHandle.query_selector: Target page, context or browser has been closed
+2025-05-09 19:16:49,521 - WARNING - Skipping review 19 due to error: ElementHandle.inner_text: Target page, context or browser has been closed
+2025-05-09 19:16:49,522 - INFO - Added 8 reviews (Total: 18)
+2025-05-09 19:16:49,617 - WARNING - Error loading more: Page.query_selector: Target page, context or browser has been closed
+2025-05-09 19:16:50,121 - INFO - Saved 18 reviews to C:\Users\windows\Downloads\review\scraped_reviews\aveeno_reviews_20250509_191650.csv
