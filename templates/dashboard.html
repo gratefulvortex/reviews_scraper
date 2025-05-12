@@ -1,36 +1,82 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Dashboard</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px;
-            background-color: #1a237e;
-            color: white;
-        }
-        .logout-btn {
-            background-color: #ff1744;
-            color: white;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 4px;
-            cursor: pointer;
-            text-decoration: none;
-        }
-    </style>
-</head>
-<body>
-    <div class="navbar">
-        <h2>Welcome, {{ user }}</h2>
-        <a href="{{ url_for('logout') }}" class="logout-btn">Logout</a>
+{% extends "base.html" %}
+{% block title %}Dashboard - Review Analysis{% endblock %}
+{% block content %}
+<div class="max-w-5xl mx-auto">
+    <h1 class="text-2xl font-bold mb-6 text-blue-700">Review Analysis Dashboard</h1>
+    <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
+        <h2 class="text-xl font-bold mb-4">Review Analysis</h2>
+        <!-- URL Input Form -->
+        <form id="urlForm" class="mb-8">
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2">Product URL:</label>
+                <div class="flex gap-2">
+                    <select name="platform" class="shadow border rounded p-2">
+                        <option value="amazon">Amazon</option>
+                        <option value="influenster">Influenster</option>
+                    </select>
+                    <input type="url" name="product_url" 
+                        class="flex-1 shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" 
+                        placeholder="Enter product URL" required>
+                </div>
+            </div>
+            <button type="submit" 
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                Analyze Reviews
+            </button>
+        </form>
+        <!-- Analysis Results -->
+        <div id="analysisResults" class="hidden"></div>
     </div>
-    <h3>Your Dashboard Content Here</h3>
-</body>
-</html>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+    document.getElementById('urlForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const form = e.target;
+        const resultsDiv = document.getElementById('analysisResults');
+        try {
+            const formData = new FormData(form);
+            const response = await fetch('/process_url', {
+                method: 'POST',
+                body: formData
+            });
+            if (!response.ok) throw new Error('Network response was not ok');
+            const data = await response.json();
+            if (data.error) throw new Error(data.error);
+            // Show results
+            resultsDiv.innerHTML = generateAnalysisHTML(data);
+            resultsDiv.classList.remove('hidden');
+        } catch (error) {
+            alert('Error: ' + error.message);
+        }
+    });
+    function generateAnalysisHTML(data) {
+        return `
+            <div class=\"mt-8\">
+                <h3 class=\"text-xl font-bold mb-4\">Analysis Results</h3>
+                <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4 mb-6\">
+                    <div class=\"bg-green-50 p-4 rounded-lg\">
+                        <h4 class=\"text-green-700 font-medium\">Positive Reviews</h4>
+                        <p>${data.summary.positive}</p>
+                    </div>
+                    <div class=\"bg-red-50 p-4 rounded-lg\">
+                        <h4 class=\"text-red-700 font-medium\">Negative Reviews</h4>
+                        <p>${data.summary.negative}</p>
+                    </div>
+                </div>
+                <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4 mb-6\">
+                    <div>
+                        <h4 class=\"text-lg font-medium mb-2\">Positive Word Cloud</h4>
+                        <img src=\"${data.wordClouds.positive}\" alt=\"Positive Word Cloud\" class=\"w-full rounded-lg shadow\">
+                    </div>
+                    <div>
+                        <h4 class=\"text-lg font-medium mb-2\">Negative Word Cloud</h4>
+                        <img src=\"${data.wordClouds.negative}\" alt=\"Negative Word Cloud\" class=\"w-full rounded-lg shadow\">
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+</script>
+{% endblock %}

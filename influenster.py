@@ -17,10 +17,12 @@ logging.basicConfig(
     ]
 )
 
+os.makedirs('csvlist', exist_ok=True)
+
 def generate_filename():
     """Generate a timestamped filename for the CSV."""
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    return f"aveeno_reviews_{timestamp}.csv"
+    return os.path.join('csvlist', f'influenster_reviews_{timestamp}.csv')
 
 def parse_relative_date(relative_date, current_date):
     """Convert relative date (e.g., '2 days ago', '2d ago') to actual date."""
@@ -55,7 +57,7 @@ def parse_relative_date(relative_date, current_date):
         logging.warning(f"Failed to parse relative date '{relative_date}': {e}")
         return relative_date
 
-def scrape_reviews():
+def scrape_reviews(url=None):
     current_date = datetime(2025, 4, 27)  # Current date as per context
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
@@ -68,7 +70,7 @@ def scrape_reviews():
         
         try:
             # Navigate to the product reviews page
-            target_url = "https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews"
+            target_url = url if url else "https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews"
             logging.info(f"Navigating to reviews page: {target_url}")
             page.goto(target_url, timeout=60000)
             time.sleep(5)  # Delay for page load
@@ -226,12 +228,8 @@ def save_to_csv(reviews):
         logging.warning("No reviews to save")
         return
     
-    # Create directory if it doesn't exist
-    save_dir = r"C:\Users\windows\Downloads\review\scraped_reviews"
-    os.makedirs(save_dir, exist_ok=True)
-    
     # Generate timestamped filename
-    filename = os.path.join(save_dir, generate_filename())
+    filename = generate_filename()
     
     try:
         with open(filename, 'w', newline='', encoding='utf-8') as f:

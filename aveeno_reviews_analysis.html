@@ -48,10 +48,14 @@
                     const response = await fetch('http://localhost:5000/upload', {
                         method: 'POST',
                         body: formData,
+                        credentials: 'include',
+                        headers: {
+                            'Accept': 'application/json'
+                        }
                     });
                     if (!response.ok) {
-                        const errorText = await response.text();
-                        throw new Error(`Server error: ${response.status} - ${errorText}`);
+                        const errorData = await response.json();
+                        throw new Error(`Server error: ${response.status} - ${errorData.error || 'Unknown error'}\n${errorData.details || ''}`);
                     }
                     const result = await response.json();
                     if (result.error) {
@@ -60,6 +64,7 @@
                     setData(result);
                     setError(null);
                 } catch (err) {
+                    console.error('Error details:', err);
                     setError(`Error processing file: ${err.message}`);
                 } finally {
                     setLoading(false);

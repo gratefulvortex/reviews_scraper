@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}View CSV{% endblock %}
+{% block content %}
+<div class="max-w-6xl mx-auto">
+    <h1 class="text-2xl font-bold mb-6 text-blue-700">View CSV Data</h1>
+    
+    <!-- Product selector -->
+    <div class="mb-6">
+        <label class="block font-semibold mb-2">Select Product:</label>
+        <select onchange="window.location.href='?idx=' + this.value" class="w-full border rounded px-3 py-2">
+            {% for p in products %}
+            <option value="{{ loop.index0 }}" {% if loop.index0 == idx %}selected{% endif %}>{{ p.name }}</option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <!-- CSV file info -->
+    {% if product.csv_path %}
+    <div class="bg-gray-100 p-4 rounded mb-6">
+        <p class="font-semibold">CSV File:</p>
+        <p class="text-sm text-gray-600">{{ product.csv_path }}</p>
+        <a href="{{ url_for('download_csv', path=product.csv_path) }}" 
+           class="inline-block mt-2 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+            Download CSV
+        </a>
+    </div>
+    {% endif %}
+
+    <!-- Data table -->
+    <div class="overflow-x-auto">
+        <table class="min-w-full bg-white border">
+            <thead>
+                <tr>
+                    {% for col in columns %}
+                    <th class="px-4 py-2 border bg-gray-100">{{ col }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in rows %}
+                <tr>
+                    {% for col in columns %}
+                    <td class="px-4 py-2 border">{{ row[col] }}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <form method="post" class="mt-6">
+        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Continue to Analysis</button>
+    </form>
+</div>
+{% endblock %}

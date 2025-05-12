@@ -4170,3 +4170,1709 @@ Call log:
 2025-05-09 21:58:52,861 - INFO - Navigating to next page...
 2025-05-09 21:58:59,909 - INFO - Loading reviews for filter: All (https://www.amazon.in/product-reviews/B07L1SP25K/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews  &pageNumber=2)
 2025-05-09 21:59:04,261 - INFO - Processing page 2 for filter All
+2025-05-09 22:32:37,573 - WARNING -  * Debugger is active!
+2025-05-09 22:32:37,582 - INFO -  * Debugger PIN: 220-965-795
+2025-05-09 22:37:49,543 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-09 22:37:49,545 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 22:37:49,550 - INFO -  * Restarting with stat
+2025-05-09 22:37:51,839 - WARNING -  * Debugger is active!
+2025-05-09 22:37:51,847 - INFO -  * Debugger PIN: 220-965-795
+2025-05-09 22:37:58,215 - INFO - 127.0.0.1 - - [09/May/2025 22:37:58] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-09 22:37:58,222 - INFO - 127.0.0.1 - - [09/May/2025 22:37:58] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-09 22:37:58,389 - INFO - 127.0.0.1 - - [09/May/2025 22:37:58] "GET /dashboard HTTP/1.1" 200 -
+2025-05-09 22:38:03,894 - INFO - 127.0.0.1 - - [09/May/2025 22:38:03] "GET /dashboard HTTP/1.1" 200 -
+2025-05-09 22:38:43,691 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-09 22:38:56,213 - INFO - No cookie button found
+2025-05-09 22:38:56,237 - INFO - Waiting for reviews to load...
+2025-05-09 22:38:56,262 - INFO - Review elements found
+2025-05-09 22:38:59,626 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-09 22:38:59,988 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-09 22:39:00,359 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-09 22:39:00,721 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-09 22:39:01,092 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-09 22:39:01,492 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-09 22:39:01,855 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-09 22:39:02,223 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-09 22:39:02,602 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-09 22:39:02,971 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-09 22:39:03,045 - INFO - Added 10 reviews (Total: 10)
+2025-05-09 22:39:29,359 - WARNING - Error loading more: ElementHandle.click: Target page, context or browser has been closed
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is not stable
+  2 × retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  3 × retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
+2025-05-09 22:39:33,755 - INFO - 127.0.0.1 - - [09/May/2025 22:39:33] "POST /process_url HTTP/1.1" 200 -
+2025-05-09 22:39:35,033 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-09 22:39:47,214 - INFO - No cookie button found
+2025-05-09 22:39:47,229 - INFO - Waiting for reviews to load...
+2025-05-09 22:39:47,257 - INFO - Review elements found
+2025-05-09 22:39:50,631 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-09 22:39:51,197 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-09 22:39:51,703 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-09 22:39:52,107 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-09 22:39:52,479 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-09 22:39:52,857 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-09 22:39:53,238 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-09 22:39:53,628 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-09 22:39:54,012 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-09 22:39:54,377 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-09 22:39:54,454 - INFO - Added 10 reviews (Total: 10)
+2025-05-09 22:40:05,766 - INFO - Loading product page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-09 22:40:08,509 - INFO - Waiting for reviews to load...
+2025-05-09 22:40:12,240 - INFO - Loading product page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-09 22:40:14,601 - INFO - Waiting for reviews to load...
+2025-05-09 22:40:17,845 - ERROR - Failed to locate review section
+2025-05-09 22:40:17,915 - ERROR - Critical error: Page.screenshot: Target page, context or browser has been closed
+2025-05-09 22:40:17,939 - ERROR - Could not take screenshot
+2025-05-09 22:40:18,429 - INFO - 127.0.0.1 - - [09/May/2025 22:40:18] "POST /process_url HTTP/1.1" 200 -
+2025-05-09 22:40:24,522 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-09 22:40:27,427 - INFO - 127.0.0.1 - - [09/May/2025 22:40:27] "POST /process_url HTTP/1.1" 200 -
+2025-05-09 22:40:28,639 - INFO - Success: Found reviews using xpath: //div[contains(@class, 'review')]
+2025-05-09 22:40:28,731 - INFO - Total reviews reported: N/A
+2025-05-09 22:40:28,758 - INFO - Loading reviews for filter: All (https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews&pageNumber=1)
+2025-05-09 22:40:34,364 - INFO - Processing page 1 for filter All
+2025-05-09 22:40:37,076 - INFO - 127.0.0.1 - - [09/May/2025 22:40:37] "GET /dashboard HTTP/1.1" 200 -
+2025-05-09 22:42:33,874 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-09 22:42:33,877 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-09 22:42:33,882 - INFO -  * Restarting with stat
+2025-05-09 22:42:36,513 - WARNING -  * Debugger is active!
+2025-05-09 22:42:36,521 - INFO -  * Debugger PIN: 220-965-795
+2025-05-09 22:42:36,639 - INFO - 127.0.0.1 - - [09/May/2025 22:42:36] "GET /dashboard HTTP/1.1" 200 -
+2025-05-09 22:42:37,389 - INFO - 127.0.0.1 - - [09/May/2025 22:42:37] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-09 22:42:37,406 - INFO - 127.0.0.1 - - [09/May/2025 22:42:37] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-09 22:42:37,577 - INFO - 127.0.0.1 - - [09/May/2025 22:42:37] "GET /dashboard HTTP/1.1" 200 -
+2025-05-09 22:42:51,166 - INFO - Loading product page: https://www.amazon.in/product-reviews/B07L1SP25K/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews
+2025-05-09 22:42:52,567 - INFO - Please login manually in the browser window
+2025-05-09 22:42:56,249 - ERROR - Critical error: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for navigation to "<function ImplToApiMapping.wrap_handler.<locals>.wrapper_func at 0x00000256C701A020>" until 'load'
+============================================================
+2025-05-09 22:42:56,273 - ERROR - Could not take screenshot
+2025-05-09 22:42:57,012 - INFO - 127.0.0.1 - - [09/May/2025 22:42:57] "POST /process_url HTTP/1.1" 200 -
+2025-05-09 22:43:15,938 - INFO - 127.0.0.1 - - [09/May/2025 22:43:15] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-09 22:43:15,953 - INFO - 127.0.0.1 - - [09/May/2025 22:43:15] "GET /dashboard HTTP/1.1" 200 -
+2025-05-09 22:43:20,186 - INFO - 127.0.0.1 - - [09/May/2025 22:43:20] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-09 22:43:20,201 - INFO - 127.0.0.1 - - [09/May/2025 22:43:20] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-09 22:43:20,223 - INFO - 127.0.0.1 - - [09/May/2025 22:43:20] "GET /dashboard HTTP/1.1" 200 -
+2025-05-09 22:43:30,889 - INFO - 127.0.0.1 - - [09/May/2025 22:43:30] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-09 22:43:30,908 - INFO - 127.0.0.1 - - [09/May/2025 22:43:30] "GET /dashboard HTTP/1.1" 200 -
+2025-05-09 22:44:16,440 - INFO - 127.0.0.1 - - [09/May/2025 22:44:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-09 22:44:16,451 - INFO - 127.0.0.1 - - [09/May/2025 22:44:16] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-09 22:44:16,469 - INFO - 127.0.0.1 - - [09/May/2025 22:44:16] "GET /dashboard HTTP/1.1" 200 -
+2025-05-09 22:44:19,551 - INFO - 127.0.0.1 - - [09/May/2025 22:44:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-09 22:44:19,562 - INFO - 127.0.0.1 - - [09/May/2025 22:44:19] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-09 22:44:19,576 - INFO - 127.0.0.1 - - [09/May/2025 22:44:19] "GET /dashboard HTTP/1.1" 200 -
+2025-05-09 22:44:23,771 - INFO - 127.0.0.1 - - [09/May/2025 22:44:23] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-09 22:44:23,795 - INFO - 127.0.0.1 - - [09/May/2025 22:44:23] "GET /login HTTP/1.1" 200 -
+2025-05-09 22:44:37,819 - INFO - 127.0.0.1 - - [09/May/2025 22:44:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-09 22:44:37,827 - INFO - 127.0.0.1 - - [09/May/2025 22:44:37] "GET /dashboard HTTP/1.1" 200 -
+2025-05-09 22:46:10,323 - INFO - Loading product page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-09 22:46:13,750 - INFO - Waiting for reviews to load...
+2025-05-09 22:46:17,593 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-09 22:46:29,308 - INFO - No cookie button found
+2025-05-09 22:46:29,325 - INFO - Waiting for reviews to load...
+2025-05-09 22:46:29,352 - INFO - Review elements found
+2025-05-09 22:46:32,686 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-09 22:46:33,068 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-09 22:46:33,433 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-09 22:46:33,807 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-09 22:46:33,812 - INFO - Success: Found reviews using xpath: //div[contains(@class, 'review')]
+2025-05-09 22:46:33,843 - INFO - Total reviews reported: N/A
+2025-05-09 22:46:33,847 - INFO - Loading reviews for filter: All (https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews&pageNumber=1)
+2025-05-09 22:46:34,363 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-09 22:46:34,749 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-09 22:46:35,169 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-09 22:46:35,770 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-09 22:46:36,295 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-09 22:46:36,773 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-09 22:46:36,916 - INFO - Added 10 reviews (Total: 10)
+2025-05-09 22:46:37,583 - INFO - Processing page 1 for filter All
+2025-05-09 22:46:41,968 - WARNING - Error loading more: ElementHandle.click: Target page, context or browser has been closed
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <button class="cookie-setting-link" id="onetrust-pc-btn-handler">Cookie Settings</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+
+2025-05-09 22:46:44,915 - INFO - 127.0.0.1 - - [09/May/2025 22:46:44] "POST /process_url HTTP/1.1" 200 -
+2025-05-09 22:46:46,220 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-09 22:46:56,130 - INFO - No reviews found for filter All on page 1
+2025-05-09 22:46:56,446 - INFO - Loading reviews for filter: 5-star (https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews&filterByStar=five_star&pageNumber=1)
+2025-05-09 22:46:58,514 - INFO - No cookie button found
+2025-05-09 22:46:58,537 - INFO - Waiting for reviews to load...
+2025-05-09 22:46:58,577 - INFO - Review elements found
+2025-05-09 22:47:01,053 - INFO - Processing page 1 for filter 5-star
+2025-05-09 22:47:02,025 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-09 22:47:02,431 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-09 22:47:02,815 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-09 22:47:03,199 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-09 22:47:03,601 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-09 22:47:03,981 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-09 22:47:04,357 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-09 22:47:04,764 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-09 22:47:05,146 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-09 22:47:05,542 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-09 22:47:05,640 - INFO - Added 10 reviews (Total: 10)
+2025-05-09 22:47:22,194 - INFO - No reviews found for filter 5-star on page 1
+2025-05-09 22:47:22,442 - INFO - Loading reviews for filter: 4-star (https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews&filterByStar=four_star&pageNumber=1)
+2025-05-09 22:47:27,446 - INFO - Processing page 1 for filter 4-star
+2025-05-09 22:47:35,728 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-09 22:47:47,942 - INFO - No reviews found for filter 4-star on page 1
+2025-05-09 22:47:48,150 - INFO - Loading reviews for filter: 3-star (https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews&filterByStar=three_star&pageNumber=1)
+2025-05-09 22:47:52,375 - INFO - Processing page 1 for filter 3-star
+2025-05-09 22:47:53,473 - ERROR - Critical error: Page.evaluate: Target page, context or browser has been closed
+2025-05-09 22:47:53,557 - ERROR - Could not take screenshot
+2025-05-09 22:47:54,229 - INFO - 127.0.0.1 - - [09/May/2025 22:47:54] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:36:09,287 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 17:36:09,289 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 17:36:09,293 - INFO -  * Restarting with stat
+2025-05-11 17:36:11,661 - WARNING -  * Debugger is active!
+2025-05-11 17:36:11,670 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 17:37:11,322 - INFO - Loading product page: https://www.amazon.in/product-reviews/B07L1SP25K/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews  
+2025-05-11 17:37:13,283 - INFO - Please login manually in the browser window
+2025-05-11 17:37:20,034 - ERROR - Critical error: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for navigation to "<function ImplToApiMapping.wrap_handler.<locals>.wrapper_func at 0x000001DF7CEBF100>" until 'load'
+============================================================
+2025-05-11 17:37:20,096 - ERROR - Could not take screenshot
+2025-05-11 17:37:29,170 - INFO - 127.0.0.1 - - [11/May/2025 17:37:29] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-11 17:37:29,198 - INFO - 127.0.0.1 - - [11/May/2025 17:37:29] "GET /login HTTP/1.1" 200 -
+2025-05-11 17:37:31,085 - INFO - 127.0.0.1 - - [11/May/2025 17:37:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-11 17:37:37,040 - INFO - 127.0.0.1 - - [11/May/2025 17:37:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-11 17:37:37,062 - INFO - 127.0.0.1 - - [11/May/2025 17:37:37] "GET /dashboard HTTP/1.1" 200 -
+2025-05-11 17:38:27,616 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:38:27,677 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:38:27,980 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:38:28,225 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:38:29,079 - ERROR - Error during scraping: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews", waiting until "load"
+
+2025-05-11 17:38:29,383 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:38:32,585 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:38:32,787 - ERROR - Error during scraping: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews", waiting until "load"
+
+2025-05-11 17:38:33,189 - ERROR - Error during scraping: Page.goto: Target page, context or browser has been closed
+2025-05-11 17:38:38,696 - INFO - No cookie button found
+2025-05-11 17:38:38,711 - ERROR - Error during scraping: Page.query_selector: Target page, context or browser has been closed
+2025-05-11 17:38:39,964 - INFO - No cookie button found
+2025-05-11 17:38:40,221 - ERROR - Error during scraping: Page.query_selector: Target page, context or browser has been closed
+2025-05-11 17:38:41,284 - INFO - No cookie button found
+2025-05-11 17:38:41,303 - ERROR - Error during scraping: Page.query_selector: Target page, context or browser has been closed
+2025-05-11 17:38:41,877 - INFO - 127.0.0.1 - - [11/May/2025 17:38:41] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:38:41,880 - INFO - 127.0.0.1 - - [11/May/2025 17:38:41] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:38:41,901 - INFO - 127.0.0.1 - - [11/May/2025 17:38:41] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:38:45,121 - INFO - 127.0.0.1 - - [11/May/2025 17:38:45] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:38:45,262 - INFO - 127.0.0.1 - - [11/May/2025 17:38:45] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:38:46,534 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:38:48,835 - INFO - Loading product page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:38:51,891 - INFO - Waiting for reviews to load...
+2025-05-11 17:38:52,717 - ERROR - Failed to locate review section
+2025-05-11 17:38:52,835 - ERROR - Critical error: Page.screenshot: Target page, context or browser has been closed
+2025-05-11 17:38:52,995 - ERROR - Could not take screenshot
+2025-05-11 17:38:55,655 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:38:56,216 - INFO - No cookie button found
+2025-05-11 17:38:56,693 - ERROR - Error during scraping: Page.query_selector: Target page, context or browser has been closed
+2025-05-11 17:38:56,778 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:39:00,520 - INFO - 127.0.0.1 - - [11/May/2025 17:39:00] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:39:04,687 - INFO - No cookie button found
+2025-05-11 17:39:04,762 - ERROR - Error during scraping: Page.query_selector: Target page, context or browser has been closed
+2025-05-11 17:39:05,611 - INFO - No cookie button found
+2025-05-11 17:39:05,643 - ERROR - Error during scraping: Page.query_selector: Target page, context or browser has been closed
+2025-05-11 17:39:08,481 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:39:09,164 - INFO - 127.0.0.1 - - [11/May/2025 17:39:09] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:39:09,262 - INFO - 127.0.0.1 - - [11/May/2025 17:39:09] "[35m[1mPOST /process_url HTTP/1.1[0m" 500 -
+2025-05-11 17:39:09,402 - INFO - 127.0.0.1 - - [11/May/2025 17:39:09] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:39:09,845 - INFO - 127.0.0.1 - - [11/May/2025 17:39:09] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:39:11,467 - INFO - 127.0.0.1 - - [11/May/2025 17:39:11] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:39:15,923 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:39:17,120 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:39:20,643 - INFO - No cookie button found
+2025-05-11 17:39:20,876 - INFO - Waiting for reviews to load...
+2025-05-11 17:39:21,173 - INFO - Review elements found
+2025-05-11 17:39:25,238 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-11 17:40:02,245 - INFO - Loading product page: https://www.amazon.in/product-reviews/B07L1SP25K/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews  
+2025-05-11 17:40:03,845 - INFO - Please login manually in the browser window
+2025-05-11 17:40:04,748 - ERROR - Critical error: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for navigation to "<function ImplToApiMapping.wrap_handler.<locals>.wrapper_func at 0x00000191DD44D940>" until 'load'
+============================================================
+2025-05-11 17:40:04,768 - ERROR - Could not take screenshot
+2025-05-11 17:40:21,873 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 17:40:21,874 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 17:40:21,878 - INFO -  * Restarting with stat
+2025-05-11 17:40:24,414 - WARNING -  * Debugger is active!
+2025-05-11 17:40:24,425 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 17:41:09,934 - INFO - 127.0.0.1 - - [11/May/2025 17:41:09] "GET /dashboard HTTP/1.1" 200 -
+2025-05-11 17:42:40,560 - INFO - 127.0.0.1 - - [11/May/2025 17:42:40] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-05-11 17:44:45,781 - INFO - Loading product page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:44:48,400 - INFO - Waiting for reviews to load...
+2025-05-11 17:45:08,529 - INFO - Success: Found reviews using xpath: //div[contains(@class, 'review')]
+2025-05-11 17:45:08,579 - INFO - Total reviews reported: N/A
+2025-05-11 17:45:08,580 - INFO - Loading reviews for filter: All (https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews&pageNumber=1)
+2025-05-11 17:45:13,317 - INFO - Processing page 1 for filter All
+2025-05-11 17:45:35,634 - INFO - No reviews found for filter All on page 1
+2025-05-11 17:45:35,921 - INFO - Loading reviews for filter: 5-star (https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews&filterByStar=five_star&pageNumber=1)
+2025-05-11 17:45:39,372 - INFO - Processing page 1 for filter 5-star
+2025-05-11 17:45:58,764 - INFO - No reviews found for filter 5-star on page 1
+2025-05-11 17:45:59,011 - INFO - Loading reviews for filter: 4-star (https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews&filterByStar=four_star&pageNumber=1)
+2025-05-11 17:46:03,420 - INFO - Processing page 1 for filter 4-star
+2025-05-11 17:46:22,658 - INFO - No reviews found for filter 4-star on page 1
+2025-05-11 17:46:22,881 - INFO - Loading reviews for filter: 3-star (https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews&filterByStar=three_star&pageNumber=1)
+2025-05-11 17:46:26,905 - INFO - Processing page 1 for filter 3-star
+2025-05-11 17:46:41,491 - ERROR - Critical error: Page.evaluate: Target page, context or browser has been closed
+2025-05-11 17:46:41,601 - ERROR - Could not take screenshot
+2025-05-11 17:46:42,208 - INFO - 127.0.0.1 - - [11/May/2025 17:46:42] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:46:56,571 - INFO - Loading product page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:46:58,883 - INFO - Waiting for reviews to load...
+2025-05-11 17:47:06,075 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:47:06,975 - ERROR - Failed to locate review section
+2025-05-11 17:47:07,001 - ERROR - Critical error: Page.screenshot: Target page, context or browser has been closed
+2025-05-11 17:47:07,031 - ERROR - Could not take screenshot
+2025-05-11 17:47:08,150 - INFO - 127.0.0.1 - - [11/May/2025 17:47:08] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:47:13,439 - INFO - No cookie button found
+2025-05-11 17:47:13,454 - ERROR - Error during scraping: Page.query_selector: Target page, context or browser has been closed
+2025-05-11 17:47:13,876 - INFO - 127.0.0.1 - - [11/May/2025 17:47:13] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:47:19,755 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:47:32,096 - INFO - No cookie button found
+2025-05-11 17:47:32,144 - INFO - Waiting for reviews to load...
+2025-05-11 17:47:32,187 - INFO - Review elements found
+2025-05-11 17:47:35,648 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-11 17:47:36,170 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-11 17:47:36,657 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-11 17:47:37,117 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-11 17:47:37,562 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-11 17:47:38,008 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-11 17:47:38,475 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-11 17:47:38,926 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-11 17:47:39,375 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-11 17:47:39,818 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-11 17:47:39,925 - INFO - Added 10 reviews (Total: 10)
+2025-05-11 17:48:10,045 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-11 17:48:15,388 - INFO - 127.0.0.1 - - [11/May/2025 17:48:15] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:49:46,942 - INFO - 127.0.0.1 - - [11/May/2025 17:49:46] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-05-11 17:50:02,667 - INFO - 127.0.0.1 - - [11/May/2025 17:50:02] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-05-11 17:51:41,487 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-11 17:54:03,726 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 17:54:03,727 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 17:54:03,731 - INFO -  * Restarting with stat
+2025-05-11 17:54:06,435 - WARNING -  * Debugger is active!
+2025-05-11 17:54:06,444 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 17:54:21,128 - INFO - 127.0.0.1 - - [11/May/2025 17:54:21] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-05-11 17:55:24,595 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-11 17:55:25,582 - INFO -  * Restarting with stat
+2025-05-11 17:55:30,177 - WARNING -  * Debugger is active!
+2025-05-11 17:55:30,191 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 17:56:35,177 - INFO - 127.0.0.1 - - [11/May/2025 17:56:35] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-05-11 17:58:24,788 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:58:26,774 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:58:37,130 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 17:58:37,310 - INFO - No cookie button found
+2025-05-11 17:58:37,398 - ERROR - Error during scraping: Page.query_selector: Target page, context or browser has been closed
+2025-05-11 17:58:38,610 - INFO - No cookie button found
+2025-05-11 17:58:38,647 - INFO - Waiting for reviews to load...
+2025-05-11 17:58:38,716 - INFO - Review elements found
+2025-05-11 17:58:39,064 - INFO - 127.0.0.1 - - [11/May/2025 17:58:39] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:58:39,570 - ERROR - Error during scraping: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews", waiting until "load"
+
+2025-05-11 17:58:40,247 - INFO - 127.0.0.1 - - [11/May/2025 17:58:40] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:58:42,360 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-11 17:58:42,960 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-11 17:58:43,374 - WARNING - Skipping review 2 due to error: ElementHandle.query_selector: Target page, context or browser has been closed
+2025-05-11 17:58:43,416 - WARNING - Skipping review 3 due to error: ElementHandle.inner_text: Target page, context or browser has been closed
+2025-05-11 17:58:43,448 - WARNING - Skipping review 4 due to error: ElementHandle.inner_text: Target page, context or browser has been closed
+2025-05-11 17:58:43,471 - WARNING - Skipping review 5 due to error: ElementHandle.inner_text: Target page, context or browser has been closed
+2025-05-11 17:58:43,500 - WARNING - Skipping review 6 due to error: ElementHandle.inner_text: Target page, context or browser has been closed
+2025-05-11 17:58:43,519 - WARNING - Skipping review 7 due to error: ElementHandle.inner_text: Target page, context or browser has been closed
+2025-05-11 17:58:43,539 - WARNING - Skipping review 8 due to error: ElementHandle.inner_text: Target page, context or browser has been closed
+2025-05-11 17:58:43,557 - WARNING - Skipping review 9 due to error: ElementHandle.inner_text: Target page, context or browser has been closed
+2025-05-11 17:58:43,558 - INFO - Added 2 reviews (Total: 2)
+2025-05-11 17:58:43,582 - WARNING - Error loading more: Page.query_selector: Target page, context or browser has been closed
+2025-05-11 17:58:45,898 - INFO - 127.0.0.1 - - [11/May/2025 17:58:45] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 17:58:48,132 - INFO - 127.0.0.1 - - [11/May/2025 17:58:48] "[33mGET /null HTTP/1.1[0m" 404 -
+2025-05-11 17:58:56,790 - INFO - 127.0.0.1 - - [11/May/2025 17:58:56] "GET /dashboard HTTP/1.1" 200 -
+2025-05-11 18:20:06,837 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 18:20:06,838 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 18:20:06,842 - INFO -  * Restarting with stat
+2025-05-11 18:20:09,870 - WARNING -  * Debugger is active!
+2025-05-11 18:20:09,887 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 18:20:12,069 - INFO - 127.0.0.1 - - [11/May/2025 18:20:12] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-05-11 18:20:12,102 - INFO - 127.0.0.1 - - [11/May/2025 18:20:12] "GET /login HTTP/1.1" 200 -
+2025-05-11 18:20:23,857 - INFO - 127.0.0.1 - - [11/May/2025 18:20:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-11 18:20:23,879 - INFO - 127.0.0.1 - - [11/May/2025 18:20:23] "GET /dashboard HTTP/1.1" 200 -
+2025-05-11 18:20:44,016 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 18:20:45,617 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 18:20:53,131 - INFO - No cookie button found
+2025-05-11 18:20:53,195 - ERROR - Error during scraping: Page.query_selector: Target page, context or browser has been closed
+2025-05-11 18:20:53,797 - INFO - 127.0.0.1 - - [11/May/2025 18:20:53] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 18:20:57,103 - INFO - No cookie button found
+2025-05-11 18:20:57,137 - INFO - Waiting for reviews to load...
+2025-05-11 18:20:57,216 - INFO - Review elements found
+2025-05-11 18:21:00,869 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-11 18:21:01,356 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-11 18:21:01,810 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-11 18:21:02,261 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-11 18:21:02,740 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-11 18:21:03,191 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-11 18:21:03,632 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-11 18:21:04,123 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-11 18:21:04,618 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-11 18:21:05,069 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-11 18:21:05,187 - INFO - Added 10 reviews (Total: 10)
+2025-05-11 18:21:27,951 - WARNING - Error loading more: ElementHandle.click: Target page, context or browser has been closed
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    9 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+
+2025-05-11 18:21:31,156 - INFO - 127.0.0.1 - - [11/May/2025 18:21:31] "POST /process_url HTTP/1.1" 200 -
+2025-05-11 18:24:07,153 - INFO - 127.0.0.1 - - [11/May/2025 18:24:07] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-05-11 18:24:07,482 - INFO - 127.0.0.1 - - [11/May/2025 18:24:07] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-11 18:24:07,510 - INFO - 127.0.0.1 - - [11/May/2025 18:24:07] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-11 18:24:07,677 - INFO - 127.0.0.1 - - [11/May/2025 18:24:07] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=KmToNvcHILHFHEEMgNwb HTTP/1.1" 200 -
+2025-05-11 18:24:07,744 - INFO - 127.0.0.1 - - [11/May/2025 18:24:07] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-11 18:24:38,182 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-11 18:24:55,764 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 18:24:55,765 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 18:24:55,768 - INFO -  * Restarting with stat
+2025-05-11 18:24:58,903 - WARNING -  * Debugger is active!
+2025-05-11 18:24:58,931 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 18:24:59,112 - INFO - 127.0.0.1 - - [11/May/2025 18:24:59] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-05-11 18:24:59,130 - INFO - 127.0.0.1 - - [11/May/2025 18:24:59] "GET /login HTTP/1.1" 200 -
+2025-05-11 18:25:07,664 - INFO - 127.0.0.1 - - [11/May/2025 18:25:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-11 18:25:07,758 - INFO - 127.0.0.1 - - [11/May/2025 18:25:07] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-05-11 18:25:07,972 - INFO - 127.0.0.1 - - [11/May/2025 18:25:07] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-11 18:25:07,976 - INFO - 127.0.0.1 - - [11/May/2025 18:25:07] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:25:08,110 - INFO - 127.0.0.1 - - [11/May/2025 18:25:08] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=KaVpQnUGyYPV4m2SYUPL HTTP/1.1" 200 -
+2025-05-11 18:25:08,287 - INFO - 127.0.0.1 - - [11/May/2025 18:25:08] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-11 18:26:16,663 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-11 18:26:17,060 - INFO -  * Restarting with stat
+2025-05-11 18:26:20,107 - WARNING -  * Debugger is active!
+2025-05-11 18:26:20,115 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 18:26:45,454 - INFO - 127.0.0.1 - - [11/May/2025 18:26:45] "GET /dashboard HTTP/1.1" 200 -
+2025-05-11 18:26:46,030 - INFO - 127.0.0.1 - - [11/May/2025 18:26:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-11 18:27:10,155 - INFO - Loading product page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 18:27:12,518 - INFO - Waiting for reviews to load...
+2025-05-11 18:27:15,158 - INFO - 127.0.0.1 - - [11/May/2025 18:27:15] "GET /admin HTTP/1.1" 200 -
+2025-05-11 18:27:15,293 - INFO - 127.0.0.1 - - [11/May/2025 18:27:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:27:18,986 - INFO - 127.0.0.1 - - [11/May/2025 18:27:18] "GET /home HTTP/1.1" 200 -
+2025-05-11 18:27:19,050 - INFO - 127.0.0.1 - - [11/May/2025 18:27:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:27:24,545 - INFO - 127.0.0.1 - - [11/May/2025 18:27:24] "GET /home HTTP/1.1" 200 -
+2025-05-11 18:27:24,602 - INFO - 127.0.0.1 - - [11/May/2025 18:27:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:27:32,716 - INFO - Success: Found reviews using xpath: //div[contains(@class, 'review')]
+2025-05-11 18:27:32,747 - INFO - Total reviews reported: N/A
+2025-05-11 18:27:32,748 - INFO - Loading reviews for filter: All (https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews&pageNumber=1)
+2025-05-11 18:27:36,880 - INFO - Processing page 1 for filter All
+2025-05-11 18:27:52,240 - INFO - 127.0.0.1 - - [11/May/2025 18:27:52] "[32mPOST /home HTTP/1.1[0m" 302 -
+2025-05-11 18:27:52,440 - INFO - 127.0.0.1 - - [11/May/2025 18:27:52] "[35m[1mGET /reviews HTTP/1.1[0m" 500 -
+2025-05-11 18:27:52,504 - INFO - 127.0.0.1 - - [11/May/2025 18:27:52] "GET /reviews?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-11 18:27:52,508 - INFO - 127.0.0.1 - - [11/May/2025 18:27:52] "GET /reviews?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-11 18:27:52,610 - INFO - 127.0.0.1 - - [11/May/2025 18:27:52] "GET /reviews?__debugger__=yes&cmd=resource&f=console.png&s=LOMU2UsarNRJHo37ZiYj HTTP/1.1" 200 -
+2025-05-11 18:27:52,782 - INFO - 127.0.0.1 - - [11/May/2025 18:27:52] "GET /reviews?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-11 18:27:57,390 - INFO - No reviews found for filter All on page 1
+2025-05-11 18:27:57,714 - INFO - Loading reviews for filter: 5-star (https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews&filterByStar=five_star&pageNumber=1)
+2025-05-11 18:28:02,876 - INFO - Processing page 1 for filter 5-star
+2025-05-11 18:28:23,709 - INFO - No reviews found for filter 5-star on page 1
+2025-05-11 18:28:24,408 - INFO - Loading reviews for filter: 4-star (https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews&filterByStar=four_star&pageNumber=1)
+2025-05-11 18:28:29,969 - INFO - Processing page 1 for filter 4-star
+2025-05-11 18:28:31,257 - INFO - 127.0.0.1 - - [11/May/2025 18:28:31] "GET /admin HTTP/1.1" 200 -
+2025-05-11 18:28:33,650 - INFO - 127.0.0.1 - - [11/May/2025 18:28:33] "GET /home HTTP/1.1" 200 -
+2025-05-11 18:28:33,720 - INFO - 127.0.0.1 - - [11/May/2025 18:28:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:28:44,106 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 18:28:44,107 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 18:28:44,111 - INFO -  * Restarting with stat
+2025-05-11 18:28:47,770 - WARNING -  * Debugger is active!
+2025-05-11 18:28:47,780 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 18:28:48,683 - INFO - 127.0.0.1 - - [11/May/2025 18:28:48] "GET /admin HTTP/1.1" 200 -
+2025-05-11 18:28:48,853 - INFO - 127.0.0.1 - - [11/May/2025 18:28:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:29:02,401 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 18:29:02,403 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 18:29:02,406 - INFO -  * Restarting with stat
+2025-05-11 18:29:04,762 - WARNING -  * Debugger is active!
+2025-05-11 18:29:04,770 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 18:29:12,052 - INFO - 127.0.0.1 - - [11/May/2025 18:29:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-11 18:29:12,182 - INFO - 127.0.0.1 - - [11/May/2025 18:29:12] "GET /home HTTP/1.1" 200 -
+2025-05-11 18:29:12,491 - INFO - 127.0.0.1 - - [11/May/2025 18:29:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:29:18,576 - INFO - 127.0.0.1 - - [11/May/2025 18:29:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-11 18:29:18,590 - INFO - 127.0.0.1 - - [11/May/2025 18:29:18] "GET /home HTTP/1.1" 200 -
+2025-05-11 18:29:18,658 - INFO - 127.0.0.1 - - [11/May/2025 18:29:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:29:21,923 - INFO - 127.0.0.1 - - [11/May/2025 18:29:21] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 18:29:21,947 - INFO - 127.0.0.1 - - [11/May/2025 18:29:21] "GET /dashboard HTTP/1.1" 200 -
+2025-05-11 18:29:22,063 - INFO - 127.0.0.1 - - [11/May/2025 18:29:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:29:26,005 - INFO - 127.0.0.1 - - [11/May/2025 18:29:26] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-11 18:29:26,043 - INFO - 127.0.0.1 - - [11/May/2025 18:29:26] "GET /home HTTP/1.1" 200 -
+2025-05-11 18:29:26,110 - INFO - 127.0.0.1 - - [11/May/2025 18:29:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:29:27,739 - INFO - 127.0.0.1 - - [11/May/2025 18:29:27] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 18:29:27,754 - INFO - 127.0.0.1 - - [11/May/2025 18:29:27] "GET /dashboard HTTP/1.1" 200 -
+2025-05-11 18:29:27,812 - INFO - 127.0.0.1 - - [11/May/2025 18:29:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:29:31,466 - INFO - 127.0.0.1 - - [11/May/2025 18:29:31] "GET /dashboard HTTP/1.1" 200 -
+2025-05-11 18:29:31,553 - INFO - 127.0.0.1 - - [11/May/2025 18:29:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:34:41,133 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-11 18:34:41,874 - INFO -  * Restarting with stat
+2025-05-11 18:34:45,276 - WARNING -  * Debugger is active!
+2025-05-11 18:34:45,284 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 18:34:48,828 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-11 18:34:49,102 - INFO -  * Restarting with stat
+2025-05-11 18:34:52,008 - WARNING -  * Debugger is active!
+2025-05-11 18:34:52,021 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 18:34:54,461 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-11 18:34:54,796 - INFO -  * Restarting with stat
+2025-05-11 18:34:57,777 - WARNING -  * Debugger is active!
+2025-05-11 18:34:57,787 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 18:37:33,486 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\utils\\text_processing.py', reloading
+2025-05-11 18:37:33,797 - INFO -  * Restarting with stat
+2025-05-11 18:37:37,294 - WARNING -  * Debugger is active!
+2025-05-11 18:37:37,311 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 18:37:44,446 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\utils\\visualization.py', reloading
+2025-05-11 18:37:44,744 - INFO -  * Restarting with stat
+2025-05-11 18:37:47,354 - WARNING -  * Debugger is active!
+2025-05-11 18:37:47,362 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 18:38:21,489 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 18:38:21,490 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 18:38:21,494 - INFO -  * Restarting with stat
+2025-05-11 18:38:24,779 - WARNING -  * Debugger is active!
+2025-05-11 18:38:24,792 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 18:38:28,670 - INFO - 127.0.0.1 - - [11/May/2025 18:38:28] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-11 18:38:28,701 - INFO - 127.0.0.1 - - [11/May/2025 18:38:28] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 18:38:28,824 - INFO - 127.0.0.1 - - [11/May/2025 18:38:28] "[35m[1mGET /select_products HTTP/1.1[0m" 500 -
+2025-05-11 18:38:29,080 - INFO - 127.0.0.1 - - [11/May/2025 18:38:29] "GET /select_products?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-11 18:38:29,130 - INFO - 127.0.0.1 - - [11/May/2025 18:38:29] "GET /select_products?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-11 18:38:29,970 - INFO - 127.0.0.1 - - [11/May/2025 18:38:29] "GET /select_products?__debugger__=yes&cmd=resource&f=console.png&s=qSWqhGPks5nkDybWw6TL HTTP/1.1" 200 -
+2025-05-11 18:38:31,115 - INFO - 127.0.0.1 - - [11/May/2025 18:38:31] "GET /select_products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-11 18:40:38,108 - INFO - 127.0.0.1 - - [11/May/2025 18:40:38] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 18:40:38,167 - INFO - 127.0.0.1 - - [11/May/2025 18:40:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:40:45,117 - INFO - 127.0.0.1 - - [11/May/2025 18:40:45] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 18:40:45,135 - INFO - 127.0.0.1 - - [11/May/2025 18:40:45] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 18:40:45,214 - INFO - 127.0.0.1 - - [11/May/2025 18:40:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:40:51,012 - INFO - 127.0.0.1 - - [11/May/2025 18:40:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 18:40:51,026 - INFO - 127.0.0.1 - - [11/May/2025 18:40:51] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 18:40:51,107 - INFO - 127.0.0.1 - - [11/May/2025 18:40:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:42:12,532 - INFO - 127.0.0.1 - - [11/May/2025 18:42:12] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 18:42:12,613 - INFO - 127.0.0.1 - - [11/May/2025 18:42:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:42:15,396 - INFO - 127.0.0.1 - - [11/May/2025 18:42:15] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 18:42:15,474 - INFO - 127.0.0.1 - - [11/May/2025 18:42:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:42:16,996 - INFO - 127.0.0.1 - - [11/May/2025 18:42:16] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 18:42:17,090 - INFO - 127.0.0.1 - - [11/May/2025 18:42:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:42:34,834 - INFO - 127.0.0.1 - - [11/May/2025 18:42:34] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 18:42:34,941 - INFO - 127.0.0.1 - - [11/May/2025 18:42:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:42:42,077 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 18:42:42,078 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 18:42:42,083 - INFO -  * Restarting with stat
+2025-05-11 18:42:44,539 - WARNING -  * Debugger is active!
+2025-05-11 18:42:44,552 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 18:42:48,214 - INFO - 127.0.0.1 - - [11/May/2025 18:42:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-11 18:42:48,328 - INFO - 127.0.0.1 - - [11/May/2025 18:42:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 18:42:48,480 - INFO - 127.0.0.1 - - [11/May/2025 18:42:48] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 18:42:48,731 - INFO - 127.0.0.1 - - [11/May/2025 18:42:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:43:56,468 - INFO - 127.0.0.1 - - [11/May/2025 18:43:56] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-11 18:43:56,485 - INFO - 127.0.0.1 - - [11/May/2025 18:43:56] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 18:43:56,504 - INFO - 127.0.0.1 - - [11/May/2025 18:43:56] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 18:43:56,591 - INFO - 127.0.0.1 - - [11/May/2025 18:43:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:44:21,919 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-11 18:44:22,260 - INFO -  * Restarting with stat
+2025-05-11 18:44:26,133 - WARNING -  * Debugger is active!
+2025-05-11 18:44:26,144 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 18:44:36,449 - INFO - 127.0.0.1 - - [11/May/2025 18:44:36] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 18:44:36,644 - INFO - 127.0.0.1 - - [11/May/2025 18:44:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:44:41,234 - INFO - 127.0.0.1 - - [11/May/2025 18:44:41] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 18:44:41,253 - INFO - 127.0.0.1 - - [11/May/2025 18:44:41] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 18:44:41,328 - INFO - 127.0.0.1 - - [11/May/2025 18:44:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:45:25,992 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-11 18:45:26,291 - INFO -  * Restarting with stat
+2025-05-11 18:45:28,944 - WARNING -  * Debugger is active!
+2025-05-11 18:45:28,954 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 18:45:35,095 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-11 18:45:35,341 - INFO -  * Restarting with stat
+2025-05-11 18:45:38,303 - WARNING -  * Debugger is active!
+2025-05-11 18:45:38,312 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 18:46:09,395 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-11 18:46:09,733 - INFO -  * Restarting with stat
+2025-05-11 18:46:12,813 - WARNING -  * Debugger is active!
+2025-05-11 18:46:12,824 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 18:46:19,564 - INFO - 127.0.0.1 - - [11/May/2025 18:46:19] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 18:46:19,741 - INFO - 127.0.0.1 - - [11/May/2025 18:46:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:46:24,139 - INFO - 127.0.0.1 - - [11/May/2025 18:46:24] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-11 18:46:24,157 - INFO - 127.0.0.1 - - [11/May/2025 18:46:24] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 18:46:24,173 - INFO - 127.0.0.1 - - [11/May/2025 18:46:24] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 18:46:24,247 - INFO - 127.0.0.1 - - [11/May/2025 18:46:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:46:28,841 - INFO - 127.0.0.1 - - [11/May/2025 18:46:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:46:28,849 - INFO - 127.0.0.1 - - [11/May/2025 18:46:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-11 18:48:55,406 - INFO - 127.0.0.1 - - [11/May/2025 18:48:55] "[32mGET /select_products HTTP/1.1[0m" 302 -
+2025-05-11 18:48:55,423 - INFO - 127.0.0.1 - - [11/May/2025 18:48:55] "GET /login HTTP/1.1" 200 -
+2025-05-11 18:48:55,547 - INFO - 127.0.0.1 - - [11/May/2025 18:48:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-11 18:48:55,684 - INFO - 127.0.0.1 - - [11/May/2025 18:48:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-11 18:49:24,276 - INFO - 127.0.0.1 - - [11/May/2025 18:49:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-11 18:49:24,292 - INFO - 127.0.0.1 - - [11/May/2025 18:49:24] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 18:49:24,377 - INFO - 127.0.0.1 - - [11/May/2025 18:49:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:50:29,221 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 18:50:37,130 - INFO - 127.0.0.1 - - [11/May/2025 18:50:37] "[32mPOST /set_model HTTP/1.1[0m" 302 -
+2025-05-11 18:50:37,152 - INFO - 127.0.0.1 - - [11/May/2025 18:50:37] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 18:50:37,218 - INFO - 127.0.0.1 - - [11/May/2025 18:50:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:50:41,670 - INFO - No cookie button found
+2025-05-11 18:50:41,723 - INFO - Waiting for reviews to load...
+2025-05-11 18:50:41,821 - INFO - Review elements found
+2025-05-11 18:50:44,913 - ERROR - Error during scraping: Page.query_selector_all: Target page, context or browser has been closed
+2025-05-11 18:50:45,521 - INFO - 127.0.0.1 - - [11/May/2025 18:50:45] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 18:50:53,670 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 18:51:06,240 - INFO - No cookie button found
+2025-05-11 18:51:06,302 - INFO - Waiting for reviews to load...
+2025-05-11 18:51:06,365 - INFO - Review elements found
+2025-05-11 18:51:09,810 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-11 18:51:10,250 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-11 18:51:10,733 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-11 18:51:11,172 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-11 18:51:11,638 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-11 18:51:12,053 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-11 18:51:12,433 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-11 18:51:12,855 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-11 18:51:13,323 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-11 18:51:13,734 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-11 18:51:13,810 - INFO - Added 10 reviews (Total: 10)
+2025-05-11 18:51:43,932 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-11 18:51:44,589 - INFO - 127.0.0.1 - - [11/May/2025 18:51:44] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 18:51:44,614 - INFO - 127.0.0.1 - - [11/May/2025 18:51:44] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 18:51:44,709 - INFO - 127.0.0.1 - - [11/May/2025 18:51:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 18:52:16,005 - INFO - 127.0.0.1 - - [11/May/2025 18:52:16] "[32mPOST /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 18:52:16,217 - INFO - 127.0.0.1 - - [11/May/2025 18:52:16] "[35m[1mGET /sentiment_analysis HTTP/1.1[0m" 500 -
+2025-05-11 18:52:16,349 - INFO - 127.0.0.1 - - [11/May/2025 18:52:16] "GET /sentiment_analysis?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-11 18:52:16,351 - INFO - 127.0.0.1 - - [11/May/2025 18:52:16] "GET /sentiment_analysis?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-11 18:52:16,510 - INFO - 127.0.0.1 - - [11/May/2025 18:52:16] "GET /sentiment_analysis?__debugger__=yes&cmd=resource&f=console.png&s=0LYmLYbxprQUqiRFyiQh HTTP/1.1" 200 -
+2025-05-11 18:52:16,737 - INFO - 127.0.0.1 - - [11/May/2025 18:52:16] "GET /sentiment_analysis?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-11 19:02:45,221 - INFO - 127.0.0.1 - - [11/May/2025 19:02:45] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-11 19:02:45,301 - INFO - 127.0.0.1 - - [11/May/2025 19:02:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:02:58,817 - INFO - 127.0.0.1 - - [11/May/2025 19:02:58] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-11 19:03:00,423 - INFO - 127.0.0.1 - - [11/May/2025 19:03:00] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-11 19:03:00,507 - INFO - 127.0.0.1 - - [11/May/2025 19:03:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:03:06,492 - INFO - 127.0.0.1 - - [11/May/2025 19:03:06] "[32mPOST /word_cloud HTTP/1.1[0m" 302 -
+2025-05-11 19:03:06,536 - INFO - 127.0.0.1 - - [11/May/2025 19:03:06] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:03:06,681 - INFO - 127.0.0.1 - - [11/May/2025 19:03:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:03:16,761 - INFO - 127.0.0.1 - - [11/May/2025 19:03:16] "[32mPOST /set_model HTTP/1.1[0m" 302 -
+2025-05-11 19:03:16,779 - INFO - 127.0.0.1 - - [11/May/2025 19:03:16] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:03:16,863 - INFO - 127.0.0.1 - - [11/May/2025 19:03:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:03:23,646 - INFO - 127.0.0.1 - - [11/May/2025 19:03:23] "GET /admin HTTP/1.1" 200 -
+2025-05-11 19:03:23,773 - INFO - 127.0.0.1 - - [11/May/2025 19:03:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:03:25,163 - INFO - 127.0.0.1 - - [11/May/2025 19:03:25] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:03:25,260 - INFO - 127.0.0.1 - - [11/May/2025 19:03:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:03:34,437 - INFO - 127.0.0.1 - - [11/May/2025 19:03:34] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 19:03:34,489 - INFO - 127.0.0.1 - - [11/May/2025 19:03:34] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:03:34,595 - INFO - 127.0.0.1 - - [11/May/2025 19:03:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:03:36,105 - INFO - 127.0.0.1 - - [11/May/2025 19:03:36] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-11 19:03:36,123 - INFO - 127.0.0.1 - - [11/May/2025 19:03:36] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 19:03:36,144 - INFO - 127.0.0.1 - - [11/May/2025 19:03:36] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:03:36,239 - INFO - 127.0.0.1 - - [11/May/2025 19:03:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:03:39,984 - INFO - 127.0.0.1 - - [11/May/2025 19:03:39] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 19:03:40,049 - INFO - 127.0.0.1 - - [11/May/2025 19:03:40] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:03:40,178 - INFO - 127.0.0.1 - - [11/May/2025 19:03:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:03:48,931 - INFO - 127.0.0.1 - - [11/May/2025 19:03:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:03:49,005 - INFO - 127.0.0.1 - - [11/May/2025 19:03:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-11 19:04:14,584 - INFO - 127.0.0.1 - - [11/May/2025 19:04:14] "[32mGET /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:04:14,631 - INFO - 127.0.0.1 - - [11/May/2025 19:04:14] "GET /login HTTP/1.1" 200 -
+2025-05-11 19:04:22,762 - INFO - 127.0.0.1 - - [11/May/2025 19:04:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-11 19:04:22,774 - INFO - 127.0.0.1 - - [11/May/2025 19:04:22] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:04:22,889 - INFO - 127.0.0.1 - - [11/May/2025 19:04:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:05:28,055 - INFO - 127.0.0.1 - - [11/May/2025 19:05:28] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:05:28,105 - INFO - 127.0.0.1 - - [11/May/2025 19:05:28] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 19:05:28,173 - INFO - 127.0.0.1 - - [11/May/2025 19:05:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:06:08,007 - INFO - 127.0.0.1 - - [11/May/2025 19:06:08] "[32mPOST /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:06:08,077 - INFO - 127.0.0.1 - - [11/May/2025 19:06:08] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-11 19:06:08,158 - INFO - 127.0.0.1 - - [11/May/2025 19:06:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:06:19,088 - INFO - 127.0.0.1 - - [11/May/2025 19:06:19] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-11 19:06:27,260 - INFO - 127.0.0.1 - - [11/May/2025 19:06:27] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-11 19:06:28,324 - INFO - 127.0.0.1 - - [11/May/2025 19:06:28] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-11 19:06:28,404 - INFO - 127.0.0.1 - - [11/May/2025 19:06:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:06:34,784 - INFO - 127.0.0.1 - - [11/May/2025 19:06:34] "[32mPOST /word_cloud HTTP/1.1[0m" 302 -
+2025-05-11 19:06:34,805 - INFO - 127.0.0.1 - - [11/May/2025 19:06:34] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:06:34,898 - INFO - 127.0.0.1 - - [11/May/2025 19:06:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:10:19,450 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 19:10:19,452 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 19:10:19,458 - INFO -  * Restarting with stat
+2025-05-11 19:10:25,040 - WARNING -  * Debugger is active!
+2025-05-11 19:10:25,065 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 19:10:25,369 - INFO - 127.0.0.1 - - [11/May/2025 19:10:25] "[35m[1mGET /select_products HTTP/1.1[0m" 500 -
+2025-05-11 19:10:25,375 - INFO - 127.0.0.1 - - [11/May/2025 19:10:25] "[35m[1mGET /select_products HTTP/1.1[0m" 500 -
+2025-05-11 19:10:25,661 - INFO - 127.0.0.1 - - [11/May/2025 19:10:25] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:10:25,689 - INFO - 127.0.0.1 - - [11/May/2025 19:10:25] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-11 19:10:26,671 - INFO - 127.0.0.1 - - [11/May/2025 19:10:26] "GET /select_products?__debugger__=yes&cmd=resource&f=console.png&s=82jQ32vs8rAuJp2xgbto HTTP/1.1" 200 -
+2025-05-11 19:10:28,385 - INFO - 127.0.0.1 - - [11/May/2025 19:10:28] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-11 19:11:01,535 - INFO - 127.0.0.1 - - [11/May/2025 19:11:01] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:11:01,643 - INFO - 127.0.0.1 - - [11/May/2025 19:11:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:11:08,129 - INFO - 127.0.0.1 - - [11/May/2025 19:11:08] "[33mGET /home HTTP/1.1[0m" 404 -
+2025-05-11 19:14:45,335 - INFO - 127.0.0.1 - - [11/May/2025 19:14:45] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:14:45,453 - INFO - 127.0.0.1 - - [11/May/2025 19:14:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:15:26,352 - INFO - 127.0.0.1 - - [11/May/2025 19:15:26] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:15:26,448 - INFO - 127.0.0.1 - - [11/May/2025 19:15:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:16:07,429 - INFO - 127.0.0.1 - - [11/May/2025 19:16:07] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:16:07,495 - INFO - 127.0.0.1 - - [11/May/2025 19:16:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:16:33,674 - INFO - 127.0.0.1 - - [11/May/2025 19:16:33] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:16:33,762 - INFO - 127.0.0.1 - - [11/May/2025 19:16:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:16:38,626 - INFO - 127.0.0.1 - - [11/May/2025 19:16:38] "GET /admin HTTP/1.1" 200 -
+2025-05-11 19:16:38,716 - INFO - 127.0.0.1 - - [11/May/2025 19:16:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:16:39,858 - INFO - 127.0.0.1 - - [11/May/2025 19:16:39] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:16:40,025 - INFO - 127.0.0.1 - - [11/May/2025 19:16:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:16:43,099 - INFO - 127.0.0.1 - - [11/May/2025 19:16:43] "GET /admin HTTP/1.1" 200 -
+2025-05-11 19:16:43,223 - INFO - 127.0.0.1 - - [11/May/2025 19:16:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:16:47,516 - INFO - 127.0.0.1 - - [11/May/2025 19:16:47] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:16:47,694 - INFO - 127.0.0.1 - - [11/May/2025 19:16:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:16:48,864 - INFO - 127.0.0.1 - - [11/May/2025 19:16:48] "GET /admin HTTP/1.1" 200 -
+2025-05-11 19:16:49,048 - INFO - 127.0.0.1 - - [11/May/2025 19:16:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:16:50,363 - INFO - 127.0.0.1 - - [11/May/2025 19:16:50] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:16:50,547 - INFO - 127.0.0.1 - - [11/May/2025 19:16:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:18:23,613 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 19:18:35,377 - INFO - No cookie button found
+2025-05-11 19:18:35,438 - INFO - Waiting for reviews to load...
+2025-05-11 19:18:35,492 - INFO - Review elements found
+2025-05-11 19:18:39,197 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-11 19:18:39,812 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-11 19:18:40,746 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-11 19:18:41,370 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-11 19:18:42,169 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-11 19:18:42,925 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-11 19:18:43,461 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-11 19:18:44,062 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-11 19:18:44,639 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-11 19:18:45,389 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-11 19:18:45,546 - INFO - Added 10 reviews (Total: 10)
+2025-05-11 19:19:16,830 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-11 19:19:18,545 - INFO - 127.0.0.1 - - [11/May/2025 19:19:18] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:19:18,591 - INFO - 127.0.0.1 - - [11/May/2025 19:19:18] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 19:19:18,778 - INFO - 127.0.0.1 - - [11/May/2025 19:19:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:19:39,775 - INFO - 127.0.0.1 - - [11/May/2025 19:19:39] "[32mPOST /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:19:39,941 - INFO - 127.0.0.1 - - [11/May/2025 19:19:39] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-11 19:19:40,026 - INFO - 127.0.0.1 - - [11/May/2025 19:19:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:19:42,665 - INFO - 127.0.0.1 - - [11/May/2025 19:19:42] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-11 19:19:44,018 - INFO - 127.0.0.1 - - [11/May/2025 19:19:44] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-11 19:19:44,107 - INFO - 127.0.0.1 - - [11/May/2025 19:19:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:20:12,018 - INFO - 127.0.0.1 - - [11/May/2025 19:20:12] "[32mPOST /word_cloud HTTP/1.1[0m" 302 -
+2025-05-11 19:20:12,040 - INFO - 127.0.0.1 - - [11/May/2025 19:20:12] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:20:12,200 - INFO - 127.0.0.1 - - [11/May/2025 19:20:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:22:44,948 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 19:22:57,391 - INFO - No cookie button found
+2025-05-11 19:22:57,490 - INFO - Waiting for reviews to load...
+2025-05-11 19:22:57,562 - INFO - Review elements found
+2025-05-11 19:23:01,218 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-11 19:23:01,755 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-11 19:23:13,373 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 19:23:20,858 - INFO - No cookie button found
+2025-05-11 19:23:20,920 - ERROR - Error during scraping: Page.query_selector: Target page, context or browser has been closed
+2025-05-11 19:23:21,647 - INFO - 127.0.0.1 - - [11/May/2025 19:23:21] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:23:21,670 - INFO - 127.0.0.1 - - [11/May/2025 19:23:21] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 19:23:21,835 - INFO - 127.0.0.1 - - [11/May/2025 19:23:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:23:47,445 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 19:23:47,448 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 19:23:47,452 - INFO -  * Restarting with stat
+2025-05-11 19:23:53,131 - WARNING -  * Debugger is active!
+2025-05-11 19:23:53,159 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 19:23:53,346 - INFO - 127.0.0.1 - - [11/May/2025 19:23:53] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:23:53,598 - INFO - 127.0.0.1 - - [11/May/2025 19:23:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:24:22,528 - INFO - 127.0.0.1 - - [11/May/2025 19:24:22] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:24:22,542 - INFO - 127.0.0.1 - - [11/May/2025 19:24:22] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:24:22,564 - INFO - 127.0.0.1 - - [11/May/2025 19:24:22] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:24:22,684 - INFO - 127.0.0.1 - - [11/May/2025 19:24:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:24:26,194 - INFO - 127.0.0.1 - - [11/May/2025 19:24:26] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:24:26,272 - INFO - 127.0.0.1 - - [11/May/2025 19:24:26] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:24:26,302 - INFO - 127.0.0.1 - - [11/May/2025 19:24:26] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:24:26,400 - INFO - 127.0.0.1 - - [11/May/2025 19:24:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:24:29,519 - INFO - 127.0.0.1 - - [11/May/2025 19:24:29] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:24:29,562 - INFO - 127.0.0.1 - - [11/May/2025 19:24:29] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:24:29,613 - INFO - 127.0.0.1 - - [11/May/2025 19:24:29] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:24:29,715 - INFO - 127.0.0.1 - - [11/May/2025 19:24:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:24:31,056 - INFO - 127.0.0.1 - - [11/May/2025 19:24:31] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:24:31,088 - INFO - 127.0.0.1 - - [11/May/2025 19:24:31] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:24:31,118 - INFO - 127.0.0.1 - - [11/May/2025 19:24:31] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:24:31,241 - INFO - 127.0.0.1 - - [11/May/2025 19:24:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:24:36,657 - INFO - 127.0.0.1 - - [11/May/2025 19:24:36] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:24:36,753 - INFO - 127.0.0.1 - - [11/May/2025 19:24:36] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:24:36,769 - INFO - 127.0.0.1 - - [11/May/2025 19:24:36] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:24:36,888 - INFO - 127.0.0.1 - - [11/May/2025 19:24:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:26:48,671 - INFO - 127.0.0.1 - - [11/May/2025 19:26:48] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:26:48,839 - INFO - 127.0.0.1 - - [11/May/2025 19:26:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:27:11,343 - INFO - 127.0.0.1 - - [11/May/2025 19:27:11] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:27:11,394 - INFO - 127.0.0.1 - - [11/May/2025 19:27:11] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:27:11,410 - INFO - 127.0.0.1 - - [11/May/2025 19:27:11] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:27:11,478 - INFO - 127.0.0.1 - - [11/May/2025 19:27:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:27:14,842 - INFO - 127.0.0.1 - - [11/May/2025 19:27:14] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:27:14,955 - INFO - 127.0.0.1 - - [11/May/2025 19:27:14] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:27:15,004 - INFO - 127.0.0.1 - - [11/May/2025 19:27:15] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:27:15,072 - INFO - 127.0.0.1 - - [11/May/2025 19:27:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:27:18,407 - INFO - 127.0.0.1 - - [11/May/2025 19:27:18] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:27:18,431 - INFO - 127.0.0.1 - - [11/May/2025 19:27:18] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:27:18,446 - INFO - 127.0.0.1 - - [11/May/2025 19:27:18] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:27:18,554 - INFO - 127.0.0.1 - - [11/May/2025 19:27:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:29:35,669 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-11 19:29:36,347 - INFO -  * Restarting with stat
+2025-05-11 19:29:40,570 - WARNING -  * Debugger is active!
+2025-05-11 19:29:40,586 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 19:29:42,062 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-11 19:29:42,498 - INFO -  * Restarting with stat
+2025-05-11 19:29:47,343 - WARNING -  * Debugger is active!
+2025-05-11 19:29:47,371 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 19:29:48,016 - INFO - 127.0.0.1 - - [11/May/2025 19:29:48] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:29:48,225 - INFO - 127.0.0.1 - - [11/May/2025 19:29:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:30:11,634 - INFO - 127.0.0.1 - - [11/May/2025 19:30:11] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:30:11,686 - INFO - 127.0.0.1 - - [11/May/2025 19:30:11] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:30:11,724 - INFO - 127.0.0.1 - - [11/May/2025 19:30:11] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:30:11,870 - INFO - 127.0.0.1 - - [11/May/2025 19:30:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:30:14,222 - INFO - 127.0.0.1 - - [11/May/2025 19:30:14] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:30:14,276 - INFO - 127.0.0.1 - - [11/May/2025 19:30:14] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:30:14,292 - INFO - 127.0.0.1 - - [11/May/2025 19:30:14] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:30:14,403 - INFO - 127.0.0.1 - - [11/May/2025 19:30:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:30:17,600 - INFO - 127.0.0.1 - - [11/May/2025 19:30:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:30:17,709 - INFO - 127.0.0.1 - - [11/May/2025 19:30:17] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-11 19:30:51,745 - INFO - 127.0.0.1 - - [11/May/2025 19:30:51] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:30:51,766 - INFO - 127.0.0.1 - - [11/May/2025 19:30:51] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:30:51,785 - INFO - 127.0.0.1 - - [11/May/2025 19:30:51] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:30:51,908 - INFO - 127.0.0.1 - - [11/May/2025 19:30:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-11 19:30:51,913 - INFO - 127.0.0.1 - - [11/May/2025 19:30:51] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-11 19:31:25,307 - INFO - 127.0.0.1 - - [11/May/2025 19:31:25] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:31:25,332 - INFO - 127.0.0.1 - - [11/May/2025 19:31:25] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:31:25,349 - INFO - 127.0.0.1 - - [11/May/2025 19:31:25] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:31:25,479 - INFO - 127.0.0.1 - - [11/May/2025 19:31:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-11 19:31:25,487 - INFO - 127.0.0.1 - - [11/May/2025 19:31:25] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-11 19:31:51,621 - INFO - 127.0.0.1 - - [11/May/2025 19:31:51] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:31:51,646 - INFO - 127.0.0.1 - - [11/May/2025 19:31:51] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:31:51,668 - INFO - 127.0.0.1 - - [11/May/2025 19:31:51] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:31:51,824 - INFO - 127.0.0.1 - - [11/May/2025 19:31:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-11 19:31:51,835 - INFO - 127.0.0.1 - - [11/May/2025 19:31:51] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-11 19:32:19,499 - INFO - 127.0.0.1 - - [11/May/2025 19:32:19] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:32:19,544 - INFO - 127.0.0.1 - - [11/May/2025 19:32:19] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:32:19,600 - INFO - 127.0.0.1 - - [11/May/2025 19:32:19] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:32:19,702 - INFO - 127.0.0.1 - - [11/May/2025 19:32:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:32:32,450 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 19:32:37,696 - INFO - 127.0.0.1 - - [11/May/2025 19:32:37] "GET /admin HTTP/1.1" 200 -
+2025-05-11 19:32:37,964 - INFO - 127.0.0.1 - - [11/May/2025 19:32:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:32:39,297 - INFO - 127.0.0.1 - - [11/May/2025 19:32:39] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:32:39,416 - INFO - 127.0.0.1 - - [11/May/2025 19:32:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:32:44,922 - INFO - No cookie button found
+2025-05-11 19:32:44,996 - INFO - Waiting for reviews to load...
+2025-05-11 19:32:45,099 - INFO - Review elements found
+2025-05-11 19:32:48,220 - ERROR - Error during scraping: Page.query_selector_all: Target page, context or browser has been closed
+2025-05-11 19:32:49,010 - INFO - 127.0.0.1 - - [11/May/2025 19:32:49] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:34:16,079 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-11 19:34:16,498 - INFO -  * Restarting with stat
+2025-05-11 19:34:20,566 - WARNING -  * Debugger is active!
+2025-05-11 19:34:20,577 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 19:34:43,122 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-11 19:34:43,622 - INFO -  * Restarting with stat
+2025-05-11 19:34:48,910 - WARNING -  * Debugger is active!
+2025-05-11 19:34:48,922 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 19:34:49,100 - INFO - 127.0.0.1 - - [11/May/2025 19:34:49] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:34:49,306 - INFO - 127.0.0.1 - - [11/May/2025 19:34:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:34:55,898 - INFO - 127.0.0.1 - - [11/May/2025 19:34:55] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:34:55,915 - INFO - 127.0.0.1 - - [11/May/2025 19:34:55] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:34:55,939 - INFO - 127.0.0.1 - - [11/May/2025 19:34:55] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:34:56,016 - INFO - 127.0.0.1 - - [11/May/2025 19:34:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:36:48,243 - INFO - 127.0.0.1 - - [11/May/2025 19:36:48] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:36:48,379 - INFO - 127.0.0.1 - - [11/May/2025 19:36:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:37:09,144 - INFO - 127.0.0.1 - - [11/May/2025 19:37:09] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:37:09,238 - INFO - 127.0.0.1 - - [11/May/2025 19:37:09] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 19:37:09,336 - INFO - 127.0.0.1 - - [11/May/2025 19:37:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:37:15,406 - INFO - 127.0.0.1 - - [11/May/2025 19:37:15] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:37:29,052 - INFO - 127.0.0.1 - - [11/May/2025 19:37:29] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:37:29,091 - INFO - 127.0.0.1 - - [11/May/2025 19:37:29] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 19:37:29,191 - INFO - 127.0.0.1 - - [11/May/2025 19:37:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:37:38,307 - INFO - 127.0.0.1 - - [11/May/2025 19:37:38] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:37:41,909 - INFO - 127.0.0.1 - - [11/May/2025 19:37:41] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:37:42,069 - INFO - 127.0.0.1 - - [11/May/2025 19:37:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:38:08,693 - INFO - 127.0.0.1 - - [11/May/2025 19:38:08] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:38:08,712 - INFO - 127.0.0.1 - - [11/May/2025 19:38:08] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 19:38:08,804 - INFO - 127.0.0.1 - - [11/May/2025 19:38:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:38:16,937 - INFO - 127.0.0.1 - - [11/May/2025 19:38:16] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:38:42,644 - INFO - 127.0.0.1 - - [11/May/2025 19:38:42] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:38:42,667 - INFO - 127.0.0.1 - - [11/May/2025 19:38:42] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 19:38:42,771 - INFO - 127.0.0.1 - - [11/May/2025 19:38:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:39:20,564 - INFO - 127.0.0.1 - - [11/May/2025 19:39:20] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:42:14,570 - INFO - 127.0.0.1 - - [11/May/2025 19:42:14] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:42:14,722 - INFO - 127.0.0.1 - - [11/May/2025 19:42:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:42:49,620 - INFO - 127.0.0.1 - - [11/May/2025 19:42:49] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:42:49,677 - INFO - 127.0.0.1 - - [11/May/2025 19:42:49] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 19:42:49,774 - INFO - 127.0.0.1 - - [11/May/2025 19:42:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:43:25,996 - INFO - 127.0.0.1 - - [11/May/2025 19:43:25] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 19:43:26,125 - INFO - 127.0.0.1 - - [11/May/2025 19:43:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:43:28,555 - INFO - 127.0.0.1 - - [11/May/2025 19:43:28] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:43:32,498 - INFO - 127.0.0.1 - - [11/May/2025 19:43:32] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:43:32,612 - INFO - 127.0.0.1 - - [11/May/2025 19:43:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:43:34,187 - INFO - 127.0.0.1 - - [11/May/2025 19:43:34] "GET /admin HTTP/1.1" 200 -
+2025-05-11 19:43:36,841 - INFO - 127.0.0.1 - - [11/May/2025 19:43:36] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:43:37,005 - INFO - 127.0.0.1 - - [11/May/2025 19:43:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:43:40,674 - INFO - 127.0.0.1 - - [11/May/2025 19:43:40] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 19:43:40,744 - INFO - 127.0.0.1 - - [11/May/2025 19:43:40] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:43:40,826 - INFO - 127.0.0.1 - - [11/May/2025 19:43:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:43:46,848 - INFO - 127.0.0.1 - - [11/May/2025 19:43:46] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 19:43:47,283 - INFO - 127.0.0.1 - - [11/May/2025 19:43:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:43:52,204 - INFO - 127.0.0.1 - - [11/May/2025 19:43:52] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-11 19:43:52,216 - INFO - 127.0.0.1 - - [11/May/2025 19:43:52] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 19:43:52,241 - INFO - 127.0.0.1 - - [11/May/2025 19:43:52] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:43:52,344 - INFO - 127.0.0.1 - - [11/May/2025 19:43:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:43:56,764 - INFO - 127.0.0.1 - - [11/May/2025 19:43:56] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 19:43:56,844 - INFO - 127.0.0.1 - - [11/May/2025 19:43:56] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:43:56,912 - INFO - 127.0.0.1 - - [11/May/2025 19:43:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:44:23,925 - INFO - 127.0.0.1 - - [11/May/2025 19:44:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:44:24,026 - INFO - 127.0.0.1 - - [11/May/2025 19:44:24] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-11 19:44:37,666 - INFO - 127.0.0.1 - - [11/May/2025 19:44:37] "[32mGET /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:44:37,738 - INFO - 127.0.0.1 - - [11/May/2025 19:44:37] "GET /login HTTP/1.1" 200 -
+2025-05-11 19:44:45,143 - INFO - 127.0.0.1 - - [11/May/2025 19:44:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-11 19:44:45,154 - INFO - 127.0.0.1 - - [11/May/2025 19:44:45] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:44:45,273 - INFO - 127.0.0.1 - - [11/May/2025 19:44:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:44:57,597 - INFO - 127.0.0.1 - - [11/May/2025 19:44:57] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:44:57,641 - INFO - 127.0.0.1 - - [11/May/2025 19:44:57] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:44:57,696 - INFO - 127.0.0.1 - - [11/May/2025 19:44:57] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:44:57,792 - INFO - 127.0.0.1 - - [11/May/2025 19:44:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:45:13,438 - INFO - 127.0.0.1 - - [11/May/2025 19:45:13] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:45:13,458 - INFO - 127.0.0.1 - - [11/May/2025 19:45:13] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:45:13,528 - INFO - 127.0.0.1 - - [11/May/2025 19:45:13] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:45:13,606 - INFO - 127.0.0.1 - - [11/May/2025 19:45:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:45:15,517 - INFO - 127.0.0.1 - - [11/May/2025 19:45:15] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:45:15,534 - INFO - 127.0.0.1 - - [11/May/2025 19:45:15] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:45:15,556 - INFO - 127.0.0.1 - - [11/May/2025 19:45:15] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:45:15,677 - INFO - 127.0.0.1 - - [11/May/2025 19:45:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:45:17,380 - INFO - 127.0.0.1 - - [11/May/2025 19:45:17] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:45:17,452 - INFO - 127.0.0.1 - - [11/May/2025 19:45:17] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:45:17,478 - INFO - 127.0.0.1 - - [11/May/2025 19:45:17] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 19:45:17,565 - INFO - 127.0.0.1 - - [11/May/2025 19:45:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:49:06,976 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 19:49:18,669 - INFO - No cookie button found
+2025-05-11 19:49:18,727 - INFO - Waiting for reviews to load...
+2025-05-11 19:49:18,761 - INFO - Review elements found
+2025-05-11 19:49:22,372 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-11 19:49:22,927 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-11 19:49:23,552 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-11 19:49:24,103 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-11 19:49:24,850 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-11 19:49:25,389 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-11 19:49:26,101 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-11 19:49:26,637 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-11 19:49:27,295 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-11 19:49:27,942 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-11 19:49:28,156 - INFO - Added 10 reviews (Total: 10)
+2025-05-11 19:49:58,344 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-11 19:49:59,058 - INFO - 127.0.0.1 - - [11/May/2025 19:49:59] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 19:49:59,111 - INFO - 127.0.0.1 - - [11/May/2025 19:49:59] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 19:49:59,257 - INFO - 127.0.0.1 - - [11/May/2025 19:49:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:51:20,016 - INFO - 127.0.0.1 - - [11/May/2025 19:51:20] "[32mPOST /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 19:51:20,139 - INFO - 127.0.0.1 - - [11/May/2025 19:51:20] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-11 19:51:20,254 - INFO - 127.0.0.1 - - [11/May/2025 19:51:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:51:24,606 - INFO - 127.0.0.1 - - [11/May/2025 19:51:24] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-11 19:51:26,852 - INFO - 127.0.0.1 - - [11/May/2025 19:51:26] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-11 19:51:26,946 - INFO - 127.0.0.1 - - [11/May/2025 19:51:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 19:52:03,684 - INFO - 127.0.0.1 - - [11/May/2025 19:52:03] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-11 19:52:03,793 - INFO - 127.0.0.1 - - [11/May/2025 19:52:03] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 19:52:05,156 - INFO - 127.0.0.1 - - [11/May/2025 19:52:05] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 20:07:23,408 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\core.py', reloading
+2025-05-11 20:12:00,240 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 20:12:00,242 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 20:12:00,248 - INFO -  * Restarting with stat
+2025-05-11 20:12:05,400 - WARNING -  * Debugger is active!
+2025-05-11 20:12:05,423 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 20:12:20,796 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 20:12:32,973 - INFO - No cookie button found
+2025-05-11 20:12:33,020 - INFO - Waiting for reviews to load...
+2025-05-11 20:12:33,066 - INFO - Review elements found
+2025-05-11 20:12:36,601 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-11 20:12:37,132 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-11 20:12:37,756 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-11 20:12:38,271 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-11 20:12:38,821 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-11 20:12:39,393 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-11 20:12:39,967 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-11 20:12:40,598 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-11 20:12:41,180 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-11 20:12:41,815 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-11 20:12:41,995 - INFO - Added 10 reviews (Total: 10)
+2025-05-11 20:13:12,147 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-11 20:13:13,152 - INFO - 127.0.0.1 - - [11/May/2025 20:13:13] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 20:13:13,298 - INFO - 127.0.0.1 - - [11/May/2025 20:13:13] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 20:13:13,542 - INFO - 127.0.0.1 - - [11/May/2025 20:13:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:13:24,876 - INFO - 127.0.0.1 - - [11/May/2025 20:13:24] "[32mPOST /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 20:13:25,005 - INFO - 127.0.0.1 - - [11/May/2025 20:13:25] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-11 20:13:25,422 - INFO - 127.0.0.1 - - [11/May/2025 20:13:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:15:27,189 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-11 20:15:27,718 - INFO -  * Restarting with stat
+2025-05-11 20:15:33,080 - WARNING -  * Debugger is active!
+2025-05-11 20:15:33,094 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 20:15:39,402 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-11 20:15:39,844 - INFO -  * Restarting with stat
+2025-05-11 20:15:44,787 - WARNING -  * Debugger is active!
+2025-05-11 20:15:44,818 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 20:15:47,752 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-11 20:15:48,132 - INFO -  * Restarting with stat
+2025-05-11 20:15:52,392 - WARNING -  * Debugger is active!
+2025-05-11 20:15:52,405 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 20:16:22,497 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\core.py', reloading
+2025-05-11 20:16:22,894 - INFO -  * Restarting with stat
+2025-05-11 20:16:26,585 - WARNING -  * Debugger is active!
+2025-05-11 20:16:26,597 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 20:16:34,822 - INFO - 127.0.0.1 - - [11/May/2025 20:16:34] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 20:16:35,666 - INFO - 127.0.0.1 - - [11/May/2025 20:16:35] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 20:16:46,385 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 20:16:58,203 - INFO - No cookie button found
+2025-05-11 20:16:58,287 - INFO - Waiting for reviews to load...
+2025-05-11 20:16:58,369 - INFO - Review elements found
+2025-05-11 20:17:01,431 - ERROR - Error during scraping: Page.query_selector_all: Target page, context or browser has been closed
+2025-05-11 20:17:02,234 - INFO - 127.0.0.1 - - [11/May/2025 20:17:02] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 20:17:02,248 - INFO - 127.0.0.1 - - [11/May/2025 20:17:02] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 20:17:02,282 - INFO - 127.0.0.1 - - [11/May/2025 20:17:02] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 20:17:02,539 - INFO - 127.0.0.1 - - [11/May/2025 20:17:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:17:15,929 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 20:17:27,692 - INFO - No cookie button found
+2025-05-11 20:17:27,781 - ERROR - Error during scraping: Page.query_selector: Target page, context or browser has been closed
+2025-05-11 20:17:28,522 - INFO - 127.0.0.1 - - [11/May/2025 20:17:28] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 20:17:28,533 - INFO - 127.0.0.1 - - [11/May/2025 20:17:28] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 20:17:28,554 - INFO - 127.0.0.1 - - [11/May/2025 20:17:28] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 20:17:28,665 - INFO - 127.0.0.1 - - [11/May/2025 20:17:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:23:58,550 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 20:23:58,551 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 20:23:58,555 - INFO -  * Restarting with stat
+2025-05-11 20:24:00,868 - WARNING -  * Debugger is active!
+2025-05-11 20:24:00,877 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 20:24:32,460 - INFO - 127.0.0.1 - - [11/May/2025 20:24:32] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-11 20:24:32,687 - INFO - 127.0.0.1 - - [11/May/2025 20:24:32] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 20:24:32,779 - INFO - 127.0.0.1 - - [11/May/2025 20:24:32] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 20:24:33,085 - INFO - 127.0.0.1 - - [11/May/2025 20:24:33] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-11 20:24:35,444 - INFO - 127.0.0.1 - - [11/May/2025 20:24:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-11 20:25:08,977 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-training-club-app/review
+2025-05-11 20:25:20,916 - INFO - No cookie button found
+2025-05-11 20:25:20,935 - INFO - Waiting for reviews to load...
+2025-05-11 20:25:50,958 - WARNING - No review elements found after waiting
+2025-05-11 20:25:51,024 - INFO - Saved page HTML to 'page_content.html' for debugging
+2025-05-11 20:25:51,807 - INFO - 127.0.0.1 - - [11/May/2025 20:25:51] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 20:25:51,839 - INFO - 127.0.0.1 - - [11/May/2025 20:25:51] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 20:25:51,870 - INFO - 127.0.0.1 - - [11/May/2025 20:25:51] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 20:25:52,116 - INFO - 127.0.0.1 - - [11/May/2025 20:25:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:27:12,804 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-11 20:27:24,934 - INFO - No cookie button found
+2025-05-11 20:27:24,958 - INFO - Waiting for reviews to load...
+2025-05-11 20:27:24,987 - INFO - Review elements found
+2025-05-11 20:27:28,753 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-11 20:27:29,213 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-11 20:27:29,620 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-11 20:27:30,046 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-11 20:27:30,412 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-11 20:27:30,812 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-11 20:27:31,204 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-11 20:27:31,635 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-11 20:27:32,018 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-11 20:27:32,401 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-11 20:27:32,480 - INFO - Added 10 reviews (Total: 10)
+2025-05-11 20:28:01,546 - WARNING - Error loading more: ElementHandle.click: Target page, context or browser has been closed
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    13 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+2025-05-11 20:28:02,090 - INFO - 127.0.0.1 - - [11/May/2025 20:28:02] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 20:28:02,196 - INFO - 127.0.0.1 - - [11/May/2025 20:28:02] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 20:28:02,326 - INFO - 127.0.0.1 - - [11/May/2025 20:28:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:28:11,736 - INFO - 127.0.0.1 - - [11/May/2025 20:28:11] "[32mPOST /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 20:28:11,777 - INFO - 127.0.0.1 - - [11/May/2025 20:28:11] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-11 20:28:11,845 - INFO - 127.0.0.1 - - [11/May/2025 20:28:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:28:15,262 - INFO - 127.0.0.1 - - [11/May/2025 20:28:15] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-11 20:28:18,708 - INFO - 127.0.0.1 - - [11/May/2025 20:28:18] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-11 20:28:18,770 - INFO - 127.0.0.1 - - [11/May/2025 20:28:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:38:19,063 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 20:38:19,065 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 20:38:19,068 - INFO -  * Restarting with stat
+2025-05-11 20:38:21,158 - WARNING -  * Debugger is active!
+2025-05-11 20:38:21,167 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 20:38:23,620 - INFO - 127.0.0.1 - - [11/May/2025 20:38:23] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-11 20:38:23,641 - INFO - 127.0.0.1 - - [11/May/2025 20:38:23] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 20:38:23,722 - INFO - 127.0.0.1 - - [11/May/2025 20:38:23] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 20:38:23,923 - INFO - 127.0.0.1 - - [11/May/2025 20:38:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:38:48,136 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-11 20:39:00,247 - INFO - No cookie button found
+2025-05-11 20:39:00,279 - INFO - Waiting for reviews to load...
+2025-05-11 20:39:00,307 - INFO - Review elements found
+2025-05-11 20:39:03,678 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-11 20:39:04,064 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-11 20:39:04,496 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-11 20:39:04,939 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-11 20:39:05,316 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-11 20:39:05,746 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-11 20:39:06,129 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-11 20:39:06,496 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-11 20:39:06,872 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-11 20:39:07,246 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-11 20:39:07,320 - INFO - Added 10 reviews (Total: 10)
+2025-05-11 20:39:37,390 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-11 20:39:38,043 - INFO - 127.0.0.1 - - [11/May/2025 20:39:38] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 20:39:39,325 - INFO - 127.0.0.1 - - [11/May/2025 20:39:39] "[35m[1mGET /view_csv HTTP/1.1[0m" 500 -
+2025-05-11 20:39:39,840 - INFO - 127.0.0.1 - - [11/May/2025 20:39:39] "GET /view_csv?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-11 20:39:40,105 - INFO - 127.0.0.1 - - [11/May/2025 20:39:40] "GET /view_csv?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-11 20:39:40,200 - INFO - 127.0.0.1 - - [11/May/2025 20:39:40] "GET /view_csv?__debugger__=yes&cmd=resource&f=console.png&s=OORvfXSehN600yi5pJx7 HTTP/1.1" 200 -
+2025-05-11 20:39:40,292 - INFO - 127.0.0.1 - - [11/May/2025 20:39:40] "GET /view_csv?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-11 20:41:19,873 - INFO - 127.0.0.1 - - [11/May/2025 20:41:19] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 20:41:19,926 - INFO - 127.0.0.1 - - [11/May/2025 20:41:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:42:56,501 - INFO - 127.0.0.1 - - [11/May/2025 20:42:56] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 20:43:19,851 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-11 20:43:32,087 - INFO - No cookie button found
+2025-05-11 20:43:32,112 - INFO - Waiting for reviews to load...
+2025-05-11 20:43:32,147 - INFO - Review elements found
+2025-05-11 20:43:35,179 - ERROR - Error during scraping: Page.query_selector_all: Target page, context or browser has been closed
+2025-05-11 20:43:35,606 - INFO - 127.0.0.1 - - [11/May/2025 20:43:35] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 20:43:35,621 - INFO - 127.0.0.1 - - [11/May/2025 20:43:35] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 20:43:35,709 - INFO - 127.0.0.1 - - [11/May/2025 20:43:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:45:16,443 - INFO - 127.0.0.1 - - [11/May/2025 20:45:16] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 20:47:43,579 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-11 20:47:55,604 - INFO - No cookie button found
+2025-05-11 20:47:55,629 - INFO - Waiting for reviews to load...
+2025-05-11 20:47:55,660 - INFO - Review elements found
+2025-05-11 20:47:59,035 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-11 20:47:59,446 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-11 20:47:59,875 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-11 20:48:00,303 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-11 20:48:00,696 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-11 20:48:01,190 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-11 20:48:01,700 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-11 20:48:02,197 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-11 20:48:02,655 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-11 20:48:03,052 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-11 20:48:03,148 - INFO - Added 10 reviews (Total: 10)
+2025-05-11 20:48:33,245 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-11 20:48:36,688 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 20:48:48,562 - INFO - No cookie button found
+2025-05-11 20:48:48,581 - INFO - Waiting for reviews to load...
+2025-05-11 20:48:48,615 - INFO - Review elements found
+2025-05-11 20:48:51,971 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-11 20:48:52,360 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-11 20:48:52,734 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-11 20:48:53,106 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-11 20:48:53,474 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-11 20:48:53,847 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-11 20:48:54,240 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-11 20:48:54,643 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-11 20:48:55,030 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-11 20:48:55,408 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-11 20:48:55,482 - INFO - Added 10 reviews (Total: 10)
+2025-05-11 20:49:25,570 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-11 20:49:26,753 - INFO - 127.0.0.1 - - [11/May/2025 20:49:26] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 20:49:26,771 - INFO - 127.0.0.1 - - [11/May/2025 20:49:26] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 20:49:26,919 - INFO - 127.0.0.1 - - [11/May/2025 20:49:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:49:48,797 - INFO - 127.0.0.1 - - [11/May/2025 20:49:48] "[32mPOST /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 20:49:48,855 - INFO - 127.0.0.1 - - [11/May/2025 20:49:48] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-11 20:49:48,915 - INFO - 127.0.0.1 - - [11/May/2025 20:49:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:49:51,250 - INFO - 127.0.0.1 - - [11/May/2025 20:49:51] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-11 20:49:52,053 - INFO - 127.0.0.1 - - [11/May/2025 20:49:52] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-11 20:49:52,106 - INFO - 127.0.0.1 - - [11/May/2025 20:49:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:50:07,246 - INFO - 127.0.0.1 - - [11/May/2025 20:50:07] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-11 20:50:08,148 - INFO - 127.0.0.1 - - [11/May/2025 20:50:08] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 20:53:31,492 - INFO - 127.0.0.1 - - [11/May/2025 20:53:31] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 20:53:31,547 - INFO - 127.0.0.1 - - [11/May/2025 20:53:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:53:38,148 - INFO - 127.0.0.1 - - [11/May/2025 20:53:38] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 20:54:13,505 - INFO - 127.0.0.1 - - [11/May/2025 20:54:13] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 20:54:13,516 - INFO - 127.0.0.1 - - [11/May/2025 20:54:13] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 20:54:13,580 - INFO - 127.0.0.1 - - [11/May/2025 20:54:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:54:27,235 - INFO - 127.0.0.1 - - [11/May/2025 20:54:27] "[32mPOST /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 20:57:39,879 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 20:57:39,880 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 20:57:39,887 - INFO -  * Restarting with stat
+2025-05-11 20:57:43,252 - WARNING -  * Debugger is active!
+2025-05-11 20:57:43,261 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 20:57:48,580 - INFO - 127.0.0.1 - - [11/May/2025 20:57:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-11 20:57:48,671 - INFO - 127.0.0.1 - - [11/May/2025 20:57:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 20:57:48,833 - INFO - 127.0.0.1 - - [11/May/2025 20:57:48] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 20:57:49,058 - INFO - 127.0.0.1 - - [11/May/2025 20:57:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:57:55,405 - INFO - 127.0.0.1 - - [11/May/2025 20:57:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:57:55,444 - INFO - 127.0.0.1 - - [11/May/2025 20:57:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-11 20:58:03,985 - INFO - 127.0.0.1 - - [11/May/2025 20:58:03] "[32mGET /select_products HTTP/1.1[0m" 302 -
+2025-05-11 20:58:04,021 - INFO - 127.0.0.1 - - [11/May/2025 20:58:04] "GET /login HTTP/1.1" 200 -
+2025-05-11 20:58:04,140 - INFO - 127.0.0.1 - - [11/May/2025 20:58:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-11 20:58:14,207 - INFO - 127.0.0.1 - - [11/May/2025 20:58:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-11 20:58:14,221 - INFO - 127.0.0.1 - - [11/May/2025 20:58:14] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 20:58:14,305 - INFO - 127.0.0.1 - - [11/May/2025 20:58:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:58:22,950 - INFO - 127.0.0.1 - - [11/May/2025 20:58:22] "GET /admin HTTP/1.1" 200 -
+2025-05-11 20:58:23,019 - INFO - 127.0.0.1 - - [11/May/2025 20:58:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:58:34,315 - INFO - 127.0.0.1 - - [11/May/2025 20:58:34] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 20:58:34,381 - INFO - 127.0.0.1 - - [11/May/2025 20:58:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 20:59:21,026 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-11 20:59:33,867 - INFO - No cookie button found
+2025-05-11 20:59:33,896 - INFO - Waiting for reviews to load...
+2025-05-11 20:59:33,932 - INFO - Review elements found
+2025-05-11 20:59:37,325 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-11 20:59:37,760 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-11 20:59:38,187 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-11 20:59:38,624 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-11 20:59:39,074 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-11 20:59:39,512 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-11 20:59:39,920 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-11 20:59:40,373 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-11 20:59:40,798 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-11 20:59:41,242 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-11 20:59:41,370 - INFO - Added 10 reviews (Total: 10)
+2025-05-11 21:00:07,076 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-11 21:00:11,545 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-11 21:00:15,501 - INFO - 127.0.0.1 - - [11/May/2025 21:00:15] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 21:00:19,007 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-11 21:00:19,813 - INFO - No cookie button found
+2025-05-11 21:00:19,903 - INFO - Waiting for reviews to load...
+2025-05-11 21:00:19,951 - INFO - Review elements found
+2025-05-11 21:00:23,595 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-11 21:00:24,173 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-11 21:00:25,099 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-11 21:00:25,745 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-11 21:00:26,472 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-11 21:00:27,295 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-11 21:00:27,860 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-11 21:00:28,445 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-11 21:00:28,967 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-11 21:00:29,479 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-11 21:00:29,616 - INFO - Added 10 reviews (Total: 10)
+2025-05-11 21:00:31,690 - INFO - No cookie button found
+2025-05-11 21:00:31,730 - INFO - Waiting for reviews to load...
+2025-05-11 21:00:31,778 - INFO - Review elements found
+2025-05-11 21:00:35,322 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-11 21:00:35,786 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-11 21:00:36,314 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-11 21:00:36,838 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-11 21:00:37,345 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-11 21:00:37,877 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-11 21:00:38,422 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-11 21:00:38,899 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-11 21:00:39,323 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-11 21:00:39,841 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-11 21:00:40,072 - INFO - Added 10 reviews (Total: 10)
+2025-05-11 21:00:59,858 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-11 21:01:00,303 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-11 21:01:00,739 - ERROR - Error during scraping: Page.goto: net::ERR_CERT_VERIFIER_CHANGED at https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+Call log:
+  - navigating to "https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews", waiting until "load"
+
+2025-05-11 21:01:03,063 - WARNING - Error loading more: ElementHandle.click: Target page, context or browser has been closed
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    9 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
+2025-05-11 21:01:04,057 - INFO - 127.0.0.1 - - [11/May/2025 21:01:04] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 21:01:04,073 - INFO - 127.0.0.1 - - [11/May/2025 21:01:04] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 21:01:04,090 - INFO - 127.0.0.1 - - [11/May/2025 21:01:04] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 21:01:04,092 - INFO - 127.0.0.1 - - [11/May/2025 21:01:04] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 21:01:04,168 - INFO - 127.0.0.1 - - [11/May/2025 21:01:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 21:01:04,416 - INFO - 127.0.0.1 - - [11/May/2025 21:01:04] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 21:01:05,488 - INFO - 127.0.0.1 - - [11/May/2025 21:01:05] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 21:01:05,503 - INFO - 127.0.0.1 - - [11/May/2025 21:01:05] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 21:01:05,520 - INFO - 127.0.0.1 - - [11/May/2025 21:01:05] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 21:01:05,573 - INFO - 127.0.0.1 - - [11/May/2025 21:01:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 21:01:15,501 - INFO - 127.0.0.1 - - [11/May/2025 21:01:15] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 21:01:15,511 - INFO - 127.0.0.1 - - [11/May/2025 21:01:15] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 21:01:15,524 - INFO - 127.0.0.1 - - [11/May/2025 21:01:15] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 21:01:15,597 - INFO - 127.0.0.1 - - [11/May/2025 21:01:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 21:01:18,218 - INFO - 127.0.0.1 - - [11/May/2025 21:01:18] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 21:01:18,231 - INFO - 127.0.0.1 - - [11/May/2025 21:01:18] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 21:01:18,251 - INFO - 127.0.0.1 - - [11/May/2025 21:01:18] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 21:01:18,313 - INFO - 127.0.0.1 - - [11/May/2025 21:01:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 21:01:19,690 - INFO - 127.0.0.1 - - [11/May/2025 21:01:19] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 21:01:19,712 - INFO - 127.0.0.1 - - [11/May/2025 21:01:19] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 21:01:19,721 - INFO - 127.0.0.1 - - [11/May/2025 21:01:19] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 21:01:19,788 - INFO - 127.0.0.1 - - [11/May/2025 21:01:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 21:01:27,370 - INFO - 127.0.0.1 - - [11/May/2025 21:01:27] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 21:01:27,384 - INFO - 127.0.0.1 - - [11/May/2025 21:01:27] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 21:01:27,399 - INFO - 127.0.0.1 - - [11/May/2025 21:01:27] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 21:01:27,468 - INFO - 127.0.0.1 - - [11/May/2025 21:01:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 21:01:30,756 - INFO - 127.0.0.1 - - [11/May/2025 21:01:30] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 21:01:30,774 - INFO - 127.0.0.1 - - [11/May/2025 21:01:30] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 21:01:30,800 - INFO - 127.0.0.1 - - [11/May/2025 21:01:30] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 21:01:30,856 - INFO - 127.0.0.1 - - [11/May/2025 21:01:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 21:02:03,524 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 21:02:15,278 - INFO - No cookie button found
+2025-05-11 21:02:15,309 - INFO - Waiting for reviews to load...
+2025-05-11 21:02:15,345 - INFO - Review elements found
+2025-05-11 21:02:18,785 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-11 21:02:19,199 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-11 21:02:19,695 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-11 21:02:20,199 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-11 21:02:20,641 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-11 21:02:21,123 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-11 21:02:21,560 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-11 21:02:22,067 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-11 21:02:22,545 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-11 21:02:23,001 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-11 21:02:23,112 - INFO - Added 10 reviews (Total: 10)
+2025-05-11 21:02:28,833 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-11 21:02:29,446 - INFO -  * Restarting with stat
+2025-05-11 21:02:32,947 - WARNING -  * Debugger is active!
+2025-05-11 21:02:32,965 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 21:03:58,220 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-11 21:03:58,494 - INFO -  * Restarting with stat
+2025-05-11 21:04:01,501 - WARNING -  * Debugger is active!
+2025-05-11 21:04:01,516 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 21:05:35,302 - INFO - Starting review scraping...
+2025-05-11 21:05:49,546 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 21:06:01,340 - INFO - No cookie button found
+2025-05-11 21:06:01,360 - INFO - Waiting for reviews to load...
+2025-05-11 21:06:01,392 - INFO - Review elements found
+2025-05-11 21:06:04,760 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-11 21:06:05,172 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-11 21:06:05,562 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-11 21:06:05,952 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-11 21:06:06,341 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-11 21:06:06,706 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-11 21:06:07,090 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-11 21:06:07,453 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-11 21:06:07,827 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-11 21:06:08,205 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-11 21:06:08,283 - INFO - Added 10 reviews (Total: 10)
+2025-05-11 21:06:38,337 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-11 21:06:39,327 - INFO - Saved 10 reviews to csvlist\influenster_reviews_20250511_210639.csv
+2025-05-11 21:12:29,985 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 21:12:29,986 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 21:12:29,989 - INFO -  * Restarting with stat
+2025-05-11 21:12:32,377 - WARNING -  * Debugger is active!
+2025-05-11 21:12:32,385 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 21:12:32,983 - INFO - 127.0.0.1 - - [11/May/2025 21:12:32] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-11 21:12:33,006 - INFO - 127.0.0.1 - - [11/May/2025 21:12:33] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-11 21:12:33,258 - INFO - 127.0.0.1 - - [11/May/2025 21:12:33] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 21:12:33,512 - INFO - 127.0.0.1 - - [11/May/2025 21:12:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 21:12:43,006 - INFO - 127.0.0.1 - - [11/May/2025 21:12:43] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 21:12:43,023 - INFO - 127.0.0.1 - - [11/May/2025 21:12:43] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 21:12:43,038 - INFO - 127.0.0.1 - - [11/May/2025 21:12:43] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 21:12:43,110 - INFO - 127.0.0.1 - - [11/May/2025 21:12:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 21:12:46,116 - INFO - 127.0.0.1 - - [11/May/2025 21:12:46] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 21:12:46,128 - INFO - 127.0.0.1 - - [11/May/2025 21:12:46] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 21:12:46,142 - INFO - 127.0.0.1 - - [11/May/2025 21:12:46] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 21:12:46,203 - INFO - 127.0.0.1 - - [11/May/2025 21:12:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 21:12:49,926 - INFO - 127.0.0.1 - - [11/May/2025 21:12:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 21:12:49,983 - INFO - 127.0.0.1 - - [11/May/2025 21:12:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-11 21:13:44,412 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-11 21:13:56,484 - INFO - No cookie button found
+2025-05-11 21:13:56,519 - INFO - Waiting for reviews to load...
+2025-05-11 21:13:56,588 - INFO - Review elements found
+2025-05-11 21:13:59,998 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-11 21:14:00,412 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-11 21:14:00,795 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-11 21:14:01,202 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-11 21:14:01,604 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-11 21:14:01,989 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-11 21:14:02,391 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-11 21:14:02,788 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-11 21:14:03,174 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-11 21:14:03,586 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-11 21:14:03,666 - INFO - Added 10 reviews (Total: 10)
+2025-05-11 21:14:33,741 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-11 21:14:34,403 - INFO - 127.0.0.1 - - [11/May/2025 21:14:34] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-11 21:14:34,430 - INFO - 127.0.0.1 - - [11/May/2025 21:14:34] "GET /view_csv HTTP/1.1" 200 -
+2025-05-11 21:14:34,490 - INFO - 127.0.0.1 - - [11/May/2025 21:14:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 21:15:14,268 - INFO - 127.0.0.1 - - [11/May/2025 21:15:14] "[32mPOST /view_csv HTTP/1.1[0m" 302 -
+2025-05-11 21:15:14,336 - INFO - 127.0.0.1 - - [11/May/2025 21:15:14] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-11 21:15:14,407 - INFO - 127.0.0.1 - - [11/May/2025 21:15:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 21:15:23,038 - INFO - 127.0.0.1 - - [11/May/2025 21:15:23] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-11 21:15:24,489 - INFO - 127.0.0.1 - - [11/May/2025 21:15:24] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-11 21:15:24,549 - INFO - 127.0.0.1 - - [11/May/2025 21:15:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 21:15:49,591 - INFO - 127.0.0.1 - - [11/May/2025 21:15:49] "[32mPOST /word_cloud HTTP/1.1[0m" 302 -
+2025-05-11 21:15:49,610 - INFO - 127.0.0.1 - - [11/May/2025 21:15:49] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 21:15:49,675 - INFO - 127.0.0.1 - - [11/May/2025 21:15:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 21:25:41,848 - INFO - Loading product page: https://www.amazon.in/product-reviews/B07L1SP25K/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews  
+2025-05-11 21:25:43,620 - INFO - Please login manually in the browser window
+2025-05-11 21:25:44,303 - ERROR - Critical error: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for navigation to "<function ImplToApiMapping.wrap_handler.<locals>.wrapper_func at 0x000002120CD1AD40>" until 'load'
+============================================================
+2025-05-11 21:25:44,350 - ERROR - Could not take screenshot
+2025-05-11 21:25:52,711 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-11 21:25:52,712 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 21:25:52,718 - INFO -  * Restarting with stat
+2025-05-11 21:25:55,574 - WARNING -  * Debugger is active!
+2025-05-11 21:25:55,594 - INFO -  * Debugger PIN: 128-684-199
+2025-05-11 21:25:59,030 - INFO - 127.0.0.1 - - [11/May/2025 21:25:59] "GET /select_products HTTP/1.1" 200 -
+2025-05-11 21:25:59,363 - INFO - 127.0.0.1 - - [11/May/2025 21:25:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-11 21:26:53,139 - INFO - 127.0.0.1 - - [11/May/2025 21:26:53] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2025-05-12 16:58:21,543 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 16:58:21,544 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-12 16:58:21,549 - INFO -  * Restarting with stat
+2025-05-12 16:58:24,291 - WARNING -  * Debugger is active!
+2025-05-12 16:58:24,303 - INFO -  * Debugger PIN: 220-965-795
+2025-05-12 16:58:25,124 - INFO - 127.0.0.1 - - [12/May/2025 16:58:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-12 16:58:25,283 - INFO - 127.0.0.1 - - [12/May/2025 16:58:25] "GET /login HTTP/1.1" 200 -
+2025-05-12 16:58:28,778 - INFO - 127.0.0.1 - - [12/May/2025 16:58:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-12 16:58:42,728 - INFO - 127.0.0.1 - - [12/May/2025 16:58:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-12 16:58:42,988 - INFO - 127.0.0.1 - - [12/May/2025 16:58:42] "[35m[1mGET /select_products HTTP/1.1[0m" 500 -
+2025-05-12 16:58:43,263 - INFO - 127.0.0.1 - - [12/May/2025 16:58:43] "GET /select_products?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-12 16:58:43,299 - INFO - 127.0.0.1 - - [12/May/2025 16:58:43] "GET /select_products?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-12 16:58:43,387 - INFO - 127.0.0.1 - - [12/May/2025 16:58:43] "GET /select_products?__debugger__=yes&cmd=resource&f=console.png&s=CNfQC2JGfz6OZv36zAbX HTTP/1.1" 200 -
+2025-05-12 16:58:43,537 - INFO - 127.0.0.1 - - [12/May/2025 16:58:43] "GET /select_products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-12 16:59:36,664 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-12 16:59:36,968 - INFO -  * Restarting with stat
+2025-05-12 16:59:40,817 - WARNING -  * Debugger is active!
+2025-05-12 16:59:40,836 - INFO -  * Debugger PIN: 220-965-795
+2025-05-12 17:01:37,236 - INFO - 127.0.0.1 - - [12/May/2025 17:01:37] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-05-12 17:01:37,486 - INFO - 127.0.0.1 - - [12/May/2025 17:01:37] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-12 17:01:37,503 - INFO - 127.0.0.1 - - [12/May/2025 17:01:37] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-12 17:01:37,548 - INFO - 127.0.0.1 - - [12/May/2025 17:01:37] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=aYGcxjwtA1MNVa5dQjJr HTTP/1.1" 200 -
+2025-05-12 17:01:37,721 - INFO - 127.0.0.1 - - [12/May/2025 17:01:37] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-12 17:02:04,367 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-12 17:02:04,719 - INFO -  * Restarting with stat
+2025-05-12 17:02:07,749 - WARNING -  * Debugger is active!
+2025-05-12 17:02:07,759 - INFO -  * Debugger PIN: 220-965-795
+2025-05-12 17:02:20,174 - INFO - 127.0.0.1 - - [12/May/2025 17:02:20] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-05-12 17:02:23,221 - INFO - 127.0.0.1 - - [12/May/2025 17:02:23] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-12 17:02:23,236 - INFO - 127.0.0.1 - - [12/May/2025 17:02:23] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-12 17:02:23,285 - INFO - 127.0.0.1 - - [12/May/2025 17:02:23] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:03:05,132 - INFO - 127.0.0.1 - - [12/May/2025 17:03:05] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:03:05,301 - INFO - 127.0.0.1 - - [12/May/2025 17:03:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-12 17:03:09,494 - INFO - 127.0.0.1 - - [12/May/2025 17:03:09] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-12 17:03:09,511 - INFO - 127.0.0.1 - - [12/May/2025 17:03:09] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:03:09,642 - INFO - 127.0.0.1 - - [12/May/2025 17:03:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:06:08,852 - INFO - 127.0.0.1 - - [12/May/2025 17:06:08] "[35m[1mGET /select_products HTTP/1.1[0m" 500 -
+2025-05-12 17:06:08,933 - INFO - 127.0.0.1 - - [12/May/2025 17:06:08] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:06:08,947 - INFO - 127.0.0.1 - - [12/May/2025 17:06:08] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-12 17:06:09,499 - INFO - 127.0.0.1 - - [12/May/2025 17:06:09] "GET /select_products?__debugger__=yes&cmd=resource&f=console.png&s=UWuWjnKoyDCNtJrbaxf8 HTTP/1.1" 200 -
+2025-05-12 17:06:09,658 - INFO - 127.0.0.1 - - [12/May/2025 17:06:09] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-12 17:06:13,164 - INFO - 127.0.0.1 - - [12/May/2025 17:06:13] "[35m[1mGET /select_products HTTP/1.1[0m" 500 -
+2025-05-12 17:06:13,229 - INFO - 127.0.0.1 - - [12/May/2025 17:06:13] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:06:13,232 - INFO - 127.0.0.1 - - [12/May/2025 17:06:13] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-12 17:06:13,319 - INFO - 127.0.0.1 - - [12/May/2025 17:06:13] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=console.png&s=UWuWjnKoyDCNtJrbaxf8 HTTP/1.1[0m" 304 -
+2025-05-12 17:06:13,447 - INFO - 127.0.0.1 - - [12/May/2025 17:06:13] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-12 17:06:27,495 - INFO - 127.0.0.1 - - [12/May/2025 17:06:27] "[35m[1mGET /select_products HTTP/1.1[0m" 500 -
+2025-05-12 17:06:27,591 - INFO - 127.0.0.1 - - [12/May/2025 17:06:27] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:06:27,603 - INFO - 127.0.0.1 - - [12/May/2025 17:06:27] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-12 17:06:27,696 - INFO - 127.0.0.1 - - [12/May/2025 17:06:27] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=console.png&s=UWuWjnKoyDCNtJrbaxf8 HTTP/1.1[0m" 304 -
+2025-05-12 17:06:27,872 - INFO - 127.0.0.1 - - [12/May/2025 17:06:27] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-12 17:06:29,940 - INFO - 127.0.0.1 - - [12/May/2025 17:06:29] "[35m[1mGET /select_products HTTP/1.1[0m" 500 -
+2025-05-12 17:06:30,014 - INFO - 127.0.0.1 - - [12/May/2025 17:06:30] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:06:30,042 - INFO - 127.0.0.1 - - [12/May/2025 17:06:30] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-12 17:06:30,107 - INFO - 127.0.0.1 - - [12/May/2025 17:06:30] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=console.png&s=UWuWjnKoyDCNtJrbaxf8 HTTP/1.1[0m" 304 -
+2025-05-12 17:06:30,289 - INFO - 127.0.0.1 - - [12/May/2025 17:06:30] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-12 17:07:10,337 - INFO - 127.0.0.1 - - [12/May/2025 17:07:10] "[35m[1mGET /select_products HTTP/1.1[0m" 500 -
+2025-05-12 17:07:10,412 - INFO - 127.0.0.1 - - [12/May/2025 17:07:10] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:07:10,421 - INFO - 127.0.0.1 - - [12/May/2025 17:07:10] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-12 17:07:10,514 - INFO - 127.0.0.1 - - [12/May/2025 17:07:10] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=console.png&s=UWuWjnKoyDCNtJrbaxf8 HTTP/1.1[0m" 304 -
+2025-05-12 17:07:10,695 - INFO - 127.0.0.1 - - [12/May/2025 17:07:10] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-12 17:08:02,173 - INFO - 127.0.0.1 - - [12/May/2025 17:08:02] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:08:42,404 - INFO - 127.0.0.1 - - [12/May/2025 17:08:42] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:08:48,860 - INFO - 127.0.0.1 - - [12/May/2025 17:08:48] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:08:52,941 - INFO - 127.0.0.1 - - [12/May/2025 17:08:52] "GET /admin HTTP/1.1" 200 -
+2025-05-12 17:08:54,626 - INFO - 127.0.0.1 - - [12/May/2025 17:08:54] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:09:11,465 - INFO - 127.0.0.1 - - [12/May/2025 17:09:11] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:09:38,987 - INFO - 127.0.0.1 - - [12/May/2025 17:09:38] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:09:39,056 - INFO - 127.0.0.1 - - [12/May/2025 17:09:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
