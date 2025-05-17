@@ -12,7 +12,7 @@ from core import scrape_amazon_reviews
 from influenster import scrape_reviews as scrape_influenster_reviews
 from flask_cors import CORS
 from utils.text_processing import count_sentences, count_words
-from utils.visualization import generate_wordcloud
+from utils.visualization import generate_wordcloud, generate_sentiment_chart
 import os
 from datetime import datetime
 import csv
@@ -252,7 +252,15 @@ def view_csv():
 @app.route('/sentiment_analysis', methods=['GET', 'POST'])
 @login_required
 def sentiment_analysis():
-    products = session.get('products', [])
+    # Load products from session file
+    session_data = load_session_data(session['user'])
+    if not session_data or 'products' not in session_data:
+        flash('No product data found. Please add products first.')
+        return redirect(url_for('select_products'))
+    
+    products = session_data['products']
+    
+    # Process sentiment analysis
     for product in products:
         rows = product['data']
         pos, neg = 0, 0
@@ -264,21 +272,51 @@ def sentiment_analysis():
             else:
                 neg += 1
         product['sentiment'] = {'positive': pos, 'negative': neg}
+        # Generate sentiment chart
+        product['sentiment_chart'] = generate_sentiment_chart(pos, neg)
+    
+    # Save updated products back to session
+    session_data['products'] = products
+    save_session_data(session['user'], session_data)
+    
     if request.method == 'POST':
+        # If coming from view_csv, stay on sentiment analysis page
+        if request.form.get('from_view_csv'):
+            return render_template('sentiment_analysis.html', products=products)
+        # If coming from sentiment analysis page, go to word cloud
         return redirect(url_for('word_cloud'))
+    
     return render_template('sentiment_analysis.html', products=products)
 
 @app.route('/word_cloud', methods=['GET', 'POST'])
 @login_required
 def word_cloud():
-    products = session.get('products', [])
+    # Load products from session file
+    session_data = load_session_data(session['user'])
+    if not session_data or 'products' not in session_data:
+        flash('No product data found. Please add products first.')
+        return redirect(url_for('select_products'))
+    
+    products = session_data['products']
+    
+    # Generate word clouds
     for product in products:
         rows = product['data']
         texts = [str(row.get('review_text', '') or row.get('text', '')) for row in rows]
-        product['wordcloud'] = generate_wordcloud(' '.join(texts))
+        product['wordcloud'] = generate_wordcloud(' '.join(texts), title=product['name'])
+    
+    # Save updated products back to session
+    session_data['products'] = products
+    save_session_data(session['user'], session_data)
+    
     if request.method == 'POST':
+        # If coming from sentiment analysis, stay on word cloud page
+        if request.form.get('from_sentiment'):
+            return render_template('word_cloud.html', products=products)
+        # If coming from word cloud page itself, go to select products
         flash('Analysis complete!')
         return redirect(url_for('select_products'))
+    
     return render_template('word_cloud.html', products=products)
 
 @app.route('/set_model', methods=['POST'])

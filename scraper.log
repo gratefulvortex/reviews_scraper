@@ -7975,3 +7975,239 @@ Call log:
 2025-05-17 18:56:02,693 - INFO - 127.0.0.1 - - [17/May/2025 18:56:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2025-05-17 18:56:11,481 - INFO - 127.0.0.1 - - [17/May/2025 18:56:11] "POST /view_csv?idx=0&page=4 HTTP/1.1" 200 -
 2025-05-17 18:56:11,563 - INFO - 127.0.0.1 - - [17/May/2025 18:56:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:04:50,376 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 19:04:50,378 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 19:04:50,385 - INFO -  * Restarting with stat
+2025-05-17 19:04:55,412 - WARNING -  * Debugger is active!
+2025-05-17 19:04:55,451 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 19:04:55,674 - INFO - 127.0.0.1 - - [17/May/2025 19:04:55] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-17 19:04:55,688 - INFO - 127.0.0.1 - - [17/May/2025 19:04:55] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-17 19:04:55,763 - INFO - 127.0.0.1 - - [17/May/2025 19:04:55] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 19:04:56,052 - INFO - 127.0.0.1 - - [17/May/2025 19:04:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:05:14,019 - INFO - 127.0.0.1 - - [17/May/2025 19:05:14] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 19:05:14,037 - INFO - 127.0.0.1 - - [17/May/2025 19:05:14] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 19:05:14,105 - INFO - 127.0.0.1 - - [17/May/2025 19:05:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:05:37,329 - INFO - 127.0.0.1 - - [17/May/2025 19:05:37] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 19:05:37,491 - INFO - 127.0.0.1 - - [17/May/2025 19:05:37] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 19:05:37,561 - INFO - 127.0.0.1 - - [17/May/2025 19:05:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:05:47,279 - INFO - 127.0.0.1 - - [17/May/2025 19:05:47] "POST /view_csv HTTP/1.1" 200 -
+2025-05-17 19:05:47,344 - INFO - 127.0.0.1 - - [17/May/2025 19:05:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:12:01,219 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 19:12:01,220 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 19:12:01,222 - INFO -  * Restarting with stat
+2025-05-17 19:12:03,501 - WARNING -  * Debugger is active!
+2025-05-17 19:12:03,507 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 19:12:12,541 - INFO - 127.0.0.1 - - [17/May/2025 19:12:12] "POST /view_csv HTTP/1.1" 200 -
+2025-05-17 19:12:12,711 - INFO - 127.0.0.1 - - [17/May/2025 19:12:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:12:17,919 - INFO - 127.0.0.1 - - [17/May/2025 19:12:17] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 19:12:17,964 - INFO - 127.0.0.1 - - [17/May/2025 19:12:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:12:24,923 - INFO - 127.0.0.1 - - [17/May/2025 19:12:24] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 19:12:24,935 - INFO - 127.0.0.1 - - [17/May/2025 19:12:24] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 19:12:24,987 - INFO - 127.0.0.1 - - [17/May/2025 19:12:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:12:39,084 - INFO - 127.0.0.1 - - [17/May/2025 19:12:39] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 19:12:39,093 - INFO - 127.0.0.1 - - [17/May/2025 19:12:39] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 19:12:39,136 - INFO - 127.0.0.1 - - [17/May/2025 19:12:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:12:52,306 - INFO - 127.0.0.1 - - [17/May/2025 19:12:52] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 19:12:52,345 - INFO - 127.0.0.1 - - [17/May/2025 19:12:52] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 19:12:52,396 - INFO - 127.0.0.1 - - [17/May/2025 19:12:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:12:55,016 - INFO - 127.0.0.1 - - [17/May/2025 19:12:55] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-17 19:12:55,033 - INFO - 127.0.0.1 - - [17/May/2025 19:12:55] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-17 19:12:55,143 - INFO - 127.0.0.1 - - [17/May/2025 19:12:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:12:59,557 - INFO - 127.0.0.1 - - [17/May/2025 19:12:59] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-17 19:12:59,602 - INFO - 127.0.0.1 - - [17/May/2025 19:12:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:13:02,627 - INFO - 127.0.0.1 - - [17/May/2025 19:13:02] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 19:13:02,672 - INFO - 127.0.0.1 - - [17/May/2025 19:13:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:13:05,259 - INFO - 127.0.0.1 - - [17/May/2025 19:13:05] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-17 19:13:05,270 - INFO - 127.0.0.1 - - [17/May/2025 19:13:05] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-17 19:13:05,325 - INFO - 127.0.0.1 - - [17/May/2025 19:13:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:14:21,471 - INFO - 127.0.0.1 - - [17/May/2025 19:14:21] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-17 19:14:21,523 - INFO - 127.0.0.1 - - [17/May/2025 19:14:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:14:24,486 - INFO - 127.0.0.1 - - [17/May/2025 19:14:24] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-17 19:14:24,528 - INFO - 127.0.0.1 - - [17/May/2025 19:14:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:14:25,704 - INFO - 127.0.0.1 - - [17/May/2025 19:14:25] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 19:14:25,741 - INFO - 127.0.0.1 - - [17/May/2025 19:14:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:14:28,590 - INFO - 127.0.0.1 - - [17/May/2025 19:14:28] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-17 19:14:28,599 - INFO - 127.0.0.1 - - [17/May/2025 19:14:28] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-17 19:14:28,643 - INFO - 127.0.0.1 - - [17/May/2025 19:14:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:14:33,954 - INFO - 127.0.0.1 - - [17/May/2025 19:14:33] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-17 19:14:34,002 - INFO - 127.0.0.1 - - [17/May/2025 19:14:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:14:37,794 - INFO - 127.0.0.1 - - [17/May/2025 19:14:37] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 19:14:37,840 - INFO - 127.0.0.1 - - [17/May/2025 19:14:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:14:40,041 - INFO - 127.0.0.1 - - [17/May/2025 19:14:40] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-17 19:14:40,051 - INFO - 127.0.0.1 - - [17/May/2025 19:14:40] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-17 19:14:40,131 - INFO - 127.0.0.1 - - [17/May/2025 19:14:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:15:57,755 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-17 19:15:57,946 - INFO -  * Restarting with stat
+2025-05-17 19:16:00,798 - WARNING -  * Debugger is active!
+2025-05-17 19:16:00,805 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 19:16:09,556 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-17 19:16:09,818 - INFO -  * Restarting with stat
+2025-05-17 19:16:13,201 - WARNING -  * Debugger is active!
+2025-05-17 19:16:13,212 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 19:16:14,973 - INFO - 127.0.0.1 - - [17/May/2025 19:16:14] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-17 19:16:15,165 - ERROR - 127.0.0.1 - - [17/May/2025 19:16:15] code 414, message Request-URI Too Long
+2025-05-17 19:16:15,167 - INFO - 127.0.0.1 - - [17/May/2025 19:16:15] "[31m[1m[0m" 414 -
+2025-05-17 19:16:15,262 - INFO - 127.0.0.1 - - [17/May/2025 19:16:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:16:36,498 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 19:16:36,499 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 19:16:36,502 - INFO -  * Restarting with stat
+2025-05-17 19:16:38,583 - WARNING -  * Debugger is active!
+2025-05-17 19:16:38,588 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 19:16:38,725 - INFO - 127.0.0.1 - - [17/May/2025 19:16:38] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-17 19:16:38,857 - INFO - 127.0.0.1 - - [17/May/2025 19:16:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:16:49,022 - INFO - 127.0.0.1 - - [17/May/2025 19:16:49] "[32mPOST /word_cloud HTTP/1.1[0m" 302 -
+2025-05-17 19:16:49,043 - INFO - 127.0.0.1 - - [17/May/2025 19:16:49] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 19:16:49,128 - INFO - 127.0.0.1 - - [17/May/2025 19:16:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:16:51,361 - INFO - 127.0.0.1 - - [17/May/2025 19:16:51] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-17 19:20:00,727 - INFO - 127.0.0.1 - - [17/May/2025 19:20:00] "[32mPOST /word_cloud HTTP/1.1[0m" 302 -
+2025-05-17 19:20:00,736 - INFO - 127.0.0.1 - - [17/May/2025 19:20:00] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 19:20:00,790 - INFO - 127.0.0.1 - - [17/May/2025 19:20:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:20:12,204 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 19:20:12,205 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 19:20:12,207 - INFO -  * Restarting with stat
+2025-05-17 19:20:14,237 - WARNING -  * Debugger is active!
+2025-05-17 19:20:14,243 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 19:20:18,723 - INFO - 127.0.0.1 - - [17/May/2025 19:20:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-17 19:20:18,839 - INFO - 127.0.0.1 - - [17/May/2025 19:20:18] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-17 19:20:18,885 - INFO - 127.0.0.1 - - [17/May/2025 19:20:18] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 19:20:19,132 - INFO - 127.0.0.1 - - [17/May/2025 19:20:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:20:30,902 - INFO - 127.0.0.1 - - [17/May/2025 19:20:30] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 19:20:30,982 - INFO - 127.0.0.1 - - [17/May/2025 19:20:30] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 19:20:31,029 - INFO - 127.0.0.1 - - [17/May/2025 19:20:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:20:35,087 - INFO - 127.0.0.1 - - [17/May/2025 19:20:35] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-17 19:20:35,757 - INFO - 127.0.0.1 - - [17/May/2025 19:20:35] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-17 19:20:35,943 - ERROR - 127.0.0.1 - - [17/May/2025 19:20:35] code 414, message Request-URI Too Long
+2025-05-17 19:20:35,945 - INFO - 127.0.0.1 - - [17/May/2025 19:20:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:20:35,946 - INFO - 127.0.0.1 - - [17/May/2025 19:20:35] "[31m[1m[0m" 414 -
+2025-05-17 19:23:14,799 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-17 19:23:36,037 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 19:23:36,038 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 19:23:36,041 - INFO -  * Restarting with stat
+2025-05-17 19:23:38,087 - WARNING -  * Debugger is active!
+2025-05-17 19:23:38,095 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 19:23:41,936 - INFO - 127.0.0.1 - - [17/May/2025 19:23:41] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 19:23:42,100 - INFO - 127.0.0.1 - - [17/May/2025 19:23:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:23:44,999 - INFO - 127.0.0.1 - - [17/May/2025 19:23:44] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-17 19:23:45,802 - INFO - 127.0.0.1 - - [17/May/2025 19:23:45] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-17 19:23:45,937 - INFO - 127.0.0.1 - - [17/May/2025 19:23:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:23:45,949 - ERROR - 127.0.0.1 - - [17/May/2025 19:23:45] code 414, message Request-URI Too Long
+2025-05-17 19:23:45,961 - INFO - 127.0.0.1 - - [17/May/2025 19:23:45] "[31m[1m[0m" 414 -
+2025-05-17 19:24:16,786 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 19:24:16,861 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 19:24:16,909 - INFO -  * Restarting with stat
+2025-05-17 19:24:19,146 - WARNING -  * Debugger is active!
+2025-05-17 19:24:19,153 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 19:24:28,052 - INFO - 127.0.0.1 - - [17/May/2025 19:24:28] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-17 19:24:28,145 - INFO - 127.0.0.1 - - [17/May/2025 19:24:28] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-17 19:24:28,205 - INFO - 127.0.0.1 - - [17/May/2025 19:24:28] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 19:24:28,474 - INFO - 127.0.0.1 - - [17/May/2025 19:24:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:24:42,483 - INFO - 127.0.0.1 - - [17/May/2025 19:24:42] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 19:24:42,548 - INFO - 127.0.0.1 - - [17/May/2025 19:24:42] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 19:24:42,601 - INFO - 127.0.0.1 - - [17/May/2025 19:24:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:24:46,985 - INFO - 127.0.0.1 - - [17/May/2025 19:24:46] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-17 19:24:47,634 - INFO - 127.0.0.1 - - [17/May/2025 19:24:47] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-17 19:24:47,794 - INFO - 127.0.0.1 - - [17/May/2025 19:24:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:24:47,821 - ERROR - 127.0.0.1 - - [17/May/2025 19:24:47] code 414, message Request-URI Too Long
+2025-05-17 19:24:47,823 - INFO - 127.0.0.1 - - [17/May/2025 19:24:47] "[31m[1m[0m" 414 -
+2025-05-17 19:24:51,254 - INFO - 127.0.0.1 - - [17/May/2025 19:24:51] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-17 19:24:51,291 - INFO - 127.0.0.1 - - [17/May/2025 19:24:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:25:00,551 - INFO - 127.0.0.1 - - [17/May/2025 19:25:00] "[32mPOST /word_cloud HTTP/1.1[0m" 302 -
+2025-05-17 19:25:00,559 - INFO - 127.0.0.1 - - [17/May/2025 19:25:00] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 19:25:00,642 - INFO - 127.0.0.1 - - [17/May/2025 19:25:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:25:03,414 - INFO - 127.0.0.1 - - [17/May/2025 19:25:03] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-17 19:28:15,087 - INFO - 127.0.0.1 - - [17/May/2025 19:28:15] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 19:28:15,129 - INFO - 127.0.0.1 - - [17/May/2025 19:28:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:29:05,738 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-17 19:29:21,298 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 19:29:21,299 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 19:29:21,302 - INFO -  * Restarting with stat
+2025-05-17 19:29:23,573 - WARNING -  * Debugger is active!
+2025-05-17 19:29:23,582 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 19:29:26,638 - INFO - 127.0.0.1 - - [17/May/2025 19:29:26] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 19:29:26,798 - INFO - 127.0.0.1 - - [17/May/2025 19:29:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:29:33,443 - INFO - 127.0.0.1 - - [17/May/2025 19:29:33] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 19:29:33,484 - INFO - 127.0.0.1 - - [17/May/2025 19:29:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:29:40,998 - INFO - 127.0.0.1 - - [17/May/2025 19:29:40] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-17 19:29:41,673 - INFO - 127.0.0.1 - - [17/May/2025 19:29:41] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-17 19:29:41,839 - INFO - 127.0.0.1 - - [17/May/2025 19:29:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:29:41,895 - ERROR - 127.0.0.1 - - [17/May/2025 19:29:41] code 414, message Request-URI Too Long
+2025-05-17 19:29:41,898 - INFO - 127.0.0.1 - - [17/May/2025 19:29:41] "[31m[1m[0m" 414 -
+2025-05-17 19:32:45,707 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 19:32:45,708 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 19:32:45,710 - INFO -  * Restarting with stat
+2025-05-17 19:32:47,713 - WARNING -  * Debugger is active!
+2025-05-17 19:32:47,721 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 19:32:50,811 - INFO - 127.0.0.1 - - [17/May/2025 19:32:50] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-17 19:32:50,883 - INFO - 127.0.0.1 - - [17/May/2025 19:32:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-17 19:32:50,994 - INFO - 127.0.0.1 - - [17/May/2025 19:32:50] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 19:32:51,411 - INFO - 127.0.0.1 - - [17/May/2025 19:32:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:33:15,988 - INFO - 127.0.0.1 - - [17/May/2025 19:33:15] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 19:33:15,998 - INFO - 127.0.0.1 - - [17/May/2025 19:33:15] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 19:33:16,049 - INFO - 127.0.0.1 - - [17/May/2025 19:33:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:33:36,994 - INFO - 127.0.0.1 - - [17/May/2025 19:33:36] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 19:33:37,059 - INFO - 127.0.0.1 - - [17/May/2025 19:33:37] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 19:33:37,112 - INFO - 127.0.0.1 - - [17/May/2025 19:33:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:33:40,634 - INFO - 127.0.0.1 - - [17/May/2025 19:33:40] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-17 19:33:41,462 - INFO - 127.0.0.1 - - [17/May/2025 19:33:41] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-17 19:33:41,517 - INFO - 127.0.0.1 - - [17/May/2025 19:33:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:33:46,422 - INFO - 127.0.0.1 - - [17/May/2025 19:33:46] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-17 19:33:46,465 - INFO - 127.0.0.1 - - [17/May/2025 19:33:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:33:59,777 - INFO - 127.0.0.1 - - [17/May/2025 19:33:59] "[32mPOST /word_cloud HTTP/1.1[0m" 302 -
+2025-05-17 19:33:59,788 - INFO - 127.0.0.1 - - [17/May/2025 19:33:59] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 19:33:59,846 - INFO - 127.0.0.1 - - [17/May/2025 19:33:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:34:20,432 - INFO - 127.0.0.1 - - [17/May/2025 19:34:20] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-17 19:40:03,819 - INFO - 127.0.0.1 - - [17/May/2025 19:40:03] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-17 19:40:03,892 - INFO - 127.0.0.1 - - [17/May/2025 19:40:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:40:06,497 - INFO - 127.0.0.1 - - [17/May/2025 19:40:06] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 19:40:09,605 - INFO - 127.0.0.1 - - [17/May/2025 19:40:09] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-17 19:40:13,198 - INFO - 127.0.0.1 - - [17/May/2025 19:40:13] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 19:40:17,617 - INFO - 127.0.0.1 - - [17/May/2025 19:40:17] "GET /view_csv?idx=0&page=2 HTTP/1.1" 200 -
+2025-05-17 19:40:17,666 - INFO - 127.0.0.1 - - [17/May/2025 19:40:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:40:19,862 - INFO - 127.0.0.1 - - [17/May/2025 19:40:19] "GET /view_csv?idx=0&page=3 HTTP/1.1" 200 -
+2025-05-17 19:40:19,907 - INFO - 127.0.0.1 - - [17/May/2025 19:40:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:40:22,074 - INFO - 127.0.0.1 - - [17/May/2025 19:40:22] "GET /view_csv?idx=0&page=4 HTTP/1.1" 200 -
+2025-05-17 19:40:22,133 - INFO - 127.0.0.1 - - [17/May/2025 19:40:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:40:24,262 - INFO - 127.0.0.1 - - [17/May/2025 19:40:24] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-17 19:40:25,031 - INFO - 127.0.0.1 - - [17/May/2025 19:40:25] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-17 19:40:25,096 - INFO - 127.0.0.1 - - [17/May/2025 19:40:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:40:32,886 - INFO - 127.0.0.1 - - [17/May/2025 19:40:32] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-17 19:40:32,930 - INFO - 127.0.0.1 - - [17/May/2025 19:40:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:40:39,302 - INFO - 127.0.0.1 - - [17/May/2025 19:40:39] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 19:40:39,344 - INFO - 127.0.0.1 - - [17/May/2025 19:40:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:42:55,139 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 19:42:55,140 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 19:42:55,144 - INFO -  * Restarting with stat
+2025-05-17 19:42:57,876 - WARNING -  * Debugger is active!
+2025-05-17 19:42:57,887 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 19:42:58,263 - INFO - 127.0.0.1 - - [17/May/2025 19:42:58] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 19:42:58,447 - INFO - 127.0.0.1 - - [17/May/2025 19:42:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:43:03,961 - INFO - 127.0.0.1 - - [17/May/2025 19:43:03] "POST /sentiment_analysis HTTP/1.1" 200 -
+2025-05-17 19:43:04,016 - INFO - 127.0.0.1 - - [17/May/2025 19:43:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:43:11,378 - INFO - 127.0.0.1 - - [17/May/2025 19:43:11] "[32mPOST /word_cloud HTTP/1.1[0m" 302 -
+2025-05-17 19:43:11,395 - INFO - 127.0.0.1 - - [17/May/2025 19:43:11] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 19:43:11,472 - INFO - 127.0.0.1 - - [17/May/2025 19:43:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:43:15,370 - INFO - 127.0.0.1 - - [17/May/2025 19:43:15] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 19:44:32,619 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 19:44:32,621 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 19:44:32,625 - INFO -  * Restarting with stat
+2025-05-17 19:44:35,629 - WARNING -  * Debugger is active!
+2025-05-17 19:44:35,635 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 19:44:35,772 - INFO - 127.0.0.1 - - [17/May/2025 19:44:35] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 19:44:35,931 - INFO - 127.0.0.1 - - [17/May/2025 19:44:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:44:38,822 - INFO - 127.0.0.1 - - [17/May/2025 19:44:38] "POST /sentiment_analysis HTTP/1.1" 200 -
+2025-05-17 19:44:38,875 - INFO - 127.0.0.1 - - [17/May/2025 19:44:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:44:41,543 - INFO - 127.0.0.1 - - [17/May/2025 19:44:41] "POST /word_cloud HTTP/1.1" 200 -
+2025-05-17 19:44:41,616 - INFO - 127.0.0.1 - - [17/May/2025 19:44:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:44:52,269 - INFO - 127.0.0.1 - - [17/May/2025 19:44:52] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 19:44:52,298 - INFO - 127.0.0.1 - - [17/May/2025 19:44:52] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 19:44:52,349 - INFO - 127.0.0.1 - - [17/May/2025 19:44:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

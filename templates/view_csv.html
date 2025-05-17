@@ -1,6 +1,15 @@
 {% extends "base.html" %}
 {% block title %}View CSV{% endblock %}
 {% block content %}
+<style>
+.rating-bar {
+    width: var(--rating-width);
+    height: 0.5rem;
+    background-color: #2563eb;
+    border-radius: 9999px;
+}
+</style>
+
 <div class="max-w-6xl mx-auto">
     <h1 class="text-2xl font-bold mb-6 text-blue-700">View CSV Data</h1>
     
@@ -39,7 +48,7 @@
                 <div class="flex items-center">
                     <span class="text-yellow-400 w-4">{{ rating }}★</span>
                     <div class="flex-1 mx-2 bg-gray-200 rounded-full h-2">
-                        <div class="bg-blue-600 h-2 rounded-full" style="width: {{ (count / total_reviews * 100)|round }}%;"></div>
+                        <div class="rating-bar" style="--rating-width: {{ (count / total_reviews * 100)|round }}%"></div>
                     </div>
                     <span class="text-sm text-gray-600 w-12">{{ count }}</span>
                 </div>
@@ -136,9 +145,17 @@
     </div>
     {% endif %}
 
-    <form method="post" class="mt-6">
-        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Continue to Analysis</button>
-    </form>
+    <!-- Navigation buttons -->
+    <div class="mt-6 flex justify-between items-center">
+        <a href="{{ url_for('select_products') }}" class="text-blue-600 hover:text-blue-800">← Back to Products</a>
+        <form method="post" action="{{ url_for('sentiment_analysis') }}" class="inline">
+            <input type="hidden" name="from_view_csv" value="true">
+            <input type="hidden" name="product_idx" value="{{ idx }}">
+            <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">
+                Continue to Analysis →
+            </button>
+        </form>
+    </div>
 </div>
 
 <script>
