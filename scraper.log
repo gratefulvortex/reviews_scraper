@@ -5876,3 +5876,2102 @@ waiting for navigation to "<function ImplToApiMapping.wrap_handler.<locals>.wrap
 2025-05-12 17:09:11,465 - INFO - 127.0.0.1 - - [12/May/2025 17:09:11] "GET /select_products HTTP/1.1" 200 -
 2025-05-12 17:09:38,987 - INFO - 127.0.0.1 - - [12/May/2025 17:09:38] "GET /select_products HTTP/1.1" 200 -
 2025-05-12 17:09:39,056 - INFO - 127.0.0.1 - - [12/May/2025 17:09:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:39:16,841 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 17:39:16,842 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-12 17:39:16,848 - INFO -  * Restarting with stat
+2025-05-12 17:39:20,746 - WARNING -  * Debugger is active!
+2025-05-12 17:39:20,763 - INFO -  * Debugger PIN: 220-965-795
+2025-05-12 17:39:40,482 - INFO - 127.0.0.1 - - [12/May/2025 17:39:40] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-12 17:39:40,519 - INFO - 127.0.0.1 - - [12/May/2025 17:39:40] "GET /login HTTP/1.1" 200 -
+2025-05-12 17:39:48,417 - INFO - 127.0.0.1 - - [12/May/2025 17:39:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-12 17:39:48,483 - INFO - 127.0.0.1 - - [12/May/2025 17:39:48] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:39:49,139 - INFO - 127.0.0.1 - - [12/May/2025 17:39:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:40:10,459 - INFO - 127.0.0.1 - - [12/May/2025 17:40:10] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 17:40:10,486 - INFO - 127.0.0.1 - - [12/May/2025 17:40:10] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-12 17:40:10,503 - INFO - 127.0.0.1 - - [12/May/2025 17:40:10] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:40:10,621 - INFO - 127.0.0.1 - - [12/May/2025 17:40:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:40:12,982 - INFO - 127.0.0.1 - - [12/May/2025 17:40:12] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 17:40:13,032 - INFO - 127.0.0.1 - - [12/May/2025 17:40:13] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-12 17:40:13,129 - INFO - 127.0.0.1 - - [12/May/2025 17:40:13] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:40:13,261 - INFO - 127.0.0.1 - - [12/May/2025 17:40:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:40:54,023 - INFO - 127.0.0.1 - - [12/May/2025 17:40:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:40:54,218 - INFO - 127.0.0.1 - - [12/May/2025 17:40:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-12 17:41:00,400 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-12 17:41:15,568 - INFO - No cookie button found
+2025-05-12 17:41:15,650 - INFO - Waiting for reviews to load...
+2025-05-12 17:41:15,749 - INFO - Review elements found
+2025-05-12 17:41:19,414 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-12 17:41:20,079 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-12 17:41:20,605 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-12 17:41:21,249 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-12 17:41:21,844 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-12 17:41:22,498 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-12 17:41:23,073 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-12 17:41:23,682 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-12 17:41:24,413 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-12 17:41:25,081 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-12 17:41:25,303 - INFO - Added 10 reviews (Total: 10)
+2025-05-12 17:41:55,460 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-12 17:41:56,336 - INFO - 127.0.0.1 - - [12/May/2025 17:41:56] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 17:41:56,392 - INFO - 127.0.0.1 - - [12/May/2025 17:41:56] "GET /view_csv HTTP/1.1" 200 -
+2025-05-12 17:41:56,524 - INFO - 127.0.0.1 - - [12/May/2025 17:41:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:42:12,527 - INFO - 127.0.0.1 - - [12/May/2025 17:42:12] "[32mPOST /view_csv HTTP/1.1[0m" 302 -
+2025-05-12 17:42:12,654 - INFO - 127.0.0.1 - - [12/May/2025 17:42:12] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-12 17:42:12,746 - INFO - 127.0.0.1 - - [12/May/2025 17:42:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:42:14,828 - INFO - 127.0.0.1 - - [12/May/2025 17:42:14] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-12 17:42:17,823 - INFO - 127.0.0.1 - - [12/May/2025 17:42:17] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-12 17:42:17,897 - INFO - 127.0.0.1 - - [12/May/2025 17:42:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:45:33,249 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-12 17:45:55,435 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 17:45:55,435 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-12 17:45:55,443 - INFO -  * Restarting with stat
+2025-05-12 17:46:00,403 - WARNING -  * Debugger is active!
+2025-05-12 17:46:00,419 - INFO -  * Debugger PIN: 220-965-795
+2025-05-12 17:46:00,653 - INFO - 127.0.0.1 - - [12/May/2025 17:46:00] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-12 17:46:00,898 - INFO - 127.0.0.1 - - [12/May/2025 17:46:00] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-12 17:46:01,119 - INFO - 127.0.0.1 - - [12/May/2025 17:46:01] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:46:01,400 - INFO - 127.0.0.1 - - [12/May/2025 17:46:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:46:24,501 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-training-club-app/review
+2025-05-12 17:46:36,373 - INFO - No cookie button found
+2025-05-12 17:46:36,459 - INFO - Waiting for reviews to load...
+2025-05-12 17:46:55,269 - ERROR - Error during scraping: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("div[class*='UgcContainer_ugc-container__']") to be visible
+
+2025-05-12 17:46:56,114 - INFO - 127.0.0.1 - - [12/May/2025 17:46:56] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 17:46:56,125 - INFO - 127.0.0.1 - - [12/May/2025 17:46:56] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-12 17:46:56,146 - INFO - 127.0.0.1 - - [12/May/2025 17:46:56] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:46:56,251 - INFO - 127.0.0.1 - - [12/May/2025 17:46:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:47:11,278 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-12 17:47:23,756 - INFO - No cookie button found
+2025-05-12 17:47:23,838 - INFO - Waiting for reviews to load...
+2025-05-12 17:47:23,962 - INFO - Review elements found
+2025-05-12 17:47:26,755 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-12 17:47:27,533 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-12 17:47:28,026 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-12 17:47:28,687 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-12 17:47:29,310 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-12 17:47:30,515 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-12 17:47:31,092 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-12 17:47:31,650 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-12 17:47:32,268 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-12 17:47:32,839 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-12 17:48:03,382 - WARNING - Error loading more reviews: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    3 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  3 × retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is not stable
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  3 × retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is not stable
+  7 × retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
+2025-05-12 17:48:03,441 - INFO - Finished scraping. Total reviews collected: 0
+2025-05-12 17:48:04,325 - INFO - 127.0.0.1 - - [12/May/2025 17:48:04] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 17:48:04,335 - INFO - 127.0.0.1 - - [12/May/2025 17:48:04] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-12 17:48:04,354 - INFO - 127.0.0.1 - - [12/May/2025 17:48:04] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:48:04,486 - INFO - 127.0.0.1 - - [12/May/2025 17:48:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:48:29,810 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-12 17:48:30,653 - INFO -  * Restarting with stat
+2025-05-12 17:48:36,799 - WARNING -  * Debugger is active!
+2025-05-12 17:48:36,814 - INFO -  * Debugger PIN: 220-965-795
+2025-05-12 17:51:36,340 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-12 17:51:36,959 - INFO -  * Restarting with stat
+2025-05-12 17:51:44,552 - WARNING -  * Debugger is active!
+2025-05-12 17:51:44,580 - INFO -  * Debugger PIN: 111-733-621
+2025-05-12 17:51:44,741 - INFO - 127.0.0.1 - - [12/May/2025 17:51:44] "[35m[1mGET /select_products HTTP/1.1[0m" 500 -
+2025-05-12 17:51:45,039 - INFO - 127.0.0.1 - - [12/May/2025 17:51:45] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-12 17:51:45,117 - INFO - 127.0.0.1 - - [12/May/2025 17:51:45] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:51:45,901 - INFO - 127.0.0.1 - - [12/May/2025 17:51:45] "GET /select_products?__debugger__=yes&cmd=resource&f=console.png&s=S04k3QSPryAKXavLlF6U HTTP/1.1" 200 -
+2025-05-12 17:51:46,253 - INFO - 127.0.0.1 - - [12/May/2025 17:51:46] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-12 17:53:16,604 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-12 17:53:17,322 - INFO -  * Restarting with stat
+2025-05-12 17:53:24,340 - WARNING -  * Debugger is active!
+2025-05-12 17:53:24,379 - INFO -  * Debugger PIN: 111-733-621
+2025-05-12 17:53:24,546 - INFO - 127.0.0.1 - - [12/May/2025 17:53:24] "[35m[1mGET /select_products HTTP/1.1[0m" 500 -
+2025-05-12 17:53:24,811 - INFO - 127.0.0.1 - - [12/May/2025 17:53:24] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:53:24,834 - INFO - 127.0.0.1 - - [12/May/2025 17:53:24] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-12 17:53:24,898 - INFO - 127.0.0.1 - - [12/May/2025 17:53:24] "GET /select_products?__debugger__=yes&cmd=resource&f=console.png&s=jE9pfigbOzyc4wLhzlO2 HTTP/1.1" 200 -
+2025-05-12 17:53:25,044 - INFO - 127.0.0.1 - - [12/May/2025 17:53:25] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-12 17:53:42,508 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-12 17:53:43,367 - INFO -  * Restarting with stat
+2025-05-12 17:53:49,244 - WARNING -  * Debugger is active!
+2025-05-12 17:53:49,262 - INFO -  * Debugger PIN: 111-733-621
+2025-05-12 17:53:49,440 - INFO - 127.0.0.1 - - [12/May/2025 17:53:49] "[35m[1mGET /select_products HTTP/1.1[0m" 500 -
+2025-05-12 17:53:49,694 - INFO - 127.0.0.1 - - [12/May/2025 17:53:49] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:53:49,743 - INFO - 127.0.0.1 - - [12/May/2025 17:53:49] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-12 17:53:49,784 - INFO - 127.0.0.1 - - [12/May/2025 17:53:49] "GET /select_products?__debugger__=yes&cmd=resource&f=console.png&s=riuSx3SS9V5kYnMGw2qP HTTP/1.1" 200 -
+2025-05-12 17:53:49,956 - INFO - 127.0.0.1 - - [12/May/2025 17:53:49] "[36mGET /select_products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-12 17:54:35,165 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-12 17:54:35,670 - INFO -  * Restarting with stat
+2025-05-12 17:54:43,936 - WARNING -  * Debugger is active!
+2025-05-12 17:54:43,952 - INFO -  * Debugger PIN: 220-965-795
+2025-05-12 17:54:44,298 - INFO - 127.0.0.1 - - [12/May/2025 17:54:44] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:54:44,580 - INFO - 127.0.0.1 - - [12/May/2025 17:54:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:54:59,043 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-12 17:55:11,506 - INFO - No cookie button found
+2025-05-12 17:55:11,563 - INFO - Waiting for reviews to load...
+2025-05-12 17:55:11,662 - INFO - Review elements found
+2025-05-12 17:55:11,716 - ERROR - Error during scraping: name 'scroll_and_wait' is not defined
+2025-05-12 17:55:12,756 - INFO - 127.0.0.1 - - [12/May/2025 17:55:12] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 17:55:12,769 - INFO - 127.0.0.1 - - [12/May/2025 17:55:12] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-12 17:55:12,791 - INFO - 127.0.0.1 - - [12/May/2025 17:55:12] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:55:12,878 - INFO - 127.0.0.1 - - [12/May/2025 17:55:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:55:16,015 - INFO - 127.0.0.1 - - [12/May/2025 17:55:16] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 17:55:16,072 - INFO - 127.0.0.1 - - [12/May/2025 17:55:16] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-12 17:55:16,097 - INFO - 127.0.0.1 - - [12/May/2025 17:55:16] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:55:16,172 - INFO - 127.0.0.1 - - [12/May/2025 17:55:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 17:55:42,962 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-12 17:55:43,463 - INFO -  * Restarting with stat
+2025-05-12 17:55:49,121 - WARNING -  * Debugger is active!
+2025-05-12 17:55:49,153 - INFO -  * Debugger PIN: 220-965-795
+2025-05-12 17:59:37,610 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-12 17:59:38,269 - INFO -  * Restarting with stat
+2025-05-12 17:59:47,694 - WARNING -  * Debugger is active!
+2025-05-12 17:59:47,746 - INFO -  * Debugger PIN: 220-965-795
+2025-05-12 17:59:48,081 - INFO - 127.0.0.1 - - [12/May/2025 17:59:48] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 17:59:48,438 - INFO - 127.0.0.1 - - [12/May/2025 17:59:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:00:01,980 - INFO - Navigating to: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-12 18:00:19,987 - INFO - No cookie consent found
+2025-05-12 18:00:23,772 - INFO - Clicked 'Load More' button
+2025-05-12 18:00:28,057 - INFO - Could not find/click 'Load More': Page.query_selector_all: Execution context was destroyed, most likely because of a navigation
+2025-05-12 18:00:32,067 - INFO - Clicked 'Load More' button
+2025-05-12 18:00:36,741 - WARNING - No new reviews loaded after clicking
+2025-05-12 18:00:41,965 - INFO - Could not find/click 'Load More': Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("button:has-text('Load More'), button[class*='load-more']") to be visible
+
+2025-05-12 18:00:47,072 - INFO - Could not find/click 'Load More': Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("button:has-text('Load More'), button[class*='load-more']") to be visible
+
+2025-05-12 18:00:52,168 - INFO - Could not find/click 'Load More': Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("button:has-text('Load More'), button[class*='load-more']") to be visible
+
+2025-05-12 18:00:57,231 - INFO - Could not find/click 'Load More': Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("button:has-text('Load More'), button[class*='load-more']") to be visible
+
+2025-05-12 18:01:01,228 - INFO - Could not find/click 'Load More': Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("button:has-text('Load More'), button[class*='load-more']") to be visible
+
+2025-05-12 18:01:01,286 - ERROR - Scraping failed: Page.query_selector_all: Target page, context or browser has been closed
+2025-05-12 18:01:03,198 - INFO - 127.0.0.1 - - [12/May/2025 18:01:03] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 18:01:03,234 - INFO - 127.0.0.1 - - [12/May/2025 18:01:03] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-12 18:01:03,249 - INFO - 127.0.0.1 - - [12/May/2025 18:01:03] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 18:01:03,376 - INFO - 127.0.0.1 - - [12/May/2025 18:01:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:01:10,091 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-12 18:01:11,063 - INFO -  * Restarting with stat
+2025-05-12 18:01:17,219 - WARNING -  * Debugger is active!
+2025-05-12 18:01:17,265 - INFO -  * Debugger PIN: 220-965-795
+2025-05-12 18:02:20,801 - INFO - 127.0.0.1 - - [12/May/2025 18:02:20] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 18:02:21,445 - INFO - 127.0.0.1 - - [12/May/2025 18:02:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:02:35,963 - INFO - 127.0.0.1 - - [12/May/2025 18:02:35] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-12 18:02:36,060 - INFO - 127.0.0.1 - - [12/May/2025 18:02:36] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 18:02:36,189 - INFO - 127.0.0.1 - - [12/May/2025 18:02:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:02:42,065 - INFO - 127.0.0.1 - - [12/May/2025 18:02:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:02:42,161 - INFO - 127.0.0.1 - - [12/May/2025 18:02:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-12 18:02:54,429 - INFO - 127.0.0.1 - - [12/May/2025 18:02:54] "[32mGET /select_products HTTP/1.1[0m" 302 -
+2025-05-12 18:02:54,488 - INFO - 127.0.0.1 - - [12/May/2025 18:02:54] "GET /login HTTP/1.1" 200 -
+2025-05-12 18:02:54,721 - INFO - 127.0.0.1 - - [12/May/2025 18:02:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-12 18:03:05,452 - INFO - 127.0.0.1 - - [12/May/2025 18:03:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-12 18:03:05,464 - INFO - 127.0.0.1 - - [12/May/2025 18:03:05] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 18:03:05,542 - INFO - 127.0.0.1 - - [12/May/2025 18:03:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:03:26,735 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-12 18:03:39,875 - INFO - No cookie button found
+2025-05-12 18:03:39,902 - INFO - Waiting for reviews to load...
+2025-05-12 18:03:39,965 - INFO - Review elements found
+2025-05-12 18:03:43,666 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-12 18:03:44,341 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-12 18:03:44,912 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-12 18:03:45,523 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-12 18:03:46,032 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-12 18:03:46,540 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-12 18:03:47,051 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-12 18:03:47,600 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-12 18:03:48,186 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-12 18:03:48,723 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-12 18:03:48,965 - INFO - Added 10 reviews (Total: 10)
+2025-05-12 18:03:58,342 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-12 18:04:08,753 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-12 18:04:10,995 - INFO - No cookie button found
+2025-05-12 18:04:11,033 - INFO - Waiting for reviews to load...
+2025-05-12 18:04:11,089 - INFO - Review elements found
+2025-05-12 18:04:15,305 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-12 18:04:16,308 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-12 18:04:17,021 - INFO - No cookie button found
+2025-05-12 18:04:17,239 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-12 18:04:17,269 - ERROR - Error during scraping: Page.query_selector: Target page, context or browser has been closed
+2025-05-12 18:04:18,150 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-12 18:04:18,692 - INFO - 127.0.0.1 - - [12/May/2025 18:04:18] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 18:04:18,710 - INFO - 127.0.0.1 - - [12/May/2025 18:04:18] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-12 18:04:18,807 - INFO - 127.0.0.1 - - [12/May/2025 18:04:18] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 18:04:18,922 - INFO - 127.0.0.1 - - [12/May/2025 18:04:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:04:18,928 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-12 18:04:19,242 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-12 18:04:20,006 - WARNING - Skipping review 5 due to error: ElementHandle.query_selector: Target page, context or browser has been closed
+2025-05-12 18:04:20,045 - WARNING - Skipping review 6 due to error: ElementHandle.inner_text: Target page, context or browser has been closed
+2025-05-12 18:04:20,094 - WARNING - Skipping review 7 due to error: ElementHandle.inner_text: Target page, context or browser has been closed
+2025-05-12 18:04:20,129 - WARNING - Skipping review 8 due to error: ElementHandle.inner_text: Target page, context or browser has been closed
+2025-05-12 18:04:20,190 - WARNING - Skipping review 9 due to error: ElementHandle.inner_text: Target page, context or browser has been closed
+2025-05-12 18:04:20,190 - INFO - Added 5 reviews (Total: 5)
+2025-05-12 18:04:20,226 - WARNING - Error loading more: Page.query_selector: Target page, context or browser has been closed
+2025-05-12 18:04:21,498 - INFO - 127.0.0.1 - - [12/May/2025 18:04:21] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 18:04:21,910 - INFO - 127.0.0.1 - - [12/May/2025 18:04:21] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 18:04:24,191 - INFO - 127.0.0.1 - - [12/May/2025 18:04:24] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 18:04:24,262 - INFO - 127.0.0.1 - - [12/May/2025 18:04:24] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-12 18:04:24,316 - INFO - 127.0.0.1 - - [12/May/2025 18:04:24] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 18:04:24,409 - INFO - 127.0.0.1 - - [12/May/2025 18:04:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:04:36,132 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-12 18:04:48,385 - INFO - No cookie button found
+2025-05-12 18:04:48,535 - INFO - Waiting for reviews to load...
+2025-05-12 18:04:48,603 - INFO - Review elements found
+2025-05-12 18:04:52,375 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-12 18:04:53,149 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-12 18:04:53,888 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-12 18:04:54,554 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-12 18:04:55,041 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-12 18:04:55,793 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-12 18:04:56,446 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-12 18:04:56,981 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-12 18:04:57,675 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-12 18:04:58,172 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-12 18:04:58,297 - INFO - Added 10 reviews (Total: 10)
+2025-05-12 18:05:28,436 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-12 18:05:29,749 - INFO - 127.0.0.1 - - [12/May/2025 18:05:29] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 18:05:29,787 - INFO - 127.0.0.1 - - [12/May/2025 18:05:29] "GET /view_csv HTTP/1.1" 200 -
+2025-05-12 18:05:29,935 - INFO - 127.0.0.1 - - [12/May/2025 18:05:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:05:39,369 - INFO - 127.0.0.1 - - [12/May/2025 18:05:39] "[32mPOST /view_csv HTTP/1.1[0m" 302 -
+2025-05-12 18:05:39,542 - INFO - 127.0.0.1 - - [12/May/2025 18:05:39] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-12 18:05:39,634 - INFO - 127.0.0.1 - - [12/May/2025 18:05:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:05:41,610 - INFO - 127.0.0.1 - - [12/May/2025 18:05:41] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-12 18:05:43,866 - INFO - 127.0.0.1 - - [12/May/2025 18:05:43] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-12 18:05:43,978 - INFO - 127.0.0.1 - - [12/May/2025 18:05:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:05:50,578 - INFO - 127.0.0.1 - - [12/May/2025 18:05:50] "[32mPOST /word_cloud HTTP/1.1[0m" 302 -
+2025-05-12 18:05:50,599 - INFO - 127.0.0.1 - - [12/May/2025 18:05:50] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 18:05:50,689 - INFO - 127.0.0.1 - - [12/May/2025 18:05:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:06:48,360 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-12 18:17:07,124 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 18:17:07,124 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-12 18:17:07,130 - INFO -  * Restarting with stat
+2025-05-12 18:17:11,884 - WARNING -  * Debugger is active!
+2025-05-12 18:17:11,896 - INFO -  * Debugger PIN: 220-965-795
+2025-05-12 18:17:18,467 - INFO - 127.0.0.1 - - [12/May/2025 18:17:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-12 18:17:18,486 - INFO - 127.0.0.1 - - [12/May/2025 18:17:18] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-12 18:17:18,737 - INFO - 127.0.0.1 - - [12/May/2025 18:17:18] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 18:17:18,982 - INFO - 127.0.0.1 - - [12/May/2025 18:17:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:17:31,363 - INFO - Navigating to: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-12 18:17:44,034 - INFO - No cookie button found
+2025-05-12 18:17:51,498 - INFO - Added 10 reviews (Total: 10)
+2025-05-12 18:19:30,374 - INFO - 127.0.0.1 - - [12/May/2025 18:19:30] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 18:19:30,443 - INFO - 127.0.0.1 - - [12/May/2025 18:19:30] "GET /view_csv HTTP/1.1" 200 -
+2025-05-12 18:19:30,560 - INFO - 127.0.0.1 - - [12/May/2025 18:19:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:19:35,729 - INFO - 127.0.0.1 - - [12/May/2025 18:19:35] "[32mPOST /view_csv HTTP/1.1[0m" 302 -
+2025-05-12 18:19:35,882 - INFO - 127.0.0.1 - - [12/May/2025 18:19:35] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-12 18:19:35,965 - INFO - 127.0.0.1 - - [12/May/2025 18:19:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:19:38,105 - INFO - 127.0.0.1 - - [12/May/2025 18:19:38] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-12 18:19:40,632 - INFO - 127.0.0.1 - - [12/May/2025 18:19:40] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-12 18:19:40,766 - INFO - 127.0.0.1 - - [12/May/2025 18:19:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:21:43,030 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-12 18:21:59,929 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 18:21:59,930 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-12 18:21:59,935 - INFO -  * Restarting with stat
+2025-05-12 18:22:04,604 - WARNING -  * Debugger is active!
+2025-05-12 18:22:04,613 - INFO -  * Debugger PIN: 220-965-795
+2025-05-12 18:22:04,771 - INFO - 127.0.0.1 - - [12/May/2025 18:22:04] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-12 18:22:04,780 - INFO - 127.0.0.1 - - [12/May/2025 18:22:04] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-12 18:22:04,835 - INFO - 127.0.0.1 - - [12/May/2025 18:22:04] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 18:22:05,007 - INFO - 127.0.0.1 - - [12/May/2025 18:22:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:22:18,824 - INFO - Navigating to: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-12 18:22:30,762 - INFO - No cookie button found
+2025-05-12 18:22:34,054 - INFO - Scroll 1: Height 3982
+2025-05-12 18:22:36,894 - INFO - Scroll 2: Height 3982
+2025-05-12 18:22:41,596 - INFO - Total reviews collected: 10
+2025-05-12 18:23:13,795 - ERROR - Error loading more reviews: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="ot-sdk-row">…</div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    7 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="ot-sdk-row">…</div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is not stable
+  5 × retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="ot-sdk-row">…</div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="ot-sdk-row">…</div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
+2025-05-12 18:23:15,432 - INFO - Finished scraping. Total reviews collected: 10
+2025-05-12 18:23:15,447 - INFO - 127.0.0.1 - - [12/May/2025 18:23:15] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 18:23:15,478 - INFO - 127.0.0.1 - - [12/May/2025 18:23:15] "GET /view_csv HTTP/1.1" 200 -
+2025-05-12 18:23:15,608 - INFO - 127.0.0.1 - - [12/May/2025 18:23:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:25:18,422 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-12 18:25:19,346 - INFO -  * Restarting with stat
+2025-05-12 18:25:26,087 - WARNING -  * Debugger is active!
+2025-05-12 18:25:26,104 - INFO -  * Debugger PIN: 220-965-795
+2025-05-12 18:25:28,005 - INFO - 127.0.0.1 - - [12/May/2025 18:25:28] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 18:25:30,537 - INFO - 127.0.0.1 - - [12/May/2025 18:25:30] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 18:25:30,753 - INFO - 127.0.0.1 - - [12/May/2025 18:25:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:25:40,155 - INFO - Navigating to: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-12 18:25:47,782 - INFO - Clicked cookie consent button: #onetrust-accept-btn-handler
+2025-05-12 18:25:53,247 - ERROR - Error loading more reviews: 'dict' object has no attribute 'center'
+2025-05-12 18:25:54,149 - INFO - Finished scraping. Total reviews collected: 0
+2025-05-12 18:25:54,151 - INFO - 127.0.0.1 - - [12/May/2025 18:25:54] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 18:25:54,180 - INFO - 127.0.0.1 - - [12/May/2025 18:25:54] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-12 18:25:54,196 - INFO - 127.0.0.1 - - [12/May/2025 18:25:54] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 18:25:54,269 - INFO - 127.0.0.1 - - [12/May/2025 18:25:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:26:05,220 - INFO - Navigating to: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-12 18:26:12,891 - INFO - Clicked cookie consent button: #onetrust-accept-btn-handler
+2025-05-12 18:26:18,186 - ERROR - Error loading more reviews: 'dict' object has no attribute 'center'
+2025-05-12 18:26:19,080 - INFO - Finished scraping. Total reviews collected: 0
+2025-05-12 18:26:19,082 - INFO - 127.0.0.1 - - [12/May/2025 18:26:19] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 18:26:19,092 - INFO - 127.0.0.1 - - [12/May/2025 18:26:19] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-12 18:26:19,104 - INFO - 127.0.0.1 - - [12/May/2025 18:26:19] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 18:26:19,242 - INFO - 127.0.0.1 - - [12/May/2025 18:26:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:27:42,697 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-12 18:27:43,143 - INFO -  * Restarting with stat
+2025-05-12 18:27:50,079 - WARNING -  * Debugger is active!
+2025-05-12 18:27:50,096 - INFO -  * Debugger PIN: 220-965-795
+2025-05-12 18:27:50,329 - INFO - 127.0.0.1 - - [12/May/2025 18:27:50] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 18:27:50,545 - INFO - 127.0.0.1 - - [12/May/2025 18:27:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:27:59,111 - INFO - Navigating to: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-12 18:28:07,013 - INFO - Clicked cookie consent button: #onetrust-accept-btn-handler
+2025-05-12 18:28:25,382 - INFO - No new reviews loaded after clicking
+2025-05-12 18:28:26,308 - INFO - Finished scraping. Total reviews collected: 0
+2025-05-12 18:28:26,311 - INFO - 127.0.0.1 - - [12/May/2025 18:28:26] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 18:28:26,324 - INFO - 127.0.0.1 - - [12/May/2025 18:28:26] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-12 18:28:26,343 - INFO - 127.0.0.1 - - [12/May/2025 18:28:26] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 18:28:26,446 - INFO - 127.0.0.1 - - [12/May/2025 18:28:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-12 18:28:41,169 - INFO - Navigating to: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-12 18:28:49,176 - INFO - Clicked cookie consent button: #onetrust-accept-btn-handler
+2025-05-12 18:29:07,116 - INFO - No new reviews loaded after clicking
+2025-05-12 18:29:08,246 - INFO - Finished scraping. Total reviews collected: 0
+2025-05-12 18:29:08,249 - INFO - 127.0.0.1 - - [12/May/2025 18:29:08] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-12 18:29:08,261 - INFO - 127.0.0.1 - - [12/May/2025 18:29:08] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-12 18:29:08,286 - INFO - 127.0.0.1 - - [12/May/2025 18:29:08] "GET /select_products HTTP/1.1" 200 -
+2025-05-12 18:29:08,408 - INFO - 127.0.0.1 - - [12/May/2025 18:29:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-13 19:16:17,558 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 19:16:17,559 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 19:16:17,562 - INFO -  * Restarting with stat
+2025-05-13 19:16:35,292 - WARNING -  * Debugger is active!
+2025-05-13 19:16:35,307 - INFO -  * Debugger PIN: 128-684-199
+2025-05-13 19:16:35,553 - INFO - 127.0.0.1 - - [13/May/2025 19:16:35] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-13 19:16:36,750 - INFO - 127.0.0.1 - - [13/May/2025 19:16:36] "GET /login HTTP/1.1" 200 -
+2025-05-13 19:16:39,666 - INFO - 127.0.0.1 - - [13/May/2025 19:16:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-13 19:16:57,646 - INFO - 127.0.0.1 - - [13/May/2025 19:16:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-13 19:16:58,095 - INFO - 127.0.0.1 - - [13/May/2025 19:16:58] "GET /select_products HTTP/1.1" 200 -
+2025-05-13 19:16:58,686 - INFO - 127.0.0.1 - - [13/May/2025 19:16:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-13 19:17:17,229 - INFO - 127.0.0.1 - - [13/May/2025 19:17:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-13 19:17:17,296 - INFO - 127.0.0.1 - - [13/May/2025 19:17:17] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-13 19:19:05,997 - INFO - 127.0.0.1 - - [13/May/2025 19:19:05] "[32mGET /select_products HTTP/1.1[0m" 302 -
+2025-05-13 19:19:06,042 - INFO - 127.0.0.1 - - [13/May/2025 19:19:06] "GET /login HTTP/1.1" 200 -
+2025-05-13 19:19:23,202 - INFO - 127.0.0.1 - - [13/May/2025 19:19:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-13 19:19:23,219 - INFO - 127.0.0.1 - - [13/May/2025 19:19:23] "GET /select_products HTTP/1.1" 200 -
+2025-05-13 19:19:23,302 - INFO - 127.0.0.1 - - [13/May/2025 19:19:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-13 19:20:23,785 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-13 19:20:36,729 - INFO - No cookie button found
+2025-05-13 19:20:36,966 - INFO - Waiting for reviews to load...
+2025-05-13 19:20:37,108 - INFO - Review elements found
+2025-05-13 19:20:40,591 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-13 19:20:41,037 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-13 19:20:41,496 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-13 19:20:42,024 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-13 19:20:42,471 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-13 19:20:42,955 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-13 19:20:43,400 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-13 19:20:43,854 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-13 19:20:44,283 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-13 19:20:44,776 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-13 19:20:44,874 - INFO - Added 10 reviews (Total: 10)
+2025-05-13 19:21:14,983 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-13 19:21:16,293 - INFO - 127.0.0.1 - - [13/May/2025 19:21:16] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-13 19:21:16,445 - INFO - 127.0.0.1 - - [13/May/2025 19:21:16] "GET /view_csv HTTP/1.1" 200 -
+2025-05-13 19:21:16,546 - INFO - 127.0.0.1 - - [13/May/2025 19:21:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-13 19:21:41,647 - INFO - 127.0.0.1 - - [13/May/2025 19:21:41] "[32mPOST /view_csv HTTP/1.1[0m" 302 -
+2025-05-13 19:21:41,838 - INFO - 127.0.0.1 - - [13/May/2025 19:21:41] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-13 19:21:41,918 - INFO - 127.0.0.1 - - [13/May/2025 19:21:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-13 19:21:58,442 - INFO - 127.0.0.1 - - [13/May/2025 19:21:58] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-13 19:22:01,828 - INFO - 127.0.0.1 - - [13/May/2025 19:22:01] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-13 19:22:01,921 - INFO - 127.0.0.1 - - [13/May/2025 19:22:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-13 19:22:21,522 - INFO - 127.0.0.1 - - [13/May/2025 19:22:21] "[32mPOST /word_cloud HTTP/1.1[0m" 302 -
+2025-05-13 19:22:21,553 - INFO - 127.0.0.1 - - [13/May/2025 19:22:21] "GET /select_products HTTP/1.1" 200 -
+2025-05-13 19:22:21,633 - INFO - 127.0.0.1 - - [13/May/2025 19:22:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-15 18:43:07,608 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-15 18:43:07,621 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-15 18:43:07,635 - INFO -  * Restarting with stat
+2025-05-15 18:43:26,048 - WARNING -  * Debugger is active!
+2025-05-15 18:43:26,218 - INFO -  * Debugger PIN: 220-965-795
+2025-05-15 18:43:45,103 - INFO - 127.0.0.1 - - [15/May/2025 18:43:45] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-15 18:43:47,128 - INFO - 127.0.0.1 - - [15/May/2025 18:43:47] "GET /login HTTP/1.1" 200 -
+2025-05-15 18:43:52,489 - INFO - 127.0.0.1 - - [15/May/2025 18:43:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-15 18:44:00,549 - INFO - 127.0.0.1 - - [15/May/2025 18:44:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-15 18:44:01,920 - INFO - 127.0.0.1 - - [15/May/2025 18:44:01] "GET /select_products HTTP/1.1" 200 -
+2025-05-15 18:44:03,783 - INFO - 127.0.0.1 - - [15/May/2025 18:44:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-15 18:45:12,591 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-15 18:45:12,594 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-15 18:45:12,817 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-15 18:45:14,315 - ERROR - Error during scraping: Page.goto: Target page, context or browser has been closed
+2025-05-15 18:45:15,469 - ERROR - Error during scraping: Page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  - navigating to "https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews", waiting until "load"
+
+2025-05-15 18:45:24,085 - INFO - 127.0.0.1 - - [15/May/2025 18:45:24] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-15 18:45:24,394 - INFO - 127.0.0.1 - - [15/May/2025 18:45:24] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-15 18:45:24,595 - INFO - 127.0.0.1 - - [15/May/2025 18:45:24] "GET /select_products HTTP/1.1" 200 -
+2025-05-15 18:45:24,633 - INFO - 127.0.0.1 - - [15/May/2025 18:45:24] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-15 18:45:24,750 - INFO - 127.0.0.1 - - [15/May/2025 18:45:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-15 18:45:27,284 - INFO - No cookie button found
+2025-05-15 18:45:27,332 - INFO - Waiting for reviews to load...
+2025-05-15 18:45:27,389 - INFO - Review elements found
+2025-05-15 18:45:30,924 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-15 18:45:31,416 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-15 18:45:31,919 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-15 18:45:32,433 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-15 18:45:32,945 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-15 18:45:33,435 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-15 18:45:34,024 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-15 18:45:34,590 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-15 18:45:35,089 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-15 18:45:35,521 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-15 18:45:35,653 - INFO - Added 10 reviews (Total: 10)
+2025-05-15 18:46:05,786 - INFO - No more 'Load More' button available or new reviews loaded
+2025-05-15 18:46:06,577 - INFO - 127.0.0.1 - - [15/May/2025 18:46:06] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-15 18:46:08,543 - INFO - 127.0.0.1 - - [15/May/2025 18:46:08] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-15 18:46:08,554 - INFO - 127.0.0.1 - - [15/May/2025 18:46:08] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-15 18:46:08,588 - INFO - 127.0.0.1 - - [15/May/2025 18:46:08] "GET /select_products HTTP/1.1" 200 -
+2025-05-15 18:46:08,672 - INFO - 127.0.0.1 - - [15/May/2025 18:46:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 17:48:13,041 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 17:48:13,041 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 17:48:13,047 - INFO -  * Restarting with stat
+2025-05-17 17:48:16,593 - WARNING -  * Debugger is active!
+2025-05-17 17:48:16,604 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 17:48:23,837 - INFO - 127.0.0.1 - - [17/May/2025 17:48:23] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-17 17:48:24,238 - INFO - 127.0.0.1 - - [17/May/2025 17:48:24] "GET /login HTTP/1.1" 200 -
+2025-05-17 17:48:26,534 - INFO - 127.0.0.1 - - [17/May/2025 17:48:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 17:48:31,835 - INFO - 127.0.0.1 - - [17/May/2025 17:48:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-17 17:48:32,021 - INFO - 127.0.0.1 - - [17/May/2025 17:48:32] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 17:48:32,217 - INFO - 127.0.0.1 - - [17/May/2025 17:48:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 17:49:03,540 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-17 17:49:15,751 - INFO - No cookie button found
+2025-05-17 17:49:15,824 - INFO - Waiting for reviews to load...
+2025-05-17 17:49:15,892 - INFO - Review elements found
+2025-05-17 17:49:20,690 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-17 17:49:21,173 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-17 17:49:21,606 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-17 17:49:22,021 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-17 17:49:22,431 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-17 17:49:22,842 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-17 17:49:23,259 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-17 17:49:23,710 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-17 17:49:24,152 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-17 17:49:24,642 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-17 17:49:24,757 - INFO - Added 10 reviews (Total: 10)
+2025-05-17 17:49:54,927 - INFO - Timeout waiting for new reviews on page 1
+2025-05-17 17:49:54,928 - INFO - Finished scraping 10 reviews after 0 pages
+2025-05-17 17:49:55,477 - INFO - 127.0.0.1 - - [17/May/2025 17:49:55] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 17:49:55,600 - INFO - 127.0.0.1 - - [17/May/2025 17:49:55] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 17:49:55,670 - INFO - 127.0.0.1 - - [17/May/2025 17:49:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 17:51:25,158 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-17 17:51:25,526 - INFO -  * Restarting with stat
+2025-05-17 17:51:30,526 - WARNING -  * Debugger is active!
+2025-05-17 17:51:30,598 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 17:51:33,250 - INFO - 127.0.0.1 - - [17/May/2025 17:51:33] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 17:51:33,494 - INFO - 127.0.0.1 - - [17/May/2025 17:51:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 17:51:36,150 - INFO - 127.0.0.1 - - [17/May/2025 17:51:36] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 17:51:36,200 - INFO - 127.0.0.1 - - [17/May/2025 17:51:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 17:51:47,654 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-17 17:52:00,341 - INFO - No cookie button found
+2025-05-17 17:52:00,426 - INFO - Waiting for reviews to load...
+2025-05-17 17:52:00,475 - INFO - Review elements found
+2025-05-17 17:52:05,571 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-17 17:52:06,027 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-17 17:52:06,510 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-17 17:52:08,056 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-17 17:52:08,595 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-17 17:52:09,300 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-17 17:52:10,257 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-17 17:52:10,893 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-17 17:52:11,384 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-17 17:52:14,448 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-17 17:52:14,575 - INFO - Added 10 reviews (Total: 10)
+2025-05-17 17:52:14,622 - INFO - Found 'Load More' button with selector: button[class*='InfiniteScroll_infinite-scroll__load-more-button__']
+2025-05-17 17:52:45,020 - WARNING - Timeout waiting for new reviews on page 1, attempt 1
+2025-05-17 17:53:15,138 - WARNING - Timeout waiting for new reviews on page 1, attempt 2
+2025-05-17 17:53:22,074 - WARNING - Error clicking 'Load More' on attempt 3: ElementHandle.click: Target page, context or browser has been closed
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    3 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+
+2025-05-17 17:53:22,232 - INFO - Max retries reached for page 1
+2025-05-17 17:53:22,243 - WARNING - Error loading more on page 1: ElementHandle.click: Target page, context or browser has been closed
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    3 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+
+2025-05-17 17:53:22,251 - INFO - Finished scraping 10 reviews after 0 pages
+2025-05-17 17:53:22,882 - INFO - 127.0.0.1 - - [17/May/2025 17:53:22] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 17:53:22,908 - INFO - 127.0.0.1 - - [17/May/2025 17:53:22] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 17:53:23,030 - INFO - 127.0.0.1 - - [17/May/2025 17:53:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 17:55:05,889 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-17 17:55:06,214 - INFO -  * Restarting with stat
+2025-05-17 17:55:10,842 - WARNING -  * Debugger is active!
+2025-05-17 17:55:10,866 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 17:55:11,497 - INFO - 127.0.0.1 - - [17/May/2025 17:55:11] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 17:55:11,732 - INFO - 127.0.0.1 - - [17/May/2025 17:55:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 17:55:13,220 - INFO - 127.0.0.1 - - [17/May/2025 17:55:13] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 17:55:13,287 - INFO - 127.0.0.1 - - [17/May/2025 17:55:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 17:55:24,801 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-17 17:55:37,101 - INFO - No cookie button found
+2025-05-17 17:55:37,139 - INFO - Waiting for reviews to load...
+2025-05-17 17:55:37,194 - INFO - Review elements found with selector: div[class*='UgcContainer_ugc-container__']
+2025-05-17 17:55:42,042 - INFO - Found 10 review blocks on page 1
+2025-05-17 17:55:43,473 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-17 17:55:43,997 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-17 17:55:44,520 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-17 17:55:45,065 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-17 17:55:45,647 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-17 17:55:46,311 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-17 17:55:47,263 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-17 17:55:48,245 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-17 17:55:48,780 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-17 17:55:49,479 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-17 17:55:49,643 - INFO - Added 10 reviews (Total: 10)
+2025-05-17 17:55:49,705 - INFO - Found 'Load More' button with selector: button[class*='InfiniteScroll_infinite-scroll__load-more-button__']
+2025-05-17 17:56:19,875 - WARNING - Timeout waiting for new reviews on page 1, attempt 1
+2025-05-17 17:56:36,940 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-17 17:56:37,371 - INFO -  * Restarting with stat
+2025-05-17 17:56:41,176 - WARNING -  * Debugger is active!
+2025-05-17 17:56:41,186 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 17:56:43,252 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-17 17:56:55,955 - INFO - No cookie button found
+2025-05-17 17:56:56,003 - INFO - Waiting for reviews to load...
+2025-05-17 17:56:56,035 - INFO - Review elements found
+2025-05-17 17:56:59,434 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-17 17:56:59,816 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-17 17:57:00,189 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-17 17:57:00,622 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-17 17:57:01,031 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-17 17:57:01,462 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-17 17:57:01,851 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-17 17:57:02,291 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-17 17:57:02,795 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-17 17:57:03,196 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-17 17:57:03,267 - INFO - Added 10 reviews (Total: 10)
+2025-05-17 17:57:15,515 - WARNING - Error loading more: ElementHandle.click: Target page, context or browser has been closed
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    5 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <button id="onetrust-accept-btn-handler">Accept All Cookies</button> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="onetrust-pc-dark-filter ot-fade-in"></div> from <div id="onetrust-consent-sdk">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
+2025-05-17 17:57:16,000 - INFO - 127.0.0.1 - - [17/May/2025 17:57:16] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 17:57:16,074 - INFO - 127.0.0.1 - - [17/May/2025 17:57:16] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 17:57:16,288 - INFO - 127.0.0.1 - - [17/May/2025 17:57:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 17:58:32,145 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 17:58:32,145 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 17:58:32,148 - INFO -  * Restarting with stat
+2025-05-17 17:58:34,898 - WARNING -  * Debugger is active!
+2025-05-17 17:58:34,906 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 17:58:37,807 - INFO - 127.0.0.1 - - [17/May/2025 17:58:37] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-17 17:58:37,815 - INFO - 127.0.0.1 - - [17/May/2025 17:58:37] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-17 17:58:37,923 - INFO - 127.0.0.1 - - [17/May/2025 17:58:37] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 17:58:38,103 - INFO - 127.0.0.1 - - [17/May/2025 17:58:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 17:58:43,756 - INFO - 127.0.0.1 - - [17/May/2025 17:58:43] "[35m[1mPOST /select_products HTTP/1.1[0m" 500 -
+2025-05-17 17:58:44,115 - INFO - 127.0.0.1 - - [17/May/2025 17:58:44] "GET /select_products?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-17 17:58:44,214 - INFO - 127.0.0.1 - - [17/May/2025 17:58:44] "GET /select_products?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-17 17:58:44,293 - INFO - 127.0.0.1 - - [17/May/2025 17:58:44] "GET /select_products?__debugger__=yes&cmd=resource&f=console.png&s=JY6UcykdyaubCPVUGDqG HTTP/1.1" 200 -
+2025-05-17 17:58:44,460 - INFO - 127.0.0.1 - - [17/May/2025 17:58:44] "GET /select_products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-17 17:58:50,407 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-17 17:58:50,883 - INFO -  * Restarting with stat
+2025-05-17 17:58:53,680 - WARNING -  * Debugger is active!
+2025-05-17 17:58:53,688 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:01:59,338 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 18:01:59,345 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 18:01:59,357 - INFO -  * Restarting with stat
+2025-05-17 18:02:02,607 - WARNING -  * Debugger is active!
+2025-05-17 18:02:02,614 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:05:05,246 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-17 18:05:06,004 - INFO -  * Restarting with stat
+2025-05-17 18:05:09,789 - WARNING -  * Debugger is active!
+2025-05-17 18:05:09,803 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:06:12,567 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-17 18:06:12,912 - INFO -  * Restarting with stat
+2025-05-17 18:06:16,164 - WARNING -  * Debugger is active!
+2025-05-17 18:06:16,174 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:06:32,213 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-17 18:06:32,465 - INFO -  * Restarting with stat
+2025-05-17 18:06:35,362 - WARNING -  * Debugger is active!
+2025-05-17 18:06:35,371 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:06:44,746 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-17 18:06:45,413 - INFO -  * Restarting with stat
+2025-05-17 18:06:48,745 - WARNING -  * Debugger is active!
+2025-05-17 18:06:48,753 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:06:50,135 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-17 18:06:50,424 - INFO -  * Restarting with stat
+2025-05-17 18:06:53,698 - WARNING -  * Debugger is active!
+2025-05-17 18:06:53,708 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:07:00,548 - INFO - 127.0.0.1 - - [17/May/2025 18:07:00] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 18:07:00,777 - INFO - 127.0.0.1 - - [17/May/2025 18:07:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:07:10,257 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-17 18:07:22,792 - INFO - No cookie button found
+2025-05-17 18:07:22,828 - INFO - Waiting for reviews to load...
+2025-05-17 18:07:22,911 - INFO - Review elements found
+2025-05-17 18:07:26,450 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-17 18:07:26,981 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-17 18:07:27,552 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-17 18:07:28,073 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-17 18:07:28,490 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-17 18:07:28,960 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-17 18:07:29,421 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-17 18:07:29,886 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-17 18:07:30,353 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-17 18:07:30,859 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-17 18:07:30,981 - INFO - Added 10 reviews (Total: 10)
+2025-05-17 18:09:11,421 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 18:09:11,423 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 18:09:11,426 - INFO -  * Restarting with stat
+2025-05-17 18:09:14,016 - WARNING -  * Debugger is active!
+2025-05-17 18:09:14,026 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:09:17,106 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-17 18:09:29,148 - INFO - No cookie button found
+2025-05-17 18:09:29,198 - INFO - Waiting for reviews to load...
+2025-05-17 18:09:29,232 - INFO - Review elements found
+2025-05-17 18:09:32,716 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-17 18:09:33,257 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-17 18:09:33,707 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-17 18:09:34,267 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-17 18:09:34,743 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-17 18:09:35,318 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-17 18:09:35,872 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-17 18:09:36,381 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-17 18:09:36,856 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-17 18:09:37,514 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-17 18:09:37,672 - INFO - Added 10 reviews (Total: 10)
+2025-05-17 18:10:54,384 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 18:10:54,385 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 18:10:54,387 - INFO -  * Restarting with stat
+2025-05-17 18:10:56,783 - WARNING -  * Debugger is active!
+2025-05-17 18:10:56,791 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:10:59,992 - INFO - 127.0.0.1 - - [17/May/2025 18:10:59] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-17 18:11:00,001 - INFO - 127.0.0.1 - - [17/May/2025 18:11:00] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-17 18:11:00,134 - INFO - 127.0.0.1 - - [17/May/2025 18:11:00] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 18:11:00,323 - INFO - 127.0.0.1 - - [17/May/2025 18:11:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:11:10,226 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-17 18:11:22,275 - INFO - No cookie button found
+2025-05-17 18:11:22,343 - INFO - Waiting for reviews to load...
+2025-05-17 18:11:22,413 - INFO - Review elements found
+2025-05-17 18:11:25,872 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-17 18:11:26,541 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-17 18:11:27,100 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-17 18:11:27,744 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-17 18:11:28,646 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-17 18:11:29,387 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-17 18:11:30,354 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-17 18:11:30,978 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-17 18:11:31,594 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-17 18:11:32,239 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-17 18:11:32,379 - INFO - Added 10 reviews (Total: 10)
+2025-05-17 18:11:34,545 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:11:36,691 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:11:45,213 - INFO - Extracted exact date for review 10: 2024-12-10
+2025-05-17 18:11:45,627 - INFO - Extracted exact date for review 11: 2024-11-27
+2025-05-17 18:11:46,044 - INFO - Extracted exact date for review 12: 2024-11-26
+2025-05-17 18:11:46,436 - INFO - Extracted exact date for review 13: 2024-11-23
+2025-05-17 18:11:46,873 - INFO - Extracted exact date for review 14: 2024-11-19
+2025-05-17 18:11:47,295 - INFO - Extracted exact date for review 15: 2024-11-13
+2025-05-17 18:11:47,729 - INFO - Extracted exact date for review 16: 2024-10-17
+2025-05-17 18:11:48,114 - INFO - Extracted exact date for review 17: 2024-10-05
+2025-05-17 18:11:48,739 - INFO - Extracted exact date for review 18: 2024-07-28
+2025-05-17 18:11:49,258 - INFO - Extracted exact date for review 19: 2024-06-26
+2025-05-17 18:11:49,407 - INFO - Added 10 reviews (Total: 20)
+2025-05-17 18:11:51,485 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:11:53,622 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:12:00,559 - INFO - Extracted exact date for review 20: 2024-05-02
+2025-05-17 18:12:00,989 - INFO - Extracted exact date for review 21: 2024-05-02
+2025-05-17 18:12:01,413 - INFO - Extracted exact date for review 22: 2024-04-30
+2025-05-17 18:12:01,822 - INFO - Extracted exact date for review 23: 2024-04-29
+2025-05-17 18:12:02,224 - INFO - Extracted exact date for review 24: 2024-04-28
+2025-05-17 18:12:02,629 - INFO - Extracted exact date for review 25: 2024-04-16
+2025-05-17 18:12:03,043 - INFO - Extracted exact date for review 26: 2024-01-25
+2025-05-17 18:12:03,445 - INFO - Extracted exact date for review 27: 2024-01-03
+2025-05-17 18:12:03,861 - INFO - Extracted exact date for review 28: 2024-01-02
+2025-05-17 18:12:04,267 - INFO - Extracted exact date for review 29: 2023-11-25
+2025-05-17 18:12:04,406 - INFO - Added 10 reviews (Total: 30)
+2025-05-17 18:12:06,515 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:12:08,624 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:12:17,239 - INFO - Extracted exact date for review 30: 2023-10-27
+2025-05-17 18:12:17,689 - INFO - Extracted exact date for review 31: 2023-09-03
+2025-05-17 18:12:18,108 - INFO - Extracted exact date for review 32: 2023-08-23
+2025-05-17 18:12:18,629 - INFO - Extracted exact date for review 33: 2023-07-12
+2025-05-17 18:12:19,255 - INFO - Extracted exact date for review 34: 2023-03-22
+2025-05-17 18:12:19,758 - INFO - Extracted exact date for review 35: 2022-11-14
+2025-05-17 18:12:20,378 - INFO - Extracted exact date for review 36: 2022-08-20
+2025-05-17 18:12:21,019 - INFO - Extracted exact date for review 37: 2022-06-01
+2025-05-17 18:12:21,621 - INFO - Extracted exact date for review 38: 2022-05-04
+2025-05-17 18:12:22,189 - INFO - Extracted exact date for review 39: 2022-05-01
+2025-05-17 18:12:22,283 - INFO - Added 10 reviews (Total: 40)
+2025-05-17 18:12:24,356 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:12:26,476 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:12:35,527 - INFO - Extracted exact date for review 40: 2022-04-14
+2025-05-17 18:12:36,080 - INFO - Extracted exact date for review 41: 2022-03-22
+2025-05-17 18:12:36,583 - INFO - Extracted exact date for review 42: 2018-01-17
+2025-05-17 18:12:37,313 - INFO - Extracted exact date for review 43: 2017-08-30
+2025-05-17 18:12:38,783 - INFO - Extracted exact date for review 44: 2017-08-25
+2025-05-17 18:12:39,295 - INFO - Extracted exact date for review 45: 2017-07-06
+2025-05-17 18:12:39,778 - INFO - Extracted exact date for review 46: 2017-06-05
+2025-05-17 18:12:40,367 - INFO - Extracted exact date for review 47: 2017-02-01
+2025-05-17 18:12:40,982 - INFO - Extracted exact date for review 48: 2016-05-03
+2025-05-17 18:12:41,580 - INFO - Extracted exact date for review 49: 2015-11-29
+2025-05-17 18:12:41,700 - INFO - Added 10 reviews (Total: 50)
+2025-05-17 18:12:43,776 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:12:45,896 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:12:54,549 - INFO - Extracted exact date for review 50: 2015-04-24
+2025-05-17 18:12:55,027 - INFO - Extracted exact date for review 51: 2015-04-11
+2025-05-17 18:12:55,513 - INFO - Extracted exact date for review 52: 2015-04-11
+2025-05-17 18:12:56,088 - INFO - Extracted exact date for review 53: 2015-03-31
+2025-05-17 18:12:56,736 - INFO - Extracted exact date for review 54: 2015-03-24
+2025-05-17 18:12:57,249 - INFO - Extracted exact date for review 55: 2015-03-07
+2025-05-17 18:12:57,893 - INFO - Extracted exact date for review 56: 2015-01-14
+2025-05-17 18:12:58,689 - INFO - Extracted exact date for review 57: 2014-10-21
+2025-05-17 18:12:59,335 - INFO - Extracted exact date for review 58: 2014-09-13
+2025-05-17 18:12:59,854 - INFO - Extracted exact date for review 59: 2014-09-10
+2025-05-17 18:12:59,998 - INFO - Added 10 reviews (Total: 60)
+2025-05-17 18:13:02,136 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:13:04,374 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:13:12,992 - INFO - Extracted exact date for review 60: 2014-09-08
+2025-05-17 18:13:13,440 - INFO - Extracted exact date for review 61: 2014-06-30
+2025-05-17 18:13:13,540 - INFO - Added 2 reviews (Total: 62)
+2025-05-17 18:13:15,697 - INFO - No more 'LOAD MORE' button found
+2025-05-17 18:13:15,698 - INFO - Finished scraping. Total reviews collected: 62
+2025-05-17 18:13:16,237 - INFO - 127.0.0.1 - - [17/May/2025 18:13:16] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 18:13:16,276 - INFO - 127.0.0.1 - - [17/May/2025 18:13:16] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 18:13:16,445 - INFO - 127.0.0.1 - - [17/May/2025 18:13:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:13:55,953 - INFO - 127.0.0.1 - - [17/May/2025 18:13:55] "GET /download_csv/csvlist\\influenster_reviews_20250517_175715.csv HTTP/1.1" 200 -
+2025-05-17 18:16:23,245 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-17 18:16:23,572 - INFO -  * Restarting with stat
+2025-05-17 18:16:26,613 - WARNING -  * Debugger is active!
+2025-05-17 18:16:26,622 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:16:36,392 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-17 18:16:36,697 - INFO -  * Restarting with stat
+2025-05-17 18:16:39,797 - WARNING -  * Debugger is active!
+2025-05-17 18:16:39,808 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:16:53,330 - INFO - 127.0.0.1 - - [17/May/2025 18:16:53] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 18:16:53,708 - INFO - 127.0.0.1 - - [17/May/2025 18:16:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:17:12,636 - INFO - 127.0.0.1 - - [17/May/2025 18:17:12] "[32mPOST /view_csv HTTP/1.1[0m" 302 -
+2025-05-17 18:17:12,695 - INFO - 127.0.0.1 - - [17/May/2025 18:17:12] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-17 18:17:12,803 - INFO - 127.0.0.1 - - [17/May/2025 18:17:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:17:14,777 - INFO - 127.0.0.1 - - [17/May/2025 18:17:14] "[32mPOST /sentiment_analysis HTTP/1.1[0m" 302 -
+2025-05-17 18:17:17,814 - INFO - 127.0.0.1 - - [17/May/2025 18:17:17] "GET /word_cloud HTTP/1.1" 200 -
+2025-05-17 18:17:17,885 - INFO - 127.0.0.1 - - [17/May/2025 18:17:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:18:04,987 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 18:18:04,990 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 18:18:04,992 - INFO -  * Restarting with stat
+2025-05-17 18:18:07,390 - WARNING -  * Debugger is active!
+2025-05-17 18:18:07,399 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:18:38,801 - INFO - 127.0.0.1 - - [17/May/2025 18:18:38] "[32mPOST /word_cloud HTTP/1.1[0m" 302 -
+2025-05-17 18:18:38,823 - INFO - 127.0.0.1 - - [17/May/2025 18:18:38] "GET /login HTTP/1.1" 200 -
+2025-05-17 18:18:48,278 - INFO - 127.0.0.1 - - [17/May/2025 18:18:48] "POST /login HTTP/1.1" 200 -
+2025-05-17 18:18:53,823 - INFO - 127.0.0.1 - - [17/May/2025 18:18:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-17 18:18:53,868 - INFO - 127.0.0.1 - - [17/May/2025 18:18:53] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 18:18:54,102 - INFO - 127.0.0.1 - - [17/May/2025 18:18:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:19:14,991 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-training-club-app/review
+2025-05-17 18:19:26,398 - INFO - No cookie button found
+2025-05-17 18:19:26,420 - ERROR - Error during scraping: Page.query_selector: Target page, context or browser has been closed
+2025-05-17 18:19:26,999 - INFO - 127.0.0.1 - - [17/May/2025 18:19:26] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 18:19:27,015 - INFO - 127.0.0.1 - - [17/May/2025 18:19:27] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-17 18:19:27,031 - INFO - 127.0.0.1 - - [17/May/2025 18:19:27] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 18:19:27,127 - INFO - 127.0.0.1 - - [17/May/2025 18:19:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:19:48,782 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-17 18:20:01,006 - INFO - No cookie button found
+2025-05-17 18:20:01,062 - INFO - Waiting for reviews to load...
+2025-05-17 18:20:01,154 - INFO - Review elements found
+2025-05-17 18:20:04,579 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-17 18:20:05,185 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-17 18:20:05,837 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-17 18:20:06,278 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-17 18:20:06,700 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-17 18:20:07,101 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-17 18:20:07,574 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-17 18:20:07,951 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-17 18:20:08,370 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-17 18:20:08,834 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-17 18:20:08,923 - INFO - Added 10 reviews (Total: 10)
+2025-05-17 18:20:11,001 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:20:13,117 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:20:20,765 - INFO - Extracted exact date for review 10: 2024-12-10
+2025-05-17 18:20:21,189 - INFO - Extracted exact date for review 11: 2024-11-27
+2025-05-17 18:20:21,598 - INFO - Extracted exact date for review 12: 2024-11-26
+2025-05-17 18:20:22,010 - INFO - Extracted exact date for review 13: 2024-11-23
+2025-05-17 18:20:22,383 - INFO - Extracted exact date for review 14: 2024-11-19
+2025-05-17 18:20:22,861 - INFO - Extracted exact date for review 15: 2024-11-13
+2025-05-17 18:20:23,268 - INFO - Extracted exact date for review 16: 2024-10-17
+2025-05-17 18:20:23,752 - INFO - Extracted exact date for review 17: 2024-10-05
+2025-05-17 18:20:24,155 - INFO - Extracted exact date for review 18: 2024-07-28
+2025-05-17 18:20:24,567 - INFO - Extracted exact date for review 19: 2024-06-26
+2025-05-17 18:20:24,649 - INFO - Added 10 reviews (Total: 20)
+2025-05-17 18:20:26,726 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:20:28,837 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:20:36,427 - INFO - Extracted exact date for review 20: 2024-05-02
+2025-05-17 18:20:36,822 - INFO - Extracted exact date for review 21: 2024-05-02
+2025-05-17 18:20:37,208 - INFO - Extracted exact date for review 22: 2024-04-30
+2025-05-17 18:20:37,718 - INFO - Extracted exact date for review 23: 2024-04-29
+2025-05-17 18:20:38,128 - INFO - Extracted exact date for review 24: 2024-04-28
+2025-05-17 18:20:38,599 - INFO - Extracted exact date for review 25: 2024-04-16
+2025-05-17 18:20:38,997 - INFO - Extracted exact date for review 26: 2024-01-25
+2025-05-17 18:20:39,455 - INFO - Extracted exact date for review 27: 2024-01-03
+2025-05-17 18:20:39,938 - INFO - Extracted exact date for review 28: 2024-01-02
+2025-05-17 18:20:40,350 - INFO - Extracted exact date for review 29: 2023-11-25
+2025-05-17 18:20:40,426 - INFO - Added 10 reviews (Total: 30)
+2025-05-17 18:20:42,488 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:20:44,584 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:20:51,531 - INFO - Extracted exact date for review 30: 2023-10-27
+2025-05-17 18:20:51,925 - INFO - Extracted exact date for review 31: 2023-09-03
+2025-05-17 18:20:52,310 - INFO - Extracted exact date for review 32: 2023-08-23
+2025-05-17 18:20:52,721 - INFO - Extracted exact date for review 33: 2023-07-12
+2025-05-17 18:20:53,096 - INFO - Extracted exact date for review 34: 2023-03-22
+2025-05-17 18:20:53,524 - INFO - Extracted exact date for review 35: 2022-11-14
+2025-05-17 18:20:53,937 - INFO - Extracted exact date for review 36: 2022-08-20
+2025-05-17 18:20:54,364 - INFO - Extracted exact date for review 37: 2022-06-01
+2025-05-17 18:20:54,764 - INFO - Extracted exact date for review 38: 2022-05-04
+2025-05-17 18:20:55,154 - INFO - Extracted exact date for review 39: 2022-05-01
+2025-05-17 18:20:55,235 - INFO - Added 10 reviews (Total: 40)
+2025-05-17 18:20:57,317 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:20:59,438 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:21:06,734 - INFO - Extracted exact date for review 40: 2022-04-14
+2025-05-17 18:21:07,193 - INFO - Extracted exact date for review 41: 2022-03-22
+2025-05-17 18:21:07,652 - INFO - Extracted exact date for review 42: 2018-01-17
+2025-05-17 18:21:08,118 - INFO - Extracted exact date for review 43: 2017-08-30
+2025-05-17 18:21:08,501 - INFO - Extracted exact date for review 44: 2017-08-25
+2025-05-17 18:21:08,900 - INFO - Extracted exact date for review 45: 2017-07-06
+2025-05-17 18:21:09,296 - INFO - Extracted exact date for review 46: 2017-06-05
+2025-05-17 18:21:09,688 - INFO - Extracted exact date for review 47: 2017-02-01
+2025-05-17 18:21:10,096 - INFO - Extracted exact date for review 48: 2016-05-03
+2025-05-17 18:21:10,499 - INFO - Extracted exact date for review 49: 2015-11-29
+2025-05-17 18:21:10,581 - INFO - Added 10 reviews (Total: 50)
+2025-05-17 18:21:12,669 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:21:14,802 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:21:23,992 - INFO - Extracted exact date for review 50: 2015-04-24
+2025-05-17 18:21:24,374 - INFO - Extracted exact date for review 51: 2015-04-11
+2025-05-17 18:21:24,757 - INFO - Extracted exact date for review 52: 2015-04-11
+2025-05-17 18:21:25,167 - INFO - Extracted exact date for review 53: 2015-03-31
+2025-05-17 18:21:25,589 - INFO - Extracted exact date for review 54: 2015-03-24
+2025-05-17 18:21:25,988 - INFO - Extracted exact date for review 55: 2015-03-07
+2025-05-17 18:21:26,412 - INFO - Extracted exact date for review 56: 2015-01-14
+2025-05-17 18:21:26,801 - INFO - Extracted exact date for review 57: 2014-10-21
+2025-05-17 18:21:27,184 - INFO - Extracted exact date for review 58: 2014-09-13
+2025-05-17 18:21:27,587 - INFO - Extracted exact date for review 59: 2014-09-10
+2025-05-17 18:21:27,662 - INFO - Added 10 reviews (Total: 60)
+2025-05-17 18:21:29,857 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:21:31,989 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:21:39,648 - INFO - Extracted exact date for review 60: 2014-09-08
+2025-05-17 18:21:40,102 - INFO - Extracted exact date for review 61: 2014-06-30
+2025-05-17 18:21:40,205 - INFO - Added 2 reviews (Total: 62)
+2025-05-17 18:21:42,326 - INFO - No more 'LOAD MORE' button found
+2025-05-17 18:21:42,327 - INFO - Finished scraping. Total reviews collected: 62
+2025-05-17 18:21:42,974 - INFO - 127.0.0.1 - - [17/May/2025 18:21:42] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 18:21:42,989 - INFO - 127.0.0.1 - - [17/May/2025 18:21:42] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-17 18:21:43,007 - INFO - 127.0.0.1 - - [17/May/2025 18:21:43] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 18:21:43,073 - INFO - 127.0.0.1 - - [17/May/2025 18:21:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:24:54,208 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-17 18:24:54,528 - INFO -  * Restarting with stat
+2025-05-17 18:24:57,881 - WARNING -  * Debugger is active!
+2025-05-17 18:24:57,890 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:25:02,559 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-17 18:25:02,826 - INFO -  * Restarting with stat
+2025-05-17 18:25:05,385 - WARNING -  * Debugger is active!
+2025-05-17 18:25:05,399 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:25:09,032 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-17 18:25:09,285 - INFO -  * Restarting with stat
+2025-05-17 18:25:12,330 - WARNING -  * Debugger is active!
+2025-05-17 18:25:12,343 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:25:24,725 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-17 18:25:37,330 - INFO - No cookie button found
+2025-05-17 18:25:37,380 - INFO - Waiting for reviews to load...
+2025-05-17 18:25:37,437 - INFO - Review elements found
+2025-05-17 18:25:40,888 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-17 18:25:41,364 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-17 18:25:41,747 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-17 18:25:42,159 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-17 18:25:42,586 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-17 18:25:42,994 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-17 18:25:43,380 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-17 18:25:43,793 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-17 18:25:44,203 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-17 18:25:44,627 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-17 18:25:44,702 - INFO - Added 10 reviews (Total: 10)
+2025-05-17 18:25:46,758 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:25:48,859 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:25:55,886 - INFO - Extracted exact date for review 10: 2024-10-14
+2025-05-17 18:25:56,278 - INFO - Extracted exact date for review 11: 2024-10-07
+2025-05-17 18:25:56,687 - INFO - Extracted exact date for review 12: 2024-10-05
+2025-05-17 18:25:57,085 - INFO - Extracted exact date for review 13: 2024-09-23
+2025-05-17 18:25:57,526 - INFO - Extracted exact date for review 14: 2024-09-12
+2025-05-17 18:25:58,015 - INFO - Extracted exact date for review 15: 2024-09-06
+2025-05-17 18:25:58,456 - INFO - Extracted exact date for review 16: 2024-09-04
+2025-05-17 18:25:58,903 - INFO - Extracted exact date for review 17: 2024-08-22
+2025-05-17 18:25:59,320 - INFO - Extracted exact date for review 18: 2024-07-07
+2025-05-17 18:25:59,721 - INFO - Extracted exact date for review 19: 2024-06-18
+2025-05-17 18:25:59,804 - INFO - Added 10 reviews (Total: 20)
+2025-05-17 18:26:01,874 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:26:03,993 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:26:11,739 - INFO - Extracted exact date for review 20: 2024-05-02
+2025-05-17 18:26:12,143 - INFO - Extracted exact date for review 21: 2024-04-25
+2025-05-17 18:26:12,593 - INFO - Extracted exact date for review 22: 2024-04-24
+2025-05-17 18:26:12,973 - INFO - Extracted exact date for review 23: 2024-04-15
+2025-05-17 18:26:13,411 - INFO - Extracted exact date for review 24: 2024-04-11
+2025-05-17 18:26:13,795 - INFO - Extracted exact date for review 25: 2024-02-29
+2025-05-17 18:26:14,167 - INFO - Extracted exact date for review 26: 2024-02-22
+2025-05-17 18:26:14,575 - INFO - Extracted exact date for review 27: 2024-02-02
+2025-05-17 18:26:15,005 - INFO - Extracted exact date for review 28: 2024-01-26
+2025-05-17 18:26:15,421 - INFO - Extracted exact date for review 29: 2024-01-26
+2025-05-17 18:26:15,496 - INFO - Added 10 reviews (Total: 30)
+2025-05-17 18:26:17,574 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:26:19,656 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:26:28,176 - INFO - Extracted exact date for review 30: 2024-01-22
+2025-05-17 18:26:28,580 - INFO - Extracted exact date for review 31: 2024-01-05
+2025-05-17 18:26:29,006 - INFO - Extracted exact date for review 32: 2023-12-17
+2025-05-17 18:26:29,433 - INFO - Extracted exact date for review 33: 2023-12-01
+2025-05-17 18:26:29,862 - INFO - Extracted exact date for review 34: 2023-11-20
+2025-05-17 18:26:30,260 - INFO - Extracted exact date for review 35: 2023-11-16
+2025-05-17 18:26:30,667 - INFO - Extracted exact date for review 36: 2023-11-16
+2025-05-17 18:26:31,147 - INFO - Extracted exact date for review 37: 2023-11-09
+2025-05-17 18:26:31,562 - INFO - Extracted exact date for review 38: 2023-11-05
+2025-05-17 18:26:31,950 - INFO - Extracted exact date for review 39: 2023-10-28
+2025-05-17 18:26:32,029 - INFO - Added 10 reviews (Total: 40)
+2025-05-17 18:26:34,098 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:26:36,204 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:26:44,998 - INFO - Extracted exact date for review 40: 2023-10-14
+2025-05-17 18:26:45,401 - INFO - Extracted exact date for review 41: 2023-10-02
+2025-05-17 18:26:45,808 - INFO - Extracted exact date for review 42: 2023-09-08
+2025-05-17 18:26:46,186 - INFO - Extracted exact date for review 43: 2023-08-21
+2025-05-17 18:26:46,579 - INFO - Extracted exact date for review 44: 2023-08-13
+2025-05-17 18:26:46,977 - INFO - Extracted exact date for review 45: 2023-07-27
+2025-05-17 18:26:47,346 - INFO - Extracted exact date for review 46: 2023-07-11
+2025-05-17 18:26:47,776 - INFO - Extracted exact date for review 47: 2023-07-03
+2025-05-17 18:26:48,177 - INFO - Extracted exact date for review 48: 2023-06-30
+2025-05-17 18:26:48,598 - INFO - Extracted exact date for review 49: 2023-06-24
+2025-05-17 18:26:48,672 - INFO - Added 10 reviews (Total: 50)
+2025-05-17 18:26:50,754 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:26:52,897 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:27:01,237 - INFO - Extracted exact date for review 50: 2023-06-09
+2025-05-17 18:27:01,631 - INFO - Extracted exact date for review 51: 2023-05-05
+2025-05-17 18:27:02,027 - INFO - Extracted exact date for review 52: 2023-05-04
+2025-05-17 18:27:02,409 - INFO - Extracted exact date for review 53: 2023-04-27
+2025-05-17 18:27:02,803 - INFO - Extracted exact date for review 54: 2023-04-22
+2025-05-17 18:27:03,270 - INFO - Extracted exact date for review 55: 2023-04-16
+2025-05-17 18:27:03,671 - INFO - Extracted exact date for review 56: 2023-02-26
+2025-05-17 18:27:04,054 - INFO - Extracted exact date for review 57: 2023-02-11
+2025-05-17 18:27:04,451 - INFO - Extracted exact date for review 58: 2023-02-11
+2025-05-17 18:27:04,834 - INFO - Extracted exact date for review 59: 2023-02-10
+2025-05-17 18:27:04,925 - INFO - Added 10 reviews (Total: 60)
+2025-05-17 18:27:06,976 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:27:09,095 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:27:17,413 - INFO - Extracted exact date for review 60: 2023-02-01
+2025-05-17 18:27:17,973 - INFO - Extracted exact date for review 61: 2023-01-29
+2025-05-17 18:27:18,421 - INFO - Extracted exact date for review 62: 2023-01-25
+2025-05-17 18:27:18,867 - INFO - Extracted exact date for review 63: 2023-01-13
+2025-05-17 18:27:19,271 - INFO - Extracted exact date for review 64: 2023-01-09
+2025-05-17 18:27:19,688 - INFO - Extracted exact date for review 65: 2022-12-31
+2025-05-17 18:27:20,141 - INFO - Extracted exact date for review 66: 2022-12-31
+2025-05-17 18:27:20,600 - INFO - Extracted exact date for review 67: 2022-12-30
+2025-05-17 18:27:21,006 - INFO - Extracted exact date for review 68: 2022-12-29
+2025-05-17 18:27:21,397 - INFO - Extracted exact date for review 69: 2022-12-28
+2025-05-17 18:27:21,478 - INFO - Added 10 reviews (Total: 70)
+2025-05-17 18:27:23,552 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:27:25,696 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:27:34,434 - INFO - Extracted exact date for review 70: 2022-12-10
+2025-05-17 18:27:34,932 - INFO - Extracted exact date for review 71: 2022-11-15
+2025-05-17 18:27:35,328 - INFO - Extracted exact date for review 72: 2022-11-02
+2025-05-17 18:27:35,722 - INFO - Extracted exact date for review 73: 2022-10-24
+2025-05-17 18:27:36,148 - INFO - Extracted exact date for review 74: 2022-10-24
+2025-05-17 18:27:36,570 - INFO - Extracted exact date for review 75: 2022-10-15
+2025-05-17 18:27:36,948 - INFO - Extracted exact date for review 76: 2022-09-26
+2025-05-17 18:27:37,356 - INFO - Extracted exact date for review 77: 2022-09-15
+2025-05-17 18:27:37,761 - INFO - Extracted exact date for review 78: 2022-08-10
+2025-05-17 18:27:38,186 - INFO - Extracted exact date for review 79: 2022-08-07
+2025-05-17 18:27:38,267 - INFO - Added 10 reviews (Total: 80)
+2025-05-17 18:27:40,341 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:27:42,483 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:27:51,571 - INFO - Extracted exact date for review 80: 2022-07-25
+2025-05-17 18:27:51,972 - INFO - Extracted exact date for review 81: 2022-07-20
+2025-05-17 18:27:52,356 - INFO - Extracted exact date for review 82: 2022-07-12
+2025-05-17 18:27:52,754 - INFO - Extracted exact date for review 83: 2022-07-06
+2025-05-17 18:27:53,173 - INFO - Extracted exact date for review 84: 2022-07-04
+2025-05-17 18:27:53,599 - INFO - Extracted exact date for review 85: 2022-06-23
+2025-05-17 18:27:54,007 - INFO - Extracted exact date for review 86: 2022-05-19
+2025-05-17 18:27:54,381 - INFO - Extracted exact date for review 87: 2022-02-06
+2025-05-17 18:27:54,776 - INFO - Extracted exact date for review 88: 2022-01-06
+2025-05-17 18:27:55,172 - INFO - Extracted exact date for review 89: 2021-12-30
+2025-05-17 18:27:55,259 - INFO - Added 10 reviews (Total: 90)
+2025-05-17 18:27:57,353 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:27:59,511 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:28:07,694 - INFO - Extracted exact date for review 90: 2021-10-30
+2025-05-17 18:28:08,106 - INFO - Extracted exact date for review 91: 2021-10-05
+2025-05-17 18:28:08,530 - INFO - Extracted exact date for review 92: 2021-09-07
+2025-05-17 18:28:09,035 - INFO - Extracted exact date for review 93: 2021-08-12
+2025-05-17 18:28:09,459 - INFO - Extracted exact date for review 94: 2021-08-05
+2025-05-17 18:28:09,863 - INFO - Extracted exact date for review 95: 2021-07-29
+2025-05-17 18:28:10,258 - INFO - Extracted exact date for review 96: 2021-07-28
+2025-05-17 18:28:10,651 - INFO - Extracted exact date for review 97: 2021-07-25
+2025-05-17 18:28:11,034 - INFO - Extracted exact date for review 98: 2021-07-22
+2025-05-17 18:28:11,412 - INFO - Extracted exact date for review 99: 2021-07-19
+2025-05-17 18:28:11,499 - INFO - Added 10 reviews (Total: 100)
+2025-05-17 18:28:13,577 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:28:15,739 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:28:25,256 - INFO - Extracted exact date for review 100: 2021-07-14
+2025-05-17 18:28:25,653 - INFO - Extracted exact date for review 101: 2021-07-13
+2025-05-17 18:28:26,056 - INFO - Extracted exact date for review 102: 2021-07-06
+2025-05-17 18:28:26,462 - INFO - Extracted exact date for review 103: 2021-07-06
+2025-05-17 18:28:26,842 - INFO - Extracted exact date for review 104: 2021-07-05
+2025-05-17 18:28:27,247 - INFO - Extracted exact date for review 105: 2021-07-05
+2025-05-17 18:28:27,661 - INFO - Extracted exact date for review 106: 2021-07-01
+2025-05-17 18:28:28,054 - INFO - Extracted exact date for review 107: 2021-06-22
+2025-05-17 18:28:28,452 - INFO - Extracted exact date for review 108: 2021-06-20
+2025-05-17 18:28:28,863 - INFO - Extracted exact date for review 109: 2021-06-20
+2025-05-17 18:28:28,942 - INFO - Added 10 reviews (Total: 110)
+2025-05-17 18:28:31,034 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:28:33,186 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:28:41,512 - INFO - Extracted exact date for review 110: 2021-06-20
+2025-05-17 18:28:42,100 - INFO - Extracted exact date for review 111: 2021-06-16
+2025-05-17 18:28:42,495 - INFO - Extracted exact date for review 112: 2021-06-14
+2025-05-17 18:28:42,885 - INFO - Extracted exact date for review 113: 2021-06-14
+2025-05-17 18:28:43,301 - INFO - Extracted exact date for review 114: 2021-06-13
+2025-05-17 18:28:43,690 - INFO - Extracted exact date for review 115: 2021-06-12
+2025-05-17 18:28:44,105 - INFO - Extracted exact date for review 116: 2021-06-11
+2025-05-17 18:28:44,527 - INFO - Extracted exact date for review 117: 2021-06-10
+2025-05-17 18:28:44,936 - INFO - Extracted exact date for review 118: 2021-06-09
+2025-05-17 18:28:45,369 - INFO - Extracted exact date for review 119: 2021-06-08
+2025-05-17 18:28:45,447 - INFO - Added 10 reviews (Total: 120)
+2025-05-17 18:28:47,540 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:28:49,733 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:28:59,519 - INFO - Extracted exact date for review 120: 2021-06-06
+2025-05-17 18:28:59,944 - INFO - Extracted exact date for review 121: 2021-06-04
+2025-05-17 18:29:00,338 - INFO - Extracted exact date for review 122: 2021-05-26
+2025-05-17 18:29:00,740 - INFO - Extracted exact date for review 123: 2021-05-19
+2025-05-17 18:29:01,176 - INFO - Extracted exact date for review 124: 2021-05-10
+2025-05-17 18:29:01,552 - INFO - Extracted exact date for review 125: 2021-05-05
+2025-05-17 18:29:01,964 - INFO - Extracted exact date for review 126: 2021-05-01
+2025-05-17 18:29:02,333 - INFO - Extracted exact date for review 127: 2021-04-29
+2025-05-17 18:29:02,766 - INFO - Extracted exact date for review 128: 2021-04-23
+2025-05-17 18:29:03,152 - INFO - Extracted exact date for review 129: 2021-04-19
+2025-05-17 18:29:03,243 - INFO - Added 10 reviews (Total: 130)
+2025-05-17 18:29:05,304 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:29:07,427 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:29:17,074 - INFO - Extracted exact date for review 130: 2021-04-01
+2025-05-17 18:29:17,501 - INFO - Extracted exact date for review 131: 2021-03-31
+2025-05-17 18:29:17,897 - INFO - Extracted exact date for review 132: 2021-03-30
+2025-05-17 18:29:18,398 - INFO - Extracted exact date for review 133: 2021-03-25
+2025-05-17 18:29:18,823 - INFO - Extracted exact date for review 134: 2021-03-24
+2025-05-17 18:29:19,204 - INFO - Extracted exact date for review 135: 2021-03-21
+2025-05-17 18:29:19,647 - INFO - Extracted exact date for review 136: 2021-03-12
+2025-05-17 18:29:20,227 - INFO - Extracted exact date for review 137: 2021-03-12
+2025-05-17 18:29:20,675 - INFO - Extracted exact date for review 138: 2021-03-08
+2025-05-17 18:29:21,085 - INFO - Extracted exact date for review 139: 2021-03-05
+2025-05-17 18:29:21,163 - INFO - Added 10 reviews (Total: 140)
+2025-05-17 18:29:23,255 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:29:25,441 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:29:35,168 - INFO - Extracted exact date for review 140: 2021-03-03
+2025-05-17 18:29:35,581 - INFO - Extracted exact date for review 141: 2021-02-28
+2025-05-17 18:29:36,007 - INFO - Extracted exact date for review 142: 2021-02-25
+2025-05-17 18:29:36,414 - INFO - Extracted exact date for review 143: 2021-02-25
+2025-05-17 18:29:36,819 - INFO - Extracted exact date for review 144: 2021-02-23
+2025-05-17 18:29:37,239 - INFO - Extracted exact date for review 145: 2021-02-22
+2025-05-17 18:29:37,632 - INFO - Extracted exact date for review 146: 2021-02-16
+2025-05-17 18:29:38,055 - INFO - Extracted exact date for review 147: 2021-02-11
+2025-05-17 18:29:38,477 - INFO - Extracted exact date for review 148: 2021-02-08
+2025-05-17 18:29:38,877 - INFO - Extracted exact date for review 149: 2021-02-04
+2025-05-17 18:29:38,976 - INFO - Added 10 reviews (Total: 150)
+2025-05-17 18:29:41,089 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:29:43,271 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:29:53,181 - INFO - Extracted exact date for review 150: 2021-01-31
+2025-05-17 18:29:53,823 - INFO - Extracted exact date for review 151: 2021-01-27
+2025-05-17 18:29:54,235 - INFO - Extracted exact date for review 152: 2021-01-19
+2025-05-17 18:29:54,638 - INFO - Extracted exact date for review 153: 2020-12-01
+2025-05-17 18:29:55,053 - INFO - Extracted exact date for review 154: 2020-11-20
+2025-05-17 18:29:55,457 - INFO - Extracted exact date for review 155: 2020-11-18
+2025-05-17 18:29:55,877 - INFO - Extracted exact date for review 156: 2020-11-14
+2025-05-17 18:29:56,308 - INFO - Extracted exact date for review 157: 2020-11-05
+2025-05-17 18:29:56,742 - INFO - Extracted exact date for review 158: 2020-10-27
+2025-05-17 18:29:57,141 - INFO - Extracted exact date for review 159: 2020-10-26
+2025-05-17 18:29:57,227 - INFO - Added 10 reviews (Total: 160)
+2025-05-17 18:29:59,292 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:30:01,483 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:30:12,323 - INFO - Extracted exact date for review 160: 2020-10-24
+2025-05-17 18:30:12,757 - INFO - Extracted exact date for review 161: 2020-10-24
+2025-05-17 18:30:13,253 - INFO - Extracted exact date for review 162: 2020-10-22
+2025-05-17 18:30:13,718 - INFO - Extracted exact date for review 163: 2020-10-20
+2025-05-17 18:30:14,150 - INFO - Extracted exact date for review 164: 2020-10-17
+2025-05-17 18:30:14,590 - INFO - Extracted exact date for review 165: 2020-10-16
+2025-05-17 18:30:14,985 - INFO - Extracted exact date for review 166: 2020-10-01
+2025-05-17 18:30:15,405 - INFO - Extracted exact date for review 167: 2020-09-30
+2025-05-17 18:30:15,833 - INFO - Extracted exact date for review 168: 2020-09-25
+2025-05-17 18:30:16,205 - INFO - Extracted exact date for review 169: 2020-09-22
+2025-05-17 18:30:16,289 - INFO - Added 10 reviews (Total: 170)
+2025-05-17 18:30:18,365 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:30:20,562 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:30:31,339 - INFO - Extracted exact date for review 170: 2020-09-20
+2025-05-17 18:30:31,752 - INFO - Extracted exact date for review 171: 2020-09-20
+2025-05-17 18:30:32,153 - INFO - Extracted exact date for review 172: 2020-09-18
+2025-05-17 18:30:32,572 - INFO - Extracted exact date for review 173: 2020-09-14
+2025-05-17 18:30:32,973 - INFO - Extracted exact date for review 174: 2020-09-11
+2025-05-17 18:30:33,387 - INFO - Extracted exact date for review 175: 2020-09-11
+2025-05-17 18:30:33,797 - INFO - Extracted exact date for review 176: 2020-09-09
+2025-05-17 18:30:34,234 - INFO - Extracted exact date for review 177: 2020-09-08
+2025-05-17 18:30:34,661 - INFO - Extracted exact date for review 178: 2020-09-07
+2025-05-17 18:30:35,071 - INFO - Extracted exact date for review 179: 2020-09-05
+2025-05-17 18:30:35,152 - INFO - Added 10 reviews (Total: 180)
+2025-05-17 18:30:37,241 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:30:39,433 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:30:49,083 - INFO - Extracted exact date for review 180: 2020-09-05
+2025-05-17 18:30:49,497 - INFO - Extracted exact date for review 181: 2020-09-04
+2025-05-17 18:30:49,872 - INFO - Extracted exact date for review 182: 2020-09-04
+2025-05-17 18:30:50,306 - INFO - Extracted exact date for review 183: 2020-09-02
+2025-05-17 18:30:50,753 - INFO - Extracted exact date for review 184: 2020-08-31
+2025-05-17 18:30:51,214 - INFO - Extracted exact date for review 185: 2020-08-19
+2025-05-17 18:30:51,614 - INFO - Extracted exact date for review 186: 2020-08-18
+2025-05-17 18:30:52,011 - INFO - Extracted exact date for review 187: 2020-08-16
+2025-05-17 18:30:52,412 - INFO - Extracted exact date for review 188: 2020-08-14
+2025-05-17 18:30:52,811 - INFO - Extracted exact date for review 189: 2020-08-14
+2025-05-17 18:30:52,892 - INFO - Added 10 reviews (Total: 190)
+2025-05-17 18:30:54,990 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:30:57,340 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:31:07,874 - INFO - Extracted exact date for review 190: 2020-08-14
+2025-05-17 18:31:08,282 - INFO - Extracted exact date for review 191: 2020-08-13
+2025-05-17 18:31:08,701 - INFO - Extracted exact date for review 192: 2020-08-12
+2025-05-17 18:31:09,103 - INFO - Extracted exact date for review 193: 2020-08-12
+2025-05-17 18:31:09,501 - INFO - Extracted exact date for review 194: 2020-08-11
+2025-05-17 18:31:09,945 - INFO - Extracted exact date for review 195: 2020-08-11
+2025-05-17 18:31:10,465 - INFO - Extracted exact date for review 196: 2020-08-11
+2025-05-17 18:31:10,850 - INFO - Extracted exact date for review 197: 2020-08-10
+2025-05-17 18:31:11,259 - INFO - Extracted exact date for review 198: 2020-08-08
+2025-05-17 18:31:11,665 - INFO - Extracted exact date for review 199: 2020-08-07
+2025-05-17 18:31:11,754 - INFO - Added 10 reviews (Total: 200)
+2025-05-17 18:31:13,850 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:31:16,034 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:31:27,097 - INFO - Extracted exact date for review 200: 2020-08-07
+2025-05-17 18:31:27,503 - INFO - Extracted exact date for review 201: 2020-08-06
+2025-05-17 18:31:27,897 - INFO - Extracted exact date for review 202: 2020-08-04
+2025-05-17 18:31:28,313 - INFO - Extracted exact date for review 203: 2020-08-04
+2025-05-17 18:31:28,734 - INFO - Extracted exact date for review 204: 2020-08-04
+2025-05-17 18:31:29,181 - INFO - Extracted exact date for review 205: 2020-08-03
+2025-05-17 18:31:29,555 - INFO - Extracted exact date for review 206: 2020-08-03
+2025-05-17 18:31:29,985 - INFO - Extracted exact date for review 207: 2020-08-02
+2025-05-17 18:31:30,409 - INFO - Extracted exact date for review 208: 2020-08-02
+2025-05-17 18:31:30,931 - INFO - Extracted exact date for review 209: 2020-08-01
+2025-05-17 18:31:31,061 - INFO - Added 10 reviews (Total: 210)
+2025-05-17 18:31:33,157 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:31:35,360 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:31:45,883 - INFO - Extracted exact date for review 210: 2020-07-31
+2025-05-17 18:31:46,254 - INFO - Extracted exact date for review 211: 2020-07-31
+2025-05-17 18:31:46,659 - INFO - Extracted exact date for review 212: 2020-07-29
+2025-05-17 18:31:47,052 - INFO - Extracted exact date for review 213: 2020-07-29
+2025-05-17 18:31:47,420 - INFO - Extracted exact date for review 214: 2020-07-28
+2025-05-17 18:31:47,821 - INFO - Extracted exact date for review 215: 2020-07-28
+2025-05-17 18:31:48,225 - INFO - Extracted exact date for review 216: 2020-07-28
+2025-05-17 18:31:48,636 - INFO - Extracted exact date for review 217: 2020-07-28
+2025-05-17 18:31:49,054 - INFO - Extracted exact date for review 218: 2020-07-28
+2025-05-17 18:31:49,438 - INFO - Extracted exact date for review 219: 2020-07-26
+2025-05-17 18:31:49,517 - INFO - Added 10 reviews (Total: 220)
+2025-05-17 18:31:51,676 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:31:53,947 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:32:06,768 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 18:32:06,769 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 18:32:06,774 - INFO -  * Restarting with stat
+2025-05-17 18:32:09,279 - WARNING -  * Debugger is active!
+2025-05-17 18:32:09,289 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:32:10,000 - INFO - 127.0.0.1 - - [17/May/2025 18:32:10] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-17 18:32:10,176 - INFO - 127.0.0.1 - - [17/May/2025 18:32:10] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-17 18:32:10,298 - INFO - 127.0.0.1 - - [17/May/2025 18:32:10] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 18:32:10,501 - INFO - 127.0.0.1 - - [17/May/2025 18:32:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:32:29,093 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-17 18:32:41,181 - INFO - No cookie button found
+2025-05-17 18:32:41,214 - INFO - Waiting for reviews to load...
+2025-05-17 18:32:41,268 - INFO - Review elements found
+2025-05-17 18:32:44,686 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-17 18:32:45,135 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-17 18:32:45,560 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-17 18:32:46,030 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-17 18:32:46,517 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-17 18:32:46,988 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-17 18:32:47,428 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-17 18:32:47,914 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-17 18:32:48,341 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-17 18:32:48,791 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-17 18:32:48,868 - INFO - Added 10 reviews (Total: 10)
+2025-05-17 18:32:50,950 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:32:53,073 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:33:00,313 - INFO - Extracted exact date for review 10: 2024-12-10
+2025-05-17 18:33:00,717 - INFO - Extracted exact date for review 11: 2024-11-27
+2025-05-17 18:33:01,132 - INFO - Extracted exact date for review 12: 2024-11-26
+2025-05-17 18:33:01,525 - INFO - Extracted exact date for review 13: 2024-11-23
+2025-05-17 18:33:01,946 - INFO - Extracted exact date for review 14: 2024-11-19
+2025-05-17 18:33:02,344 - INFO - Extracted exact date for review 15: 2024-11-13
+2025-05-17 18:33:02,720 - INFO - Extracted exact date for review 16: 2024-10-17
+2025-05-17 18:33:03,145 - INFO - Extracted exact date for review 17: 2024-10-05
+2025-05-17 18:33:03,541 - INFO - Extracted exact date for review 18: 2024-07-28
+2025-05-17 18:33:03,922 - INFO - Extracted exact date for review 19: 2024-06-26
+2025-05-17 18:33:04,000 - INFO - Added 10 reviews (Total: 20)
+2025-05-17 18:33:06,065 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:33:08,156 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:33:15,782 - INFO - Extracted exact date for review 20: 2024-05-02
+2025-05-17 18:33:16,159 - INFO - Extracted exact date for review 21: 2024-05-02
+2025-05-17 18:33:16,557 - INFO - Extracted exact date for review 22: 2024-04-30
+2025-05-17 18:33:16,945 - INFO - Extracted exact date for review 23: 2024-04-29
+2025-05-17 18:33:17,393 - INFO - Extracted exact date for review 24: 2024-04-28
+2025-05-17 18:33:17,809 - INFO - Extracted exact date for review 25: 2024-04-16
+2025-05-17 18:33:18,188 - INFO - Extracted exact date for review 26: 2024-01-25
+2025-05-17 18:33:18,617 - INFO - Extracted exact date for review 27: 2024-01-03
+2025-05-17 18:33:19,015 - INFO - Extracted exact date for review 28: 2024-01-02
+2025-05-17 18:33:19,429 - INFO - Extracted exact date for review 29: 2023-11-25
+2025-05-17 18:33:19,508 - INFO - Added 10 reviews (Total: 30)
+2025-05-17 18:33:21,574 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:33:23,658 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:33:32,246 - INFO - Extracted exact date for review 30: 2023-10-27
+2025-05-17 18:33:32,643 - INFO - Extracted exact date for review 31: 2023-09-03
+2025-05-17 18:33:33,026 - INFO - Extracted exact date for review 32: 2023-08-23
+2025-05-17 18:33:33,434 - INFO - Extracted exact date for review 33: 2023-07-12
+2025-05-17 18:33:33,841 - INFO - Extracted exact date for review 34: 2023-03-22
+2025-05-17 18:33:34,258 - INFO - Extracted exact date for review 35: 2022-11-14
+2025-05-17 18:33:34,648 - INFO - Extracted exact date for review 36: 2022-08-20
+2025-05-17 18:33:35,129 - INFO - Extracted exact date for review 37: 2022-06-01
+2025-05-17 18:33:35,538 - INFO - Extracted exact date for review 38: 2022-05-04
+2025-05-17 18:33:35,934 - INFO - Extracted exact date for review 39: 2022-05-01
+2025-05-17 18:33:36,012 - INFO - Added 10 reviews (Total: 40)
+2025-05-17 18:33:38,077 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:33:40,201 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:33:48,456 - INFO - Extracted exact date for review 40: 2022-04-14
+2025-05-17 18:33:48,843 - INFO - Extracted exact date for review 41: 2022-03-22
+2025-05-17 18:33:49,207 - INFO - Extracted exact date for review 42: 2018-01-17
+2025-05-17 18:33:49,590 - INFO - Extracted exact date for review 43: 2017-08-30
+2025-05-17 18:33:50,001 - INFO - Extracted exact date for review 44: 2017-08-25
+2025-05-17 18:33:50,424 - INFO - Extracted exact date for review 45: 2017-07-06
+2025-05-17 18:33:50,829 - INFO - Extracted exact date for review 46: 2017-06-05
+2025-05-17 18:33:51,312 - INFO - Extracted exact date for review 47: 2017-02-01
+2025-05-17 18:33:51,869 - INFO - Extracted exact date for review 48: 2016-05-03
+2025-05-17 18:33:52,296 - INFO - Extracted exact date for review 49: 2015-11-29
+2025-05-17 18:33:52,377 - INFO - Added 10 reviews (Total: 50)
+2025-05-17 18:33:54,465 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:33:56,598 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:34:04,755 - INFO - Extracted exact date for review 50: 2015-04-24
+2025-05-17 18:34:05,148 - INFO - Extracted exact date for review 51: 2015-04-11
+2025-05-17 18:34:05,532 - INFO - Extracted exact date for review 52: 2015-04-11
+2025-05-17 18:34:05,903 - INFO - Extracted exact date for review 53: 2015-03-31
+2025-05-17 18:34:06,304 - INFO - Extracted exact date for review 54: 2015-03-24
+2025-05-17 18:34:06,677 - INFO - Extracted exact date for review 55: 2015-03-07
+2025-05-17 18:34:07,041 - INFO - Extracted exact date for review 56: 2015-01-14
+2025-05-17 18:34:07,419 - INFO - Extracted exact date for review 57: 2014-10-21
+2025-05-17 18:34:07,798 - INFO - Extracted exact date for review 58: 2014-09-13
+2025-05-17 18:34:08,233 - INFO - Extracted exact date for review 59: 2014-09-10
+2025-05-17 18:34:08,309 - INFO - Added 10 reviews (Total: 60)
+2025-05-17 18:34:10,405 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:34:12,536 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:34:20,407 - INFO - Extracted exact date for review 60: 2014-09-08
+2025-05-17 18:34:20,827 - INFO - Extracted exact date for review 61: 2014-06-30
+2025-05-17 18:34:20,900 - INFO - Added 2 reviews (Total: 62)
+2025-05-17 18:34:23,045 - INFO - No more 'LOAD MORE' button found
+2025-05-17 18:34:23,046 - INFO - Finished scraping. Total reviews collected: 62
+2025-05-17 18:34:23,592 - INFO - 127.0.0.1 - - [17/May/2025 18:34:23] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 18:34:23,603 - INFO - 127.0.0.1 - - [17/May/2025 18:34:23] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-17 18:34:23,615 - INFO - 127.0.0.1 - - [17/May/2025 18:34:23] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 18:34:23,747 - INFO - 127.0.0.1 - - [17/May/2025 18:34:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:34:38,186 - INFO - 127.0.0.1 - - [17/May/2025 18:34:38] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-17 18:34:38,206 - INFO - 127.0.0.1 - - [17/May/2025 18:34:38] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 18:34:38,263 - INFO - 127.0.0.1 - - [17/May/2025 18:34:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:35:21,427 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-17 18:35:21,730 - INFO -  * Restarting with stat
+2025-05-17 18:35:25,086 - WARNING -  * Debugger is active!
+2025-05-17 18:35:25,095 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:36:11,081 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-17 18:36:23,133 - INFO - No cookie button found
+2025-05-17 18:36:23,210 - INFO - Waiting for reviews to load...
+2025-05-17 18:36:23,268 - INFO - Review elements found
+2025-05-17 18:36:26,796 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-17 18:36:27,252 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-17 18:36:27,658 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-17 18:36:28,251 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-17 18:36:28,744 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-17 18:36:29,237 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-17 18:36:29,742 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-17 18:36:30,218 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-17 18:36:30,705 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-17 18:36:31,187 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-17 18:36:31,265 - INFO - Added 10 reviews (Total: 10)
+2025-05-17 18:36:33,389 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:36:35,564 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:36:43,376 - INFO - Extracted exact date for review 10: 2024-12-10
+2025-05-17 18:36:43,806 - INFO - Extracted exact date for review 11: 2024-11-27
+2025-05-17 18:36:44,317 - INFO - Extracted exact date for review 12: 2024-11-26
+2025-05-17 18:36:44,799 - INFO - Extracted exact date for review 13: 2024-11-23
+2025-05-17 18:36:45,245 - INFO - Extracted exact date for review 14: 2024-11-19
+2025-05-17 18:36:45,807 - INFO - Extracted exact date for review 15: 2024-11-13
+2025-05-17 18:36:46,189 - INFO - Extracted exact date for review 16: 2024-10-17
+2025-05-17 18:36:46,623 - INFO - Extracted exact date for review 17: 2024-10-05
+2025-05-17 18:36:47,025 - INFO - Extracted exact date for review 18: 2024-07-28
+2025-05-17 18:36:47,471 - INFO - Extracted exact date for review 19: 2024-06-26
+2025-05-17 18:36:47,550 - INFO - Added 10 reviews (Total: 20)
+2025-05-17 18:36:49,622 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:36:51,742 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:37:00,476 - INFO - Extracted exact date for review 20: 2024-05-02
+2025-05-17 18:37:00,850 - INFO - Extracted exact date for review 21: 2024-05-02
+2025-05-17 18:37:01,273 - INFO - Extracted exact date for review 22: 2024-04-30
+2025-05-17 18:37:01,661 - INFO - Extracted exact date for review 23: 2024-04-29
+2025-05-17 18:37:02,053 - INFO - Extracted exact date for review 24: 2024-04-28
+2025-05-17 18:37:02,470 - INFO - Extracted exact date for review 25: 2024-04-16
+2025-05-17 18:37:02,849 - INFO - Extracted exact date for review 26: 2024-01-25
+2025-05-17 18:37:03,341 - INFO - Extracted exact date for review 27: 2024-01-03
+2025-05-17 18:37:03,819 - INFO - Extracted exact date for review 28: 2024-01-02
+2025-05-17 18:37:04,218 - INFO - Extracted exact date for review 29: 2023-11-25
+2025-05-17 18:37:04,296 - INFO - Added 10 reviews (Total: 30)
+2025-05-17 18:37:06,362 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:37:08,499 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:37:15,637 - INFO - Extracted exact date for review 30: 2023-10-27
+2025-05-17 18:37:16,039 - INFO - Extracted exact date for review 31: 2023-09-03
+2025-05-17 18:37:16,434 - INFO - Extracted exact date for review 32: 2023-08-23
+2025-05-17 18:37:16,845 - INFO - Extracted exact date for review 33: 2023-07-12
+2025-05-17 18:37:17,240 - INFO - Extracted exact date for review 34: 2023-03-22
+2025-05-17 18:37:17,654 - INFO - Extracted exact date for review 35: 2022-11-14
+2025-05-17 18:37:18,123 - INFO - Extracted exact date for review 36: 2022-08-20
+2025-05-17 18:37:18,587 - INFO - Extracted exact date for review 37: 2022-06-01
+2025-05-17 18:37:19,023 - INFO - Extracted exact date for review 38: 2022-05-04
+2025-05-17 18:37:19,495 - INFO - Extracted exact date for review 39: 2022-05-01
+2025-05-17 18:37:19,687 - INFO - Added 10 reviews (Total: 40)
+2025-05-17 18:37:21,769 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:37:23,904 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:37:32,501 - INFO - Extracted exact date for review 40: 2022-04-14
+2025-05-17 18:37:32,930 - INFO - Extracted exact date for review 41: 2022-03-22
+2025-05-17 18:37:33,340 - INFO - Extracted exact date for review 42: 2018-01-17
+2025-05-17 18:37:33,758 - INFO - Extracted exact date for review 43: 2017-08-30
+2025-05-17 18:37:34,160 - INFO - Extracted exact date for review 44: 2017-08-25
+2025-05-17 18:37:34,581 - INFO - Extracted exact date for review 45: 2017-07-06
+2025-05-17 18:37:34,989 - INFO - Extracted exact date for review 46: 2017-06-05
+2025-05-17 18:37:35,398 - INFO - Extracted exact date for review 47: 2017-02-01
+2025-05-17 18:37:35,818 - INFO - Extracted exact date for review 48: 2016-05-03
+2025-05-17 18:37:36,236 - INFO - Extracted exact date for review 49: 2015-11-29
+2025-05-17 18:37:36,315 - INFO - Added 10 reviews (Total: 50)
+2025-05-17 18:37:38,387 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:37:40,501 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:37:48,388 - INFO - Extracted exact date for review 50: 2015-04-24
+2025-05-17 18:37:48,784 - INFO - Extracted exact date for review 51: 2015-04-11
+2025-05-17 18:37:49,197 - INFO - Extracted exact date for review 52: 2015-04-11
+2025-05-17 18:37:49,734 - INFO - Extracted exact date for review 53: 2015-03-31
+2025-05-17 18:37:50,136 - INFO - Extracted exact date for review 54: 2015-03-24
+2025-05-17 18:37:50,549 - INFO - Extracted exact date for review 55: 2015-03-07
+2025-05-17 18:37:50,958 - INFO - Extracted exact date for review 56: 2015-01-14
+2025-05-17 18:37:51,380 - INFO - Extracted exact date for review 57: 2014-10-21
+2025-05-17 18:37:51,802 - INFO - Extracted exact date for review 58: 2014-09-13
+2025-05-17 18:37:52,182 - INFO - Extracted exact date for review 59: 2014-09-10
+2025-05-17 18:37:52,260 - INFO - Added 10 reviews (Total: 60)
+2025-05-17 18:37:54,340 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:37:56,516 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:38:05,889 - INFO - Extracted exact date for review 60: 2014-09-08
+2025-05-17 18:38:06,400 - INFO - Extracted exact date for review 61: 2014-06-30
+2025-05-17 18:38:06,498 - INFO - Added 2 reviews (Total: 62)
+2025-05-17 18:38:08,670 - INFO - No more 'LOAD MORE' button found
+2025-05-17 18:38:08,670 - INFO - Finished scraping. Total reviews collected: 62
+2025-05-17 18:38:09,176 - INFO - 127.0.0.1 - - [17/May/2025 18:38:09] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 18:38:09,255 - INFO - 127.0.0.1 - - [17/May/2025 18:38:09] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 18:38:09,425 - INFO - 127.0.0.1 - - [17/May/2025 18:38:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:38:34,717 - INFO - 127.0.0.1 - - [17/May/2025 18:38:34] "GET /view_csv?idx=0&page=2 HTTP/1.1" 200 -
+2025-05-17 18:38:34,765 - INFO - 127.0.0.1 - - [17/May/2025 18:38:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:38:52,879 - INFO - 127.0.0.1 - - [17/May/2025 18:38:52] "GET /view_csv?idx=0&page=3 HTTP/1.1" 200 -
+2025-05-17 18:38:52,942 - INFO - 127.0.0.1 - - [17/May/2025 18:38:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:38:55,511 - INFO - 127.0.0.1 - - [17/May/2025 18:38:55] "GET /view_csv?idx=0&page=4 HTTP/1.1" 200 -
+2025-05-17 18:38:55,581 - INFO - 127.0.0.1 - - [17/May/2025 18:38:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:38:59,826 - INFO - 127.0.0.1 - - [17/May/2025 18:38:59] "GET /view_csv?idx=0&page=3 HTTP/1.1" 200 -
+2025-05-17 18:38:59,881 - INFO - 127.0.0.1 - - [17/May/2025 18:38:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:39:03,583 - INFO - 127.0.0.1 - - [17/May/2025 18:39:03] "GET /view_csv?idx=0&page=2 HTTP/1.1" 200 -
+2025-05-17 18:39:03,633 - INFO - 127.0.0.1 - - [17/May/2025 18:39:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:39:05,488 - INFO - 127.0.0.1 - - [17/May/2025 18:39:05] "GET /view_csv?idx=0&page=1 HTTP/1.1" 200 -
+2025-05-17 18:39:05,566 - INFO - 127.0.0.1 - - [17/May/2025 18:39:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:41:56,976 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-17 18:41:57,313 - INFO -  * Restarting with stat
+2025-05-17 18:42:01,210 - WARNING -  * Debugger is active!
+2025-05-17 18:42:01,217 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:43:02,070 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-17 18:43:02,332 - INFO -  * Restarting with stat
+2025-05-17 18:43:04,983 - WARNING -  * Debugger is active!
+2025-05-17 18:43:04,999 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:43:16,886 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-17 18:43:31,007 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 18:43:31,008 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 18:43:31,011 - INFO -  * Restarting with stat
+2025-05-17 18:43:34,334 - WARNING -  * Debugger is active!
+2025-05-17 18:43:34,347 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:43:34,577 - INFO - 127.0.0.1 - - [17/May/2025 18:43:34] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-17 18:43:34,586 - INFO - 127.0.0.1 - - [17/May/2025 18:43:34] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-17 18:43:34,647 - INFO - 127.0.0.1 - - [17/May/2025 18:43:34] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 18:43:34,812 - INFO - 127.0.0.1 - - [17/May/2025 18:43:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:44:32,282 - INFO - 127.0.0.1 - - [17/May/2025 18:44:32] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 18:44:32,345 - INFO - 127.0.0.1 - - [17/May/2025 18:44:32] "[35m[1mGET /view_csv HTTP/1.1[0m" 500 -
+2025-05-17 18:44:32,407 - INFO - 127.0.0.1 - - [17/May/2025 18:44:32] "GET /view_csv?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-17 18:44:32,410 - INFO - 127.0.0.1 - - [17/May/2025 18:44:32] "GET /view_csv?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-17 18:44:32,614 - INFO - 127.0.0.1 - - [17/May/2025 18:44:32] "GET /view_csv?__debugger__=yes&cmd=resource&f=console.png&s=ELZE0XiRnOiig8uzXMEy HTTP/1.1" 200 -
+2025-05-17 18:44:32,836 - INFO - 127.0.0.1 - - [17/May/2025 18:44:32] "GET /view_csv?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-17 18:44:37,745 - INFO - 127.0.0.1 - - [17/May/2025 18:44:37] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 18:45:06,741 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-17 18:45:19,296 - INFO - No cookie button found
+2025-05-17 18:45:19,318 - INFO - Waiting for reviews to load...
+2025-05-17 18:45:19,487 - INFO - Review elements found
+2025-05-17 18:45:23,085 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-17 18:45:23,767 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-17 18:45:24,245 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-17 18:45:24,938 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-17 18:45:25,541 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-17 18:45:26,231 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-17 18:45:26,701 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-17 18:45:27,474 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-17 18:45:27,983 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-17 18:45:28,424 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-17 18:45:28,535 - INFO - Added 10 reviews (Total: 10)
+2025-05-17 18:45:30,605 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:45:32,817 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:45:39,885 - INFO - Extracted exact date for review 10: 2024-10-14
+2025-05-17 18:45:40,288 - INFO - Extracted exact date for review 11: 2024-10-07
+2025-05-17 18:45:40,676 - INFO - Extracted exact date for review 12: 2024-10-05
+2025-05-17 18:45:41,170 - INFO - Extracted exact date for review 13: 2024-09-23
+2025-05-17 18:45:41,606 - INFO - Extracted exact date for review 14: 2024-09-12
+2025-05-17 18:45:41,976 - INFO - Extracted exact date for review 15: 2024-09-06
+2025-05-17 18:45:42,345 - INFO - Extracted exact date for review 16: 2024-09-04
+2025-05-17 18:45:42,770 - INFO - Extracted exact date for review 17: 2024-08-22
+2025-05-17 18:45:43,165 - INFO - Extracted exact date for review 18: 2024-07-07
+2025-05-17 18:45:43,562 - INFO - Extracted exact date for review 19: 2024-06-18
+2025-05-17 18:45:43,634 - INFO - Added 10 reviews (Total: 20)
+2025-05-17 18:45:45,694 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:45:47,797 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:45:56,463 - INFO - Extracted exact date for review 20: 2024-05-02
+2025-05-17 18:45:56,973 - INFO - Extracted exact date for review 21: 2024-04-25
+2025-05-17 18:45:57,369 - INFO - Extracted exact date for review 22: 2024-04-24
+2025-05-17 18:45:57,857 - INFO - Extracted exact date for review 23: 2024-04-15
+2025-05-17 18:45:58,303 - INFO - Extracted exact date for review 24: 2024-04-11
+2025-05-17 18:45:58,690 - INFO - Extracted exact date for review 25: 2024-02-29
+2025-05-17 18:45:59,222 - INFO - Extracted exact date for review 26: 2024-02-22
+2025-05-17 18:45:59,623 - INFO - Extracted exact date for review 27: 2024-02-02
+2025-05-17 18:46:00,046 - INFO - Extracted exact date for review 28: 2024-01-26
+2025-05-17 18:46:00,563 - INFO - Extracted exact date for review 29: 2024-01-26
+2025-05-17 18:46:00,655 - INFO - Added 10 reviews (Total: 30)
+2025-05-17 18:46:02,741 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:46:04,910 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:46:12,382 - INFO - Extracted exact date for review 30: 2024-01-22
+2025-05-17 18:46:12,805 - INFO - Extracted exact date for review 31: 2024-01-05
+2025-05-17 18:46:13,255 - INFO - Extracted exact date for review 32: 2023-12-17
+2025-05-17 18:46:13,797 - INFO - Extracted exact date for review 33: 2023-12-01
+2025-05-17 18:46:14,416 - INFO - Extracted exact date for review 34: 2023-11-20
+2025-05-17 18:46:14,845 - INFO - Extracted exact date for review 35: 2023-11-16
+2025-05-17 18:46:15,245 - INFO - Extracted exact date for review 36: 2023-11-16
+2025-05-17 18:46:15,687 - INFO - Extracted exact date for review 37: 2023-11-09
+2025-05-17 18:46:16,083 - INFO - Extracted exact date for review 38: 2023-11-05
+2025-05-17 18:46:16,470 - INFO - Extracted exact date for review 39: 2023-10-28
+2025-05-17 18:46:16,548 - INFO - Added 10 reviews (Total: 40)
+2025-05-17 18:46:18,612 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:46:20,777 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:46:29,462 - INFO - Extracted exact date for review 40: 2023-10-14
+2025-05-17 18:46:29,954 - INFO - Extracted exact date for review 41: 2023-10-02
+2025-05-17 18:46:30,446 - INFO - Extracted exact date for review 42: 2023-09-08
+2025-05-17 18:46:30,851 - INFO - Extracted exact date for review 43: 2023-08-21
+2025-05-17 18:46:31,287 - INFO - Extracted exact date for review 44: 2023-08-13
+2025-05-17 18:46:31,742 - INFO - Extracted exact date for review 45: 2023-07-27
+2025-05-17 18:46:32,158 - INFO - Extracted exact date for review 46: 2023-07-11
+2025-05-17 18:46:32,684 - INFO - Extracted exact date for review 47: 2023-07-03
+2025-05-17 18:46:33,077 - INFO - Extracted exact date for review 48: 2023-06-30
+2025-05-17 18:46:33,470 - INFO - Extracted exact date for review 49: 2023-06-24
+2025-05-17 18:46:33,545 - INFO - Added 10 reviews (Total: 50)
+2025-05-17 18:46:35,630 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:46:37,743 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:46:45,775 - INFO - Extracted exact date for review 50: 2023-06-09
+2025-05-17 18:46:46,224 - INFO - Extracted exact date for review 51: 2023-05-05
+2025-05-17 18:46:46,675 - INFO - Extracted exact date for review 52: 2023-05-04
+2025-05-17 18:46:47,156 - INFO - Extracted exact date for review 53: 2023-04-27
+2025-05-17 18:46:47,646 - INFO - Extracted exact date for review 54: 2023-04-22
+2025-05-17 18:46:48,105 - INFO - Extracted exact date for review 55: 2023-04-16
+2025-05-17 18:46:48,518 - INFO - Extracted exact date for review 56: 2023-02-26
+2025-05-17 18:46:48,963 - INFO - Extracted exact date for review 57: 2023-02-11
+2025-05-17 18:46:49,419 - INFO - Extracted exact date for review 58: 2023-02-11
+2025-05-17 18:46:49,817 - INFO - Extracted exact date for review 59: 2023-02-10
+2025-05-17 18:46:49,895 - INFO - Added 10 reviews (Total: 60)
+2025-05-17 18:46:51,946 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:46:54,159 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:47:02,636 - INFO - Extracted exact date for review 60: 2023-02-01
+2025-05-17 18:47:03,038 - INFO - Extracted exact date for review 61: 2023-01-29
+2025-05-17 18:47:03,577 - INFO - Extracted exact date for review 62: 2023-01-25
+2025-05-17 18:47:03,990 - INFO - Extracted exact date for review 63: 2023-01-13
+2025-05-17 18:47:04,353 - INFO - Extracted exact date for review 64: 2023-01-09
+2025-05-17 18:47:04,721 - INFO - Extracted exact date for review 65: 2022-12-31
+2025-05-17 18:47:05,159 - INFO - Extracted exact date for review 66: 2022-12-31
+2025-05-17 18:47:05,534 - INFO - Extracted exact date for review 67: 2022-12-30
+2025-05-17 18:47:05,930 - INFO - Extracted exact date for review 68: 2022-12-29
+2025-05-17 18:47:06,302 - INFO - Extracted exact date for review 69: 2022-12-28
+2025-05-17 18:47:06,375 - INFO - Added 10 reviews (Total: 70)
+2025-05-17 18:47:08,452 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:47:10,572 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:47:18,382 - INFO - Extracted exact date for review 70: 2022-12-10
+2025-05-17 18:47:18,828 - INFO - Extracted exact date for review 71: 2022-11-15
+2025-05-17 18:47:19,235 - INFO - Extracted exact date for review 72: 2022-11-02
+2025-05-17 18:47:19,623 - INFO - Extracted exact date for review 73: 2022-10-24
+2025-05-17 18:47:20,065 - INFO - Extracted exact date for review 74: 2022-10-24
+2025-05-17 18:47:27,065 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 18:47:27,066 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 18:47:27,070 - INFO -  * Restarting with stat
+2025-05-17 18:47:30,017 - WARNING -  * Debugger is active!
+2025-05-17 18:47:30,027 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:47:32,951 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-17 18:47:42,823 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 18:47:42,824 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 18:47:42,826 - INFO -  * Restarting with stat
+2025-05-17 18:47:45,217 - WARNING -  * Debugger is active!
+2025-05-17 18:47:45,228 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:47:56,168 - INFO - 127.0.0.1 - - [17/May/2025 18:47:56] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-17 18:47:56,176 - INFO - 127.0.0.1 - - [17/May/2025 18:47:56] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-17 18:47:56,259 - INFO - 127.0.0.1 - - [17/May/2025 18:47:56] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 18:47:56,459 - INFO - 127.0.0.1 - - [17/May/2025 18:47:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:48:08,084 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-17 18:48:20,385 - INFO - No cookie button found
+2025-05-17 18:48:20,463 - INFO - Waiting for reviews to load...
+2025-05-17 18:48:20,506 - INFO - Review elements found
+2025-05-17 18:48:24,042 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-17 18:48:24,581 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-17 18:48:25,110 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-17 18:48:25,554 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-17 18:48:26,020 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-17 18:48:26,485 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-17 18:48:27,000 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-17 18:48:27,473 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-17 18:48:27,923 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-17 18:48:28,381 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-17 18:48:28,492 - INFO - Added 10 reviews (Total: 10)
+2025-05-17 18:48:30,554 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:48:32,792 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:48:39,526 - INFO - Extracted exact date for review 10: 2024-12-10
+2025-05-17 18:48:40,000 - INFO - Extracted exact date for review 11: 2024-11-27
+2025-05-17 18:48:40,507 - INFO - Extracted exact date for review 12: 2024-11-26
+2025-05-17 18:48:40,961 - INFO - Extracted exact date for review 13: 2024-11-23
+2025-05-17 18:48:41,568 - INFO - Extracted exact date for review 14: 2024-11-19
+2025-05-17 18:48:42,025 - INFO - Extracted exact date for review 15: 2024-11-13
+2025-05-17 18:48:42,448 - INFO - Extracted exact date for review 16: 2024-10-17
+2025-05-17 18:48:42,890 - INFO - Extracted exact date for review 17: 2024-10-05
+2025-05-17 18:48:43,411 - INFO - Extracted exact date for review 18: 2024-07-28
+2025-05-17 18:48:44,263 - INFO - Extracted exact date for review 19: 2024-06-26
+2025-05-17 18:48:44,373 - INFO - Added 10 reviews (Total: 20)
+2025-05-17 18:48:46,505 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:48:48,622 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:48:55,997 - INFO - Extracted exact date for review 20: 2024-05-02
+2025-05-17 18:48:56,392 - INFO - Extracted exact date for review 21: 2024-05-02
+2025-05-17 18:48:56,796 - INFO - Extracted exact date for review 22: 2024-04-30
+2025-05-17 18:48:57,225 - INFO - Extracted exact date for review 23: 2024-04-29
+2025-05-17 18:48:57,692 - INFO - Extracted exact date for review 24: 2024-04-28
+2025-05-17 18:48:58,130 - INFO - Extracted exact date for review 25: 2024-04-16
+2025-05-17 18:48:58,568 - INFO - Extracted exact date for review 26: 2024-01-25
+2025-05-17 18:48:58,988 - INFO - Extracted exact date for review 27: 2024-01-03
+2025-05-17 18:48:59,403 - INFO - Extracted exact date for review 28: 2024-01-02
+2025-05-17 18:48:59,839 - INFO - Extracted exact date for review 29: 2023-11-25
+2025-05-17 18:48:59,914 - INFO - Added 10 reviews (Total: 30)
+2025-05-17 18:49:01,990 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:49:04,134 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:49:12,709 - INFO - Extracted exact date for review 30: 2023-10-27
+2025-05-17 18:49:13,116 - INFO - Extracted exact date for review 31: 2023-09-03
+2025-05-17 18:49:13,520 - INFO - Extracted exact date for review 32: 2023-08-23
+2025-05-17 18:49:13,897 - INFO - Extracted exact date for review 33: 2023-07-12
+2025-05-17 18:49:14,348 - INFO - Extracted exact date for review 34: 2023-03-22
+2025-05-17 18:49:14,798 - INFO - Extracted exact date for review 35: 2022-11-14
+2025-05-17 18:49:15,214 - INFO - Extracted exact date for review 36: 2022-08-20
+2025-05-17 18:49:15,655 - INFO - Extracted exact date for review 37: 2022-06-01
+2025-05-17 18:49:16,072 - INFO - Extracted exact date for review 38: 2022-05-04
+2025-05-17 18:49:16,562 - INFO - Extracted exact date for review 39: 2022-05-01
+2025-05-17 18:49:16,692 - INFO - Added 10 reviews (Total: 40)
+2025-05-17 18:49:18,756 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:49:20,870 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:49:29,056 - INFO - Extracted exact date for review 40: 2022-04-14
+2025-05-17 18:49:29,475 - INFO - Extracted exact date for review 41: 2022-03-22
+2025-05-17 18:49:29,923 - INFO - Extracted exact date for review 42: 2018-01-17
+2025-05-17 18:49:30,369 - INFO - Extracted exact date for review 43: 2017-08-30
+2025-05-17 18:49:30,785 - INFO - Extracted exact date for review 44: 2017-08-25
+2025-05-17 18:49:31,192 - INFO - Extracted exact date for review 45: 2017-07-06
+2025-05-17 18:49:31,590 - INFO - Extracted exact date for review 46: 2017-06-05
+2025-05-17 18:49:31,980 - INFO - Extracted exact date for review 47: 2017-02-01
+2025-05-17 18:49:32,384 - INFO - Extracted exact date for review 48: 2016-05-03
+2025-05-17 18:49:32,794 - INFO - Extracted exact date for review 49: 2015-11-29
+2025-05-17 18:49:32,875 - INFO - Added 10 reviews (Total: 50)
+2025-05-17 18:49:34,950 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:49:37,081 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:49:44,827 - INFO - Extracted exact date for review 50: 2015-04-24
+2025-05-17 18:49:45,264 - INFO - Extracted exact date for review 51: 2015-04-11
+2025-05-17 18:49:45,667 - INFO - Extracted exact date for review 52: 2015-04-11
+2025-05-17 18:49:46,046 - INFO - Extracted exact date for review 53: 2015-03-31
+2025-05-17 18:49:46,473 - INFO - Extracted exact date for review 54: 2015-03-24
+2025-05-17 18:49:46,883 - INFO - Extracted exact date for review 55: 2015-03-07
+2025-05-17 18:49:47,290 - INFO - Extracted exact date for review 56: 2015-01-14
+2025-05-17 18:49:47,665 - INFO - Extracted exact date for review 57: 2014-10-21
+2025-05-17 18:49:48,072 - INFO - Extracted exact date for review 58: 2014-09-13
+2025-05-17 18:49:48,514 - INFO - Extracted exact date for review 59: 2014-09-10
+2025-05-17 18:49:48,586 - INFO - Added 10 reviews (Total: 60)
+2025-05-17 18:49:50,671 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:49:52,788 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:50:00,327 - INFO - Extracted exact date for review 60: 2014-09-08
+2025-05-17 18:50:00,753 - INFO - Extracted exact date for review 61: 2014-06-30
+2025-05-17 18:50:00,841 - INFO - Added 2 reviews (Total: 62)
+2025-05-17 18:50:03,049 - INFO - No more 'LOAD MORE' button found
+2025-05-17 18:50:03,050 - INFO - Finished scraping. Total reviews collected: 62
+2025-05-17 18:50:03,504 - INFO - 127.0.0.1 - - [17/May/2025 18:50:03] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 18:50:03,513 - INFO - 127.0.0.1 - - [17/May/2025 18:50:03] "[32mGET /view_csv HTTP/1.1[0m" 302 -
+2025-05-17 18:50:03,531 - INFO - 127.0.0.1 - - [17/May/2025 18:50:03] "GET /login HTTP/1.1" 200 -
+2025-05-17 18:51:33,767 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-17 18:51:34,033 - INFO -  * Restarting with stat
+2025-05-17 18:51:37,148 - WARNING -  * Debugger is active!
+2025-05-17 18:51:37,160 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:51:39,701 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-17 18:51:40,000 - INFO -  * Restarting with stat
+2025-05-17 18:51:42,715 - WARNING -  * Debugger is active!
+2025-05-17 18:51:42,731 - INFO -  * Debugger PIN: 220-965-795
+2025-05-17 18:52:25,124 - INFO - 127.0.0.1 - - [17/May/2025 18:52:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-17 18:52:25,174 - INFO - 127.0.0.1 - - [17/May/2025 18:52:25] "GET /select_products HTTP/1.1" 200 -
+2025-05-17 18:52:25,377 - INFO - 127.0.0.1 - - [17/May/2025 18:52:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:52:35,749 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/nike-pd7-long-golf-ball/reviews
+2025-05-17 18:52:48,045 - INFO - No cookie button found
+2025-05-17 18:52:48,124 - INFO - Waiting for reviews to load...
+2025-05-17 18:52:48,169 - INFO - Review elements found
+2025-05-17 18:52:51,600 - INFO - Extracted exact date for review 0: 2025-05-10
+2025-05-17 18:52:52,066 - INFO - Extracted exact date for review 1: 2025-04-22
+2025-05-17 18:52:52,549 - INFO - Extracted exact date for review 2: 2025-04-12
+2025-05-17 18:52:53,081 - INFO - Extracted exact date for review 3: 2025-04-11
+2025-05-17 18:52:54,185 - INFO - Extracted exact date for review 4: 2025-02-16
+2025-05-17 18:52:54,752 - INFO - Extracted exact date for review 5: 2025-01-31
+2025-05-17 18:52:55,292 - INFO - Extracted exact date for review 6: 2025-01-31
+2025-05-17 18:52:56,263 - INFO - Extracted exact date for review 7: 2025-01-29
+2025-05-17 18:52:56,893 - INFO - Extracted exact date for review 8: 2025-01-23
+2025-05-17 18:52:57,581 - INFO - Extracted exact date for review 9: 2024-12-14
+2025-05-17 18:52:57,736 - INFO - Added 10 reviews (Total: 10)
+2025-05-17 18:52:59,804 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:53:02,074 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:53:09,746 - INFO - Extracted exact date for review 10: 2024-12-10
+2025-05-17 18:53:10,174 - INFO - Extracted exact date for review 11: 2024-11-27
+2025-05-17 18:53:10,667 - INFO - Extracted exact date for review 12: 2024-11-26
+2025-05-17 18:53:11,198 - INFO - Extracted exact date for review 13: 2024-11-23
+2025-05-17 18:53:11,747 - INFO - Extracted exact date for review 14: 2024-11-19
+2025-05-17 18:53:12,253 - INFO - Extracted exact date for review 15: 2024-11-13
+2025-05-17 18:53:12,754 - INFO - Extracted exact date for review 16: 2024-10-17
+2025-05-17 18:53:13,248 - INFO - Extracted exact date for review 17: 2024-10-05
+2025-05-17 18:53:13,687 - INFO - Extracted exact date for review 18: 2024-07-28
+2025-05-17 18:53:14,124 - INFO - Extracted exact date for review 19: 2024-06-26
+2025-05-17 18:53:14,226 - INFO - Added 10 reviews (Total: 20)
+2025-05-17 18:53:16,299 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:53:18,454 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:53:25,783 - INFO - Extracted exact date for review 20: 2024-05-02
+2025-05-17 18:53:26,196 - INFO - Extracted exact date for review 21: 2024-05-02
+2025-05-17 18:53:26,639 - INFO - Extracted exact date for review 22: 2024-04-30
+2025-05-17 18:53:27,126 - INFO - Extracted exact date for review 23: 2024-04-29
+2025-05-17 18:53:27,561 - INFO - Extracted exact date for review 24: 2024-04-28
+2025-05-17 18:53:28,096 - INFO - Extracted exact date for review 25: 2024-04-16
+2025-05-17 18:53:28,639 - INFO - Extracted exact date for review 26: 2024-01-25
+2025-05-17 18:53:29,150 - INFO - Extracted exact date for review 27: 2024-01-03
+2025-05-17 18:53:29,573 - INFO - Extracted exact date for review 28: 2024-01-02
+2025-05-17 18:53:30,011 - INFO - Extracted exact date for review 29: 2023-11-25
+2025-05-17 18:53:30,130 - INFO - Added 10 reviews (Total: 30)
+2025-05-17 18:53:32,258 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:53:34,485 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:53:43,309 - INFO - Extracted exact date for review 30: 2023-10-27
+2025-05-17 18:53:45,268 - INFO - Extracted exact date for review 31: 2023-09-03
+2025-05-17 18:53:45,976 - INFO - Extracted exact date for review 32: 2023-08-23
+2025-05-17 18:53:46,574 - INFO - Extracted exact date for review 33: 2023-07-12
+2025-05-17 18:53:47,208 - INFO - Extracted exact date for review 34: 2023-03-22
+2025-05-17 18:53:47,739 - INFO - Extracted exact date for review 35: 2022-11-14
+2025-05-17 18:53:48,278 - INFO - Extracted exact date for review 36: 2022-08-20
+2025-05-17 18:53:48,882 - INFO - Extracted exact date for review 37: 2022-06-01
+2025-05-17 18:53:49,443 - INFO - Extracted exact date for review 38: 2022-05-04
+2025-05-17 18:53:50,000 - INFO - Extracted exact date for review 39: 2022-05-01
+2025-05-17 18:53:50,106 - INFO - Added 10 reviews (Total: 40)
+2025-05-17 18:53:52,220 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:53:54,400 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:54:02,721 - INFO - Extracted exact date for review 40: 2022-04-14
+2025-05-17 18:54:03,702 - INFO - Extracted exact date for review 41: 2022-03-22
+2025-05-17 18:54:04,345 - INFO - Extracted exact date for review 42: 2018-01-17
+2025-05-17 18:54:04,888 - INFO - Extracted exact date for review 43: 2017-08-30
+2025-05-17 18:54:05,438 - INFO - Extracted exact date for review 44: 2017-08-25
+2025-05-17 18:54:06,152 - INFO - Extracted exact date for review 45: 2017-07-06
+2025-05-17 18:54:06,935 - INFO - Extracted exact date for review 46: 2017-06-05
+2025-05-17 18:54:07,328 - INFO - Extracted exact date for review 47: 2017-02-01
+2025-05-17 18:54:07,828 - INFO - Extracted exact date for review 48: 2016-05-03
+2025-05-17 18:54:08,310 - INFO - Extracted exact date for review 49: 2015-11-29
+2025-05-17 18:54:08,430 - INFO - Added 10 reviews (Total: 50)
+2025-05-17 18:54:10,529 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:54:12,692 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:54:21,253 - INFO - Extracted exact date for review 50: 2015-04-24
+2025-05-17 18:54:21,643 - INFO - Extracted exact date for review 51: 2015-04-11
+2025-05-17 18:54:22,087 - INFO - Extracted exact date for review 52: 2015-04-11
+2025-05-17 18:54:22,553 - INFO - Extracted exact date for review 53: 2015-03-31
+2025-05-17 18:54:23,040 - INFO - Extracted exact date for review 54: 2015-03-24
+2025-05-17 18:54:23,499 - INFO - Extracted exact date for review 55: 2015-03-07
+2025-05-17 18:54:23,895 - INFO - Extracted exact date for review 56: 2015-01-14
+2025-05-17 18:54:24,273 - INFO - Extracted exact date for review 57: 2014-10-21
+2025-05-17 18:54:24,673 - INFO - Extracted exact date for review 58: 2014-09-13
+2025-05-17 18:54:25,089 - INFO - Extracted exact date for review 59: 2014-09-10
+2025-05-17 18:54:25,166 - INFO - Added 10 reviews (Total: 60)
+2025-05-17 18:54:27,224 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-17 18:54:29,346 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-17 18:54:37,910 - INFO - Extracted exact date for review 60: 2014-09-08
+2025-05-17 18:54:38,383 - INFO - Extracted exact date for review 61: 2014-06-30
+2025-05-17 18:54:38,490 - INFO - Added 2 reviews (Total: 62)
+2025-05-17 18:54:40,631 - INFO - No more 'LOAD MORE' button found
+2025-05-17 18:54:40,632 - INFO - Finished scraping. Total reviews collected: 62
+2025-05-17 18:54:41,099 - INFO - 127.0.0.1 - - [17/May/2025 18:54:41] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-17 18:54:41,232 - INFO - 127.0.0.1 - - [17/May/2025 18:54:41] "GET /view_csv HTTP/1.1" 200 -
+2025-05-17 18:54:41,315 - INFO - 127.0.0.1 - - [17/May/2025 18:54:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:54:59,818 - INFO - 127.0.0.1 - - [17/May/2025 18:54:59] "GET /download_csv/csvlist\\influenster_reviews_20250517_185441.csv HTTP/1.1" 200 -
+2025-05-17 18:55:20,073 - INFO - 127.0.0.1 - - [17/May/2025 18:55:20] "GET /view_csv?idx=0&page=2 HTTP/1.1" 200 -
+2025-05-17 18:55:20,126 - INFO - 127.0.0.1 - - [17/May/2025 18:55:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:55:23,240 - INFO - 127.0.0.1 - - [17/May/2025 18:55:23] "GET /view_csv?idx=0&page=3 HTTP/1.1" 200 -
+2025-05-17 18:55:23,299 - INFO - 127.0.0.1 - - [17/May/2025 18:55:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:55:27,620 - INFO - 127.0.0.1 - - [17/May/2025 18:55:27] "GET /view_csv?idx=0&page=4 HTTP/1.1" 200 -
+2025-05-17 18:55:27,673 - INFO - 127.0.0.1 - - [17/May/2025 18:55:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:55:30,841 - INFO - 127.0.0.1 - - [17/May/2025 18:55:30] "POST /view_csv?idx=0&page=4 HTTP/1.1" 200 -
+2025-05-17 18:55:30,896 - INFO - 127.0.0.1 - - [17/May/2025 18:55:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:55:36,118 - INFO - 127.0.0.1 - - [17/May/2025 18:55:36] "POST /view_csv?idx=0&page=4 HTTP/1.1" 200 -
+2025-05-17 18:55:36,156 - INFO - 127.0.0.1 - - [17/May/2025 18:55:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:55:39,895 - INFO - 127.0.0.1 - - [17/May/2025 18:55:39] "POST /view_csv?idx=0&page=4 HTTP/1.1" 200 -
+2025-05-17 18:55:39,970 - INFO - 127.0.0.1 - - [17/May/2025 18:55:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:55:47,489 - INFO - 127.0.0.1 - - [17/May/2025 18:55:47] "GET /view_csv?idx=0&page=3 HTTP/1.1" 200 -
+2025-05-17 18:55:47,551 - INFO - 127.0.0.1 - - [17/May/2025 18:55:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:56:02,630 - INFO - 127.0.0.1 - - [17/May/2025 18:56:02] "GET /view_csv?idx=0&page=4 HTTP/1.1" 200 -
+2025-05-17 18:56:02,693 - INFO - 127.0.0.1 - - [17/May/2025 18:56:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 18:56:11,481 - INFO - 127.0.0.1 - - [17/May/2025 18:56:11] "POST /view_csv?idx=0&page=4 HTTP/1.1" 200 -
+2025-05-17 18:56:11,563 - INFO - 127.0.0.1 - - [17/May/2025 18:56:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

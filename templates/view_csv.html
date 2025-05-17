@@ -14,33 +14,106 @@
         </select>
     </div>
 
+    <!-- Metadata and Statistics -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+        <!-- Total Reviews -->
+        <div class="bg-white p-4 rounded-lg shadow">
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Total Reviews</h3>
+            <p class="text-3xl font-bold text-blue-600">{{ total_reviews }}</p>
+        </div>
+
+        <!-- Average Rating -->
+        <div class="bg-white p-4 rounded-lg shadow">
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Average Rating</h3>
+            <div class="flex items-center">
+                <span class="text-3xl font-bold text-yellow-400">★</span>
+                <span class="text-3xl font-bold text-gray-700 ml-2">{{ average_rating|round(1) }}/5</span>
+            </div>
+        </div>
+
+        <!-- Rating Distribution -->
+        <div class="bg-white p-4 rounded-lg shadow">
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Rating Distribution</h3>
+            <div class="space-y-2">
+                {% for rating, count in rating_distribution.items()|sort(reverse=true) %}
+                <div class="flex items-center">
+                    <span class="text-yellow-400 w-4">{{ rating }}★</span>
+                    <div class="flex-1 mx-2 bg-gray-200 rounded-full h-2">
+                        <div class="bg-blue-600 h-2 rounded-full" style="width: {{ (count / total_reviews * 100)|round }}%;"></div>
+                    </div>
+                    <span class="text-sm text-gray-600 w-12">{{ count }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Date Range -->
+        <div class="bg-white p-4 rounded-lg shadow">
+            <h3 class="text-lg font-semibold text-gray-700 mb-2">Review Period</h3>
+            <p class="text-sm text-gray-600">From: {{ date_range.start }}</p>
+            <p class="text-sm text-gray-600">To: {{ date_range.end }}</p>
+        </div>
+    </div>
+
+    <!-- Flash Messages -->
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                <div class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 mb-4" role="alert">
+                    <p>{{ message }}</p>
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
     <!-- CSV file info -->
     {% if product.csv_path %}
     <div class="bg-gray-100 p-4 rounded mb-6">
         <p class="font-semibold">CSV File:</p>
         <p class="text-sm text-gray-600">{{ product.csv_path }}</p>
-        <a href="{{ url_for('download_csv', path=product.csv_path) }}" 
-           class="inline-block mt-2 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-            Download CSV
-        </a>
+        <div class="mt-2 space-x-2">
+            <a href="{{ url_for('download_csv', path=product.csv_path) }}" 
+               class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                Download CSV
+            </a>
+        </div>
     </div>
     {% endif %}
 
     <!-- Data table -->
-    <div class="overflow-x-auto">
-        <table class="min-w-full bg-white border">
-            <thead>
+    <div class="overflow-x-auto bg-white rounded shadow">
+        <table class="min-w-full">
+            <thead class="bg-gray-50">
                 <tr>
                     {% for col in columns %}
-                    <th class="px-4 py-2 border bg-gray-100">{{ col }}</th>
+                    <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">{{ col }}</th>
                     {% endfor %}
                 </tr>
             </thead>
-            <tbody>
-                {% for row in rows %}
-                <tr>
+            <tbody class="divide-y divide-gray-200">
+                {% for row in paginated_rows %}
+                <tr class="hover:bg-gray-50">
                     {% for col in columns %}
-                    <td class="px-4 py-2 border">{{ row[col] }}</td>
+                    <td class="px-4 py-2 text-sm text-gray-900">
+                        {% if col == 'review_text' %}
+                            <div class="max-h-32 overflow-y-auto">
+                                <div class="review-preview">{{ row[col][:200] }}{% if row[col]|length > 200 %}...{% endif %}</div>
+                                {% if row[col]|length > 200 %}
+                                <button onclick="toggleReview(this)" class="text-blue-600 hover:text-blue-800 text-sm mt-1">
+                                    See more
+                                </button>
+                                <div class="review-full hidden">{{ row[col] }}</div>
+                                {% endif %}
+                            </div>
+                        {% elif col == 'rating' %}
+                            <div class="flex items-center">
+                                <span class="text-yellow-400">★</span>
+                                <span class="ml-1">{{ row[col] }}/5</span>
+                            </div>
+                        {% else %}
+                            {{ row[col] }}
+                        {% endif %}
+                    </td>
                     {% endfor %}
                 </tr>
                 {% endfor %}
@@ -48,8 +121,41 @@
         </table>
     </div>
 
+    <!-- Pagination -->
+    {% if total_pages > 1 %}
+    <div class="mt-4 flex justify-center space-x-2">
+        {% if current_page > 1 %}
+        <a href="?idx={{ idx }}&page={{ current_page - 1 }}" class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Previous</a>
+        {% endif %}
+        
+        <span class="px-4 py-2">Page {{ current_page }} of {{ total_pages }}</span>
+        
+        {% if current_page < total_pages %}
+        <a href="?idx={{ idx }}&page={{ current_page + 1 }}" class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Next</a>
+        {% endif %}
+    </div>
+    {% endif %}
+
     <form method="post" class="mt-6">
         <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Continue to Analysis</button>
     </form>
 </div>
+
+<script>
+function toggleReview(button) {
+    const row = button.closest('td');
+    const preview = row.querySelector('.review-preview');
+    const full = row.querySelector('.review-full');
+    
+    if (preview.classList.contains('hidden')) {
+        preview.classList.remove('hidden');
+        full.classList.add('hidden');
+        button.textContent = 'See more';
+    } else {
+        preview.classList.add('hidden');
+        full.classList.remove('hidden');
+        button.textContent = 'Show less';
+    }
+}
+</script>
 {% endblock %}

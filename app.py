@@ -15,11 +15,36 @@ from utils.text_processing import count_sentences, count_words
 from utils.visualization import generate_wordcloud
 import os
 from datetime import datetime
+import csv
+import json
 
 app = Flask(__name__)
 app.config.from_object(Config)
 CORS(app, supports_credentials=True)
 app.secret_key = '436e393f66a2da1e51c01388be6b25cace91dcf7eaf53db5b63bae2ba2f15e12'
+
+# Create data directory if it doesn't exist
+os.makedirs('data', exist_ok=True)
+
+def save_session_data(user_id, data):
+    """Save session data to a file"""
+    filename = os.path.join('data', f'session_{user_id}.json')
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(data, f)
+
+def load_session_data(user_id):
+    """Load session data from a file"""
+    filename = os.path.join('data', f'session_{user_id}.json')
+    if os.path.exists(filename):
+        with open(filename, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return None
+
+def clear_session_data(user_id):
+    """Clear session data file"""
+    filename = os.path.join('data', f'session_{user_id}.json')
+    if os.path.exists(filename):
+        os.remove(filename)
 
 # Initialize VADER sentiment analyzer
 analyzer = SentimentIntensityAnalyzer()
@@ -27,7 +52,6 @@ analyzer = SentimentIntensityAnalyzer()
 def login_required(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
-        print('user in session:', 'user' in session)
         if 'user' not in session:
             return redirect(url_for('login'))
         return f(*args, **kwargs)
@@ -78,6 +102,8 @@ def login():
 
 @app.route('/logout')
 def logout():
+    if 'user' in session:
+        clear_session_data(session['user'])
     session.clear()
     return redirect(url_for('login'))
 
@@ -128,24 +154,100 @@ def select_products():
                     'csv_path': csv_path
                 })
         
-        session['products'] = products
-        return redirect(url_for('view_csv'))
+        if products:  # Only save if we have products
+            # Save products to session file instead of session cookie
+            save_session_data(session['user'], {'products': products})
+            # Keep user in session
+            session['user'] = session['user']
+            return redirect(url_for('view_csv'))
+        else:
+            flash('No valid products were added. Please try again.')
+            return redirect(url_for('select_products'))
+            
     return render_template('select_products.html')
 
 @app.route('/view_csv', methods=['GET', 'POST'])
 @login_required
 def view_csv():
-    products = session.get('products', [])
-    if not products:
+    # Load products from session file
+    session_data = load_session_data(session['user'])
+    if not session_data or 'products' not in session_data:
+        flash('No product data found. Please add products first.')
         return redirect(url_for('select_products'))
-    if request.method == 'POST':
-        return redirect(url_for('sentiment_analysis'))
-    # Show the first product's CSV by default, allow switching
-    idx = int(request.args.get('idx', 0))
+    
+    products = session_data['products']
+    if not products:
+        flash('No products available. Please add products first.')
+        return redirect(url_for('select_products'))
+    
+    idx = request.args.get('idx', type=int)
+    page = request.args.get('page', 1, type=int)
+    per_page = 20  # Number of reviews per page
+    
+    if idx is None or idx >= len(products):
+        idx = 0
+    
     product = products[idx]
-    rows = product['data']
-    columns = rows[0].keys() if rows else []
-    return render_template('view_csv.html', products=products, product=product, columns=columns, rows=rows, idx=idx)
+    rows = []
+    columns = []
+    
+    if product['csv_path'] and os.path.exists(product['csv_path']):
+        try:
+            with open(product['csv_path'], 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                columns = reader.fieldnames
+                rows = list(reader)
+        except Exception as e:
+            flash(f'Error reading CSV file: {str(e)}')
+            return redirect(url_for('select_products'))
+    
+    # Calculate statistics
+    total_reviews = len(rows)
+    
+    # Calculate average rating
+    ratings = [float(row['rating']) for row in rows if 'rating' in row and row['rating']]
+    average_rating = sum(ratings) / len(ratings) if ratings else 0
+    
+    # Calculate rating distribution
+    rating_distribution = {}
+    for rating in range(1, 6):
+        count = sum(1 for row in rows if 'rating' in row and float(row['rating']) == rating)
+        rating_distribution[rating] = count
+    
+    # Calculate date range
+    dates = []
+    for row in rows:
+        if 'date' in row and row['date']:
+            try:
+                date = datetime.strptime(row['date'], '%Y-%m-%d')
+                dates.append(date)
+            except ValueError:
+                continue
+    
+    date_range = {
+        'start': min(dates).strftime('%Y-%m-%d') if dates else 'N/A',
+        'end': max(dates).strftime('%Y-%m-%d') if dates else 'N/A'
+    }
+    
+    # Calculate pagination
+    total_pages = (total_reviews + per_page - 1) // per_page
+    start_idx = (page - 1) * per_page
+    end_idx = start_idx + per_page
+    paginated_rows = rows[start_idx:end_idx]
+    
+    return render_template('view_csv.html', 
+                         products=products,
+                         idx=idx,
+                         product=product,
+                         columns=columns,
+                         rows=rows,
+                         paginated_rows=paginated_rows,
+                         current_page=page,
+                         total_pages=total_pages,
+                         total_reviews=total_reviews,
+                         average_rating=average_rating,
+                         rating_distribution=rating_distribution,
+                         date_range=date_range)
 
 @app.route('/sentiment_analysis', methods=['GET', 'POST'])
 @login_required
