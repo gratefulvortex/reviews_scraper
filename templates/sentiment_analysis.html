@@ -1,77 +1,63 @@
 {% extends "base.html" %}
 {% block title %}Sentiment Analysis{% endblock %}
 {% block content %}
-<style>
-.progress-bar {
-    width: var(--progress-width);
-    height: 0.625rem;
-    background-color: #059669;
-    border-radius: 9999px;
-}
-.chart-container {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-}
-</style>
-
 <div class="max-w-6xl mx-auto">
-    <h1 class="text-2xl font-bold mb-6 text-blue-700">Sentiment Analysis</h1>
+    <h1 class="page-title">Sentiment Analysis</h1>
 
     {% for product in products %}
-    <div class="bg-white rounded-lg shadow-md p-6 mb-6">
-        <h2 class="text-xl font-semibold mb-4">{{ product.name }}</h2>
+    <div class="card mb-8">
+        <h2 class="section-title">{{ product.name }}</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <!-- Sentiment Distribution -->
-            <div class="bg-gray-50 p-4 rounded-lg">
-                <h3 class="text-lg font-semibold mb-3">Sentiment Distribution</h3>
+            <div class="stat-card">
+                <h3 class="section-title">Sentiment Distribution</h3>
                 <div class="space-y-4">
                     <div class="flex items-center justify-between">
-                        <span class="text-green-600">Positive</span>
-                        <span class="font-semibold">{{ product.sentiment.positive }}</span>
+                        <span class="text-green-600 font-medium">Positive</span>
+                        <span class="stat-value text-green-600">{{ product.sentiment.positive }}</span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <span class="text-red-600">Negative</span>
-                        <span class="font-semibold">{{ product.sentiment.negative }}</span>
+                        <span class="text-red-600 font-medium">Negative</span>
+                        <span class="stat-value text-red-600">{{ product.sentiment.negative }}</span>
                     </div>
-                    <div class="w-full bg-gray-200 rounded-full h-2.5">
+                    <div class="w-full bg-gray-100 rounded-full h-2.5">
                         <div class="progress-bar" style="--progress-width: {{ (product.sentiment.positive / (product.sentiment.positive + product.sentiment.negative) * 100)|round }}%"></div>
                     </div>
                 </div>
                 <!-- Sentiment Chart -->
-                <div class="mt-4">
-                    <img src="{{ product.sentiment_chart }}" alt="Sentiment Distribution" class="w-full h-auto rounded-lg">
+                <div class="mt-6">
+                    <img src="{{ product.sentiment_chart }}" alt="Sentiment Distribution" class="w-full h-auto rounded-lg shadow-sm">
                 </div>
             </div>
 
             <!-- Sentiment Score -->
-            <div class="bg-gray-50 p-4 rounded-lg">
-                <h3 class="text-lg font-semibold mb-3">Overall Sentiment</h3>
-                <div class="text-center">
-                    <span class="text-4xl font-bold {% if product.sentiment.positive > product.sentiment.negative %}text-green-600{% else %}text-red-600{% endif %}">
+            <div class="stat-card">
+                <h3 class="section-title">Overall Sentiment</h3>
+                <div class="text-center py-4">
+                    <span class="text-5xl font-bold {% if product.sentiment.positive > product.sentiment.negative %}text-green-600{% else %}text-red-600{% endif %}">
                         {{ ((product.sentiment.positive / (product.sentiment.positive + product.sentiment.negative)) * 100)|round }}%
                     </span>
-                    <p class="text-gray-600 mt-2">Positive Reviews</p>
+                    <p class="text-gray-600 mt-2 font-medium">Positive Reviews</p>
                 </div>
             </div>
         </div>
 
         <!-- Additional Statistics -->
-        <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div class="bg-gray-50 p-4 rounded-lg">
-                <h4 class="text-sm font-semibold text-gray-600 mb-1">Total Reviews</h4>
-                <p class="text-2xl font-bold text-gray-800">{{ product.sentiment.positive + product.sentiment.negative }}</p>
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="stat-card">
+                <h4 class="stat-label">Total Reviews</h4>
+                <p class="stat-value">{{ product.sentiment.positive + product.sentiment.negative }}</p>
             </div>
-            <div class="bg-gray-50 p-4 rounded-lg">
-                <h4 class="text-sm font-semibold text-gray-600 mb-1">Positive Ratio</h4>
-                <p class="text-2xl font-bold text-green-600">
+            <div class="stat-card">
+                <h4 class="stat-label">Positive Ratio</h4>
+                <p class="stat-value text-green-600">
                     {{ ((product.sentiment.positive / (product.sentiment.positive + product.sentiment.negative)) * 100)|round }}%
                 </p>
             </div>
-            <div class="bg-gray-50 p-4 rounded-lg">
-                <h4 class="text-sm font-semibold text-gray-600 mb-1">Negative Ratio</h4>
-                <p class="text-2xl font-bold text-red-600">
+            <div class="stat-card">
+                <h4 class="stat-label">Negative Ratio</h4>
+                <p class="stat-value text-red-600">
                     {{ ((product.sentiment.negative / (product.sentiment.positive + product.sentiment.negative)) * 100)|round }}%
                 </p>
             </div>
@@ -79,11 +65,13 @@
     </div>
     {% endfor %}
 
-    <div class="mt-6 flex justify-between items-center">
-        <a href="{{ url_for('view_csv') }}" class="text-blue-600 hover:text-blue-800">← Back to Reviews</a>
+    <div class="mt-8 flex justify-between items-center">
+        <a href="{{ url_for('view_csv') }}" class="btn-secondary">
+            ← Back to Reviews
+        </a>
         <form method="post" action="{{ url_for('word_cloud') }}" class="inline">
             <input type="hidden" name="from_sentiment" value="true">
-            <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">
+            <button type="submit" class="btn-primary">
                 Continue to Word Cloud →
             </button>
         </form>

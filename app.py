@@ -110,61 +110,73 @@ def logout():
 @app.route('/select_products', methods=['GET', 'POST'])
 @login_required
 def select_products():
-    if request.method == 'POST':
-        products = []
-        for i in range(1, 3):
-            name = request.form.get(f'product{i}')
-            url = request.form.get(f'url{i}')
-            file = request.files.get(f'csv{i}')
-            data = None
-            csv_path = None
-            
-            if file and file.filename.endswith('.csv'):
-                # Save uploaded CSV file
-                timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-                csv_path = os.path.join('csvlist', f'uploaded_{timestamp}_{file.filename}')
-                os.makedirs('csvlist', exist_ok=True)
-                file.save(csv_path)
-                df = pd.read_csv(csv_path)
-                data = df.to_dict(orient='records')
-            elif url:
-                if 'amazon' in url:
-                    data = scrape_amazon_reviews(url)
-                    if data:
-                        # Save Amazon reviews to CSV
-                        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-                        csv_path = os.path.join('csvlist', f'amazon_reviews_{timestamp}.csv')
-                        os.makedirs('csvlist', exist_ok=True)
-                        df = pd.DataFrame(data)
-                        df.to_csv(csv_path, index=False)
-                elif 'influenster' in url:
-                    data = scrape_influenster_reviews(url)
-                    if data:
-                        # Save Influenster reviews to CSV
-                        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-                        csv_path = os.path.join('csvlist', f'influenster_reviews_{timestamp}.csv')
-                        os.makedirs('csvlist', exist_ok=True)
-                        df = pd.DataFrame(data)
-                        df.to_csv(csv_path, index=False)
-            
-            if name and data:
-                products.append({
-                    'name': name,
-                    'data': data,
-                    'csv_path': csv_path
-                })
+    user_id = session.get('user')
+    if not user_id:
+        flash('User not logged in.')
+        return redirect(url_for('login'))
         
-        if products:  # Only save if we have products
-            # Save products to session file instead of session cookie
-            save_session_data(session['user'], {'products': products})
-            # Keep user in session
-            session['user'] = session['user']
-            return redirect(url_for('view_csv'))
+    session_data = load_session_data(user_id)
+    products = session_data.get('products', []) if session_data else []
+
+    if request.method == 'POST':
+        new_products = []
+        # Remove the loop for multiple products and CSV upload
+        # Process only one product URL submission
+        name = request.form.get('product_name') # Use a single name field
+        url = request.form.get('product_url')   # Use a single URL field
+        
+        data = None
+        csv_path = None
+
+        if url:
+            if 'amazon' in url:
+                flash(f'Scraping Amazon URL: {url}')
+                data = scrape_amazon_reviews(url)
+                if data:
+                    # Save Amazon reviews to CSV
+                    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+                    csv_path = os.path.join('csvlist', f'amazon_reviews_{timestamp}.csv')
+                    os.makedirs('csvlist', exist_ok=True)
+                    df = pd.DataFrame(data)
+                    df.to_csv(csv_path, index=False)
+                    flash(f'Successfully scraped {len(data)} reviews from Amazon.')
+                else:
+                    flash(f'Failed to scrape reviews from Amazon URL: {url}')
+            elif 'influenster' in url:
+                flash(f'Scraping Influenster URL: {url}')
+                data = scrape_influenster_reviews(url)
+                if data:
+                    # Save Influenster reviews to CSV
+                    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+                    csv_path = os.path.join('csvlist', f'influenster_reviews_{timestamp}.csv')
+                    os.makedirs('csvlist', exist_ok=True)
+                    df = pd.DataFrame(data)
+                    df.to_csv(csv_path, index=False)
+                    flash(f'Successfully scraped {len(data)} reviews from Influenster.')
+                else:
+                    flash(f'Failed to scrape reviews from Influenster URL: {url}')
+            else:
+                flash(f'Unsupported URL: {url}. Please provide an Amazon or Influenster URL.')
+
+        if name and data:
+            new_products.append({
+                'name': name,
+                'data': data,
+                'csv_path': csv_path
+            })
+            
+        # Append new products to existing products
+        products.extend(new_products)
+
+        if products:
+            save_session_data(user_id, {'products': products})
+            return redirect(url_for('view_csv', idx=len(products)-1 if new_products else 0)) # Redirect to the newly added product or the first product if no new ones added
         else:
             flash('No valid products were added. Please try again.')
             return redirect(url_for('select_products'))
-            
-    return render_template('select_products.html')
+
+    # GET request: Render the page with existing products
+    return render_template('select_products.html', products=products)
 
 @app.route('/view_csv', methods=['GET', 'POST'])
 @login_required
@@ -338,4 +350,4 @@ def download_csv(path):
         return redirect(url_for('view_csv'))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True) 
