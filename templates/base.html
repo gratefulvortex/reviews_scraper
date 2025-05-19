@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Review Dashboard{% endblock %}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    {% block head %}{% endblock %}
+</head>
+<body class="bg-gray-100 min-h-screen flex">
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white shadow-lg flex flex-col justify-between min-h-screen">
+        <div>
+            <div class="p-6 text-2xl font-bold text-blue-700">ReviewApp</div>
+            <nav class="mt-8">
+                <ul>
+                    <li class="mb-2">
+                        <a href="{{ url_for('select_products') }}" class="block px-6 py-2 rounded hover:bg-blue-100 {% if request.endpoint == 'select_products' %}bg-blue-50 font-semibold{% endif %}">
+                            Home Page
+                        </a>
+                    </li>
+                    <li class="mb-2"><a href="{{ url_for('admin') }}" class="block px-6 py-2 rounded hover:bg-blue-100 {% if request.endpoint == 'admin' %}bg-blue-50 font-semibold{% endif %}">Admin Page</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="p-6">
+            <label class="block text-gray-700 font-semibold mb-2">Select LLM API:</label>
+            <form method="post" action="{{ url_for('set_model') }}">
+                <select name="llm_model" class="w-full px-3 py-2 border rounded">
+                    <option value="gpt-4" {% if session.get('llm_model') == 'gpt-4' %}selected{% endif %}>ChatGPT 4.0</option>
+                    <option value="gpt-3.5" {% if session.get('llm_model') == 'gpt-3.5' %}selected{% endif %}>ChatGPT 3.5</option>
+                    <option value="llama2" {% if session.get('llm_model') == 'llama2' %}selected{% endif %}>Llama 2</option>
+                </select>
+                <button type="submit" class="mt-2 w-full bg-blue-600 text-white py-1 rounded hover:bg-blue-700">Set</button>
+            </form>
+        </div>
+    </aside>
+    <!-- Main Content -->
+    <main class="flex-1 p-8">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="mb-4">
+                    {% for message in messages %}
+                        <div class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 mb-2">{{ message }}</div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+        {% block content %}{% endblock %}
+    </main>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

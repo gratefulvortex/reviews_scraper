@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Word Cloud Analysis{% endblock %}
+{% block content %}
+<div class="max-w-6xl mx-auto">
+    <h1 class="page-title">Word Cloud Analysis</h1>
+
+    {% for product in products %}
+    <div class="card mb-8">
+        <h2 class="section-title">{{ product.name }}</h2>
+        
+        {% if product.wordcloud %}
+        <div class="flex justify-center p-4 bg-gray-50 rounded-lg">
+            <img src="{{ product.wordcloud }}" 
+                 alt="Word Cloud for {{ product.name }}" 
+                 class="max-w-full h-auto rounded-lg shadow-sm">
+        </div>
+        {% else %}
+        <div class="text-center py-12 bg-gray-50 rounded-lg">
+            <p class="text-gray-600 font-medium">No word cloud available for this product.</p>
+        </div>
+        {% endif %}
+    </div>
+    {% endfor %}
+
+    <div class="mt-8 flex justify-between items-center">
+        <a href="{{ url_for('sentiment_analysis') }}" class="btn-secondary">
+            ← Back to Sentiment Analysis
+        </a>
+        <form method="post" action="{{ url_for('select_products') }}">
+            <button type="submit" class="btn-primary">
+                Start New Analysis →
+            </button>
+        </form>
+    </div>
+</div>
+{% endblock %}
