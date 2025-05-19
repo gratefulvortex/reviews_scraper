@@ -66,7 +66,11 @@ def scrape_reviews(url=None):
         )
         page = context.new_page()
         all_reviews = []
-        seen_reviews = set()  
+        seen_reviews = set()
+        load_more_attempts = 0
+        max_load_more_attempts = 200  # Increased max attempts
+        no_new_reviews_count = 0
+        max_no_new_reviews = 5  # Increased tolerance for no new reviews
         
         try:
             # Navigate to the product reviews page
@@ -106,7 +110,7 @@ def scrape_reviews(url=None):
                 logging.info("Saved page HTML to 'page_content.html' for debugging")
                 return all_reviews
 
-            while True:
+            while load_more_attempts < max_load_more_attempts and no_new_reviews_count < max_no_new_reviews:
                 # Scroll to ensure all visible reviews are loaded
                 page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
                 time.sleep(3)
@@ -194,26 +198,78 @@ def scrape_reviews(url=None):
                 if new_reviews:
                     all_reviews.extend(new_reviews)
                     logging.info(f"Added {len(new_reviews)} reviews (Total: {len(all_reviews)})")
+                    no_new_reviews_count = 0  # Reset counter when new reviews are found
+                else:
+                    no_new_reviews_count += 1
+                    logging.info(f"No new reviews found (attempt {no_new_reviews_count}/{max_no_new_reviews})")
                 
-                # Try to load more
+                # Try to load more with improved detection and handling
                 try:
-                    load_more = page.query_selector("button[class*='InfiniteScroll_infinite-scroll__load-more-button__']")
+                    # Wait for any loading indicators to disappear
+                    page.wait_for_timeout(2000)
+                    
+                    # Look for the load more button with multiple selectors
+                    load_more_selectors = [
+                        "button:has-text('LOAD MORE')",
+                        "button[class*='InfiniteScroll_infinite-scroll__load-more-button__']",
+                        "button[class*='load-more-button']",
+                        "button[class*='LOAD-MORE']",
+                        "button[class*='load-more']",
+                        "button:has-text('Load More')",
+                        "button:has-text('Load more')"
+                    ]
+                    
+                    load_more = None
+                    for selector in load_more_selectors:
+                        try:
+                            load_more = page.query_selector(selector)
+                            if load_more and load_more.is_visible():
+                                logging.info(f"Found load more button with selector: {selector}")
+                                break
+                        except Exception as e:
+                            logging.warning(f"Error with selector {selector}: {e}")
+                            continue
+                    
                     if load_more:
+                        # Scroll the button into view and wait for it to be stable
                         load_more.scroll_into_view_if_needed()
-                        load_more.click()
-                        logging.info("Clicked 'Load More'")
-                        time.sleep(random.uniform(3, 5))
-                        page.wait_for_selector("div[class*='UgcContainer_ugc-container__']", timeout=5000)
+                        time.sleep(2)  # Increased wait time for stability
+                        
+                        # Check if button is still visible and clickable
+                        if load_more.is_visible() and load_more.is_enabled():
+                            # Click with retry mechanism
+                            max_retries = 3
+                            for retry in range(max_retries):
+                                try:
+                                    # Force click using JavaScript
+                                    page.evaluate("(button) => button.click()", load_more)
+                                    logging.info(f"Clicked 'LOAD MORE' (attempt {retry + 1})")
+                                    time.sleep(random.uniform(3, 5))
+                                    
+                                    # Wait for new content to load
+                                    page.wait_for_selector("div[class*='UgcContainer_ugc-container__']", timeout=10000)
+                                    load_more_attempts += 1
+                                    break
+                                except Exception as e:
+                                    if retry == max_retries - 1:
+                                        logging.warning(f"Failed to click 'LOAD MORE' after {max_retries} attempts: {e}")
+                                        break
+                                    time.sleep(2)
+                        else:
+                            logging.info("LOAD MORE button is not clickable")
+                            break
                     else:
-                        logging.info("No more 'Load More' button found")
+                        logging.info("No more 'LOAD MORE' button found")
                         break
+                        
                 except TimeoutError:
-                    logging.info("No more 'Load More' button available or new reviews loaded")
+                    logging.info("Timeout waiting for new reviews to load")
                     break
                 except Exception as e:
                     logging.warning(f"Error loading more: {e}")
                     break
             
+            logging.info(f"Finished scraping. Total reviews collected: {len(all_reviews)}")
             return all_reviews
             
         except Exception as e:

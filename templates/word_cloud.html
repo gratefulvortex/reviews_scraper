@@ -1,16 +1,36 @@
 {% extends "base.html" %}
-{% block title %}Word Cloud{% endblock %}
+{% block title %}Word Cloud Analysis{% endblock %}
 {% block content %}
-<div class="max-w-5xl mx-auto">
-    <h1 class="text-2xl font-bold mb-6 text-blue-700">Word Cloud</h1>
+<div class="max-w-6xl mx-auto">
+    <h1 class="page-title">Word Cloud Analysis</h1>
+
     {% for product in products %}
-    <div class="mb-8 bg-white rounded shadow p-6">
-        <h2 class="text-lg font-semibold mb-2">{{ product['name'] }}</h2>
-        <img src="data:image/png;base64,{{ product['wordcloud'] }}" alt="Word Cloud" class="w-64 h-40 object-contain border rounded">
+    <div class="card mb-8">
+        <h2 class="section-title">{{ product.name }}</h2>
+        
+        {% if product.wordcloud %}
+        <div class="flex justify-center p-4 bg-gray-50 rounded-lg">
+            <img src="{{ product.wordcloud }}" 
+                 alt="Word Cloud for {{ product.name }}" 
+                 class="max-w-full h-auto rounded-lg shadow-sm">
+        </div>
+        {% else %}
+        <div class="text-center py-12 bg-gray-50 rounded-lg">
+            <p class="text-gray-600 font-medium">No word cloud available for this product.</p>
+        </div>
+        {% endif %}
     </div>
     {% endfor %}
-    <form method="post" class="flex justify-end">
-        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Finish</button>
-    </form>
+
+    <div class="mt-8 flex justify-between items-center">
+        <a href="{{ url_for('sentiment_analysis') }}" class="btn-secondary">
+            ← Back to Sentiment Analysis
+        </a>
+        <form method="post" action="{{ url_for('select_products') }}">
+            <button type="submit" class="btn-primary">
+                Start New Analysis →
+            </button>
+        </form>
+    </div>
 </div>
 {% endblock %}
