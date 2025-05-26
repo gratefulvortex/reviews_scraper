@@ -2,79 +2,70 @@
 {% block title %}Sentiment Analysis{% endblock %}
 {% block content %}
 <div class="max-w-6xl mx-auto">
-    <h1 class="page-title">Sentiment Analysis</h1>
+    <h1 class="text-2xl font-bold mb-6 text-blue-700">Sentiment Analysis</h1>
 
-    {% for product in products %}
-    <div class="card mb-8">
-        <h2 class="section-title">{{ product.name }}</h2>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <!-- Sentiment Distribution -->
-            <div class="stat-card">
-                <h3 class="section-title">Sentiment Distribution</h3>
-                <div class="space-y-4">
-                    <div class="flex items-center justify-between">
-                        <span class="text-green-600 font-medium">Positive</span>
-                        <span class="stat-value text-green-600">{{ product.sentiment.positive }}</span>
-                    </div>
-                    <div class="flex items-center justify-between">
-                        <span class="text-red-600 font-medium">Negative</span>
-                        <span class="stat-value text-red-600">{{ product.sentiment.negative }}</span>
-                    </div>
-                    <div class="w-full bg-gray-100 rounded-full h-2.5">
-                        <div class="progress-bar" style="--progress-width: {{ (product.sentiment.positive / (product.sentiment.positive + product.sentiment.negative) * 100)|round }}%"></div>
-                    </div>
+    <!-- Product Selection -->
+    <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+        <label class="block text-gray-700 font-semibold mb-2">Select Product</label>
+        <select onchange="window.location.href='{{ url_for('sentiment_analysis') }}?idx=' + this.value" class="w-full border rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            {% for product in products %}
+            <option value="{{ loop.index0 }}" {% if loop.index0 == selected_idx %}selected{% endif %}>{{ product.name }}</option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <!-- Selected Product Analysis -->
+    {% if selected_product %}
+    <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+        <div class="flex items-start space-x-6">
+            <!-- Product Image -->
+            <div class="w-48 h-48 bg-gray-200 rounded-lg overflow-hidden flex-shrink-0">
+                {% if selected_product.image_url %}
+                <img src="{{ selected_product.image_url }}" alt="{{ selected_product.name }}" class="w-full h-full object-contain">
+                {% else %}
+                <div class="w-full h-full flex items-center justify-center text-gray-500 text-sm font-semibold">
+                    No Image Available
                 </div>
-                <!-- Sentiment Chart -->
-                <div class="mt-6">
-                    <img src="{{ product.sentiment_chart }}" alt="Sentiment Distribution" class="w-full h-auto rounded-lg shadow-sm">
-                </div>
+                {% endif %}
             </div>
 
-            <!-- Sentiment Score -->
-            <div class="stat-card">
-                <h3 class="section-title">Overall Sentiment</h3>
-                <div class="text-center py-4">
-                    <span class="text-5xl font-bold {% if product.sentiment.positive > product.sentiment.negative %}text-green-600{% else %}text-red-600{% endif %}">
-                        {{ ((product.sentiment.positive / (product.sentiment.positive + product.sentiment.negative)) * 100)|round }}%
-                    </span>
-                    <p class="text-gray-600 mt-2 font-medium">Positive Reviews</p>
+            <!-- Product Info and Sentiment -->
+            <div class="flex-grow">
+                <h2 class="text-xl font-semibold mb-4 text-gray-800">{{ selected_product.name }}</h2>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-blue-700 mb-2">Positive Reviews</h3>
+                        <p class="text-3xl font-bold text-blue-600">{{ selected_product.sentiment.positive }}</p>
+                    </div>
+                    <div class="bg-red-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-red-700 mb-2">Negative Reviews</h3>
+                        <p class="text-3xl font-bold text-red-600">{{ selected_product.sentiment.negative }}</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Additional Statistics -->
-        <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div class="stat-card">
-                <h4 class="stat-label">Total Reviews</h4>
-                <p class="stat-value">{{ product.sentiment.positive + product.sentiment.negative }}</p>
-            </div>
-            <div class="stat-card">
-                <h4 class="stat-label">Positive Ratio</h4>
-                <p class="stat-value text-green-600">
-                    {{ ((product.sentiment.positive / (product.sentiment.positive + product.sentiment.negative)) * 100)|round }}%
-                </p>
-            </div>
-            <div class="stat-card">
-                <h4 class="stat-label">Negative Ratio</h4>
-                <p class="stat-value text-red-600">
-                    {{ ((product.sentiment.negative / (product.sentiment.positive + product.sentiment.negative)) * 100)|round }}%
-                </p>
-            </div>
+        <!-- Sentiment Chart -->
+        <div class="mt-6">
+            <img src="{{ selected_product.sentiment_chart }}" alt="Sentiment Analysis Chart" class="w-full">
         </div>
     </div>
-    {% endfor %}
 
-    <div class="mt-8 flex justify-between items-center">
-        <a href="{{ url_for('view_csv') }}" class="btn-secondary">
-            ← Back to Reviews
-        </a>
-        <form method="post" action="{{ url_for('word_cloud') }}" class="inline">
-            <input type="hidden" name="from_sentiment" value="true">
-            <button type="submit" class="btn-primary">
-                Continue to Word Cloud →
-            </button>
+    <!-- Navigation Buttons -->
+    <div class="flex justify-between">
+        <form method="post" action="{{ url_for('view_csv', idx=selected_idx) }}">
+            <input type="hidden" name="from_sentiment" value="1">
+            <button type="submit" class="btn-secondary">Back to Reviews</button>
+        </form>
+        <form method="post" action="{{ url_for('word_cloud', idx=selected_idx) }}">
+            <input type="hidden" name="from_sentiment" value="1">
+            <button type="submit" class="btn-primary">View Word Cloud</button>
         </form>
     </div>
+    {% else %}
+    <div class="bg-white p-6 rounded-lg shadow-md">
+        <p class="text-gray-600">No product selected. Please select a product to view sentiment analysis.</p>
+    </div>
+    {% endif %}
 </div>
 {% endblock %}

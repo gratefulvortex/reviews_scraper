@@ -17,10 +17,19 @@
                 <ul>
                     <li class="mb-2">
                         <a href="{{ url_for('select_products') }}" class="block px-6 py-2 rounded hover:bg-blue-100 {% if request.endpoint == 'select_products' %}bg-blue-50 font-semibold{% endif %}">
-                            Home Page
+                            Home
                         </a>
                     </li>
-                    <li class="mb-2"><a href="{{ url_for('admin') }}" class="block px-6 py-2 rounded hover:bg-blue-100 {% if request.endpoint == 'admin' %}bg-blue-50 font-semibold{% endif %}">Admin Page</a></li>
+                    <li class="mb-2">
+                        <a href="{{ url_for('admin') }}" class="block px-6 py-2 rounded hover:bg-blue-100 {% if request.endpoint == 'admin' %}bg-blue-50 font-semibold{% endif %}">
+                            Admin
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="{{ url_for('logout') }}" class="block px-6 py-2 rounded hover:bg-red-100 text-red-600">
+                            Logout
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>

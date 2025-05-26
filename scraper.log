@@ -8700,3 +8700,810 @@ Call log:
 2025-05-18 00:42:24,843 - INFO - 127.0.0.1 - - [18/May/2025 00:42:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2025-05-18 00:42:27,072 - INFO - 127.0.0.1 - - [18/May/2025 00:42:27] "GET /select_products HTTP/1.1" 200 -
 2025-05-18 00:42:27,160 - INFO - 127.0.0.1 - - [18/May/2025 00:42:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 20:57:13,119 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-20 20:57:13,121 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-20 20:57:13,127 - INFO -  * Restarting with stat
+2025-05-20 20:57:16,595 - WARNING -  * Debugger is active!
+2025-05-20 20:57:16,607 - INFO -  * Debugger PIN: 128-684-199
+2025-05-20 20:57:25,779 - INFO - 127.0.0.1 - - [20/May/2025 20:57:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-20 20:57:25,860 - INFO - 127.0.0.1 - - [20/May/2025 20:57:25] "GET /login HTTP/1.1" 200 -
+2025-05-20 20:57:28,884 - INFO - 127.0.0.1 - - [20/May/2025 20:57:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-20 20:57:42,225 - INFO - 127.0.0.1 - - [20/May/2025 20:57:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-20 20:57:42,301 - INFO - 127.0.0.1 - - [20/May/2025 20:57:42] "GET /select_products HTTP/1.1" 200 -
+2025-05-20 20:57:42,629 - INFO - 127.0.0.1 - - [20/May/2025 20:57:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-20 20:58:19,157 - INFO - 127.0.0.1 - - [20/May/2025 20:58:19] "GET /view_csv?idx=0 HTTP/1.1" 200 -
+2025-05-20 20:58:19,232 - INFO - 127.0.0.1 - - [20/May/2025 20:58:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 20:58:43,236 - INFO - 127.0.0.1 - - [20/May/2025 20:58:43] "GET /select_products HTTP/1.1" 200 -
+2025-05-20 20:58:43,357 - INFO - 127.0.0.1 - - [20/May/2025 20:58:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:00:54,929 - INFO - 127.0.0.1 - - [20/May/2025 21:00:54] "GET /select_products HTTP/1.1" 200 -
+2025-05-20 21:00:55,034 - INFO - 127.0.0.1 - - [20/May/2025 21:00:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:03:53,279 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/palmers-coconut-bodylotion/reviews
+2025-05-20 21:03:53,330 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/palmers-coconut-bodylotion/reviews
+2025-05-20 21:04:14,073 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-20 21:04:14,074 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-20 21:04:14,079 - INFO -  * Restarting with stat
+2025-05-20 21:04:18,173 - WARNING -  * Debugger is active!
+2025-05-20 21:04:18,194 - INFO -  * Debugger PIN: 128-684-199
+2025-05-20 21:04:18,637 - INFO - 127.0.0.1 - - [20/May/2025 21:04:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-20 21:04:18,690 - INFO - 127.0.0.1 - - [20/May/2025 21:04:18] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-20 21:04:18,881 - INFO - 127.0.0.1 - - [20/May/2025 21:04:18] "GET /select_products HTTP/1.1" 200 -
+2025-05-20 21:04:19,152 - INFO - 127.0.0.1 - - [20/May/2025 21:04:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-20 21:04:19,304 - INFO - 127.0.0.1 - - [20/May/2025 21:04:19] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-20 21:04:19,455 - INFO - 127.0.0.1 - - [20/May/2025 21:04:19] "GET /select_products HTTP/1.1" 200 -
+2025-05-20 21:04:19,912 - INFO - 127.0.0.1 - - [20/May/2025 21:04:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:04:20,371 - INFO - 127.0.0.1 - - [20/May/2025 21:04:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:04:29,456 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/palmers-coconut-bodylotion/reviews
+2025-05-20 21:04:47,616 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-20 21:04:47,618 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-20 21:04:47,621 - INFO -  * Restarting with stat
+2025-05-20 21:04:51,867 - WARNING -  * Debugger is active!
+2025-05-20 21:04:51,888 - INFO -  * Debugger PIN: 128-684-199
+2025-05-20 21:04:52,095 - INFO - 127.0.0.1 - - [20/May/2025 21:04:52] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-20 21:04:52,107 - INFO - 127.0.0.1 - - [20/May/2025 21:04:52] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-20 21:04:52,187 - INFO - 127.0.0.1 - - [20/May/2025 21:04:52] "GET /select_products HTTP/1.1" 200 -
+2025-05-20 21:04:52,403 - INFO - 127.0.0.1 - - [20/May/2025 21:04:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:05:45,628 - INFO - 127.0.0.1 - - [20/May/2025 21:05:45] "GET /select_products HTTP/1.1" 200 -
+2025-05-20 21:05:45,697 - INFO - 127.0.0.1 - - [20/May/2025 21:05:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:06:17,455 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/palmers-coconut-bodylotion/reviews
+2025-05-20 21:06:30,106 - INFO - No cookie button found
+2025-05-20 21:06:30,203 - INFO - Waiting for reviews to load...
+2025-05-20 21:06:30,293 - INFO - Review elements found
+2025-05-20 21:06:33,988 - INFO - Extracted exact date for review 0: 2024-11-22
+2025-05-20 21:06:35,033 - INFO - Extracted exact date for review 1: 2024-10-18
+2025-05-20 21:06:35,623 - INFO - Extracted exact date for review 2: 2024-09-21
+2025-05-20 21:06:36,099 - INFO - Extracted exact date for review 3: 2024-08-26
+2025-05-20 21:06:36,570 - INFO - Extracted exact date for review 4: 2024-08-06
+2025-05-20 21:06:37,261 - INFO - Extracted exact date for review 5: 2024-06-30
+2025-05-20 21:06:37,921 - INFO - Extracted exact date for review 6: 2024-04-07
+2025-05-20 21:06:38,566 - INFO - Extracted exact date for review 7: 2024-01-19
+2025-05-20 21:06:39,093 - INFO - Extracted exact date for review 8: 2023-11-04
+2025-05-20 21:06:39,676 - INFO - Extracted exact date for review 9: 2023-06-07
+2025-05-20 21:06:39,812 - INFO - Added 10 reviews (Total: 10)
+2025-05-20 21:06:41,945 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-20 21:06:44,146 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-20 21:06:52,139 - INFO - Extracted exact date for review 10: 2023-05-14
+2025-05-20 21:06:52,739 - INFO - Extracted exact date for review 11: 2023-04-19
+2025-05-20 21:06:53,362 - INFO - Extracted exact date for review 12: 2022-07-27
+2025-05-20 21:06:53,955 - INFO - Extracted exact date for review 13: 2022-07-27
+2025-05-20 21:06:54,778 - INFO - Extracted exact date for review 14: 2022-04-07
+2025-05-20 21:06:55,461 - INFO - Extracted exact date for review 15: 2022-03-30
+2025-05-20 21:06:56,089 - INFO - Extracted exact date for review 16: 2022-02-22
+2025-05-20 21:06:56,858 - INFO - Extracted exact date for review 17: 2022-02-19
+2025-05-20 21:06:57,539 - INFO - Extracted exact date for review 18: 2022-02-19
+2025-05-20 21:06:58,555 - INFO - Extracted exact date for review 19: 2022-01-24
+2025-05-20 21:06:58,684 - INFO - Added 10 reviews (Total: 20)
+2025-05-20 21:07:00,796 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-20 21:07:03,058 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-20 21:07:10,343 - INFO - Extracted exact date for review 20: 2021-08-10
+2025-05-20 21:07:10,996 - INFO - Extracted exact date for review 21: 2021-07-17
+2025-05-20 21:07:11,688 - INFO - Extracted exact date for review 22: 2021-07-12
+2025-05-20 21:07:12,379 - INFO - Extracted exact date for review 23: 2021-05-14
+2025-05-20 21:07:12,947 - INFO - Extracted exact date for review 24: 2021-05-04
+2025-05-20 21:07:13,560 - INFO - Extracted exact date for review 25: 2021-05-02
+2025-05-20 21:07:14,350 - INFO - Extracted exact date for review 26: 2021-02-25
+2025-05-20 21:07:14,855 - INFO - Extracted exact date for review 27: 2021-02-23
+2025-05-20 21:07:15,429 - INFO - Extracted exact date for review 28: 2021-01-03
+2025-05-20 21:07:16,154 - INFO - Extracted exact date for review 29: 2020-10-28
+2025-05-20 21:07:16,319 - INFO - Added 10 reviews (Total: 30)
+2025-05-20 21:07:18,464 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-20 21:07:20,700 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-20 21:07:28,690 - INFO - Extracted exact date for review 30: 2020-10-27
+2025-05-20 21:07:29,443 - INFO - Extracted exact date for review 31: 2020-10-05
+2025-05-20 21:07:30,169 - INFO - Extracted exact date for review 32: 2020-09-26
+2025-05-20 21:07:30,785 - INFO - Extracted exact date for review 33: 2020-09-25
+2025-05-20 21:07:31,416 - INFO - Extracted exact date for review 34: 2020-09-24
+2025-05-20 21:07:32,143 - INFO - Extracted exact date for review 35: 2020-09-11
+2025-05-20 21:07:32,883 - INFO - Extracted exact date for review 36: 2020-09-11
+2025-05-20 21:07:33,585 - INFO - Extracted exact date for review 37: 2020-09-01
+2025-05-20 21:07:34,352 - INFO - Extracted exact date for review 38: 2020-07-12
+2025-05-20 21:07:34,987 - INFO - Extracted exact date for review 39: 2020-06-12
+2025-05-20 21:07:35,130 - INFO - Added 10 reviews (Total: 40)
+2025-05-20 21:07:37,266 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-20 21:07:39,504 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-20 21:07:47,939 - INFO - Extracted exact date for review 40: 2020-04-11
+2025-05-20 21:07:48,574 - INFO - Extracted exact date for review 41: 2020-03-10
+2025-05-20 21:07:49,096 - INFO - Extracted exact date for review 42: 2020-02-11
+2025-05-20 21:07:49,735 - INFO - Extracted exact date for review 43: 2020-02-04
+2025-05-20 21:07:49,911 - INFO - Added 4 reviews (Total: 44)
+2025-05-20 21:07:52,220 - INFO - No more 'LOAD MORE' button found
+2025-05-20 21:07:52,226 - INFO - Finished scraping. Total reviews collected: 44
+2025-05-20 21:07:53,149 - INFO - 127.0.0.1 - - [20/May/2025 21:07:53] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-20 21:07:53,378 - INFO - 127.0.0.1 - - [20/May/2025 21:07:53] "GET /view_csv?idx=1 HTTP/1.1" 200 -
+2025-05-20 21:07:53,571 - INFO - 127.0.0.1 - - [20/May/2025 21:07:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:08:42,003 - INFO - 127.0.0.1 - - [20/May/2025 21:08:42] "POST /sentiment_analysis HTTP/1.1" 200 -
+2025-05-20 21:08:42,132 - INFO - 127.0.0.1 - - [20/May/2025 21:08:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:09:05,386 - INFO - 127.0.0.1 - - [20/May/2025 21:09:05] "POST /word_cloud HTTP/1.1" 200 -
+2025-05-20 21:09:05,438 - INFO - 127.0.0.1 - - [20/May/2025 21:09:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:09:34,886 - INFO - 127.0.0.1 - - [20/May/2025 21:09:34] "GET /sentiment_analysis HTTP/1.1" 200 -
+2025-05-20 21:09:34,958 - INFO - 127.0.0.1 - - [20/May/2025 21:09:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:09:40,899 - INFO - 127.0.0.1 - - [20/May/2025 21:09:40] "GET /view_csv HTTP/1.1" 200 -
+2025-05-20 21:09:41,015 - INFO - 127.0.0.1 - - [20/May/2025 21:09:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:09:44,429 - INFO - 127.0.0.1 - - [20/May/2025 21:09:44] "GET /view_csv?idx=1 HTTP/1.1" 200 -
+2025-05-20 21:09:44,494 - INFO - 127.0.0.1 - - [20/May/2025 21:09:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:10:01,233 - INFO - 127.0.0.1 - - [20/May/2025 21:10:01] "GET /view_csv?idx=0 HTTP/1.1" 200 -
+2025-05-20 21:10:01,305 - INFO - 127.0.0.1 - - [20/May/2025 21:10:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:10:03,142 - INFO - 127.0.0.1 - - [20/May/2025 21:10:03] "GET /view_csv?idx=1 HTTP/1.1" 200 -
+2025-05-20 21:10:03,208 - INFO - 127.0.0.1 - - [20/May/2025 21:10:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:10:07,303 - INFO - 127.0.0.1 - - [20/May/2025 21:10:07] "POST /sentiment_analysis HTTP/1.1" 200 -
+2025-05-20 21:10:07,374 - INFO - 127.0.0.1 - - [20/May/2025 21:10:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:10:14,150 - INFO - 127.0.0.1 - - [20/May/2025 21:10:14] "GET /view_csv HTTP/1.1" 200 -
+2025-05-20 21:10:14,219 - INFO - 127.0.0.1 - - [20/May/2025 21:10:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:10:21,280 - INFO - 127.0.0.1 - - [20/May/2025 21:10:21] "GET /select_products HTTP/1.1" 200 -
+2025-05-20 21:10:21,353 - INFO - 127.0.0.1 - - [20/May/2025 21:10:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:10:31,670 - INFO - 127.0.0.1 - - [20/May/2025 21:10:31] "GET /view_csv?idx=0 HTTP/1.1" 200 -
+2025-05-20 21:10:31,770 - INFO - 127.0.0.1 - - [20/May/2025 21:10:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:13:49,960 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\influenster.py', reloading
+2025-05-20 21:13:50,724 - INFO -  * Restarting with stat
+2025-05-20 21:13:56,458 - WARNING -  * Debugger is active!
+2025-05-20 21:13:56,482 - INFO -  * Debugger PIN: 128-684-199
+2025-05-20 21:14:12,549 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-20 21:14:13,195 - INFO -  * Restarting with stat
+2025-05-20 21:14:19,425 - WARNING -  * Debugger is active!
+2025-05-20 21:14:19,440 - INFO -  * Debugger PIN: 128-684-199
+2025-05-20 21:15:23,124 - INFO - 127.0.0.1 - - [20/May/2025 21:15:23] "GET /select_products HTTP/1.1" 200 -
+2025-05-20 21:15:23,359 - INFO - 127.0.0.1 - - [20/May/2025 21:15:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:15:28,713 - INFO - 127.0.0.1 - - [20/May/2025 21:15:28] "GET /view_csv?idx=1 HTTP/1.1" 200 -
+2025-05-20 21:15:28,846 - INFO - 127.0.0.1 - - [20/May/2025 21:15:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:15:35,164 - INFO - 127.0.0.1 - - [20/May/2025 21:15:35] "POST /sentiment_analysis HTTP/1.1" 200 -
+2025-05-20 21:15:35,254 - INFO - 127.0.0.1 - - [20/May/2025 21:15:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:15:46,141 - INFO - 127.0.0.1 - - [20/May/2025 21:15:46] "POST /word_cloud?idx=0 HTTP/1.1" 200 -
+2025-05-20 21:15:46,209 - INFO - 127.0.0.1 - - [20/May/2025 21:15:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:15:49,925 - INFO - 127.0.0.1 - - [20/May/2025 21:15:49] "[32mPOST /sentiment_analysis?idx=0 HTTP/1.1[0m" 302 -
+2025-05-20 21:15:51,564 - INFO - 127.0.0.1 - - [20/May/2025 21:15:51] "GET /word_cloud?idx=0 HTTP/1.1" 200 -
+2025-05-20 21:15:51,630 - INFO - 127.0.0.1 - - [20/May/2025 21:15:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:15:53,875 - INFO - 127.0.0.1 - - [20/May/2025 21:15:53] "[32mPOST /sentiment_analysis?idx=0 HTTP/1.1[0m" 302 -
+2025-05-20 21:15:55,568 - INFO - 127.0.0.1 - - [20/May/2025 21:15:55] "GET /word_cloud?idx=0 HTTP/1.1" 200 -
+2025-05-20 21:15:55,637 - INFO - 127.0.0.1 - - [20/May/2025 21:15:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:16:00,871 - INFO - 127.0.0.1 - - [20/May/2025 21:16:00] "GET /word_cloud?idx=1 HTTP/1.1" 200 -
+2025-05-20 21:16:00,940 - INFO - 127.0.0.1 - - [20/May/2025 21:16:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:16:14,110 - INFO - 127.0.0.1 - - [20/May/2025 21:16:14] "[32mPOST /sentiment_analysis?idx=0 HTTP/1.1[0m" 302 -
+2025-05-20 21:16:15,640 - INFO - 127.0.0.1 - - [20/May/2025 21:16:15] "GET /word_cloud?idx=0 HTTP/1.1" 200 -
+2025-05-20 21:16:15,712 - INFO - 127.0.0.1 - - [20/May/2025 21:16:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:16:32,713 - INFO - 127.0.0.1 - - [20/May/2025 21:16:32] "GET /word_cloud?idx=0 HTTP/1.1" 200 -
+2025-05-20 21:16:32,783 - INFO - 127.0.0.1 - - [20/May/2025 21:16:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:16:36,503 - INFO - 127.0.0.1 - - [20/May/2025 21:16:36] "POST /view_csv?idx=0 HTTP/1.1" 200 -
+2025-05-20 21:16:36,617 - INFO - 127.0.0.1 - - [20/May/2025 21:16:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:16:39,625 - INFO - 127.0.0.1 - - [20/May/2025 21:16:39] "GET /view_csv?idx=1 HTTP/1.1" 200 -
+2025-05-20 21:16:39,690 - INFO - 127.0.0.1 - - [20/May/2025 21:16:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:16:42,891 - INFO - 127.0.0.1 - - [20/May/2025 21:16:42] "GET /select_products HTTP/1.1" 200 -
+2025-05-20 21:16:42,966 - INFO - 127.0.0.1 - - [20/May/2025 21:16:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:18:18,710 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/palmers-cocoa-butter-formula-restoring-conditioner/reviews
+2025-05-20 21:18:30,886 - INFO - No cookie button found
+2025-05-20 21:18:30,936 - INFO - Waiting for reviews to load...
+2025-05-20 21:18:31,011 - INFO - Review elements found
+2025-05-20 21:18:34,819 - INFO - Extracted exact date for review 0: 2024-05-03
+2025-05-20 21:18:35,527 - INFO - Extracted exact date for review 1: 2022-02-04
+2025-05-20 21:18:36,187 - INFO - Extracted exact date for review 2: 2021-11-18
+2025-05-20 21:18:36,826 - INFO - Extracted exact date for review 3: 2021-11-15
+2025-05-20 21:18:37,473 - INFO - Extracted exact date for review 4: 2021-11-08
+2025-05-20 21:18:38,218 - INFO - Extracted exact date for review 5: 2021-10-21
+2025-05-20 21:18:38,805 - INFO - Extracted exact date for review 6: 2021-09-23
+2025-05-20 21:18:39,671 - INFO - Extracted exact date for review 7: 2021-09-23
+2025-05-20 21:18:40,207 - INFO - Extracted exact date for review 8: 2021-09-03
+2025-05-20 21:18:40,761 - INFO - Extracted exact date for review 9: 2021-08-02
+2025-05-20 21:18:41,020 - INFO - Added 10 reviews (Total: 10)
+2025-05-20 21:18:43,186 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-20 21:18:45,453 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-20 21:18:53,344 - INFO - Extracted exact date for review 10: 2021-07-14
+2025-05-20 21:18:53,943 - INFO - Extracted exact date for review 11: 2021-06-28
+2025-05-20 21:18:54,754 - INFO - Extracted exact date for review 12: 2021-06-14
+2025-05-20 21:18:55,343 - INFO - Extracted exact date for review 13: 2021-06-07
+2025-05-20 21:18:56,102 - INFO - Extracted exact date for review 14: 2021-05-06
+2025-05-20 21:18:56,650 - INFO - Extracted exact date for review 15: 2021-04-10
+2025-05-20 21:18:57,384 - INFO - Extracted exact date for review 16: 2020-04-22
+2025-05-20 21:18:58,066 - INFO - Extracted exact date for review 17: 2020-02-26
+2025-05-20 21:18:58,815 - INFO - Extracted exact date for review 18: 2019-12-27
+2025-05-20 21:18:59,435 - INFO - Extracted exact date for review 19: 2016-04-26
+2025-05-20 21:18:59,542 - INFO - Added 10 reviews (Total: 20)
+2025-05-20 21:19:01,669 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-20 21:19:03,890 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-20 21:19:11,609 - INFO - Extracted exact date for review 20: 2016-01-19
+2025-05-20 21:19:12,240 - INFO - Extracted exact date for review 21: 2015-02-25
+2025-05-20 21:19:12,842 - INFO - Extracted exact date for review 22: 2015-02-06
+2025-05-20 21:19:13,522 - INFO - Extracted exact date for review 23: 2014-12-23
+2025-05-20 21:19:14,068 - INFO - Extracted exact date for review 24: 2014-12-03
+2025-05-20 21:19:14,297 - INFO - Added 5 reviews (Total: 25)
+2025-05-20 21:19:16,564 - INFO - No more 'LOAD MORE' button found
+2025-05-20 21:19:16,565 - INFO - Finished scraping. Total reviews collected: 25
+2025-05-20 21:19:17,222 - INFO - 127.0.0.1 - - [20/May/2025 21:19:17] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-20 21:19:17,399 - INFO - 127.0.0.1 - - [20/May/2025 21:19:17] "GET /view_csv?idx=2 HTTP/1.1" 200 -
+2025-05-20 21:19:17,506 - INFO - 127.0.0.1 - - [20/May/2025 21:19:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:19:34,131 - INFO - 127.0.0.1 - - [20/May/2025 21:19:34] "POST /sentiment_analysis HTTP/1.1" 200 -
+2025-05-20 21:19:34,213 - INFO - 127.0.0.1 - - [20/May/2025 21:19:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:19:39,376 - INFO - 127.0.0.1 - - [20/May/2025 21:19:39] "GET /sentiment_analysis?idx=2 HTTP/1.1" 200 -
+2025-05-20 21:19:39,438 - INFO - 127.0.0.1 - - [20/May/2025 21:19:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:19:47,492 - INFO - 127.0.0.1 - - [20/May/2025 21:19:47] "POST /word_cloud?idx=2 HTTP/1.1" 200 -
+2025-05-20 21:19:47,562 - INFO - 127.0.0.1 - - [20/May/2025 21:19:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:19:54,285 - INFO - 127.0.0.1 - - [20/May/2025 21:19:54] "[32mPOST /sentiment_analysis?idx=2 HTTP/1.1[0m" 302 -
+2025-05-20 21:19:55,976 - INFO - 127.0.0.1 - - [20/May/2025 21:19:55] "GET /word_cloud?idx=2 HTTP/1.1" 200 -
+2025-05-20 21:19:56,048 - INFO - 127.0.0.1 - - [20/May/2025 21:19:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:19:59,166 - INFO - 127.0.0.1 - - [20/May/2025 21:19:59] "[32mPOST /sentiment_analysis?idx=2 HTTP/1.1[0m" 302 -
+2025-05-20 21:20:00,881 - INFO - 127.0.0.1 - - [20/May/2025 21:20:00] "GET /word_cloud?idx=2 HTTP/1.1" 200 -
+2025-05-20 21:20:00,953 - INFO - 127.0.0.1 - - [20/May/2025 21:20:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:20:03,809 - INFO - 127.0.0.1 - - [20/May/2025 21:20:03] "[32mPOST /sentiment_analysis?idx=2 HTTP/1.1[0m" 302 -
+2025-05-20 21:20:05,698 - INFO - 127.0.0.1 - - [20/May/2025 21:20:05] "GET /word_cloud?idx=2 HTTP/1.1" 200 -
+2025-05-20 21:20:05,767 - INFO - 127.0.0.1 - - [20/May/2025 21:20:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-20 21:20:09,968 - INFO - 127.0.0.1 - - [20/May/2025 21:20:09] "GET /select_products HTTP/1.1" 200 -
+2025-05-20 21:20:10,065 - INFO - 127.0.0.1 - - [20/May/2025 21:20:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:38:47,395 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 16:38:47,397 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 16:38:47,400 - INFO -  * Restarting with stat
+2025-05-26 16:38:49,506 - WARNING -  * Debugger is active!
+2025-05-26 16:38:49,513 - INFO -  * Debugger PIN: 220-965-795
+2025-05-26 16:39:03,244 - INFO - 127.0.0.1 - - [26/May/2025 16:39:03] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-26 16:39:03,424 - INFO - 127.0.0.1 - - [26/May/2025 16:39:03] "GET /login HTTP/1.1" 200 -
+2025-05-26 16:39:06,091 - INFO - 127.0.0.1 - - [26/May/2025 16:39:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-26 16:39:24,347 - INFO - 127.0.0.1 - - [26/May/2025 16:39:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-26 16:39:24,467 - INFO - 127.0.0.1 - - [26/May/2025 16:39:24] "GET /select_products HTTP/1.1" 200 -
+2025-05-26 16:39:24,704 - INFO - 127.0.0.1 - - [26/May/2025 16:39:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-26 16:42:34,340 - INFO - 127.0.0.1 - - [26/May/2025 16:42:34] "GET /view_csv?idx=0 HTTP/1.1" 200 -
+2025-05-26 16:42:34,391 - INFO - 127.0.0.1 - - [26/May/2025 16:42:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:48:53,361 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-26 16:48:53,830 - INFO -  * Restarting with stat
+2025-05-26 16:48:57,199 - WARNING -  * Debugger is active!
+2025-05-26 16:48:57,209 - INFO -  * Debugger PIN: 220-965-795
+2025-05-26 16:48:59,548 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-26 16:48:59,896 - INFO -  * Restarting with stat
+2025-05-26 16:49:02,676 - WARNING -  * Debugger is active!
+2025-05-26 16:49:02,684 - INFO -  * Debugger PIN: 220-965-795
+2025-05-26 16:49:37,790 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-26 16:49:38,449 - INFO -  * Restarting with stat
+2025-05-26 16:49:41,294 - WARNING -  * Debugger is active!
+2025-05-26 16:49:41,309 - INFO -  * Debugger PIN: 220-965-795
+2025-05-26 16:50:21,274 - INFO - 127.0.0.1 - - [26/May/2025 16:50:21] "GET /select_products HTTP/1.1" 200 -
+2025-05-26 16:50:21,429 - INFO - 127.0.0.1 - - [26/May/2025 16:50:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:50:26,585 - INFO - 127.0.0.1 - - [26/May/2025 16:50:26] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-05-26 16:50:26,606 - INFO - 127.0.0.1 - - [26/May/2025 16:50:26] "GET /select_products HTTP/1.1" 200 -
+2025-05-26 16:50:26,643 - INFO - 127.0.0.1 - - [26/May/2025 16:50:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:50:33,149 - INFO - 127.0.0.1 - - [26/May/2025 16:50:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:50:33,183 - INFO - 127.0.0.1 - - [26/May/2025 16:50:33] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-26 16:50:41,105 - INFO - 127.0.0.1 - - [26/May/2025 16:50:41] "GET /select_products HTTP/1.1" 200 -
+2025-05-26 16:50:41,182 - INFO - 127.0.0.1 - - [26/May/2025 16:50:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:50:44,631 - INFO - 127.0.0.1 - - [26/May/2025 16:50:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:50:44,671 - INFO - 127.0.0.1 - - [26/May/2025 16:50:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-26 16:50:53,643 - INFO - 127.0.0.1 - - [26/May/2025 16:50:53] "[32mGET /select_products HTTP/1.1[0m" 302 -
+2025-05-26 16:50:53,689 - INFO - 127.0.0.1 - - [26/May/2025 16:50:53] "GET /login HTTP/1.1" 200 -
+2025-05-26 16:50:53,775 - INFO - 127.0.0.1 - - [26/May/2025 16:50:53] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-26 16:51:03,265 - INFO - 127.0.0.1 - - [26/May/2025 16:51:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-26 16:51:03,310 - INFO - 127.0.0.1 - - [26/May/2025 16:51:03] "GET /select_products HTTP/1.1" 200 -
+2025-05-26 16:51:03,449 - INFO - 127.0.0.1 - - [26/May/2025 16:51:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-26 16:51:03,452 - INFO - 127.0.0.1 - - [26/May/2025 16:51:03] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-26 16:51:13,869 - INFO - 127.0.0.1 - - [26/May/2025 16:51:13] "GET /select_products?industry=Beauty HTTP/1.1" 200 -
+2025-05-26 16:51:13,922 - INFO - 127.0.0.1 - - [26/May/2025 16:51:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:51:25,996 - INFO - 127.0.0.1 - - [26/May/2025 16:51:25] "GET /select_products?industry= HTTP/1.1" 200 -
+2025-05-26 16:51:26,047 - INFO - 127.0.0.1 - - [26/May/2025 16:51:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:51:37,218 - INFO - 127.0.0.1 - - [26/May/2025 16:51:37] "GET /select_products?industry=Sports HTTP/1.1" 200 -
+2025-05-26 16:51:37,281 - INFO - 127.0.0.1 - - [26/May/2025 16:51:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:51:43,891 - INFO - 127.0.0.1 - - [26/May/2025 16:51:43] "GET /select_products?industry= HTTP/1.1" 200 -
+2025-05-26 16:51:43,937 - INFO - 127.0.0.1 - - [26/May/2025 16:51:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:52:39,391 - INFO - 127.0.0.1 - - [26/May/2025 16:52:39] "GET /view_csv?idx=0 HTTP/1.1" 200 -
+2025-05-26 16:52:39,437 - INFO - 127.0.0.1 - - [26/May/2025 16:52:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:52:52,815 - INFO - 127.0.0.1 - - [26/May/2025 16:52:52] "POST /sentiment_analysis HTTP/1.1" 200 -
+2025-05-26 16:52:52,872 - INFO - 127.0.0.1 - - [26/May/2025 16:52:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:52:58,084 - INFO - 127.0.0.1 - - [26/May/2025 16:52:58] "POST /word_cloud?idx=0 HTTP/1.1" 200 -
+2025-05-26 16:52:58,131 - INFO - 127.0.0.1 - - [26/May/2025 16:52:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:53:05,504 - INFO - 127.0.0.1 - - [26/May/2025 16:53:05] "[32mPOST /select_products HTTP/1.1[0m" 302 -
+2025-05-26 16:53:05,548 - INFO - 127.0.0.1 - - [26/May/2025 16:53:05] "GET /view_csv?idx=0 HTTP/1.1" 200 -
+2025-05-26 16:53:05,661 - INFO - 127.0.0.1 - - [26/May/2025 16:53:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:53:11,453 - INFO - 127.0.0.1 - - [26/May/2025 16:53:11] "GET /select_products HTTP/1.1" 200 -
+2025-05-26 16:53:11,509 - INFO - 127.0.0.1 - - [26/May/2025 16:53:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:54:54,588 - INFO - 127.0.0.1 - - [26/May/2025 16:54:54] "GET /select_products?industry=Beauty HTTP/1.1" 200 -
+2025-05-26 16:54:54,641 - INFO - 127.0.0.1 - - [26/May/2025 16:54:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:55:13,216 - INFO - 127.0.0.1 - - [26/May/2025 16:55:13] "GET /select_products?industry= HTTP/1.1" 200 -
+2025-05-26 16:55:13,256 - INFO - 127.0.0.1 - - [26/May/2025 16:55:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:55:18,384 - INFO - 127.0.0.1 - - [26/May/2025 16:55:18] "GET /view_csv?idx=0 HTTP/1.1" 200 -
+2025-05-26 16:55:18,428 - INFO - 127.0.0.1 - - [26/May/2025 16:55:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:55:33,250 - INFO - 127.0.0.1 - - [26/May/2025 16:55:33] "GET /select_products?industry=Beauty HTTP/1.1" 200 -
+2025-05-26 16:55:33,310 - INFO - 127.0.0.1 - - [26/May/2025 16:55:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:59:19,672 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-26 16:59:20,130 - INFO -  * Restarting with stat
+2025-05-26 16:59:22,986 - WARNING -  * Debugger is active!
+2025-05-26 16:59:22,994 - INFO -  * Debugger PIN: 220-965-795
+2025-05-26 16:59:48,047 - INFO - 127.0.0.1 - - [26/May/2025 16:59:48] "GET /select_products?industry=Beauty HTTP/1.1" 200 -
+2025-05-26 16:59:48,201 - INFO - 127.0.0.1 - - [26/May/2025 16:59:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:59:51,453 - INFO - 127.0.0.1 - - [26/May/2025 16:59:51] "GET /select_products?industry=Beauty HTTP/1.1" 200 -
+2025-05-26 16:59:51,537 - INFO - 127.0.0.1 - - [26/May/2025 16:59:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:59:55,246 - INFO - 127.0.0.1 - - [26/May/2025 16:59:55] "GET /select_products HTTP/1.1" 200 -
+2025-05-26 16:59:55,290 - INFO - 127.0.0.1 - - [26/May/2025 16:59:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 16:59:59,781 - INFO - 127.0.0.1 - - [26/May/2025 16:59:59] "GET /select_products?industry=Beauty HTTP/1.1" 200 -
+2025-05-26 16:59:59,834 - INFO - 127.0.0.1 - - [26/May/2025 16:59:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:00:45,760 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-26 17:00:58,839 - INFO - No cookie button found
+2025-05-26 17:00:58,859 - INFO - Waiting for reviews to load...
+2025-05-26 17:00:58,907 - INFO - Review elements found
+2025-05-26 17:01:02,408 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-26 17:01:02,833 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-26 17:01:03,249 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-26 17:01:03,727 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-26 17:01:04,243 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-26 17:01:04,708 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-26 17:01:05,147 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-26 17:01:05,531 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-26 17:01:05,957 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-26 17:01:06,396 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-26 17:01:06,473 - INFO - Added 10 reviews (Total: 10)
+2025-05-26 17:01:08,543 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:01:10,672 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:01:18,977 - INFO - Extracted exact date for review 10: 2024-10-14
+2025-05-26 17:01:19,349 - INFO - Extracted exact date for review 11: 2024-10-07
+2025-05-26 17:01:19,749 - INFO - Extracted exact date for review 12: 2024-10-05
+2025-05-26 17:01:20,146 - INFO - Extracted exact date for review 13: 2024-09-23
+2025-05-26 17:01:20,549 - INFO - Extracted exact date for review 14: 2024-09-12
+2025-05-26 17:01:20,957 - INFO - Extracted exact date for review 15: 2024-09-06
+2025-05-26 17:01:21,498 - INFO - Extracted exact date for review 16: 2024-09-04
+2025-05-26 17:01:21,917 - INFO - Extracted exact date for review 17: 2024-08-22
+2025-05-26 17:01:22,339 - INFO - Extracted exact date for review 18: 2024-07-07
+2025-05-26 17:01:22,735 - INFO - Extracted exact date for review 19: 2024-06-18
+2025-05-26 17:01:22,814 - INFO - Added 10 reviews (Total: 20)
+2025-05-26 17:01:24,871 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:01:27,000 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:01:33,936 - INFO - Extracted exact date for review 20: 2024-05-02
+2025-05-26 17:01:34,451 - INFO - Extracted exact date for review 21: 2024-04-25
+2025-05-26 17:01:34,897 - INFO - Extracted exact date for review 22: 2024-04-24
+2025-05-26 17:01:35,343 - INFO - Extracted exact date for review 23: 2024-04-15
+2025-05-26 17:01:35,831 - INFO - Extracted exact date for review 24: 2024-04-11
+2025-05-26 17:01:36,354 - INFO - Extracted exact date for review 25: 2024-02-29
+2025-05-26 17:01:36,876 - INFO - Extracted exact date for review 26: 2024-02-22
+2025-05-26 17:01:37,347 - INFO - Extracted exact date for review 27: 2024-02-02
+2025-05-26 17:01:37,854 - INFO - Extracted exact date for review 28: 2024-01-26
+2025-05-26 17:01:38,323 - INFO - Extracted exact date for review 29: 2024-01-26
+2025-05-26 17:01:38,445 - INFO - Added 10 reviews (Total: 30)
+2025-05-26 17:01:40,557 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:01:42,761 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:01:50,845 - INFO - Extracted exact date for review 30: 2024-01-22
+2025-05-26 17:01:51,309 - INFO - Extracted exact date for review 31: 2024-01-05
+2025-05-26 17:01:51,769 - INFO - Extracted exact date for review 32: 2023-12-17
+2025-05-26 17:01:52,353 - INFO - Extracted exact date for review 33: 2023-12-01
+2025-05-26 17:01:52,840 - INFO - Extracted exact date for review 34: 2023-11-20
+2025-05-26 17:01:53,360 - INFO - Extracted exact date for review 35: 2023-11-16
+2025-05-26 17:01:53,868 - INFO - Extracted exact date for review 36: 2023-11-16
+2025-05-26 17:01:54,325 - INFO - Extracted exact date for review 37: 2023-11-09
+2025-05-26 17:01:54,762 - INFO - Extracted exact date for review 38: 2023-11-05
+2025-05-26 17:01:55,250 - INFO - Extracted exact date for review 39: 2023-10-28
+2025-05-26 17:01:55,396 - INFO - Added 10 reviews (Total: 40)
+2025-05-26 17:01:57,563 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:01:59,769 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:02:07,645 - INFO - Extracted exact date for review 40: 2023-10-14
+2025-05-26 17:02:08,142 - INFO - Extracted exact date for review 41: 2023-10-02
+2025-05-26 17:02:08,604 - INFO - Extracted exact date for review 42: 2023-09-08
+2025-05-26 17:02:09,124 - INFO - Extracted exact date for review 43: 2023-08-21
+2025-05-26 17:02:09,510 - INFO - Extracted exact date for review 44: 2023-08-13
+2025-05-26 17:02:09,901 - INFO - Extracted exact date for review 45: 2023-07-27
+2025-05-26 17:02:10,296 - INFO - Extracted exact date for review 46: 2023-07-11
+2025-05-26 17:02:10,707 - INFO - Extracted exact date for review 47: 2023-07-03
+2025-05-26 17:02:11,116 - INFO - Extracted exact date for review 48: 2023-06-30
+2025-05-26 17:02:11,484 - INFO - Extracted exact date for review 49: 2023-06-24
+2025-05-26 17:02:11,565 - INFO - Added 10 reviews (Total: 50)
+2025-05-26 17:02:13,638 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:02:15,773 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:02:24,128 - INFO - Extracted exact date for review 50: 2023-06-09
+2025-05-26 17:02:24,574 - INFO - Extracted exact date for review 51: 2023-05-05
+2025-05-26 17:02:24,966 - INFO - Extracted exact date for review 52: 2023-05-04
+2025-05-26 17:02:25,355 - INFO - Extracted exact date for review 53: 2023-04-27
+2025-05-26 17:02:25,748 - INFO - Extracted exact date for review 54: 2023-04-22
+2025-05-26 17:02:26,123 - INFO - Extracted exact date for review 55: 2023-04-16
+2025-05-26 17:02:26,539 - INFO - Extracted exact date for review 56: 2023-02-26
+2025-05-26 17:02:26,935 - INFO - Extracted exact date for review 57: 2023-02-11
+2025-05-26 17:02:27,368 - INFO - Extracted exact date for review 58: 2023-02-11
+2025-05-26 17:02:27,773 - INFO - Extracted exact date for review 59: 2023-02-10
+2025-05-26 17:02:27,841 - INFO - Added 10 reviews (Total: 60)
+2025-05-26 17:02:29,901 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:02:32,033 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:02:40,635 - INFO - Extracted exact date for review 60: 2023-02-01
+2025-05-26 17:02:41,050 - INFO - Extracted exact date for review 61: 2023-01-29
+2025-05-26 17:02:41,440 - INFO - Extracted exact date for review 62: 2023-01-25
+2025-05-26 17:02:41,837 - INFO - Extracted exact date for review 63: 2023-01-13
+2025-05-26 17:02:42,246 - INFO - Extracted exact date for review 64: 2023-01-09
+2025-05-26 17:02:42,635 - INFO - Extracted exact date for review 65: 2022-12-31
+2025-05-26 17:02:43,035 - INFO - Extracted exact date for review 66: 2022-12-31
+2025-05-26 17:02:43,407 - INFO - Extracted exact date for review 67: 2022-12-30
+2025-05-26 17:02:43,826 - INFO - Extracted exact date for review 68: 2022-12-29
+2025-05-26 17:02:44,259 - INFO - Extracted exact date for review 69: 2022-12-28
+2025-05-26 17:02:44,336 - INFO - Added 10 reviews (Total: 70)
+2025-05-26 17:02:46,415 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:02:48,561 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:02:58,181 - INFO - Extracted exact date for review 70: 2022-12-10
+2025-05-26 17:02:58,585 - INFO - Extracted exact date for review 71: 2022-11-15
+2025-05-26 17:02:58,986 - INFO - Extracted exact date for review 72: 2022-11-02
+2025-05-26 17:02:59,389 - INFO - Extracted exact date for review 73: 2022-10-24
+2025-05-26 17:02:59,830 - INFO - Extracted exact date for review 74: 2022-10-24
+2025-05-26 17:03:00,245 - INFO - Extracted exact date for review 75: 2022-10-15
+2025-05-26 17:03:00,653 - INFO - Extracted exact date for review 76: 2022-09-26
+2025-05-26 17:03:01,046 - INFO - Extracted exact date for review 77: 2022-09-15
+2025-05-26 17:03:01,462 - INFO - Extracted exact date for review 78: 2022-08-10
+2025-05-26 17:03:01,869 - INFO - Extracted exact date for review 79: 2022-08-07
+2025-05-26 17:03:01,948 - INFO - Added 10 reviews (Total: 80)
+2025-05-26 17:03:04,032 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:03:06,190 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:03:13,987 - INFO - Extracted exact date for review 80: 2022-07-25
+2025-05-26 17:03:14,360 - INFO - Extracted exact date for review 81: 2022-07-20
+2025-05-26 17:03:14,752 - INFO - Extracted exact date for review 82: 2022-07-12
+2025-05-26 17:03:15,158 - INFO - Extracted exact date for review 83: 2022-07-06
+2025-05-26 17:03:15,530 - INFO - Extracted exact date for review 84: 2022-07-04
+2025-05-26 17:03:15,955 - INFO - Extracted exact date for review 85: 2022-06-23
+2025-05-26 17:03:16,371 - INFO - Extracted exact date for review 86: 2022-05-19
+2025-05-26 17:03:16,749 - INFO - Extracted exact date for review 87: 2022-02-06
+2025-05-26 17:03:17,149 - INFO - Extracted exact date for review 88: 2022-01-06
+2025-05-26 17:03:17,529 - INFO - Extracted exact date for review 89: 2021-12-30
+2025-05-26 17:03:17,621 - INFO - Added 10 reviews (Total: 90)
+2025-05-26 17:03:19,689 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:03:21,861 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:03:29,592 - INFO - Extracted exact date for review 90: 2021-10-30
+2025-05-26 17:03:29,982 - INFO - Extracted exact date for review 91: 2021-10-05
+2025-05-26 17:03:30,364 - INFO - Extracted exact date for review 92: 2021-09-07
+2025-05-26 17:03:30,791 - INFO - Extracted exact date for review 93: 2021-08-12
+2025-05-26 17:03:31,206 - INFO - Extracted exact date for review 94: 2021-08-05
+2025-05-26 17:03:31,636 - INFO - Extracted exact date for review 95: 2021-07-29
+2025-05-26 17:03:32,015 - INFO - Extracted exact date for review 96: 2021-07-28
+2025-05-26 17:03:32,430 - INFO - Extracted exact date for review 97: 2021-07-25
+2025-05-26 17:03:32,821 - INFO - Extracted exact date for review 98: 2021-07-22
+2025-05-26 17:03:33,186 - INFO - Extracted exact date for review 99: 2021-07-19
+2025-05-26 17:03:33,262 - INFO - Added 10 reviews (Total: 100)
+2025-05-26 17:03:35,331 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:03:37,489 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:03:47,467 - INFO - Extracted exact date for review 100: 2021-07-14
+2025-05-26 17:03:47,862 - INFO - Extracted exact date for review 101: 2021-07-13
+2025-05-26 17:03:48,272 - INFO - Extracted exact date for review 102: 2021-07-06
+2025-05-26 17:03:48,648 - INFO - Extracted exact date for review 103: 2021-07-06
+2025-05-26 17:03:49,043 - INFO - Extracted exact date for review 104: 2021-07-05
+2025-05-26 17:03:49,445 - INFO - Extracted exact date for review 105: 2021-07-05
+2025-05-26 17:03:49,810 - INFO - Extracted exact date for review 106: 2021-07-01
+2025-05-26 17:03:50,219 - INFO - Extracted exact date for review 107: 2021-06-22
+2025-05-26 17:03:50,622 - INFO - Extracted exact date for review 108: 2021-06-20
+2025-05-26 17:03:51,406 - INFO - Extracted exact date for review 109: 2021-06-20
+2025-05-26 17:03:51,484 - INFO - Added 10 reviews (Total: 110)
+2025-05-26 17:03:53,564 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:03:55,719 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:04:05,996 - INFO - Extracted exact date for review 110: 2021-06-20
+2025-05-26 17:04:06,507 - INFO - Extracted exact date for review 111: 2021-06-16
+2025-05-26 17:04:06,973 - INFO - Extracted exact date for review 112: 2021-06-14
+2025-05-26 17:04:07,365 - INFO - Extracted exact date for review 113: 2021-06-14
+2025-05-26 17:04:07,753 - INFO - Extracted exact date for review 114: 2021-06-13
+2025-05-26 17:04:08,188 - INFO - Extracted exact date for review 115: 2021-06-12
+2025-05-26 17:04:08,572 - INFO - Extracted exact date for review 116: 2021-06-11
+2025-05-26 17:04:08,985 - INFO - Extracted exact date for review 117: 2021-06-10
+2025-05-26 17:04:09,386 - INFO - Extracted exact date for review 118: 2021-06-09
+2025-05-26 17:04:09,801 - INFO - Extracted exact date for review 119: 2021-06-08
+2025-05-26 17:04:09,898 - INFO - Added 10 reviews (Total: 120)
+2025-05-26 17:04:11,972 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:04:14,223 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:04:23,440 - INFO - Extracted exact date for review 120: 2021-06-06
+2025-05-26 17:04:23,853 - INFO - Extracted exact date for review 121: 2021-06-04
+2025-05-26 17:04:24,270 - INFO - Extracted exact date for review 122: 2021-05-26
+2025-05-26 17:04:24,647 - INFO - Extracted exact date for review 123: 2021-05-19
+2025-05-26 17:04:25,077 - INFO - Extracted exact date for review 124: 2021-05-10
+2025-05-26 17:04:25,496 - INFO - Extracted exact date for review 125: 2021-05-05
+2025-05-26 17:04:25,859 - INFO - Extracted exact date for review 126: 2021-05-01
+2025-05-26 17:04:26,256 - INFO - Extracted exact date for review 127: 2021-04-29
+2025-05-26 17:04:26,653 - INFO - Extracted exact date for review 128: 2021-04-23
+2025-05-26 17:04:27,046 - INFO - Extracted exact date for review 129: 2021-04-19
+2025-05-26 17:04:27,125 - INFO - Added 10 reviews (Total: 130)
+2025-05-26 17:04:29,305 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:04:31,476 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:04:42,000 - INFO - Extracted exact date for review 130: 2021-04-01
+2025-05-26 17:04:42,423 - INFO - Extracted exact date for review 131: 2021-03-31
+2025-05-26 17:04:43,004 - INFO - Extracted exact date for review 132: 2021-03-30
+2025-05-26 17:04:43,416 - INFO - Extracted exact date for review 133: 2021-03-25
+2025-05-26 17:04:43,824 - INFO - Extracted exact date for review 134: 2021-03-24
+2025-05-26 17:04:44,234 - INFO - Extracted exact date for review 135: 2021-03-21
+2025-05-26 17:04:44,611 - INFO - Extracted exact date for review 136: 2021-03-12
+2025-05-26 17:04:45,026 - INFO - Extracted exact date for review 137: 2021-03-12
+2025-05-26 17:04:45,461 - INFO - Extracted exact date for review 138: 2021-03-08
+2025-05-26 17:04:45,855 - INFO - Extracted exact date for review 139: 2021-03-05
+2025-05-26 17:04:45,930 - INFO - Added 10 reviews (Total: 140)
+2025-05-26 17:04:47,987 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:04:50,178 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:04:59,073 - INFO - Extracted exact date for review 140: 2021-03-03
+2025-05-26 17:04:59,473 - INFO - Extracted exact date for review 141: 2021-02-28
+2025-05-26 17:04:59,872 - INFO - Extracted exact date for review 142: 2021-02-25
+2025-05-26 17:05:00,302 - INFO - Extracted exact date for review 143: 2021-02-25
+2025-05-26 17:05:00,688 - INFO - Extracted exact date for review 144: 2021-02-23
+2025-05-26 17:05:01,134 - INFO - Extracted exact date for review 145: 2021-02-22
+2025-05-26 17:05:01,514 - INFO - Extracted exact date for review 146: 2021-02-16
+2025-05-26 17:05:01,912 - INFO - Extracted exact date for review 147: 2021-02-11
+2025-05-26 17:05:02,309 - INFO - Extracted exact date for review 148: 2021-02-08
+2025-05-26 17:05:02,723 - INFO - Extracted exact date for review 149: 2021-02-04
+2025-05-26 17:05:02,815 - INFO - Added 10 reviews (Total: 150)
+2025-05-26 17:05:04,946 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:05:07,129 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:05:16,219 - INFO - Extracted exact date for review 150: 2021-01-31
+2025-05-26 17:05:16,648 - INFO - Extracted exact date for review 151: 2021-01-27
+2025-05-26 17:05:17,083 - INFO - Extracted exact date for review 152: 2021-01-19
+2025-05-26 17:05:17,475 - INFO - Extracted exact date for review 153: 2020-12-01
+2025-05-26 17:05:18,012 - INFO - Extracted exact date for review 154: 2020-11-20
+2025-05-26 17:05:18,490 - INFO - Extracted exact date for review 155: 2020-11-18
+2025-05-26 17:05:18,883 - INFO - Extracted exact date for review 156: 2020-11-14
+2025-05-26 17:05:19,292 - INFO - Extracted exact date for review 157: 2020-11-05
+2025-05-26 17:05:19,716 - INFO - Extracted exact date for review 158: 2020-10-27
+2025-05-26 17:05:20,547 - INFO - Extracted exact date for review 159: 2020-10-26
+2025-05-26 17:05:20,666 - INFO - Added 10 reviews (Total: 160)
+2025-05-26 17:05:22,721 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:05:24,921 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:05:36,372 - INFO - Extracted exact date for review 160: 2020-10-24
+2025-05-26 17:05:36,785 - INFO - Extracted exact date for review 161: 2020-10-24
+2025-05-26 17:05:37,207 - INFO - Extracted exact date for review 162: 2020-10-22
+2025-05-26 17:05:37,587 - INFO - Extracted exact date for review 163: 2020-10-20
+2025-05-26 17:05:38,072 - INFO - Extracted exact date for review 164: 2020-10-17
+2025-05-26 17:05:38,799 - INFO - Extracted exact date for review 165: 2020-10-16
+2025-05-26 17:05:39,286 - INFO - Extracted exact date for review 166: 2020-10-01
+2025-05-26 17:05:50,925 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 17:05:50,926 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 17:05:50,929 - INFO -  * Restarting with stat
+2025-05-26 17:05:53,977 - WARNING -  * Debugger is active!
+2025-05-26 17:05:53,986 - INFO -  * Debugger PIN: 220-965-795
+2025-05-26 17:05:56,804 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-26 17:06:09,364 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 17:06:09,365 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 17:06:09,368 - INFO -  * Restarting with stat
+2025-05-26 17:06:11,481 - WARNING -  * Debugger is active!
+2025-05-26 17:06:11,492 - INFO -  * Debugger PIN: 220-965-795
+2025-05-26 17:06:19,887 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-26 17:06:25,846 - INFO - 127.0.0.1 - - [26/May/2025 17:06:25] "GET /select_products HTTP/1.1" 200 -
+2025-05-26 17:06:26,011 - INFO - 127.0.0.1 - - [26/May/2025 17:06:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:06:31,543 - INFO - 127.0.0.1 - - [26/May/2025 17:06:31] "GET /select_products?industry=Beauty HTTP/1.1" 200 -
+2025-05-26 17:06:31,589 - INFO - 127.0.0.1 - - [26/May/2025 17:06:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:06:32,480 - INFO - No cookie button found
+2025-05-26 17:06:32,549 - INFO - Waiting for reviews to load...
+2025-05-26 17:06:32,581 - INFO - Review elements found
+2025-05-26 17:06:36,031 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-26 17:06:36,410 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-26 17:06:36,774 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-26 17:06:37,196 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-26 17:06:37,674 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-26 17:06:38,155 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-26 17:06:38,638 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-26 17:06:39,085 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-26 17:06:39,518 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-26 17:06:39,953 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-26 17:06:40,050 - INFO - Added 10 reviews (Total: 10)
+2025-05-26 17:06:41,701 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/palmers-coconut-bodylotion/reviews
+2025-05-26 17:06:42,169 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:06:44,338 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:06:53,007 - WARNING - Failed to click 'LOAD MORE' after 3 attempts: Page.evaluate: Target page, context or browser has been closed
+2025-05-26 17:06:53,098 - ERROR - Error during scraping: Page.evaluate: Target page, context or browser has been closed
+2025-05-26 17:06:53,695 - INFO - 127.0.0.1 - - [26/May/2025 17:06:53] "[32mPOST /select_products?industry=Beauty HTTP/1.1[0m" 302 -
+2025-05-26 17:06:53,993 - INFO - No cookie button found
+2025-05-26 17:06:54,059 - INFO - Waiting for reviews to load...
+2025-05-26 17:06:54,115 - INFO - Review elements found
+2025-05-26 17:06:57,513 - INFO - Extracted exact date for review 0: 2024-11-22
+2025-05-26 17:06:57,906 - INFO - Extracted exact date for review 1: 2024-10-18
+2025-05-26 17:06:58,306 - INFO - Extracted exact date for review 2: 2024-09-21
+2025-05-26 17:06:58,710 - INFO - Extracted exact date for review 3: 2024-08-26
+2025-05-26 17:06:59,143 - INFO - Extracted exact date for review 4: 2024-08-06
+2025-05-26 17:06:59,561 - INFO - Extracted exact date for review 5: 2024-06-30
+2025-05-26 17:07:00,025 - INFO - Extracted exact date for review 6: 2024-04-07
+2025-05-26 17:07:00,488 - INFO - Extracted exact date for review 7: 2024-01-19
+2025-05-26 17:07:00,901 - INFO - Extracted exact date for review 8: 2023-11-04
+2025-05-26 17:07:01,264 - INFO - Extracted exact date for review 9: 2023-06-07
+2025-05-26 17:07:01,337 - INFO - Added 10 reviews (Total: 10)
+2025-05-26 17:07:03,448 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:07:05,574 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:07:12,474 - INFO - Extracted exact date for review 10: 2023-05-14
+2025-05-26 17:07:12,884 - INFO - Extracted exact date for review 11: 2023-04-19
+2025-05-26 17:07:13,291 - INFO - Extracted exact date for review 12: 2022-07-27
+2025-05-26 17:07:13,667 - INFO - Extracted exact date for review 13: 2022-07-27
+2025-05-26 17:07:14,114 - INFO - Extracted exact date for review 14: 2022-04-07
+2025-05-26 17:07:14,511 - INFO - Extracted exact date for review 15: 2022-03-30
+2025-05-26 17:07:14,915 - INFO - Extracted exact date for review 16: 2022-02-22
+2025-05-26 17:07:15,397 - INFO - Extracted exact date for review 17: 2022-02-19
+2025-05-26 17:07:15,881 - INFO - Extracted exact date for review 18: 2022-02-19
+2025-05-26 17:07:16,364 - INFO - Extracted exact date for review 19: 2022-01-24
+2025-05-26 17:07:16,457 - INFO - Added 10 reviews (Total: 20)
+2025-05-26 17:07:18,534 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:07:20,671 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:07:29,457 - INFO - Extracted exact date for review 20: 2021-08-10
+2025-05-26 17:07:29,860 - INFO - Extracted exact date for review 21: 2021-07-17
+2025-05-26 17:07:30,227 - INFO - Extracted exact date for review 22: 2021-07-12
+2025-05-26 17:07:30,598 - INFO - Extracted exact date for review 23: 2021-05-14
+2025-05-26 17:07:30,978 - INFO - Extracted exact date for review 24: 2021-05-04
+2025-05-26 17:07:31,366 - INFO - Extracted exact date for review 25: 2021-05-02
+2025-05-26 17:07:31,801 - INFO - Extracted exact date for review 26: 2021-02-25
+2025-05-26 17:07:32,208 - INFO - Extracted exact date for review 27: 2021-02-23
+2025-05-26 17:07:32,602 - INFO - Extracted exact date for review 28: 2021-01-03
+2025-05-26 17:07:33,088 - INFO - Extracted exact date for review 29: 2020-10-28
+2025-05-26 17:07:33,174 - INFO - Added 10 reviews (Total: 30)
+2025-05-26 17:07:35,251 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:07:37,406 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:07:44,489 - INFO - Extracted exact date for review 30: 2020-10-27
+2025-05-26 17:07:44,906 - INFO - Extracted exact date for review 31: 2020-10-05
+2025-05-26 17:07:45,316 - INFO - Extracted exact date for review 32: 2020-09-26
+2025-05-26 17:07:45,791 - INFO - Extracted exact date for review 33: 2020-09-25
+2025-05-26 17:07:46,384 - INFO - Extracted exact date for review 34: 2020-09-24
+2025-05-26 17:07:46,796 - INFO - Extracted exact date for review 35: 2020-09-11
+2025-05-26 17:07:47,196 - INFO - Extracted exact date for review 36: 2020-09-11
+2025-05-26 17:07:47,626 - INFO - Extracted exact date for review 37: 2020-09-01
+2025-05-26 17:07:48,043 - INFO - Extracted exact date for review 38: 2020-07-12
+2025-05-26 17:07:48,486 - INFO - Extracted exact date for review 39: 2020-06-12
+2025-05-26 17:07:48,577 - INFO - Added 10 reviews (Total: 40)
+2025-05-26 17:07:50,634 - INFO - Found load more button with selector: button:has-text('LOAD MORE')
+2025-05-26 17:07:52,737 - INFO - Clicked 'LOAD MORE' (attempt 1)
+2025-05-26 17:08:01,656 - INFO - Extracted exact date for review 40: 2020-04-11
+2025-05-26 17:08:02,054 - INFO - Extracted exact date for review 41: 2020-03-10
+2025-05-26 17:08:02,419 - INFO - Extracted exact date for review 42: 2020-02-11
+2025-05-26 17:08:02,838 - INFO - Extracted exact date for review 43: 2020-02-04
+2025-05-26 17:08:02,917 - INFO - Added 4 reviews (Total: 44)
+2025-05-26 17:08:05,019 - INFO - No more 'LOAD MORE' button found
+2025-05-26 17:08:05,019 - INFO - Finished scraping. Total reviews collected: 44
+2025-05-26 17:08:05,637 - INFO - 127.0.0.1 - - [26/May/2025 17:08:05] "[32mPOST /select_products?industry=Beauty HTTP/1.1[0m" 302 -
+2025-05-26 17:08:05,741 - INFO - 127.0.0.1 - - [26/May/2025 17:08:05] "GET /view_csv?idx=3 HTTP/1.1" 200 -
+2025-05-26 17:08:05,831 - INFO - 127.0.0.1 - - [26/May/2025 17:08:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:08:48,721 - INFO - 127.0.0.1 - - [26/May/2025 17:08:48] "POST /sentiment_analysis HTTP/1.1" 200 -
+2025-05-26 17:08:48,767 - INFO - 127.0.0.1 - - [26/May/2025 17:08:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:08:54,858 - INFO - 127.0.0.1 - - [26/May/2025 17:08:54] "GET /sentiment_analysis?idx=1 HTTP/1.1" 200 -
+2025-05-26 17:08:54,897 - INFO - 127.0.0.1 - - [26/May/2025 17:08:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:08:57,649 - INFO - 127.0.0.1 - - [26/May/2025 17:08:57] "GET /sentiment_analysis?idx=2 HTTP/1.1" 200 -
+2025-05-26 17:08:57,698 - INFO - 127.0.0.1 - - [26/May/2025 17:08:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:09:01,081 - INFO - 127.0.0.1 - - [26/May/2025 17:09:01] "GET /sentiment_analysis?idx=3 HTTP/1.1" 200 -
+2025-05-26 17:09:01,129 - INFO - 127.0.0.1 - - [26/May/2025 17:09:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:11:01,755 - INFO - 127.0.0.1 - - [26/May/2025 17:11:01] "POST /word_cloud?idx=3 HTTP/1.1" 200 -
+2025-05-26 17:11:01,803 - INFO - 127.0.0.1 - - [26/May/2025 17:11:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:11:20,227 - INFO - 127.0.0.1 - - [26/May/2025 17:11:20] "GET /select_products HTTP/1.1" 200 -
+2025-05-26 17:11:20,368 - INFO - 127.0.0.1 - - [26/May/2025 17:11:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:11:23,078 - INFO - 127.0.0.1 - - [26/May/2025 17:11:23] "GET /select_products?industry=Beauty HTTP/1.1" 200 -
+2025-05-26 17:11:23,153 - INFO - 127.0.0.1 - - [26/May/2025 17:11:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:13:54,193 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 17:13:54,195 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 17:13:54,199 - INFO -  * Restarting with stat
+2025-05-26 17:13:56,381 - WARNING -  * Debugger is active!
+2025-05-26 17:13:56,389 - INFO -  * Debugger PIN: 220-965-795
+2025-05-26 17:13:57,503 - INFO - 127.0.0.1 - - [26/May/2025 17:13:57] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-26 17:13:57,601 - INFO - 127.0.0.1 - - [26/May/2025 17:13:57] "GET /select_products HTTP/1.1" 200 -
+2025-05-26 17:13:57,811 - INFO - 127.0.0.1 - - [26/May/2025 17:13:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:14:02,910 - INFO - 127.0.0.1 - - [26/May/2025 17:14:02] "GET /select_products?industry=Beauty HTTP/1.1" 200 -
+2025-05-26 17:14:02,955 - INFO - 127.0.0.1 - - [26/May/2025 17:14:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:14:37,014 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/palmers-cocoa-butter-formula-restoring-conditioner/reviews
+2025-05-26 17:14:47,555 - INFO - Extracted exact date for review: 2024-05-03
+2025-05-26 17:14:47,845 - INFO - Extracted exact date for review: 2022-02-04
+2025-05-26 17:14:48,152 - INFO - Extracted exact date for review: 2021-11-18
+2025-05-26 17:14:48,445 - INFO - Extracted exact date for review: 2021-11-15
+2025-05-26 17:14:48,731 - INFO - Extracted exact date for review: 2021-11-08
+2025-05-26 17:14:49,043 - INFO - Extracted exact date for review: 2021-10-21
+2025-05-26 17:14:49,324 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:14:49,605 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:14:49,892 - INFO - Extracted exact date for review: 2021-09-03
+2025-05-26 17:14:50,237 - INFO - Extracted exact date for review: 2021-08-02
+2025-05-26 17:14:53,264 - INFO - Extracted exact date for review: 2024-05-03
+2025-05-26 17:14:53,535 - INFO - Extracted exact date for review: 2022-02-04
+2025-05-26 17:14:53,843 - INFO - Extracted exact date for review: 2021-11-18
+2025-05-26 17:14:54,119 - INFO - Extracted exact date for review: 2021-11-15
+2025-05-26 17:14:54,388 - INFO - Extracted exact date for review: 2021-11-08
+2025-05-26 17:14:54,675 - INFO - Extracted exact date for review: 2021-10-21
+2025-05-26 17:14:54,959 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:14:55,392 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:14:55,717 - INFO - Extracted exact date for review: 2021-09-03
+2025-05-26 17:14:56,016 - INFO - Extracted exact date for review: 2021-08-02
+2025-05-26 17:14:56,293 - INFO - Extracted exact date for review: 2021-07-14
+2025-05-26 17:14:56,572 - INFO - Extracted exact date for review: 2021-06-28
+2025-05-26 17:14:56,861 - INFO - Extracted exact date for review: 2021-06-14
+2025-05-26 17:14:57,157 - INFO - Extracted exact date for review: 2021-06-07
+2025-05-26 17:14:57,443 - INFO - Extracted exact date for review: 2021-05-06
+2025-05-26 17:14:57,708 - INFO - Extracted exact date for review: 2021-04-10
+2025-05-26 17:14:58,003 - INFO - Extracted exact date for review: 2020-04-22
+2025-05-26 17:14:58,286 - INFO - Extracted exact date for review: 2020-02-26
+2025-05-26 17:14:58,646 - INFO - Extracted exact date for review: 2019-12-27
+2025-05-26 17:14:59,005 - INFO - Extracted exact date for review: 2016-04-26
+2025-05-26 17:15:02,044 - INFO - Extracted exact date for review: 2024-05-03
+2025-05-26 17:15:02,356 - INFO - Extracted exact date for review: 2022-02-04
+2025-05-26 17:15:02,647 - INFO - Extracted exact date for review: 2021-11-18
+2025-05-26 17:15:02,930 - INFO - Extracted exact date for review: 2021-11-15
+2025-05-26 17:15:03,207 - INFO - Extracted exact date for review: 2021-11-08
+2025-05-26 17:15:03,488 - INFO - Extracted exact date for review: 2021-10-21
+2025-05-26 17:15:03,771 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:15:04,052 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:15:04,322 - INFO - Extracted exact date for review: 2021-09-03
+2025-05-26 17:15:04,606 - INFO - Extracted exact date for review: 2021-08-02
+2025-05-26 17:15:04,969 - INFO - Extracted exact date for review: 2021-07-14
+2025-05-26 17:15:05,277 - INFO - Extracted exact date for review: 2021-06-28
+2025-05-26 17:15:05,589 - INFO - Extracted exact date for review: 2021-06-14
+2025-05-26 17:15:05,873 - INFO - Extracted exact date for review: 2021-06-07
+2025-05-26 17:15:06,157 - INFO - Extracted exact date for review: 2021-05-06
+2025-05-26 17:15:06,457 - INFO - Extracted exact date for review: 2021-04-10
+2025-05-26 17:15:06,731 - INFO - Extracted exact date for review: 2020-04-22
+2025-05-26 17:15:07,008 - INFO - Extracted exact date for review: 2020-02-26
+2025-05-26 17:15:07,294 - INFO - Extracted exact date for review: 2019-12-27
+2025-05-26 17:15:07,579 - INFO - Extracted exact date for review: 2016-04-26
+2025-05-26 17:15:07,878 - INFO - Extracted exact date for review: 2016-01-19
+2025-05-26 17:15:08,174 - INFO - Extracted exact date for review: 2015-02-25
+2025-05-26 17:15:08,487 - INFO - Extracted exact date for review: 2015-02-06
+2025-05-26 17:15:08,755 - INFO - Extracted exact date for review: 2014-12-23
+2025-05-26 17:15:09,056 - INFO - Extracted exact date for review: 2014-12-03
+2025-05-26 17:15:09,203 - INFO - Finished scraping. Total reviews collected: 25
+2025-05-26 17:15:09,359 - INFO - 127.0.0.1 - - [26/May/2025 17:15:09] "[32mPOST /select_products?industry=Beauty HTTP/1.1[0m" 302 -
+2025-05-26 17:15:09,457 - INFO - 127.0.0.1 - - [26/May/2025 17:15:09] "GET /view_csv?idx=4 HTTP/1.1" 200 -
+2025-05-26 17:15:09,521 - INFO - 127.0.0.1 - - [26/May/2025 17:15:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:16:51,886 - INFO - 127.0.0.1 - - [26/May/2025 17:16:51] "GET /select_products?industry=Beauty HTTP/1.1" 200 -
+2025-05-26 17:16:56,368 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/palmers-cocoa-butter-formula-restoring-conditioner/reviews
+2025-05-26 17:17:06,574 - INFO - Extracted exact date for review: 2024-05-03
+2025-05-26 17:17:06,877 - INFO - Extracted exact date for review: 2022-02-04
+2025-05-26 17:17:07,337 - INFO - Extracted exact date for review: 2021-11-18
+2025-05-26 17:17:07,619 - INFO - Extracted exact date for review: 2021-11-15
+2025-05-26 17:17:07,921 - INFO - Extracted exact date for review: 2021-11-08
+2025-05-26 17:17:08,198 - INFO - Extracted exact date for review: 2021-10-21
+2025-05-26 17:17:08,489 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:17:08,768 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:17:09,044 - INFO - Extracted exact date for review: 2021-09-03
+2025-05-26 17:17:09,344 - INFO - Extracted exact date for review: 2021-08-02
+2025-05-26 17:17:12,275 - INFO - Extracted exact date for review: 2024-05-03
+2025-05-26 17:17:12,557 - INFO - Extracted exact date for review: 2022-02-04
+2025-05-26 17:17:12,839 - INFO - Extracted exact date for review: 2021-11-18
+2025-05-26 17:17:13,133 - INFO - Extracted exact date for review: 2021-11-15
+2025-05-26 17:17:13,418 - INFO - Extracted exact date for review: 2021-11-08
+2025-05-26 17:17:13,707 - INFO - Extracted exact date for review: 2021-10-21
+2025-05-26 17:17:13,989 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:17:14,273 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:17:14,568 - INFO - Extracted exact date for review: 2021-09-03
+2025-05-26 17:17:14,853 - INFO - Extracted exact date for review: 2021-08-02
+2025-05-26 17:17:15,137 - INFO - Extracted exact date for review: 2021-07-14
+2025-05-26 17:17:15,429 - INFO - Extracted exact date for review: 2021-06-28
+2025-05-26 17:17:15,698 - INFO - Extracted exact date for review: 2021-06-14
+2025-05-26 17:17:15,977 - INFO - Extracted exact date for review: 2021-06-07
+2025-05-26 17:17:16,269 - INFO - Extracted exact date for review: 2021-05-06
+2025-05-26 17:17:16,559 - INFO - Extracted exact date for review: 2021-04-10
+2025-05-26 17:17:16,852 - INFO - Extracted exact date for review: 2020-04-22
+2025-05-26 17:17:17,122 - INFO - Extracted exact date for review: 2020-02-26
+2025-05-26 17:17:17,402 - INFO - Extracted exact date for review: 2019-12-27
+2025-05-26 17:17:17,700 - INFO - Extracted exact date for review: 2016-04-26
+2025-05-26 17:17:20,658 - INFO - Extracted exact date for review: 2024-05-03
+2025-05-26 17:17:20,919 - INFO - Extracted exact date for review: 2022-02-04
+2025-05-26 17:17:21,206 - INFO - Extracted exact date for review: 2021-11-18
+2025-05-26 17:17:21,484 - INFO - Extracted exact date for review: 2021-11-15
+2025-05-26 17:17:21,773 - INFO - Extracted exact date for review: 2021-11-08
+2025-05-26 17:17:22,058 - INFO - Extracted exact date for review: 2021-10-21
+2025-05-26 17:17:22,343 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:17:22,612 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:17:22,903 - INFO - Extracted exact date for review: 2021-09-03
+2025-05-26 17:17:23,192 - INFO - Extracted exact date for review: 2021-08-02
+2025-05-26 17:17:23,471 - INFO - Extracted exact date for review: 2021-07-14
+2025-05-26 17:17:23,760 - INFO - Extracted exact date for review: 2021-06-28
+2025-05-26 17:17:24,037 - INFO - Extracted exact date for review: 2021-06-14
+2025-05-26 17:17:24,322 - INFO - Extracted exact date for review: 2021-06-07
+2025-05-26 17:17:24,610 - INFO - Extracted exact date for review: 2021-05-06
+2025-05-26 17:17:24,892 - INFO - Extracted exact date for review: 2021-04-10
+2025-05-26 17:17:25,165 - INFO - Extracted exact date for review: 2020-04-22
+2025-05-26 17:17:25,457 - INFO - Extracted exact date for review: 2020-02-26
+2025-05-26 17:17:25,741 - INFO - Extracted exact date for review: 2019-12-27
+2025-05-26 17:17:26,014 - INFO - Extracted exact date for review: 2016-04-26
+2025-05-26 17:17:26,304 - INFO - Extracted exact date for review: 2016-01-19
+2025-05-26 17:17:26,592 - INFO - Extracted exact date for review: 2015-02-25
+2025-05-26 17:17:26,871 - INFO - Extracted exact date for review: 2015-02-06
+2025-05-26 17:17:27,150 - INFO - Extracted exact date for review: 2014-12-23
+2025-05-26 17:17:27,438 - INFO - Extracted exact date for review: 2014-12-03
+2025-05-26 17:17:27,588 - INFO - Finished scraping. Total reviews collected: 25
+2025-05-26 17:17:27,716 - INFO - 127.0.0.1 - - [26/May/2025 17:17:27] "[32mPOST /select_products?industry=Beauty HTTP/1.1[0m" 302 -
+2025-05-26 17:17:27,765 - INFO - 127.0.0.1 - - [26/May/2025 17:17:27] "GET /view_csv?idx=5 HTTP/1.1" 200 -
+2025-05-26 17:17:27,803 - INFO - 127.0.0.1 - - [26/May/2025 17:17:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:19:19,298 - INFO - 127.0.0.1 - - [26/May/2025 17:19:19] "GET /select_products HTTP/1.1" 200 -
+2025-05-26 17:19:19,349 - INFO - 127.0.0.1 - - [26/May/2025 17:19:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:19:25,029 - INFO - 127.0.0.1 - - [26/May/2025 17:19:25] "GET /select_products?industry=Retail HTTP/1.1" 200 -
+2025-05-26 17:19:25,078 - INFO - 127.0.0.1 - - [26/May/2025 17:19:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:19:28,480 - INFO - 127.0.0.1 - - [26/May/2025 17:19:28] "GET /select_products?industry=Beauty HTTP/1.1" 200 -
+2025-05-26 17:19:28,522 - INFO - 127.0.0.1 - - [26/May/2025 17:19:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:19:32,687 - INFO - 127.0.0.1 - - [26/May/2025 17:19:32] "GET /view_csv?idx=0 HTTP/1.1" 200 -
+2025-05-26 17:19:32,729 - INFO - 127.0.0.1 - - [26/May/2025 17:19:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:19:41,449 - INFO - 127.0.0.1 - - [26/May/2025 17:19:41] "GET /view_csv?idx=1 HTTP/1.1" 200 -
+2025-05-26 17:19:41,488 - INFO - 127.0.0.1 - - [26/May/2025 17:19:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:20:02,094 - INFO - 127.0.0.1 - - [26/May/2025 17:20:02] "GET /view_csv?idx=2 HTTP/1.1" 200 -
+2025-05-26 17:20:02,151 - INFO - 127.0.0.1 - - [26/May/2025 17:20:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:20:12,065 - INFO - 127.0.0.1 - - [26/May/2025 17:20:12] "GET /view_csv?idx=4 HTTP/1.1" 200 -
+2025-05-26 17:20:12,115 - INFO - 127.0.0.1 - - [26/May/2025 17:20:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:21:19,290 - INFO - 127.0.0.1 - - [26/May/2025 17:21:19] "GET /view_csv?idx=2 HTTP/1.1" 200 -
+2025-05-26 17:21:19,339 - INFO - 127.0.0.1 - - [26/May/2025 17:21:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:21:47,589 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-26 17:21:47,987 - INFO -  * Restarting with stat
+2025-05-26 17:21:50,753 - WARNING -  * Debugger is active!
+2025-05-26 17:21:50,760 - INFO -  * Debugger PIN: 220-965-795
+2025-05-26 17:21:54,126 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-26 17:21:54,347 - INFO -  * Restarting with stat
+2025-05-26 17:21:57,237 - WARNING -  * Debugger is active!
+2025-05-26 17:21:57,249 - INFO -  * Debugger PIN: 220-965-795
+2025-05-26 17:21:57,401 - INFO - 127.0.0.1 - - [26/May/2025 17:21:57] "GET /view_csv?idx=2 HTTP/1.1" 200 -
+2025-05-26 17:21:57,575 - INFO - 127.0.0.1 - - [26/May/2025 17:21:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:22:19,102 - INFO - 127.0.0.1 - - [26/May/2025 17:22:19] "GET /select_products?industry= HTTP/1.1" 200 -
+2025-05-26 17:22:19,144 - INFO - 127.0.0.1 - - [26/May/2025 17:22:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

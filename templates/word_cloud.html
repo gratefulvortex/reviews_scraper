@@ -2,35 +2,60 @@
 {% block title %}Word Cloud Analysis{% endblock %}
 {% block content %}
 <div class="max-w-6xl mx-auto">
-    <h1 class="page-title">Word Cloud Analysis</h1>
+    <h1 class="text-2xl font-bold mb-6 text-blue-700">Word Cloud Analysis</h1>
 
-    {% for product in products %}
-    <div class="card mb-8">
-        <h2 class="section-title">{{ product.name }}</h2>
-        
-        {% if product.wordcloud %}
-        <div class="flex justify-center p-4 bg-gray-50 rounded-lg">
-            <img src="{{ product.wordcloud }}" 
-                 alt="Word Cloud for {{ product.name }}" 
-                 class="max-w-full h-auto rounded-lg shadow-sm">
-        </div>
-        {% else %}
-        <div class="text-center py-12 bg-gray-50 rounded-lg">
-            <p class="text-gray-600 font-medium">No word cloud available for this product.</p>
-        </div>
-        {% endif %}
+    <!-- Product Selection -->
+    <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+        <label class="block text-gray-700 font-semibold mb-2">Select Product</label>
+        <select onchange="window.location.href='{{ url_for('word_cloud') }}?idx=' + this.value" class="w-full border rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            {% for product in products %}
+            <option value="{{ loop.index0 }}" {% if loop.index0 == selected_idx %}selected{% endif %}>{{ product.name }}</option>
+            {% endfor %}
+        </select>
     </div>
-    {% endfor %}
 
-    <div class="mt-8 flex justify-between items-center">
-        <a href="{{ url_for('sentiment_analysis') }}" class="btn-secondary">
-            ← Back to Sentiment Analysis
-        </a>
+    <!-- Selected Product Word Cloud -->
+    {% if selected_product %}
+    <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+        <div class="flex items-start space-x-6">
+            <!-- Product Image -->
+            <div class="w-48 h-48 bg-gray-200 rounded-lg overflow-hidden flex-shrink-0">
+                {% if selected_product.image_url %}
+                <img src="{{ selected_product.image_url }}" alt="{{ selected_product.name }}" class="w-full h-full object-contain">
+                {% else %}
+                <div class="w-full h-full flex items-center justify-center text-gray-500 text-sm font-semibold">
+                    No Image Available
+                </div>
+                {% endif %}
+            </div>
+
+            <!-- Product Info -->
+            <div class="flex-grow">
+                <h2 class="text-xl font-semibold mb-4 text-gray-800">{{ selected_product.name }}</h2>
+                <p class="text-gray-600">{{ selected_product.data|length }} reviews analyzed</p>
+            </div>
+        </div>
+
+        <!-- Word Cloud -->
+        <div class="mt-6">
+            <img src="{{ selected_product.wordcloud }}" alt="Word Cloud" class="w-full">
+        </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="flex justify-between">
+        <form method="post" action="{{ url_for('sentiment_analysis', idx=selected_idx) }}">
+            <input type="hidden" name="from_word_cloud" value="1">
+            <button type="submit" class="btn-secondary">Back to Sentiment Analysis</button>
+        </form>
         <form method="post" action="{{ url_for('select_products') }}">
-            <button type="submit" class="btn-primary">
-                Start New Analysis →
-            </button>
+            <button type="submit" class="btn-primary">Finish Analysis</button>
         </form>
     </div>
+    {% else %}
+    <div class="bg-white p-6 rounded-lg shadow-md">
+        <p class="text-gray-600">No product selected. Please select a product to view word cloud analysis.</p>
+    </div>
+    {% endif %}
 </div>
 {% endblock %}
