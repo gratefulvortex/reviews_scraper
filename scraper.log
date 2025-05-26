@@ -9347,3 +9347,163 @@ Call log:
 2025-05-26 17:11:20,368 - INFO - 127.0.0.1 - - [26/May/2025 17:11:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2025-05-26 17:11:23,078 - INFO - 127.0.0.1 - - [26/May/2025 17:11:23] "GET /select_products?industry=Beauty HTTP/1.1" 200 -
 2025-05-26 17:11:23,153 - INFO - 127.0.0.1 - - [26/May/2025 17:11:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:13:54,193 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 17:13:54,195 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 17:13:54,199 - INFO -  * Restarting with stat
+2025-05-26 17:13:56,381 - WARNING -  * Debugger is active!
+2025-05-26 17:13:56,389 - INFO -  * Debugger PIN: 220-965-795
+2025-05-26 17:13:57,503 - INFO - 127.0.0.1 - - [26/May/2025 17:13:57] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-26 17:13:57,601 - INFO - 127.0.0.1 - - [26/May/2025 17:13:57] "GET /select_products HTTP/1.1" 200 -
+2025-05-26 17:13:57,811 - INFO - 127.0.0.1 - - [26/May/2025 17:13:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:14:02,910 - INFO - 127.0.0.1 - - [26/May/2025 17:14:02] "GET /select_products?industry=Beauty HTTP/1.1" 200 -
+2025-05-26 17:14:02,955 - INFO - 127.0.0.1 - - [26/May/2025 17:14:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:14:37,014 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/palmers-cocoa-butter-formula-restoring-conditioner/reviews
+2025-05-26 17:14:47,555 - INFO - Extracted exact date for review: 2024-05-03
+2025-05-26 17:14:47,845 - INFO - Extracted exact date for review: 2022-02-04
+2025-05-26 17:14:48,152 - INFO - Extracted exact date for review: 2021-11-18
+2025-05-26 17:14:48,445 - INFO - Extracted exact date for review: 2021-11-15
+2025-05-26 17:14:48,731 - INFO - Extracted exact date for review: 2021-11-08
+2025-05-26 17:14:49,043 - INFO - Extracted exact date for review: 2021-10-21
+2025-05-26 17:14:49,324 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:14:49,605 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:14:49,892 - INFO - Extracted exact date for review: 2021-09-03
+2025-05-26 17:14:50,237 - INFO - Extracted exact date for review: 2021-08-02
+2025-05-26 17:14:53,264 - INFO - Extracted exact date for review: 2024-05-03
+2025-05-26 17:14:53,535 - INFO - Extracted exact date for review: 2022-02-04
+2025-05-26 17:14:53,843 - INFO - Extracted exact date for review: 2021-11-18
+2025-05-26 17:14:54,119 - INFO - Extracted exact date for review: 2021-11-15
+2025-05-26 17:14:54,388 - INFO - Extracted exact date for review: 2021-11-08
+2025-05-26 17:14:54,675 - INFO - Extracted exact date for review: 2021-10-21
+2025-05-26 17:14:54,959 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:14:55,392 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:14:55,717 - INFO - Extracted exact date for review: 2021-09-03
+2025-05-26 17:14:56,016 - INFO - Extracted exact date for review: 2021-08-02
+2025-05-26 17:14:56,293 - INFO - Extracted exact date for review: 2021-07-14
+2025-05-26 17:14:56,572 - INFO - Extracted exact date for review: 2021-06-28
+2025-05-26 17:14:56,861 - INFO - Extracted exact date for review: 2021-06-14
+2025-05-26 17:14:57,157 - INFO - Extracted exact date for review: 2021-06-07
+2025-05-26 17:14:57,443 - INFO - Extracted exact date for review: 2021-05-06
+2025-05-26 17:14:57,708 - INFO - Extracted exact date for review: 2021-04-10
+2025-05-26 17:14:58,003 - INFO - Extracted exact date for review: 2020-04-22
+2025-05-26 17:14:58,286 - INFO - Extracted exact date for review: 2020-02-26
+2025-05-26 17:14:58,646 - INFO - Extracted exact date for review: 2019-12-27
+2025-05-26 17:14:59,005 - INFO - Extracted exact date for review: 2016-04-26
+2025-05-26 17:15:02,044 - INFO - Extracted exact date for review: 2024-05-03
+2025-05-26 17:15:02,356 - INFO - Extracted exact date for review: 2022-02-04
+2025-05-26 17:15:02,647 - INFO - Extracted exact date for review: 2021-11-18
+2025-05-26 17:15:02,930 - INFO - Extracted exact date for review: 2021-11-15
+2025-05-26 17:15:03,207 - INFO - Extracted exact date for review: 2021-11-08
+2025-05-26 17:15:03,488 - INFO - Extracted exact date for review: 2021-10-21
+2025-05-26 17:15:03,771 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:15:04,052 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:15:04,322 - INFO - Extracted exact date for review: 2021-09-03
+2025-05-26 17:15:04,606 - INFO - Extracted exact date for review: 2021-08-02
+2025-05-26 17:15:04,969 - INFO - Extracted exact date for review: 2021-07-14
+2025-05-26 17:15:05,277 - INFO - Extracted exact date for review: 2021-06-28
+2025-05-26 17:15:05,589 - INFO - Extracted exact date for review: 2021-06-14
+2025-05-26 17:15:05,873 - INFO - Extracted exact date for review: 2021-06-07
+2025-05-26 17:15:06,157 - INFO - Extracted exact date for review: 2021-05-06
+2025-05-26 17:15:06,457 - INFO - Extracted exact date for review: 2021-04-10
+2025-05-26 17:15:06,731 - INFO - Extracted exact date for review: 2020-04-22
+2025-05-26 17:15:07,008 - INFO - Extracted exact date for review: 2020-02-26
+2025-05-26 17:15:07,294 - INFO - Extracted exact date for review: 2019-12-27
+2025-05-26 17:15:07,579 - INFO - Extracted exact date for review: 2016-04-26
+2025-05-26 17:15:07,878 - INFO - Extracted exact date for review: 2016-01-19
+2025-05-26 17:15:08,174 - INFO - Extracted exact date for review: 2015-02-25
+2025-05-26 17:15:08,487 - INFO - Extracted exact date for review: 2015-02-06
+2025-05-26 17:15:08,755 - INFO - Extracted exact date for review: 2014-12-23
+2025-05-26 17:15:09,056 - INFO - Extracted exact date for review: 2014-12-03
+2025-05-26 17:15:09,203 - INFO - Finished scraping. Total reviews collected: 25
+2025-05-26 17:15:09,359 - INFO - 127.0.0.1 - - [26/May/2025 17:15:09] "[32mPOST /select_products?industry=Beauty HTTP/1.1[0m" 302 -
+2025-05-26 17:15:09,457 - INFO - 127.0.0.1 - - [26/May/2025 17:15:09] "GET /view_csv?idx=4 HTTP/1.1" 200 -
+2025-05-26 17:15:09,521 - INFO - 127.0.0.1 - - [26/May/2025 17:15:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:16:51,886 - INFO - 127.0.0.1 - - [26/May/2025 17:16:51] "GET /select_products?industry=Beauty HTTP/1.1" 200 -
+2025-05-26 17:16:56,368 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/palmers-cocoa-butter-formula-restoring-conditioner/reviews
+2025-05-26 17:17:06,574 - INFO - Extracted exact date for review: 2024-05-03
+2025-05-26 17:17:06,877 - INFO - Extracted exact date for review: 2022-02-04
+2025-05-26 17:17:07,337 - INFO - Extracted exact date for review: 2021-11-18
+2025-05-26 17:17:07,619 - INFO - Extracted exact date for review: 2021-11-15
+2025-05-26 17:17:07,921 - INFO - Extracted exact date for review: 2021-11-08
+2025-05-26 17:17:08,198 - INFO - Extracted exact date for review: 2021-10-21
+2025-05-26 17:17:08,489 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:17:08,768 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:17:09,044 - INFO - Extracted exact date for review: 2021-09-03
+2025-05-26 17:17:09,344 - INFO - Extracted exact date for review: 2021-08-02
+2025-05-26 17:17:12,275 - INFO - Extracted exact date for review: 2024-05-03
+2025-05-26 17:17:12,557 - INFO - Extracted exact date for review: 2022-02-04
+2025-05-26 17:17:12,839 - INFO - Extracted exact date for review: 2021-11-18
+2025-05-26 17:17:13,133 - INFO - Extracted exact date for review: 2021-11-15
+2025-05-26 17:17:13,418 - INFO - Extracted exact date for review: 2021-11-08
+2025-05-26 17:17:13,707 - INFO - Extracted exact date for review: 2021-10-21
+2025-05-26 17:17:13,989 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:17:14,273 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:17:14,568 - INFO - Extracted exact date for review: 2021-09-03
+2025-05-26 17:17:14,853 - INFO - Extracted exact date for review: 2021-08-02
+2025-05-26 17:17:15,137 - INFO - Extracted exact date for review: 2021-07-14
+2025-05-26 17:17:15,429 - INFO - Extracted exact date for review: 2021-06-28
+2025-05-26 17:17:15,698 - INFO - Extracted exact date for review: 2021-06-14
+2025-05-26 17:17:15,977 - INFO - Extracted exact date for review: 2021-06-07
+2025-05-26 17:17:16,269 - INFO - Extracted exact date for review: 2021-05-06
+2025-05-26 17:17:16,559 - INFO - Extracted exact date for review: 2021-04-10
+2025-05-26 17:17:16,852 - INFO - Extracted exact date for review: 2020-04-22
+2025-05-26 17:17:17,122 - INFO - Extracted exact date for review: 2020-02-26
+2025-05-26 17:17:17,402 - INFO - Extracted exact date for review: 2019-12-27
+2025-05-26 17:17:17,700 - INFO - Extracted exact date for review: 2016-04-26
+2025-05-26 17:17:20,658 - INFO - Extracted exact date for review: 2024-05-03
+2025-05-26 17:17:20,919 - INFO - Extracted exact date for review: 2022-02-04
+2025-05-26 17:17:21,206 - INFO - Extracted exact date for review: 2021-11-18
+2025-05-26 17:17:21,484 - INFO - Extracted exact date for review: 2021-11-15
+2025-05-26 17:17:21,773 - INFO - Extracted exact date for review: 2021-11-08
+2025-05-26 17:17:22,058 - INFO - Extracted exact date for review: 2021-10-21
+2025-05-26 17:17:22,343 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:17:22,612 - INFO - Extracted exact date for review: 2021-09-23
+2025-05-26 17:17:22,903 - INFO - Extracted exact date for review: 2021-09-03
+2025-05-26 17:17:23,192 - INFO - Extracted exact date for review: 2021-08-02
+2025-05-26 17:17:23,471 - INFO - Extracted exact date for review: 2021-07-14
+2025-05-26 17:17:23,760 - INFO - Extracted exact date for review: 2021-06-28
+2025-05-26 17:17:24,037 - INFO - Extracted exact date for review: 2021-06-14
+2025-05-26 17:17:24,322 - INFO - Extracted exact date for review: 2021-06-07
+2025-05-26 17:17:24,610 - INFO - Extracted exact date for review: 2021-05-06
+2025-05-26 17:17:24,892 - INFO - Extracted exact date for review: 2021-04-10
+2025-05-26 17:17:25,165 - INFO - Extracted exact date for review: 2020-04-22
+2025-05-26 17:17:25,457 - INFO - Extracted exact date for review: 2020-02-26
+2025-05-26 17:17:25,741 - INFO - Extracted exact date for review: 2019-12-27
+2025-05-26 17:17:26,014 - INFO - Extracted exact date for review: 2016-04-26
+2025-05-26 17:17:26,304 - INFO - Extracted exact date for review: 2016-01-19
+2025-05-26 17:17:26,592 - INFO - Extracted exact date for review: 2015-02-25
+2025-05-26 17:17:26,871 - INFO - Extracted exact date for review: 2015-02-06
+2025-05-26 17:17:27,150 - INFO - Extracted exact date for review: 2014-12-23
+2025-05-26 17:17:27,438 - INFO - Extracted exact date for review: 2014-12-03
+2025-05-26 17:17:27,588 - INFO - Finished scraping. Total reviews collected: 25
+2025-05-26 17:17:27,716 - INFO - 127.0.0.1 - - [26/May/2025 17:17:27] "[32mPOST /select_products?industry=Beauty HTTP/1.1[0m" 302 -
+2025-05-26 17:17:27,765 - INFO - 127.0.0.1 - - [26/May/2025 17:17:27] "GET /view_csv?idx=5 HTTP/1.1" 200 -
+2025-05-26 17:17:27,803 - INFO - 127.0.0.1 - - [26/May/2025 17:17:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:19:19,298 - INFO - 127.0.0.1 - - [26/May/2025 17:19:19] "GET /select_products HTTP/1.1" 200 -
+2025-05-26 17:19:19,349 - INFO - 127.0.0.1 - - [26/May/2025 17:19:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:19:25,029 - INFO - 127.0.0.1 - - [26/May/2025 17:19:25] "GET /select_products?industry=Retail HTTP/1.1" 200 -
+2025-05-26 17:19:25,078 - INFO - 127.0.0.1 - - [26/May/2025 17:19:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:19:28,480 - INFO - 127.0.0.1 - - [26/May/2025 17:19:28] "GET /select_products?industry=Beauty HTTP/1.1" 200 -
+2025-05-26 17:19:28,522 - INFO - 127.0.0.1 - - [26/May/2025 17:19:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:19:32,687 - INFO - 127.0.0.1 - - [26/May/2025 17:19:32] "GET /view_csv?idx=0 HTTP/1.1" 200 -
+2025-05-26 17:19:32,729 - INFO - 127.0.0.1 - - [26/May/2025 17:19:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:19:41,449 - INFO - 127.0.0.1 - - [26/May/2025 17:19:41] "GET /view_csv?idx=1 HTTP/1.1" 200 -
+2025-05-26 17:19:41,488 - INFO - 127.0.0.1 - - [26/May/2025 17:19:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:20:02,094 - INFO - 127.0.0.1 - - [26/May/2025 17:20:02] "GET /view_csv?idx=2 HTTP/1.1" 200 -
+2025-05-26 17:20:02,151 - INFO - 127.0.0.1 - - [26/May/2025 17:20:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:20:12,065 - INFO - 127.0.0.1 - - [26/May/2025 17:20:12] "GET /view_csv?idx=4 HTTP/1.1" 200 -
+2025-05-26 17:20:12,115 - INFO - 127.0.0.1 - - [26/May/2025 17:20:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:21:19,290 - INFO - 127.0.0.1 - - [26/May/2025 17:21:19] "GET /view_csv?idx=2 HTTP/1.1" 200 -
+2025-05-26 17:21:19,339 - INFO - 127.0.0.1 - - [26/May/2025 17:21:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:21:47,589 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-26 17:21:47,987 - INFO -  * Restarting with stat
+2025-05-26 17:21:50,753 - WARNING -  * Debugger is active!
+2025-05-26 17:21:50,760 - INFO -  * Debugger PIN: 220-965-795
+2025-05-26 17:21:54,126 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\Reviewproduct\\reviews_scraper\\app.py', reloading
+2025-05-26 17:21:54,347 - INFO -  * Restarting with stat
+2025-05-26 17:21:57,237 - WARNING -  * Debugger is active!
+2025-05-26 17:21:57,249 - INFO -  * Debugger PIN: 220-965-795
+2025-05-26 17:21:57,401 - INFO - 127.0.0.1 - - [26/May/2025 17:21:57] "GET /view_csv?idx=2 HTTP/1.1" 200 -
+2025-05-26 17:21:57,575 - INFO - 127.0.0.1 - - [26/May/2025 17:21:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-26 17:22:19,102 - INFO - 127.0.0.1 - - [26/May/2025 17:22:19] "GET /select_products?industry= HTTP/1.1" 200 -
+2025-05-26 17:22:19,144 - INFO - 127.0.0.1 - - [26/May/2025 17:22:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

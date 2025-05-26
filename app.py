@@ -227,8 +227,12 @@ def view_csv():
         try:
             with open(product['csv_path'], 'r', encoding='utf-8') as f:
                 reader = csv.DictReader(f)
-                columns = reader.fieldnames
-                rows = list(reader)
+                columns = [col for col in reader.fieldnames if col != 'content_hash']  # Remove content_hash from columns
+                rows = []
+                for row in reader:
+                    # Create a new row without content_hash
+                    filtered_row = {k: v for k, v in row.items() if k != 'content_hash'}
+                    rows.append(filtered_row)
         except Exception as e:
             flash(f'Error reading CSV file: {str(e)}')
             return redirect(url_for('select_products'))
