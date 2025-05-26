@@ -84,6 +84,8 @@ def allowed_file(filename):
 # Routes
 @app.route('/')
 def index():
+    if 'user' in session:
+        return redirect(url_for('select_products'))
     return redirect(url_for('login'))
 
 @app.route('/login', methods=['GET', 'POST'])
@@ -117,66 +119,84 @@ def select_products():
         
     session_data = load_session_data(user_id)
     products = session_data.get('products', []) if session_data else []
+    selected_industry = request.args.get('industry', '')
 
     if request.method == 'POST':
         new_products = []
-        # Remove the loop for multiple products and CSV upload
-        # Process only one product URL submission
-        name = request.form.get('product_name') # Use a single name field
-        url = request.form.get('product_url')   # Use a single URL field
+        name = request.form.get('product_name')
+        url = request.form.get('product_url')
+        industry = request.form.get('industry')
+        
+        if not industry:
+            flash('Please select an industry first.')
+            return redirect(url_for('select_products'))
         
         data = None
         csv_path = None
+        product_image = None
 
         if url:
-            if 'amazon' in url:
-                flash(f'Scraping Amazon URL: {url}')
-                data = scrape_amazon_reviews(url)
-                if data:
-                    # Save Amazon reviews to CSV
-                    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-                    csv_path = os.path.join('csvlist', f'amazon_reviews_{timestamp}.csv')
-                    os.makedirs('csvlist', exist_ok=True)
-                    df = pd.DataFrame(data)
-                    df.to_csv(csv_path, index=False)
-                    flash(f'Successfully scraped {len(data)} reviews from Amazon.')
+            try:
+                if 'amazon' in url:
+                    flash(f'Scraping Amazon URL: {url}')
+                    data = scrape_amazon_reviews(url)
+                    if data:
+                        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+                        csv_path = os.path.join('csvlist', f'amazon_reviews_{timestamp}.csv')
+                        os.makedirs('csvlist', exist_ok=True)
+                        df = pd.DataFrame(data)
+                        df.to_csv(csv_path, index=False)
+                        flash(f'Successfully scraped {len(data)} reviews from Amazon.')
+                    else:
+                        flash(f'Failed to scrape reviews from Amazon URL: {url}')
+                elif 'influenster' in url:
+                    flash(f'Scraping Influenster URL: {url}')
+                    result = scrape_influenster_reviews(url)
+                    if result:
+                        data = result['reviews']
+                        product_image = result['product_image']
+                        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+                        csv_path = os.path.join('csvlist', f'influenster_reviews_{timestamp}.csv')
+                        os.makedirs('csvlist', exist_ok=True)
+                        df = pd.DataFrame(data)
+                        df.to_csv(csv_path, index=False)
+                        flash(f'Successfully scraped {len(data)} reviews from Influenster.')
+                    else:
+                        flash(f'Failed to scrape reviews from Influenster URL: {url}')
                 else:
-                    flash(f'Failed to scrape reviews from Amazon URL: {url}')
-            elif 'influenster' in url:
-                flash(f'Scraping Influenster URL: {url}')
-                data = scrape_influenster_reviews(url)
-                if data:
-                    # Save Influenster reviews to CSV
-                    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-                    csv_path = os.path.join('csvlist', f'influenster_reviews_{timestamp}.csv')
-                    os.makedirs('csvlist', exist_ok=True)
-                    df = pd.DataFrame(data)
-                    df.to_csv(csv_path, index=False)
-                    flash(f'Successfully scraped {len(data)} reviews from Influenster.')
-                else:
-                    flash(f'Failed to scrape reviews from Influenster URL: {url}')
-            else:
-                flash(f'Unsupported URL: {url}. Please provide an Amazon or Influenster URL.')
+                    flash(f'Unsupported URL: {url}. Please provide an Amazon or Influenster URL.')
+            except Exception as e:
+                flash(f'Error during scraping: {str(e)}')
+                return redirect(url_for('select_products'))
 
         if name and data:
             new_products.append({
                 'name': name,
                 'data': data,
-                'csv_path': csv_path
+                'csv_path': csv_path,
+                'image_url': product_image,
+                'industry': industry,
+                'scraped_at': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
             })
             
-        # Append new products to existing products
         products.extend(new_products)
 
         if products:
             save_session_data(user_id, {'products': products})
-            return redirect(url_for('view_csv', idx=len(products)-1 if new_products else 0)) # Redirect to the newly added product or the first product if no new ones added
+            return redirect(url_for('view_csv', idx=len(products)-1 if new_products else 0))
         else:
             flash('No valid products were added. Please try again.')
             return redirect(url_for('select_products'))
 
-    # GET request: Render the page with existing products
-    return render_template('select_products.html', products=products)
+    # Filter products by industry if selected
+    if selected_industry:
+        products = [p for p in products if p.get('industry') == selected_industry]
+        # Sort products by most recently scraped
+        products.sort(key=lambda x: x.get('scraped_at', ''), reverse=True)
+
+    return render_template('select_products.html', 
+                         products=products,
+                         selected_industry=selected_industry)
 
 @app.route('/view_csv', methods=['GET', 'POST'])
 @login_required
@@ -264,72 +284,80 @@ def view_csv():
 @app.route('/sentiment_analysis', methods=['GET', 'POST'])
 @login_required
 def sentiment_analysis():
-    # Load products from session file
     session_data = load_session_data(session['user'])
     if not session_data or 'products' not in session_data:
         flash('No product data found. Please add products first.')
         return redirect(url_for('select_products'))
     
     products = session_data['products']
+    selected_idx = request.args.get('idx', type=int, default=0)
     
-    # Process sentiment analysis
-    for product in products:
-        rows = product['data']
-        pos, neg = 0, 0
-        for row in rows:
-            text = row.get('review_text', '') or row.get('text', '')
-            score = analyzer.polarity_scores(str(text))['compound']
-            if score >= 0.05:
-                pos += 1
-            else:
-                neg += 1
-        product['sentiment'] = {'positive': pos, 'negative': neg}
-        # Generate sentiment chart
-        product['sentiment_chart'] = generate_sentiment_chart(pos, neg)
+    if selected_idx >= len(products):
+        selected_idx = 0
     
-    # Save updated products back to session
-    session_data['products'] = products
-    save_session_data(session['user'], session_data)
+    selected_product = products[selected_idx]
+    
+    # Process sentiment analysis for selected product only
+    rows = selected_product['data']
+    pos, neg = 0, 0
+    for row in rows:
+        text = row.get('review_text', '') or row.get('text', '')
+        score = analyzer.polarity_scores(str(text))['compound']
+        if score >= 0.05:
+            pos += 1
+        else:
+            neg += 1
+    
+    selected_product['sentiment'] = {'positive': pos, 'negative': neg}
+    selected_product['sentiment_chart'] = generate_sentiment_chart(pos, neg)
     
     if request.method == 'POST':
-        # If coming from view_csv, stay on sentiment analysis page
         if request.form.get('from_view_csv'):
-            return render_template('sentiment_analysis.html', products=products)
-        # If coming from sentiment analysis page, go to word cloud
-        return redirect(url_for('word_cloud'))
+            return render_template('sentiment_analysis.html', 
+                                products=products,
+                                selected_product=selected_product,
+                                selected_idx=selected_idx)
+        return redirect(url_for('word_cloud', idx=selected_idx))
     
-    return render_template('sentiment_analysis.html', products=products)
+    return render_template('sentiment_analysis.html', 
+                         products=products,
+                         selected_product=selected_product,
+                         selected_idx=selected_idx)
 
 @app.route('/word_cloud', methods=['GET', 'POST'])
 @login_required
 def word_cloud():
-    # Load products from session file
     session_data = load_session_data(session['user'])
     if not session_data or 'products' not in session_data:
         flash('No product data found. Please add products first.')
         return redirect(url_for('select_products'))
     
     products = session_data['products']
+    selected_idx = request.args.get('idx', type=int, default=0)
     
-    # Generate word clouds
-    for product in products:
-        rows = product['data']
-        texts = [str(row.get('review_text', '') or row.get('text', '')) for row in rows]
-        product['wordcloud'] = generate_wordcloud(' '.join(texts), title=product['name'])
+    if selected_idx >= len(products):
+        selected_idx = 0
     
-    # Save updated products back to session
-    session_data['products'] = products
-    save_session_data(session['user'], session_data)
+    selected_product = products[selected_idx]
+    
+    # Generate word cloud for selected product only
+    rows = selected_product['data']
+    texts = [str(row.get('review_text', '') or row.get('text', '')) for row in rows]
+    selected_product['wordcloud'] = generate_wordcloud(' '.join(texts), title=selected_product['name'])
     
     if request.method == 'POST':
-        # If coming from sentiment analysis, stay on word cloud page
         if request.form.get('from_sentiment'):
-            return render_template('word_cloud.html', products=products)
-        # If coming from word cloud page itself, go to select products
+            return render_template('word_cloud.html', 
+                                products=products,
+                                selected_product=selected_product,
+                                selected_idx=selected_idx)
         flash('Analysis complete!')
         return redirect(url_for('select_products'))
     
-    return render_template('word_cloud.html', products=products)
+    return render_template('word_cloud.html', 
+                         products=products,
+                         selected_product=selected_product,
+                         selected_idx=selected_idx)
 
 @app.route('/set_model', methods=['POST'])
 def set_model():

@@ -6,61 +6,82 @@
 
     <!-- Industry Selection -->
     <div class="bg-white p-6 rounded-lg shadow-md mb-8">
-        <label class="block text-gray-700 font-semibold mb-2">Select Industry</label>
-        <select name="industry" class="w-full border rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
-            <option value="">-- Select Industry --</option>
-            <option value="Retail">Retail</option>
-            <option value="Mfg">Mfg</option>
-            <option value="Healthcare">Healthcare</option>
-            <option value="Finance">Finance</option>
-            <option value="Education">Education</option>
-            <option value="Technology">Technology</option>
-            <option value="Hospitality">Hospitality</option>
-            <option value="Automotive">Automotive</option>
-            <option value="Real Estate">Real Estate</option>
-            <option value="Logistics">Logistics</option>
-            <option value="Energy">Energy</option>
-            <option value="Other">Other</option>
-        </select>
-    </div>
-
-    <!-- Existing Products Display -->
-    {% if products %}
-    <div class="mb-8">
-        <h2 class="text-xl font-semibold mb-4 text-gray-800">Your Products</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {% for product in products %}
-            <a href="{{ url_for('view_csv', idx=loop.index0) }}" class="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 ease-in-out overflow-hidden">
-                <div class="w-full h-40 bg-gray-200 flex items-center justify-center text-gray-500 text-sm font-semibold">
-                    <!-- Placeholder for product image -->
-                    No Image Available
-                </div>
-                <div class="p-4">
-                    <h3 class="text-lg font-semibold text-gray-800">{{ product.name }}</h3>
-                    <p class="text-sm text-gray-600 mt-1">{{ product.data|length }} reviews</p>
-                </div>
-            </a>
-            {% endfor %}
-        </div>
-    </div>
-    {% endif %}
-
-    <!-- Add New Product Section -->
-    <div class="bg-white p-6 rounded-lg shadow-md">
-        <h2 class="text-xl font-semibold mb-4 text-gray-800">Add a New Product (from URL)</h2>
-        <form method="post" class="space-y-4">
-            <div>
-                <label for="product_name" class="block text-gray-700 font-semibold mb-1">Product Name</label>
-                <input type="text" id="product_name" name="product_name" class="w-full border rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter product name" required>
+        <form method="get" class="flex items-end gap-4">
+            <div class="flex-grow">
+                <label class="block text-gray-700 font-semibold mb-2">Select Industry</label>
+                <select name="industry" class="w-full border rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" onchange="this.form.submit()">
+                    <option value="">-- Select Industry --</option>
+                    <option value="Beauty" {% if selected_industry == 'Beauty' %}selected{% endif %}>Beauty</option>
+                    <option value="Retail" {% if selected_industry == 'Retail' %}selected{% endif %}>Retail</option>
+                    <option value="Mfg" {% if selected_industry == 'Mfg' %}selected{% endif %}>Manufacturing</option>
+                    <option value="Sports" {% if selected_industry == 'Sports' %}selected{% endif %}>Sports</option>
+                    <option value="Healthcare" {% if selected_industry == 'Healthcare' %}selected{% endif %}>Healthcare</option>
+                    <option value="Finance" {% if selected_industry == 'Finance' %}selected{% endif %}>Finance</option>
+                    <option value="Education" {% if selected_industry == 'Education' %}selected{% endif %}>Education</option>
+                    <option value="Technology" {% if selected_industry == 'Technology' %}selected{% endif %}>Technology</option>
+                    <option value="Hospitality" {% if selected_industry == 'Hospitality' %}selected{% endif %}>Hospitality</option>
+                    <option value="Automotive" {% if selected_industry == 'Automotive' %}selected{% endif %}>Automotive</option>
+                    <option value="Real Estate" {% if selected_industry == 'Real Estate' %}selected{% endif %}>Real Estate</option>
+                    <option value="Logistics" {% if selected_industry == 'Logistics' %}selected{% endif %}>Logistics</option>
+                    <option value="Energy" {% if selected_industry == 'Energy' %}selected{% endif %}>Energy</option>
+                    <option value="Other" {% if selected_industry == 'Other' %}selected{% endif %}>Other</option>
+                </select>
             </div>
-            <div>
-                <label for="product_url" class="block text-gray-700 font-semibold mb-1">Amazon or Influenster URL</label>
-                <input type="url" id="product_url" name="product_url" class="w-full border rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="e.g., https://www.amazon.com/..." required>
-            </div>
-            <button type="submit" class="btn-primary">
-                Scrape Reviews
-            </button>
         </form>
     </div>
+
+    {% if selected_industry %}
+        <!-- Products Display for Selected Industry -->
+        {% if products %}
+        <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-4 text-gray-800">{{ selected_industry }} Products</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                {% for product in products %}
+                <a href="{{ url_for('view_csv', idx=loop.index0) }}" class="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 ease-in-out overflow-hidden">
+                    <div class="w-full h-40 bg-gray-200 flex items-center justify-center overflow-hidden">
+                        {% if product.image_url %}
+                        <img src="{{ product.image_url }}" alt="{{ product.name }}" class="w-full h-full object-contain">
+                        {% else %}
+                        <span class="text-gray-500 text-sm font-semibold">No Image Available</span>
+                        {% endif %}
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">{{ product.name }}</h3>
+                        <p class="text-sm text-gray-600 mt-1">{{ product.data|length }} reviews</p>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+        {% else %}
+        <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+            <p class="text-gray-600 text-center">No products found in {{ selected_industry }}. Add a new product below.</p>
+        </div>
+        {% endif %}
+
+        <!-- Add New Product Section -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-xl font-semibold mb-4 text-gray-800">Add a New {{ selected_industry }} Product</h2>
+            <form method="post" class="space-y-4">
+                <input type="hidden" name="industry" value="{{ selected_industry }}">
+                <div>
+                    <label for="product_name" class="block text-gray-700 font-semibold mb-1">Product Name</label>
+                    <input type="text" id="product_name" name="product_name" class="w-full border rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter product name" required>
+                </div>
+                <div>
+                    <label for="product_url" class="block text-gray-700 font-semibold mb-1">Amazon or Influenster URL</label>
+                    <input type="url" id="product_url" name="product_url" class="w-full border rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="e.g., https://www.amazon.com/..." required>
+                </div>
+                <button type="submit" class="btn-primary">
+                    Scrape Reviews
+                </button>
+            </form>
+        </div>
+    {% else %}
+        <!-- Initial State - No Industry Selected -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <p class="text-gray-600 text-center">Please select an industry to view or add products.</p>
+        </div>
+    {% endif %}
 </div>
 {% endblock %}
