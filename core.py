@@ -19,10 +19,12 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+os.makedirs('csvlist', exist_ok=True)
+
 def generate_csv_filename():
     """Generate a unique CSV filename with timestamp."""
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    return f'amazon_reviews_{timestamp}.csv'
+    return os.path.join('csvlist', f'amazon_reviews_{timestamp}.csv')
 
 def get_review_id(review):
     """Generate a unique ID for a review based on its content."""
